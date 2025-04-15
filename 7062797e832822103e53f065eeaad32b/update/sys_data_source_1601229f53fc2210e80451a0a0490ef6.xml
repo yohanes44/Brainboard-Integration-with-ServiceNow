@@ -10,9 +10,15 @@
         <data_in_single_column>false</data_in_single_column>
         <data_loader><![CDATA[(function loadData(import_set_table) {
 
+var brainboardUtility = new x_854636_b_board.BrainboardUtility();
+var allProjects = brainboardUtility.getAllProjects();
+
+allProjects.forEach(function(project){
 	var apiKey = gs.getProperty('x_854636_b_board.api.token');
-	 var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'ListProjects');
+	var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'ListEnvironments');
 	r.setStringParameterNoEscape('token', apiKey);
+	r.setStringParameterNoEscape('project', project.uuid);
+
 	var response = r.execute();
 	var responseBody = "" + response.getBody();
 	var httpStatus = response.getStatusCode();
@@ -20,8 +26,10 @@
 	
 	// Iterate through the array elements
 	for (var i = 0; i < resp.length; i++) {
+		resp[i].project_uuid = project.uuid
 		import_set_table.insert(resp[i]);
 	}
+});
 
 })(import_set_table);
 
@@ -37,8 +45,8 @@
         <format>CSV</format>
         <glide_keystore>false</glide_keystore>
         <header_row>0</header_row>
-        <import_set_table_label>Brainboard Imp Projects</import_set_table_label>
-        <import_set_table_name>x_854636_b_board_imp_projects</import_set_table_name>
+        <import_set_table_label>Brainboard Imp Environments</import_set_table_label>
+        <import_set_table_name>x_854636_b_board_imp_environments</import_set_table_name>
         <instance_name/>
         <jdbc_password/>
         <jdbc_server/>
@@ -46,13 +54,13 @@
         <jpath_root_node/>
         <last_run_database_field/>
         <last_run_datetime/>
-        <last_success_import_time>2025-04-12 22:08:13</last_success_import_time>
+        <last_success_import_time/>
         <ldap_target/>
         <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
         <limit/>
         <maximum_rows/>
         <mid_server/>
-        <name>Brainboard Project</name>
+        <name>Brainboard Environments</name>
         <offset>0</offset>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
@@ -82,16 +90,16 @@
         <support_pagination>false</support_pagination>
         <sys_class_name>sys_data_source</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
-        <sys_created_on>2025-04-12 22:09:05</sys_created_on>
-        <sys_id>933b897e83bc62103e53f065eeaad386</sys_id>
+        <sys_created_on>2025-04-14 17:44:49</sys_created_on>
+        <sys_id>1601229f53fc2210e80451a0a0490ef6</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Brainboard Project</sys_name>
+        <sys_name>Brainboard Environments</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name>sys_data_source_933b897e83bc62103e53f065eeaad386</sys_update_name>
+        <sys_update_name>sys_data_source_1601229f53fc2210e80451a0a0490ef6</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-14 17:32:20</sys_updated_on>
+        <sys_updated_on>2025-04-14 17:49:52</sys_updated_on>
         <table_name/>
         <type>CUSTOM</type>
         <use_batch_import>false</use_batch_import>
