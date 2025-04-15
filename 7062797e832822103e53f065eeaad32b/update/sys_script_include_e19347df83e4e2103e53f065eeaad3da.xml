@@ -12,12 +12,30 @@
         <script><![CDATA[var BrainboardUtility = Class.create();
 
 BrainboardUtility.variableSets = [
-	"18e4df62837462103e53f065eeaad357",
-	"6f7ba36283f462103e53f065eeaad3d7",
-	"8c7326e2837062103e53f065eeaad399",
+	{
+		sys_id: "18e4df62837462103e53f065eeaad357",
+		order: 100,
+		description: "Widget Item"
+	},
+	{
+		sys_id: "6f7ba36283f462103e53f065eeaad3d7",
+		order: 200,
+		description: "Customizable Fields"
+	},
+	{
+		sys_id: "8c7326e2837062103e53f065eeaad399",
+		order: 300,
+		description: "Project & Environment"
+	}
 ];
 
+BrainboardUtility.catItemCategory = "aab5abdb53b46210e80451a0a0490e09";
+BrainboardUtility.catItemCatalog = "cdb42f1b53b46210e80451a0a0490e0e";
 BrainboardUtility.token = gs.getProperty("x_854636_b_board.api.token");
+BrainboardUtility.portalTopic = "80d8da6347b422506161e99b116d43bd";
+BrainboardUtility.clone_architecture_tpl_flow = "3bbb5fea837462103e53f065eeaad3bc";
+
+
 BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
 	getAllProjects: function () {
@@ -132,14 +150,20 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 	getCloneRequestPayload: function (ritmSysId) {
 		var ritmGR = new GlideRecord("sc_req_item");
 		if (ritmGR.get(ritmSysId)) {
+
+			var projectUUID = null;
+			var projectGR = new GlideRecord("x_854636_b_board_project");
+			if(projectGR.get(ritmGR.variables.project.toString())){
+				projectUUID = projectGR.getValue("uuid");
+			}
+
 			var payload = {
 				"description": ritmGR.variables.description.toString(),
-				"environment": "a74b0151-6609-4449-b9b5-4137244550e8",
+				"environment": ritmGR.variables.u_environment.toString(),
 				"name": ritmGR.variables.name.toString(),
-				"project": "56372873-f859-491c-8518-9c252b87a4d5",
+				"project": projectUUID,
 				"variable_values": {
-				},
-				"workflow_template": "4ab76dea-62da-4efa-b9df-c85301b988d8"
+				}
 			};
 			var variableGr = new GlideRecord("x_854636_b_board_variable");
 			variableGr.addQuery("architecture_template.catalog_item", ritmGR.cat_item);
@@ -159,17 +183,16 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		}
 	},
 
-	cloneArchitectureTemplate: function (payload) {
+	cloneArchitectureTemplate: function (payload, archTemplateUuid) {
 		var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'Clone Architecture Template');
-		r.setStringParameterNoEscape('template', 'fce28582-6d86-4aaf-b034-f97697f964e8');
+		r.setStringParameterNoEscape('template', archTemplateUuid);
 		r.setStringParameterNoEscape('payload', payload);
-		r.setStringParameterNoEscape('token', 'bb_JDJhJDEwJC5lVDdvaW83UTRHUHgyVVpSQVRoRWVYNHpYN3JxZnlmVnpaeWdCM25ZV2dZci4wMzZpRjFl');
+		r.setStringParameterNoEscape('token', BrainboardUtility.token);
 		var response = r.execute();
 		var responseBody = response.getBody();
 		var httpStatus = response.getStatusCode();
 		return responseBody;
 	},
-
 
 	createCatalogItem: function (archTplSysId, iconImageAttachment, pictureImageAttachment) {
 		var archTplGr = this.getArchitectureTemplateGR(archTplSysId);
@@ -183,12 +206,20 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		catItemGr.no_delivery_time_v2 = true;
 		catItemGr.no_save_as_draft = true;
 		catItemGr.no_attachment_v2 = true;
-		catItemGr.sc_catalogs = "global";
 		catItemGr.icon = iconImageAttachment;
 		catItemGr.picture = pictureImageAttachment;
 		catItemGr.active = true;
-		catItemGr.category = "hardware";
+		catItemGr.category = BrainboardUtility.catItemCategory;
+		catItemGr.sc_catalogs = BrainboardUtility.catItemCatalog;
+		catItemGr.flow_designer_flow = BrainboardUtility.clone_architecture_tpl_flow;
 		var catItemSysId = catItemGr.insert();
+
+		var mtmCon = new GlideRecord("m2m_connected_content"); 
+		mtmCon.initialize(); 
+		mtmCon.setValue("topic", BrainboardUtility.portalTopic); 
+		mtmCon.setValue("content_type", "98f9a16553622010069addeeff7b1248"); 
+		mtmCon.setValue("catalog_item", catItemSysId); 
+		mtmCon.insert(); 
 
 		archTplGr.setValue("catalog_item", catItemSysId);
 		archTplGr.update();
@@ -196,8 +227,9 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		BrainboardUtility.variableSets.forEach(function(variableSet){
 			var variableSetGr = new GlideRecord("io_set_item");
 			variableSetGr.initialize();
-			variableSetGr.variable_set = variableSet;
+			variableSetGr.variable_set = variableSet.sys_id;
 			variableSetGr.sc_cat_item = catItemSysId;
+			variableSetGr.order = variableSet.order;
 			variableSetGr.insert();
 		});
 
@@ -206,7 +238,7 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		containerStartGr.type = "19";
 		containerStartGr.question_text = "Variables";
 		containerStartGr.name = "variables";
-		containerStartGr.order = "400";
+		containerStartGr.order = "390";
 		containerStartGr.display_title = true;
 		containerStartGr.cat_item = catItemSysId;
 		containerStartGr.insert();
@@ -244,22 +276,19 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		return answer;
 	},
 
-
-
-
 	type: 'BrainboardUtility'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-02 09:57:22</sys_created_on>
         <sys_id>e19347df83e4e2103e53f065eeaad3da</sys_id>
-        <sys_mod_count>85</sys_mod_count>
+        <sys_mod_count>101</sys_mod_count>
         <sys_name>BrainboardUtility</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_script_include_e19347df83e4e2103e53f065eeaad3da</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-14 21:57:18</sys_updated_on>
+        <sys_updated_on>2025-04-15 18:41:58</sys_updated_on>
     </sys_script_include>
 </record_update>
