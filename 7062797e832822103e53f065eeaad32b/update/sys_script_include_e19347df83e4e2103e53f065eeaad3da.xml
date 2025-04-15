@@ -10,40 +10,97 @@
         <name>BrainboardUtility</name>
         <sandbox_callable>true</sandbox_callable>
         <script><![CDATA[var BrainboardUtility = Class.create();
+
+BrainboardUtility.variableSets = [
+	"18e4df62837462103e53f065eeaad357",
+	"6f7ba36283f462103e53f065eeaad3d7",
+	"8c7326e2837062103e53f065eeaad399",
+];
+
 BrainboardUtility.token = gs.getProperty("x_854636_b_board.api.token");
 BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
-	getAllArchitectureTemplateIDs: function () {
-		try {
-			var ids = [];
-			var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'ListArchitectureTemplates');
-			r.setStringParameterNoEscape('token', BrainboardUtility.token);
-			var response = r.execute();
-			var responseBody = response.getBody();
-			var httpStatus = response.getStatusCode();
-			var resp = JSON.parse(responseBody);
-			resp.forEach(function (res) {
-				ids.push(res.uuid);
+	getAllProjects: function () {
+		var projectGr = new GlideRecord("x_854636_b_board_project");
+		projectGr.query();
+		var projects = [];
+		while (projectGr.next()) {
+			projects.push({
+				uuid: projectGr.getValue("uuid"),
+				sys_id: projectGr.getValue("sys_id"),
 			});
-			return ids;
 		}
-		catch (ex) {
-			var message = ex.message;
+		return projects;
+	},
+
+	getAllArchitectureTemplates: function () {
+		var architectureTplGr = new GlideRecord("x_854636_b_board_architecture_template");
+		architectureTplGr.query();
+		var architectureTemplates = [];
+		while (architectureTplGr.next()) {
+			architectureTemplates.push({
+				uuid: architectureTplGr.getValue("uuid"),
+				sys_id: architectureTplGr.getValue("sys_id"),
+			});
+		}
+		return architectureTemplates;
+	},
+
+	getArchitectureTemplateGR: function (archTplSysId) {
+		var gr = new GlideRecord("x_854636_b_board_architecture_template");
+		if (gr.get(archTplSysId)) {
+			return gr;
+		}
+	},
+
+	getArchitectureTemplate: function () {
+		var catItemSysId = this.getParameter("sysparm_catItemSysId");
+		var gr = new GlideRecord("x_854636_b_board_architecture_template");
+		gr.addQuery("catalog_item", catItemSysId);
+		gr.query();
+		gr.setLimit(1);
+		while(gr.next()){
+			return JSON.stringify({
+				name: gr.getValue("name"),
+				uuid: gr.getValue("uuid"),
+				clone_count: gr.getValue("clone_count"),
+				visibility: gr.getValue("visibility"),
+				status: gr.getValue("status"),
+				description: gr.getValue("description"),
+				readme: gr.getValue("readme"),
+				snapshot_url: gr.getValue("snapshot_url"),
+				thumbnail_url: gr.getValue("thumbnail_url"),
+			});
 		}
 	},
 
 	createVariable: function (data, archTplSysId) {
-		var variableGr = new GlideRecord("x_854636_b_board_variable");
-		variableGr.initialize();
-		variableGr.setValue("mandatry", data.mandatry);
-		variableGr.setValue("architecture_template", archTplSysId);
-		variableGr.setValue("value", data.value);
-		variableGr.setValue("type", data.type);
-		variableGr.setValue("description", data.description);
-		variableGr.setValue("default", data.default);
-		variableGr.setValue("name", data.name);
-		variableGr.setValue("id", data.uuid);
-		variableGr.insert();
+		var brainboardVariableGr = new GlideRecord("x_854636_b_board_variable");
+		brainboardVariableGr.initialize();
+		brainboardVariableGr.setValue("mandatry", data.mandatry);
+		brainboardVariableGr.setValue("architecture_template", archTplSysId);
+		brainboardVariableGr.setValue("value", data.value);
+		brainboardVariableGr.setValue("type", data.type);
+		brainboardVariableGr.setValue("description", data.description);
+		brainboardVariableGr.setValue("default", data.default);
+		brainboardVariableGr.setValue("name", data.name);
+		brainboardVariableGr.setValue("id", data.uuid);
+		var createdbrainboardVariableSysId = brainboardVariableGr.insert();
+
+		var catVariableGr = new GlideRecord("item_option_new");
+		catVariableGr.type = "6";
+		catVariableGr.mandatory = brainboardVariableGr.getValue("mandatry");
+		catVariableGr.question_text = brainboardVariableGr.getValue("name");
+		catVariableGr.name = brainboardVariableGr.getValue("name");
+		catVariableGr.order = 400;
+		catVariableGr.cat_item = brainboardVariableGr.architecture_template.catalog_item;
+		var createdCatVariableSysId = catVariableGr.insert();
+
+		var brainboardvarGr = new GlideRecord("x_854636_b_board_variable");
+		if (brainboardvarGr.get(createdbrainboardVariableSysId)) {
+			brainboardvarGr.catalog_variable = createdCatVariableSysId;
+			brainboardvarGr.update();
+		}
 	},
 
 	updateVariable: function (data, archTplSysId) {
@@ -103,15 +160,92 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 	},
 
 	cloneArchitectureTemplate: function (payload) {
-			var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'Clone Architecture Template');
-			r.setStringParameterNoEscape('template', 'fce28582-6d86-4aaf-b034-f97697f964e8');
-			r.setStringParameterNoEscape('payload', payload);
-			r.setStringParameterNoEscape('token', 'bb_JDJhJDEwJC5lVDdvaW83UTRHUHgyVVpSQVRoRWVYNHpYN3JxZnlmVnpaeWdCM25ZV2dZci4wMzZpRjFl');
-			var response = r.execute();
-			var responseBody = response.getBody();
-			var httpStatus = response.getStatusCode();
-			return responseBody;
+		var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'Clone Architecture Template');
+		r.setStringParameterNoEscape('template', 'fce28582-6d86-4aaf-b034-f97697f964e8');
+		r.setStringParameterNoEscape('payload', payload);
+		r.setStringParameterNoEscape('token', 'bb_JDJhJDEwJC5lVDdvaW83UTRHUHgyVVpSQVRoRWVYNHpYN3JxZnlmVnpaeWdCM25ZV2dZci4wMzZpRjFl');
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+		return responseBody;
 	},
+
+
+	createCatalogItem: function (archTplSysId, iconImageAttachment, pictureImageAttachment) {
+		var archTplGr = this.getArchitectureTemplateGR(archTplSysId);
+		var catItemGr = new GlideRecord("sc_cat_item");
+		catItemGr.initialize();
+		catItemGr.name = archTplGr.getValue("name");
+		catItemGr.description = archTplGr.getValue("description");
+		catItemGr.request_method = "submit";
+		catItemGr.no_cart_v2 = true;
+		catItemGr.no_quantity_v2 = true;
+		catItemGr.no_delivery_time_v2 = true;
+		catItemGr.no_save_as_draft = true;
+		catItemGr.no_attachment_v2 = true;
+		catItemGr.sc_catalogs = "global";
+		catItemGr.icon = iconImageAttachment;
+		catItemGr.picture = pictureImageAttachment;
+		catItemGr.active = true;
+		catItemGr.category = "hardware";
+		var catItemSysId = catItemGr.insert();
+
+		archTplGr.setValue("catalog_item", catItemSysId);
+		archTplGr.update();
+
+		BrainboardUtility.variableSets.forEach(function(variableSet){
+			var variableSetGr = new GlideRecord("io_set_item");
+			variableSetGr.initialize();
+			variableSetGr.variable_set = variableSet;
+			variableSetGr.sc_cat_item = catItemSysId;
+			variableSetGr.insert();
+		});
+
+	    var containerStartGr = new GlideRecord("item_option_new");
+		containerStartGr.initialize();
+		containerStartGr.type = "19";
+		containerStartGr.question_text = "Variables";
+		containerStartGr.name = "variables";
+		containerStartGr.order = "400";
+		containerStartGr.display_title = true;
+		containerStartGr.cat_item = catItemSysId;
+		containerStartGr.insert();
+
+		var formatterBreakGr = new GlideRecord("item_option_new");
+		formatterBreakGr.initialize();
+		formatterBreakGr.type = "12";
+		formatterBreakGr.order = "380";
+		formatterBreakGr.cat_item = catItemSysId;
+		formatterBreakGr.insert();
+		
+	},
+
+	attachImage: function (tableName, recordSysId, fileName, imageURL) {
+		var request = new sn_ws.RESTMessageV2();
+		request.setHttpMethod("get");
+		request.setEndpoint(imageURL);
+		request.saveResponseBodyAsAttachment(tableName, recordSysId, fileName);
+		var response = request.execute();
+		var httpStatus = response.getStatusCode();
+		return response.getResponseAttachmentSysid();
+	},
+
+
+	variableExist: function (data, architectureTplSysId) {
+		var variableGr = new GlideRecord("x_854636_b_board_variable");
+		variableGr.addQuery("name", data.name);
+		variableGr.addQuery("architecture_template", architectureTplSysId);
+		variableGr.setLimit(1);
+		variableGr.query();
+		var answer = false;
+		while (variableGr.next()) {
+			answer = true;
+		}
+		return answer;
+	},
+
+
+
 
 	type: 'BrainboardUtility'
 });]]></script>
@@ -119,13 +253,13 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-02 09:57:22</sys_created_on>
         <sys_id>e19347df83e4e2103e53f065eeaad3da</sys_id>
-        <sys_mod_count>58</sys_mod_count>
+        <sys_mod_count>85</sys_mod_count>
         <sys_name>BrainboardUtility</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_script_include_e19347df83e4e2103e53f065eeaad3da</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-12 21:24:34</sys_updated_on>
+        <sys_updated_on>2025-04-14 21:57:18</sys_updated_on>
     </sys_script_include>
 </record_update>
