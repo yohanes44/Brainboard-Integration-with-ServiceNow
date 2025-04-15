@@ -14,15 +14,12 @@
     
 
 var brainboardUtil = new x_854636_b_board.BrainboardUtility();
-var allArchitectureUUIDs = brainboardUtil.getAllArchitectureTemplateIDs();
+var allArchitectureUUIDs = brainboardUtil.getAllArchitectureTemplates();
 
-
-
-
-allArchitectureUUIDs.forEach(function(architectureUUID){
+allArchitectureUUIDs.forEach(function(architecture){
 	var apiKey = gs.getProperty('x_854636_b_board.api.token');
 	var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'ListVariables');
-	r.setStringParameterNoEscape('architectureUUID', architectureUUID);
+	r.setStringParameterNoEscape('architectureUUID', architecture.uuid);
 	r.setStringParameterNoEscape('token', apiKey);
 	var response = r.execute();
 	var responseBody = "" + response.getBody();
@@ -30,20 +27,12 @@ allArchitectureUUIDs.forEach(function(architectureUUID){
 	var resp = global.JSON.parse(responseBody);
 
 	for (var i = 0; i < resp.length; i++) {
-		resp[i].u_architecture_template_uuid = architectureUUID;
-		resp[i].name_and_id = resp[i].name + architectureUUID;
-
-		var gr = new GlideRecord("x_854636_b_board_variable");
-		gr.addQuery("architecture_template_uuid_and_variable_name", resp[i].name_and_id);
-		gr.setLimit(1);
-		gr.query();
-		while(!gr.next()){
-			gs.info("test resp[i] == "+ JSON.stringify(resp[i]));
-			import_set_table.insert(resp[i]);
+		var variableExist = brainboardUtil.variableExist(resp[i], architecture.sys_id);
+		if(variableExist){
+			brainboardUtil.updateVariable(resp[i], architecture.sys_id);
+		}else{
+			brainboardUtil.createVariable(resp[i], architecture.sys_id);
 		}
-
-
-	
 	}
 });
 
@@ -105,14 +94,14 @@ allArchitectureUUIDs.forEach(function(architectureUUID){
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-02 09:41:05</sys_created_on>
         <sys_id>e020cf5b83e4e2103e53f065eeaad344</sys_id>
-        <sys_mod_count>704</sys_mod_count>
+        <sys_mod_count>705</sys_mod_count>
         <sys_name>Brainboard Variables</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_data_source_e020cf5b83e4e2103e53f065eeaad344</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-03 15:12:16</sys_updated_on>
+        <sys_updated_on>2025-04-15 11:30:24</sys_updated_on>
         <table_name/>
         <type>CUSTOM</type>
         <use_batch_import>false</use_batch_import>
