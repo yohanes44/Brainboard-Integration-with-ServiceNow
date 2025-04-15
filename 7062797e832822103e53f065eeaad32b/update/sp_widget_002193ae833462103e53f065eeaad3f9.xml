@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+  /* widget controller */
+  var c = this;
+	
+	$scope.pictureUrl = "	https://s3.us-east-2.amazonaws.com/brainboard-screenshots-prod/architecture/fce28582-6d86-4aaf-b034-f97697f964e8.webp"
+	$scope.readMe = "joBROo"
+	
+	 c.zoomLevel = 1;
+
+  c.zoomIn = function() {
+    c.zoomLevel = Math.min(c.zoomLevel + 0.1, 3);
+  };
+
+  c.zoomOut = function() {
+    c.zoomLevel = Math.max(c.zoomLevel - 0.1, 0.5);
+  };
+
+  c.resetZoom = function() {
+    c.zoomLevel = 1;
+  };
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.zoom-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.zoom-wrapper-container {
+  width: 100%;
+  max-height: 700px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  background: #fafafa;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.zoom-wrapper {
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+  transform-origin: center center;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.zoom-wrapper img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.zoom-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.zoom-controls button {
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.zoom-controls button:hover {
+  background-color: #5a32b7;
+  color: white;
+}
+
+.section {
+  margin-top: 40px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+
+.readme-container p {
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>brainboard_arch_template_item</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Brainboard Arch Template Item</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-04-12 13:21:54</sys_created_on>
+        <sys_id>002193ae833462103e53f065eeaad3f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Brainboard Arch Template Item</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sp_widget_002193ae833462103e53f065eeaad3f9</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-04-12 13:28:32</sys_updated_on>
+        <template><![CDATA[<div class="container">
+
+  <!-- Zoomable Image Section -->
+  <div class="zoom-container">
+    <div class="zoom-wrapper-container">
+      <div id="zoomWrapper" class="zoom-wrapper">
+        <img src="{{pictureUrl}}" alt="Azure Architecture" />
+      </div>
+    </div>
+
+    <div class="zoom-controls">
+      <button ng-click="zoomOut()">−</button>
+      <button ng-click="resetZoom()">100%</button>
+      <button ng-click="zoomIn()">+</button>
+    </div>
+  </div>
+
+  <!-- Description -->
+  <div class="section readme-container">
+    <p>{{readMe}}</p>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

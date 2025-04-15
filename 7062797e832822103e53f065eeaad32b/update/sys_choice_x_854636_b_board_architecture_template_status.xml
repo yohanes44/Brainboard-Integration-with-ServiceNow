@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_854636_b_board_architecture_template" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_854636_b_board_architecture_template</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>yohanes.yilma</sys_created_by>
+            <sys_created_on>2025-04-01 19:12:19</sys_created_on>
+            <sys_id>9e497b0b83e4a2103e53f065eeaad394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+            <sys_update_name>sys_choice_x_854636_b_board_architecture_template_status</sys_update_name>
+            <sys_updated_by>yohanes.yilma</sys_updated_by>
+            <sys_updated_on>2025-04-01 19:12:19</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wip</label>
+            <language>en</language>
+            <name>x_854636_b_board_architecture_template</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>yohanes.yilma</sys_created_by>
+            <sys_created_on>2025-04-01 19:12:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e39374b83e4a2103e53f065eeaad3d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yohanes.yilma</sys_updated_by>
+            <sys_updated_on>2025-04-01 19:12:19</sys_updated_on>
+            <value>wip</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_854636_b_board_architecture_template</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>yohanes.yilma</sys_created_by>
+            <sys_created_on>2025-04-01 19:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f59bf0b83e4a2103e53f065eeaad3e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yohanes.yilma</sys_updated_by>
+            <sys_updated_on>2025-04-01 19:12:39</sys_updated_on>
+            <value>approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deployed</label>
+            <language>en</language>
+            <name>x_854636_b_board_architecture_template</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>yohanes.yilma</sys_created_by>
+            <sys_created_on>2025-04-01 19:13:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85793bc783e4a2103e53f065eeaad3b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yohanes.yilma</sys_updated_by>
+            <sys_updated_on>2025-04-01 19:13:02</sys_updated_on>
+            <value>deployed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reviewing</label>
+            <language>en</language>
+            <name>x_854636_b_board_architecture_template</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>yohanes.yilma</sys_created_by>
+            <sys_created_on>2025-04-01 19:13:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb89734b83e4a2103e53f065eeaad3d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>yohanes.yilma</sys_updated_by>
+            <sys_updated_on>2025-04-01 19:13:27</sys_updated_on>
+            <value>reviewing</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

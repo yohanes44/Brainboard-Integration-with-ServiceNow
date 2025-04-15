@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="revision" label="Revision" language="en" table="x_854636_b_board_architecture_template">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>revision</element>
+            <help/>
+            <hint/>
+            <label>Revision</label>
+            <language>en</language>
+            <name>x_854636_b_board_architecture_template</name>
+            <plural>Revisions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>yohanes.yilma</sys_created_by>
+            <sys_created_on>2025-04-02 07:47:12</sys_created_on>
+            <sys_id>9816e2d38364e2103e53f065eeaad3af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Revision</sys_name>
+            <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+            <sys_update_name>sys_documentation_x_854636_b_board_architecture_template_revision_en</sys_update_name>
+            <sys_updated_by>yohanes.yilma</sys_updated_by>
+            <sys_updated_on>2025-04-02 07:47:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
