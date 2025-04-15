@@ -10,9 +10,9 @@
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>ListArchitectureTemplates [ Default GET ]</qualified_name>
+        <qualified_name>Brainboard - us1 [ Default GET ]</qualified_name>
         <rest_endpoint>https://api.apac1.brainboard.co/architectures/templates</rest_endpoint>
-        <rest_message display_value="ListArchitectureTemplates">7df8b5f6836822103e53f065eeaad302</rest_message>
+        <rest_message display_value="Brainboard - us1">7df8b5f6836822103e53f065eeaad302</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-03-31 15:14:03</sys_created_on>

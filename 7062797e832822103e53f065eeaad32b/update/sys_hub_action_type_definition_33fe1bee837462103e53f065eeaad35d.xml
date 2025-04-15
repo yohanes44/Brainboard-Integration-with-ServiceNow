@@ -807,17 +807,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Clone Architecture Template">33fe1bee837462103e53f065eeaad35d</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"a57fdf2283b462103e53f065eeaad3c2","name":"plan","plan_signature":null}}</plan>
-        <snapshot>fae17c3e833c62103e53f065eeaad30d</snapshot>
+        <snapshot>2c14b32b47fc22506161e99b116d436a</snapshot>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:18:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a57fdf2283b462103e53f065eeaad3c2</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-12 20:18:29</sys_updated_on>
+        <sys_updated_on>2025-04-15 18:22:12</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>

@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a0fb132e837462103e53f065eeaad39b</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Get Architecture Template Variables</sys_name>
         <sys_overrides/>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a0fb132e837462103e53f065eeaad39b</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-12 14:22:41</sys_updated_on>
+        <sys_updated_on>2025-04-15 10:50:40</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -223,18 +223,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=107c5f2e837462103e53f065eeaad31e"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>107c5f2e837462103e53f065eeaad31e</id>
-        <sys_created_by>yohanes.yilma</sys_created_by>
-        <sys_created_on>2025-04-12 14:05:02</sys_created_on>
-        <sys_id>a87c5f2e837462103e53f065eeaad332</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-12 14:05:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ritmSysId</field>
         <id>107c5f2e837462103e53f065eeaad31e</id>
         <sys_created_by>yohanes.yilma</sys_created_by>
@@ -245,18 +233,6 @@
         <sys_updated_on>2025-04-12 14:05:02</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_107c5f2e837462103e53f065eeaad31e</table>
         <value>{{action.ritm.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>107c5f2e837462103e53f065eeaad31e</id>
-        <sys_created_by>yohanes.yilma</sys_created_by>
-        <sys_created_on>2025-04-12 14:05:02</sys_created_on>
-        <sys_id>6c7c5f2e837462103e53f065eeaad332</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-12 14:05:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_107c5f2e837462103e53f065eeaad31e^id=107c5f2e837462103e53f065eeaad31e"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=107c5f2e837462103e53f065eeaad31e"/>
@@ -443,11 +419,11 @@
         <sys_created_on>2025-04-12 14:05:02</sys_created_on>
         <sys_id>a47c5f2e837462103e53f065eeaad32b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>payload</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_107c5f2e837462103e53f065eeaad31e_payload_en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-12 14:05:02</sys_updated_on>
         <url/>
@@ -825,11 +801,11 @@
         <sys_created_on>2025-04-12 14:03:41</sys_created_on>
         <sys_id>782c972e837462103e53f065eeaad310</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>RITM</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a0fb132e837462103e53f065eeaad39b_ritm_en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-12 14:03:41</sys_updated_on>
         <url/>
@@ -849,11 +825,11 @@
         <sys_created_on>2025-04-12 14:03:41</sys_created_on>
         <sys_id>782c972e837462103e53f065eeaad32c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a0fb132e837462103e53f065eeaad39b___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-12 14:03:41</sys_updated_on>
         <url/>
@@ -872,11 +848,11 @@
         <sys_created_on>2025-04-12 14:05:57</sys_created_on>
         <sys_id>b1ac536e837462103e53f065eeaad3e0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>payload</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a0fb132e837462103e53f065eeaad39b_payload_en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-12 14:05:57</sys_updated_on>
         <url/>
@@ -895,11 +871,11 @@
         <sys_created_on>2025-04-12 14:03:41</sys_created_on>
         <sys_id>f42c972e837462103e53f065eeaad326</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a0fb132e837462103e53f065eeaad39b___action_status___en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-12 14:03:41</sys_updated_on>
         <url/>
@@ -1142,18 +1118,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d7ac936e837462103e53f065eeaad3bd"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>d7ac936e837462103e53f065eeaad3bd</id>
-        <sys_created_by>yohanes.yilma</sys_created_by>
-        <sys_created_on>2025-04-12 14:06:02</sys_created_on>
-        <sys_id>17ac936e837462103e53f065eeaad3e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-12 14:06:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ritmSysId</field>
         <id>d7ac936e837462103e53f065eeaad3bd</id>
         <sys_created_by>yohanes.yilma</sys_created_by>
@@ -1164,18 +1128,6 @@
         <sys_updated_on>2025-04-12 14:06:02</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_d7ac936e837462103e53f065eeaad3bd</table>
         <value>{{action.ritm.sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>d7ac936e837462103e53f065eeaad3bd</id>
-        <sys_created_by>yohanes.yilma</sys_created_by>
-        <sys_created_on>2025-04-12 14:06:02</sys_created_on>
-        <sys_id>d7ac936e837462103e53f065eeaad3e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-12 14:06:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_d7ac936e837462103e53f065eeaad3bd^id=d7ac936e837462103e53f065eeaad3bd"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=d7ac936e837462103e53f065eeaad3bd"/>
@@ -1362,11 +1314,11 @@
         <sys_created_on>2025-04-12 14:06:02</sys_created_on>
         <sys_id>d3ac936e837462103e53f065eeaad3e1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>payload</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_d7ac936e837462103e53f065eeaad3bd_payload_en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-12 14:06:02</sys_updated_on>
         <url/>
@@ -1744,11 +1696,11 @@
         <sys_created_on>2025-04-12 14:06:02</sys_created_on>
         <sys_id>9bac936e837462103e53f065eeaad3b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>RITM</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_87ac936e837462103e53f065eeaad3a4_ritm_en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-12 14:06:02</sys_updated_on>
         <url/>
@@ -1768,11 +1720,11 @@
         <sys_created_on>2025-04-12 14:06:03</sys_created_on>
         <sys_id>57ac936e837462103e53f065eeaad3f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_87ac936e837462103e53f065eeaad3a4___action_status___en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-12 14:06:03</sys_updated_on>
         <url/>
@@ -1791,11 +1743,11 @@
         <sys_created_on>2025-04-12 14:06:03</sys_created_on>
         <sys_id>57acd36e837462103e53f065eeaad304</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_87ac936e837462103e53f065eeaad3a4___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-12 14:06:03</sys_updated_on>
         <url/>
@@ -1814,11 +1766,11 @@
         <sys_created_on>2025-04-12 14:06:03</sys_created_on>
         <sys_id>d7ac936e837462103e53f065eeaad3ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>payload</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_87ac936e837462103e53f065eeaad3a4_payload_en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-12 14:06:03</sys_updated_on>
         <url/>
