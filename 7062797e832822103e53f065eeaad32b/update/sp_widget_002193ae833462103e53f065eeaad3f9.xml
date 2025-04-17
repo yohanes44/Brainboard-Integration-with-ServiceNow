@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+  /* widget controller */
+  var c = this;
+	
+	$scope.pictureUrl = null;
+	$scope.readMe = null;
+	
+	
+	$scope.catSysId = c.data.test;
+	
+	$scope.zoomLevel = 1; // put on $scope
+
+  $scope.zoomIn = function() {
+    $scope.zoomLevel = Math.min($scope.zoomLevel + 0.1, 3);
+  };
+
+  $scope.zoomOut = function() {
+    $scope.zoomLevel = Math.max($scope.zoomLevel - 0.1, 0.5);
+  };
+
+  $scope.resetZoom = function() {
+    $scope.zoomLevel = 1;
+  };
+
+	
+	 
+	var ga = new GlideAjax("x_854636_b_board.BrainboardUtility");
+	ga.addParam("sysparm_name", "getArchitectureTemplate");
+	ga.addParam("sysparm_catItemSysId", $scope.catSysId);
+	ga.getXML(function(response){
+	    var architectureTemplate = JSON.parse(response.responseXML.documentElement.getAttribute("answer"));
+		  $scope.pictureUrl = architectureTemplate.snapshot_url;
+		  $scope.readMe = architectureTemplate.readme;
+		  $scope.page.g_form.setValue('uuid', architectureTemplate.uuid);
+		  $scope.page.g_form.setValue('name', architectureTemplate.name);
+		  $scope.page.g_form.setValue('description', architectureTemplate.description);
+		
+	});
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.zoom-container {
+  margin: 20px 0 10px 0;
+  text-align: center;
+}
+
+.zoom-wrapper-container {
+  width: 100%;
+  height: 700px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  background: #fafafa;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zoom-wrapper {
+  display: inline-block;
+  transform-origin: center center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.zoom-wrapper img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.zoom-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  gap: 10px;
+}
+
+.zoom-controls button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.zoom-controls button:hover {
+  background-color: #eee;
+}
+
+.zoom-label {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #444;
+}
+
+.section.readme-container {
+  margin-top: 30px;
+  text-align: left;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>brainboard_arch_template_item</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Brainboard Arch Template Item</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+   data.test = $sp.getParameter('sys_id');
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-04-12 13:21:54</sys_created_on>
+        <sys_id>002193ae833462103e53f065eeaad3f9</sys_id>
+        <sys_mod_count>67</sys_mod_count>
+        <sys_name>Brainboard Arch Template Item</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sp_widget_002193ae833462103e53f065eeaad3f9</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-04-15 14:13:13</sys_updated_on>
+        <template><![CDATA[<div class="container">
+
+  <!-- Zoomable Image Section -->
+  <div class="zoom-container">
+    <div class="zoom-wrapper-container">
+      <div class="zoom-wrapper">
+        <img ng-src="{{pictureUrl}}" alt="Azure Architecture"
+             ng-style="{'transform': 'scale(' + zoomLevel + ')'}" />
+      </div>
+    </div>
+
+    <div class="zoom-controls">
+      <button ng-click="zoomOut()">−</button>
+      <button ng-click="resetZoom()">{{ (zoomLevel * 100 | number:0) + '%' }}</button>
+      <button ng-click="zoomIn()">+</button>
+    </div>
+
+    <p class="zoom-label">Zoom: {{ (zoomLevel * 100 | number:0) }}%</p>
+  </div>
+
+  <!-- Description -->
+  <div class="section readme-container">
+    <p>{{readMe}}</p>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>
