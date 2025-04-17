@@ -4,8 +4,9 @@ Brainboard Allows you to visually design and manage your cloud infrastructures u
 
 Deployment Stage
 
-1, Install the update set, which is in the Global Scope.
-   The update set in the Global Scope will allow the creation of Catalog Variables from other Scoped Apps.
+1, Install the update set 'Brainboard Global Update Set.xml'. You can find it in the files.
+   Make sure to commit this update set to your instance before installing the scoped app from this repository.
+   The update set is in the Global Scope and allows the creation of Catalog Variable records from other Scoped Apps.
 
 2, Install the Scoped App from this Git repository.
    Brainboard Architecture Templates, Variables, Projects, and Environments are imported from the Brainboard API every 30 minutes.
