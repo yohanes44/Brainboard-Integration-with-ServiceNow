@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_854636_b_board_brainboard_architecture_templates</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Remove Cat Item</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	gs.info("before delete test 1");
+	gs.info("before delete current.name == " + current.name);
+
+
+	var gr = new GlideRecord('sc_cat_item');
+	gr.addEncodedQuery('sc_catalogs=cdb42f1b53b46210e80451a0a0490e0e^name=' + current.name);
+	gr.query();
+	while (gr.next()) {
+		gs.info("before delete INNN");
+		gr.deleteRecord();
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 12:30:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>229ee869c31222107e68b41ed4013137</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Remove Cat Item</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_script_229ee869c31222107e68b41ed4013137</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 12:50:35</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=229ee869c31222107e68b41ed4013137"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sys_script_229ee869c31222107e68b41ed4013137</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;true&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_854636_b_board_brainboard_architecture_templates&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Remove Cat Item&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	gs.info("before delete test 1");
+	gs.info("before delete current.name == " + current.name);
+
+
+	var gr = new GlideRecord('sc_cat_item');
+	gr.addEncodedQuery('sc_catalogs=cdb42f1b53b46210e80451a0a0490e0e^name=' + current.name);
+	gr.query();
+	while (gr.next()) {
+		gs.info("before delete INNN");
+		gr.deleteRecord();
+	}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-22 12:30:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;229ee869c31222107e68b41ed4013137&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Remove Cat Item&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_229ee869c31222107e68b41ed4013137&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-22 12:50:35&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=229ee869c31222107e68b41ed4013137"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>830010759</payload_hash>
+        <record_name>Remove Cat Item</record_name>
+        <reverted_from/>
+        <source>4ea361f1c31122107e68b41ed4013157</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 12:50:35</sys_created_on>
+        <sys_id>4e447861c35222107e68b41ed4013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19797b0ca620000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 12:50:35</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>8e447861db5222107d6b5692dd35876f</update_guid>
+        <update_guid_history>8e447861db5222107d6b5692dd35876f:830010759,70143c61da52221097eb9cb19f8ced3c:-1261267563,c8f37c2121522210a846f494a646a9f6:-1723398510,fed378617d522210b2d323f6240eab69:-1044658144,4893b06181522210d28d76cf19d964a7:-1291232126,08533c217d522210b8173f8094e90630:-1902381372,ef9238ada11222101e0fff840fc884b5:788009891,5bffe4e925122210235aceb794e30df5:1015127693,10bfe0e9891222100cbf3b9b1583d885:1319343875</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 13:05:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>401a4c86f3f0404a8212c73e8b277d24</sys_id>
+        <sys_metadata>229ee869c31222107e68b41ed4013137</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remove Cat Item</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Brainboard Imp Architecture Template">d6cf0cf3c374e2107e68b41ed40131ef</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sys_script_229ee869c31222107e68b41ed4013137</sys_update_name>
+        <sys_update_version display_value="sys_script_229ee869c31222107e68b41ed4013137">4e447861c35222107e68b41ed4013170</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 13:05:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

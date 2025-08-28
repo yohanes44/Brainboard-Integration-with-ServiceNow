@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script><![CDATA[function navigateToApplication() {
+    var gr = new GlideRecord('sc_cat_item');
+	gr.addEncodedQuery('sc_catalogs=cdb42f1b53b46210e80451a0a0490e0e');
+	gr.query();
+
+	while (gr.next()) {
+		gr.deleteRecord();
+	}
+}
+]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_854636_b_board_test.do</endpoint>
+        <html><![CDATA[<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      width: 400px;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      color: #333;
+    }
+    p {
+      margin-bottom: 1.5rem;
+      color: #555;
+    }
+    button {
+      background-color: #d9534f;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #c9302c;
+    }
+  </style>
+    <style>
+        a,
+        button,
+        input,
+        select,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: none;
+            text-decoration: none;
+            background: none;
+
+            -webkit-font-smoothing: antialiased;
+        }
+
+        menu,
+        ol,
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .pdi-homepage {
+            overflow: auto;
+        }
+
+
+        /* Container for flexboxes */
+        .pdi-home-row {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            /* border: 1px solid silver; */
+            -ms-box-orient: horizontal;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -moz-flex;
+            display: -webkit-flex;
+            display: flex;
+        }
+
+        .pdi-home-row {
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-bottom: 36px;
+        }
+
+        .pdi-home-column {
+            width: 45%;
+            /* min-height: 430px; */
+            /* margin: 0 auto; */
+        }
+
+        .pdi-homepage__illustration div {
+            width: 50%;
+        }
+
+        @media screen and (max-width: 830px) {
+            .pdi-home-column {
+                width: 80%;
+                /* min-height: 430px; */
+                /* margin: 0 auto; */
+            }
+        }
+
+        @media screen and (max-width: 1100px) {
+            .pdi-homepage__illustration div {
+                width: auto;
+            }
+        }
+
+
+        /* .pdi-home-column:nth-child(odd) {
+        margin: 32px auto;
+    }
+
+    .pdi-home-column:nth-child(even) {
+        margin: auto 32px;
+    } */
+
+        /* .pdi-home-column:last-child {
+        margin: auto 30px;
+    } */
+
+        body {
+            padding: 0 !important;
+        }
+
+        .btn:focus {
+            box-shadow: none !important;
+        }
+
+        .last-child {
+            float: right;
+        }
+
+        .pdi-homepage__frame-12 div {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            @supports (-webkit-line-clamp: 2) {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: initial;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+  <div class="card">
+    <h2>Delete Imported Records</h2>
+    <p>This will permanently delete all records that match your import criteria. Are you sure you want to delete all imported records?</p>
+      <button  onclick="navigateToApplication()">Delete Records</button>
+  </div>
+</body>
+
+</html>]]></html>
+        <name>test</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 12:57:17</sys_created_on>
+        <sys_id>cf753ce1c35222107e68b41ed401319a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_ui_page_cf753ce1c35222107e68b41ed401319a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 13:03:11</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sys_ui_page_cf753ce1c35222107e68b41ed401319a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function navigateToApplication() {
+    var gr = new GlideRecord('sc_cat_item');
+	gr.addEncodedQuery('sc_catalogs=cdb42f1b53b46210e80451a0a0490e0e');
+	gr.query();
+
+	while (gr.next()) {
+		gr.deleteRecord();
+	}
+}
+]]&gt;&lt;/client_script&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_854636_b_board_test.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;html lang="en" class="no-js"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+    &lt;style&gt;
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      width: 400px;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      color: #333;
+    }
+    p {
+      margin-bottom: 1.5rem;
+      color: #555;
+    }
+    button {
+      background-color: #d9534f;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #c9302c;
+    }
+  &lt;/style&gt;
+    &lt;style&gt;
+        a,
+        button,
+        input,
+        select,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            border: none;
+            text-decoration: none;
+            background: none;
+
+            -webkit-font-smoothing: antialiased;
+        }
+
+        menu,
+        ol,
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .pdi-homepage {
+            overflow: auto;
+        }
+
+
+        /* Container for flexboxes */
+        .pdi-home-row {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            /* border: 1px solid silver; */
+            -ms-box-orient: horizontal;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -moz-flex;
+            display: -webkit-flex;
+            display: flex;
+        }
+
+        .pdi-home-row {
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-bottom: 36px;
+        }
+
+        .pdi-home-column {
+            width: 45%;
+            /* min-height: 430px; */
+            /* margin: 0 auto; */
+        }
+
+        .pdi-homepage__illustration div {
+            width: 50%;
+        }
+
+        @media screen and (max-width: 830px) {
+            .pdi-home-column {
+                width: 80%;
+                /* min-height: 430px; */
+                /* margin: 0 auto; */
+            }
+        }
+
+        @media screen and (max-width: 1100px) {
+            .pdi-homepage__illustration div {
+                width: auto;
+            }
+        }
+
+
+        /* .pdi-home-column:nth-child(odd) {
+        margin: 32px auto;
+    }
+
+    .pdi-home-column:nth-child(even) {
+        margin: auto 32px;
+    } */
+
+        /* .pdi-home-column:last-child {
+        margin: auto 30px;
+    } */
+
+        body {
+            padding: 0 !important;
+        }
+
+        .btn:focus {
+            box-shadow: none !important;
+        }
+
+        .last-child {
+            float: right;
+        }
+
+        .pdi-homepage__frame-12 div {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            @supports (-webkit-line-clamp: 2) {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: initial;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+            }
+        }
+    &lt;/style&gt;
+
+
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;div class="card"&gt;
+    &lt;h2&gt;Delete Imported Records&lt;/h2&gt;
+    &lt;p&gt;This will permanently delete all records that match your import criteria. Are you sure you want to delete all imported records?&lt;/p&gt;
+      &lt;button  onclick="navigateToApplication()"&gt;Delete Records&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;]]&gt;&lt;/html&gt;&lt;name&gt;test&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-22 12:57:17&lt;/sys_created_on&gt;&lt;sys_id&gt;cf753ce1c35222107e68b41ed401319a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;test&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_cf753ce1c35222107e68b41ed401319a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-22 13:03:11&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1151273434</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>4ea361f1c31122107e68b41ed4013157</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 13:03:11</sys_created_on>
+        <sys_id>7227bc25c35222107e68b41ed401313c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19797bc53c80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 13:03:11</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>7627bc25dd5222106fcda0839d98fd3b</update_guid>
+        <update_guid_history>7627bc25dd5222106fcda0839d98fd3b:1151273434,2a36bc259e522210c317ede34596e704:-114495949,2cd534252b522210dc957908cb62f4f5:1255616093</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 13:36:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>10f3cff7f88d482a8eee4ad1274d4844</sys_id>
+        <sys_metadata>cf753ce1c35222107e68b41ed401319a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sys_ui_page_cf753ce1c35222107e68b41ed401319a</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_cf753ce1c35222107e68b41ed401319a">7227bc25c35222107e68b41ed401313c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 13:36:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
