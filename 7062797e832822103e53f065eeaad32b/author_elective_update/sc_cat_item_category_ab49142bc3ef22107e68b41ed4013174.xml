@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="AWS FSX architecture">ef49502bc3ef22107e68b41ed4013134</sc_cat_item>
+        <sc_category display_value="Architecture Templates">aab5abdb53b46210e80451a0a0490e09</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-08-29 19:19:03</sys_created_on>
+        <sys_id>ab49142bc3ef22107e68b41ed4013174</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Architecture Templates.AWS FSX architecture</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_category_ab49142bc3ef22107e68b41ed4013174</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-08-29 19:19:03</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_category_ab49142bc3ef22107e68b41ed4013174</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="AWS FSX architecture">ef49502bc3ef22107e68b41ed4013134</sc_cat_item><sc_category display_value="Architecture Templates">aab5abdb53b46210e80451a0a0490e09</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>yohanes.yilma</sys_created_by><sys_created_on>2025-08-29 19:19:03</sys_created_on><sys_id>ab49142bc3ef22107e68b41ed4013174</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Architecture Templates.AWS FSX architecture</sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>sc_cat_item_category_ab49142bc3ef22107e68b41ed4013174</sys_update_name><sys_updated_by>yohanes.yilma</sys_updated_by><sys_updated_on>2025-08-29 19:19:03</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-712237572</payload_hash>
+        <record_name>Architecture Templates.AWS FSX architecture</record_name>
+        <reverted_from/>
+        <source>ec3d6518c32522107e68b41ed40131a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-08-29 19:19:03</sys_created_on>
+        <sys_id>3f49142bc3ef22107e68b41ed4013178</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198f744e36b0000001</sys_recorded_at>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-08-29 19:19:03</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>2f49142bceef2210b28c5b7dc498db77</update_guid>
+        <update_guid_history>2f49142bceef2210b28c5b7dc498db77:-712237572</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Architecture Templates.AWS FSX architecture">57ea10ebc3ef22107e68b41ed4013108</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-08-29 19:26:07</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>4e27a53cdaa34f6db32df7cf6811f779</sys_id>
+        <sys_metadata>ab49142bc3ef22107e68b41ed4013174</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Architecture Templates.AWS FSX architecture</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_ab49142bc3ef22107e68b41ed4013174</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_ab49142bc3ef22107e68b41ed4013174">3f49142bc3ef22107e68b41ed4013178</sys_update_version>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-08-29 19:26:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

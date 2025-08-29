@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>200</order>
+        <sc_cat_item display_value="AWS S3 API Gateway integration">dd193693c3e722107e68b41ed4013175</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-29 12:18:39</sys_created_on>
+        <sys_id>6d193693c3e722107e68b41ed40131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.AWS S3 API Gateway integration</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>io_set_item_6d193693c3e722107e68b41ed40131a0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 12:18:39</sys_updated_on>
+        <variable_set display_value="">6f7ba36283f462103e53f065eeaad3d7</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>io_set_item_6d193693c3e722107e68b41ed40131a0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>200</order><sc_cat_item display_value="AWS S3 API Gateway integration">dd193693c3e722107e68b41ed4013175</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-08-29 12:18:39</sys_created_on><sys_id>6d193693c3e722107e68b41ed40131a0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.AWS S3 API Gateway integration</sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>io_set_item_6d193693c3e722107e68b41ed40131a0</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-08-29 12:18:39</sys_updated_on><variable_set display_value="">6f7ba36283f462103e53f065eeaad3d7</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>233467238</payload_hash>
+        <record_name>.AWS S3 API Gateway integration</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-29 12:18:39</sys_created_on>
+        <sys_id>a1193693c3e722107e68b41ed40131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198f5c400400000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 12:18:39</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>65193693bae7221072a6736a21ebc9a8</update_guid>
+        <update_guid_history>65193693bae7221072a6736a21ebc9a8:233467238</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".AWS S3 API Gateway integration">3f761463c3ef22107e68b41ed4013143</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-29 19:06:46</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>1ff8f12043544f1c9bac6e5b5885fa44</sys_id>
+        <sys_metadata>6d193693c3e722107e68b41ed40131a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.AWS S3 API Gateway integration</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>io_set_item_6d193693c3e722107e68b41ed40131a0</sys_update_name>
+        <sys_update_version display_value="io_set_item_6d193693c3e722107e68b41ed40131a0">a1193693c3e722107e68b41ed40131a9</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 19:06:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

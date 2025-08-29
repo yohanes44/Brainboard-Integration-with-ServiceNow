@@ -11,17 +11,17 @@
 
 BrainboardUtility.variableSets = [
 	{
-		sys_id: "18e4df62837462103e53f065eeaad357",
+		sys_id: "f4c1942bc3af22107e68b41ed40131cd",
 		order: 100,
 		description: "Widget Item"
 	},
 	{
-		sys_id: "6f7ba36283f462103e53f065eeaad3d7",
+		sys_id: "52b414ebc3af22107e68b41ed40131f4",
 		order: 200,
 		description: "Customizable Fields"
 	},
 	{
-		sys_id: "8c7326e2837062103e53f065eeaad399",
+		sys_id: "17459cafc3af22107e68b41ed4013110",
 		order: 300,
 		description: "Project & Environment"
 	}
@@ -36,14 +36,34 @@ BrainboardUtility.clone_architecture_tpl_flow = "3bbb5fea837462103e53f065eeaad3b
 
 BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
+	syncVariable: function(architecture) {
+		var apiKey = gs.getProperty('x_854636_b_board.api.token');
+		var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'ListVariables');
+		r.setStringParameterNoEscape('architectureUUID', architecture.uuid);
+		r.setStringParameterNoEscape('token', apiKey);
+		var response = r.execute();
+		var responseBody = "" + response.getBody();
+		var httpStatus = response.getStatusCode();
+		var resp = global.JSON.parse(responseBody);
+
+		for (var i = 0; i < resp.length; i++) {
+			var variableExist = this.variableExist(resp[i], architecture.sys_id);
+			if (variableExist) {
+				this.updateVariable(resp[i], architecture.sys_id);
+			} else {
+				this.createVariable(resp[i], architecture.sys_id);
+			}
+		}
+	},
+	
 	removeArchTemplate: function (archSysIds) {
 		try {
 			var arch_tpl_sysId = (archSysIds) ? archSysIds : this.getParameter("sysparm_archSysIds");
 			var grArch = new GlideRecord('x_854636_b_board_architecture_template');
-			grArch.addEncodedQuery("sys_idIN"+arch_tpl_sysId);
+			grArch.addEncodedQuery("sys_idIN" + arch_tpl_sysId);
 			grArch.query();
 			while (grArch.next()) {
-			    gs.eventQueue("x_854636_b_board.delete arch template", grArch, grArch.sys_id, "");
+				gs.eventQueue("x_854636_b_board.delete arch template", grArch, grArch.sys_id, "");
 			}
 		} catch (error) {
 			gs.info("ERROR ScriptInclude - BrainboardUtility:- " + error.message);
@@ -303,13 +323,13 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-02 09:57:22</sys_created_on>
         <sys_id>e19347df83e4e2103e53f065eeaad3da</sys_id>
-        <sys_mod_count>128</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name>BrainboardUtility</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_script_include_e19347df83e4e2103e53f065eeaad3da</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-29 11:25:43</sys_updated_on>
+        <sys_updated_on>2025-08-29 19:47:28</sys_updated_on>
     </sys_script_include>
 </record_update>
