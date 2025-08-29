@@ -174,7 +174,7 @@
         <update_guid_history>f7ef5fdf0a7462109d5d635c94403cfd:-19686444</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="location">dba50fa347b822506161e99b116d439a</sys_audit_delete>
+        <sys_audit_delete display_value="">dba50fa347b822506161e99b116d439a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-15 14:59:28</sys_created_on>

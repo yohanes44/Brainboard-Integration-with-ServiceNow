@@ -174,7 +174,7 @@
         <update_guid_history>4010e71384b4621008c00b70c2511a96:2069001527</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="frontend_port_name">1c26cf2747b822506161e99b116d43e2</sys_audit_delete>
+        <sys_audit_delete display_value="">1c26cf2747b822506161e99b116d43e2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-15 15:01:27</sys_created_on>

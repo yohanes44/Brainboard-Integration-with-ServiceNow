@@ -174,7 +174,7 @@
         <update_guid_history>62ff1313d2b462108057eb0e97ff1a3d:-2048131826</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="jumphost_ip">b326476747b822506161e99b116d43cd</sys_audit_delete>
+        <sys_audit_delete display_value="">b326476747b822506161e99b116d43cd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-15 15:01:42</sys_created_on>

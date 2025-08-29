@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>project_and_environment</internal_name>
+        <layout>2across</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-04-12 09:56:16</sys_created_on>
+        <sys_id>8c7326e2837062103e53f065eeaad399</sys_id>
+        <sys_mod_count>55</sys_mod_count>
+        <sys_name>Project &amp; Environment</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>item_option_new_set_8c7326e2837062103e53f065eeaad399</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 10:27:35</sys_updated_on>
+        <title>Project &amp; Environment</title>
+        <type>one_to_one</type>
+        <version>55</version>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>item_option_new_set_8c7326e2837062103e53f065eeaad399</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>false</display_title><internal_name>project_and_environment</internal_name><layout>2across</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>yohanes.yilma</sys_created_by><sys_created_on>2025-04-12 09:56:16</sys_created_on><sys_id>8c7326e2837062103e53f065eeaad399</sys_id><sys_mod_count>55</sys_mod_count><sys_name>Project &amp; Environment</sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>item_option_new_set_8c7326e2837062103e53f065eeaad399</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-08-29 10:27:35</sys_updated_on><title>Project &amp; Environment</title><type>one_to_one</type><version>55</version><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>-844216142</payload_hash>
+        <record_name>Project &amp; Environment</record_name>
+        <reverted_from/>
+        <source>ec3d6518c32522107e68b41ed40131a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-29 10:27:38</sys_created_on>
+        <sys_id>4fafde5bc3e322107e68b41ed40131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198f55e5b640000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 10:27:38</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>cfafde5bf4e32210c5972efe13c939e4</update_guid>
+        <update_guid_history>cfafde5bf4e32210c5972efe13c939e4:-844216142,129f5a1bd3e32210069194ef756a0d72:-635517839,d597ee4b664122109f575a5e102c197c:-1826645558</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Project &amp; Environment">c1036217c32722107e68b41ed401317a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-29 10:43:23</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>7910aad5a0d64b85b264248cf2535a31</sys_id>
+        <sys_metadata>8c7326e2837062103e53f065eeaad399</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project &amp; Environment</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>item_option_new_set_8c7326e2837062103e53f065eeaad399</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_8c7326e2837062103e53f065eeaad399">4fafde5bc3e322107e68b41ed40131e5</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 10:43:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

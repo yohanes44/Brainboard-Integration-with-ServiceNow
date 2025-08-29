@@ -174,7 +174,7 @@
         <update_guid_history>ae10ab13f6b46210360d7989259f643d:-981612944</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="msi_id">dcc507e347b822506161e99b116d43ea</sys_audit_delete>
+        <sys_audit_delete display_value="">dcc507e347b822506161e99b116d43ea</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-15 14:59:50</sys_created_on>

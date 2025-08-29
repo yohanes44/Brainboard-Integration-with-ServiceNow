@@ -174,7 +174,7 @@
         <update_guid_history>a9bf5f9f0a7462102a7e229625f62ce3:1826789568</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="snet_default_spoke_prefix">cf9587a347b822506161e99b116d434e</sys_audit_delete>
+        <sys_audit_delete display_value="">cf9587a347b822506161e99b116d434e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-15 14:59:11</sys_created_on>

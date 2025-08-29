@@ -38,24 +38,12 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 
 	removeArchTemplate: function (archSysIds) {
 		try {
-
 			var arch_tpl_sysId = (archSysIds) ? archSysIds : this.getParameter("sysparm_archSysIds");
-				gs.addInfoMessage("before delete arch_tpl_sysId ==" + arch_tpl_sysId);
 			var grArch = new GlideRecord('x_854636_b_board_architecture_template');
 			grArch.addEncodedQuery("sys_idIN"+arch_tpl_sysId);
 			grArch.query();
 			while (grArch.next()) {
-
-				gs.info("before delete INNN");
-				var grCatItem = new GlideRecord('sc_cat_item');
-				grCatItem.addQuery('name=' + grArch.getValue("name"));
-				grCatItem.query();
-				while (grCatItem.next()) {
-					gs.addInfoMessage("before delete INNN");
-					grCatItem.deleteRecord();
-				}
-					grArch.deleteRecord();
-
+			    gs.eventQueue("x_854636_b_board.delete arch template", grArch, grArch.sys_id, "");
 			}
 		} catch (error) {
 			gs.info("ERROR ScriptInclude - BrainboardUtility:- " + error.message);
@@ -119,6 +107,7 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 	createVariable: function (data, archTplSysId) {
 		var brainboardVariableGr = new GlideRecord("x_854636_b_board_variable");
 		brainboardVariableGr.initialize();
+		brainboardVariableGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
 		brainboardVariableGr.setValue("mandatry", data.mandatry);
 		brainboardVariableGr.setValue("architecture_template", archTplSysId);
 		brainboardVariableGr.setValue("value", data.value);
@@ -130,6 +119,8 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		var createdbrainboardVariableSysId = brainboardVariableGr.insert();
 
 		var catVariableGr = new GlideRecord("item_option_new");
+		catVariableGr.initialize();
+		catVariableGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
 		catVariableGr.type = "6";
 		catVariableGr.mandatory = brainboardVariableGr.getValue("mandatry");
 		catVariableGr.question_text = brainboardVariableGr.getValue("name");
@@ -222,7 +213,9 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		var archTplGr = this.getArchitectureTemplateGR(archTplSysId);
 		var catItemGr = new GlideRecord("sc_cat_item");
 		catItemGr.initialize();
+		catItemGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
 		catItemGr.name = archTplGr.getValue("name");
+
 		catItemGr.description = archTplGr.getValue("description");
 		catItemGr.request_method = "submit";
 		catItemGr.no_cart_v2 = true;
@@ -238,6 +231,7 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		catItemGr.flow_designer_flow = BrainboardUtility.clone_architecture_tpl_flow;
 		var catItemSysId = catItemGr.insert();
 
+
 		var mtmCon = new GlideRecord("m2m_connected_content");
 		mtmCon.initialize();
 		mtmCon.setValue("topic", BrainboardUtility.portalTopic);
@@ -251,6 +245,7 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		BrainboardUtility.variableSets.forEach(function (variableSet) {
 			var variableSetGr = new GlideRecord("io_set_item");
 			variableSetGr.initialize();
+			variableSetGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
 			variableSetGr.variable_set = variableSet.sys_id;
 			variableSetGr.sc_cat_item = catItemSysId;
 			variableSetGr.order = variableSet.order;
@@ -259,6 +254,7 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 
 		var containerStartGr = new GlideRecord("item_option_new");
 		containerStartGr.initialize();
+		containerStartGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
 		containerStartGr.type = "19";
 		containerStartGr.question_text = "Variables";
 		containerStartGr.name = "variables";
@@ -269,6 +265,7 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 
 		var formatterBreakGr = new GlideRecord("item_option_new");
 		formatterBreakGr.initialize();
+		formatterBreakGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
 		formatterBreakGr.type = "12";
 		formatterBreakGr.order = "380";
 		formatterBreakGr.cat_item = catItemSysId;
@@ -306,13 +303,13 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-02 09:57:22</sys_created_on>
         <sys_id>e19347df83e4e2103e53f065eeaad3da</sys_id>
-        <sys_mod_count>112</sys_mod_count>
+        <sys_mod_count>128</sys_mod_count>
         <sys_name>BrainboardUtility</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_script_include_e19347df83e4e2103e53f065eeaad3da</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-22 13:59:54</sys_updated_on>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-08-29 11:25:43</sys_updated_on>
     </sys_script_include>
 </record_update>

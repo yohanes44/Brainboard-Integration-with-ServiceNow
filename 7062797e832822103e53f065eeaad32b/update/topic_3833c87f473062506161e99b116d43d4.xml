@@ -2,15 +2,12 @@
     <topic action="INSERT_OR_UPDATE">
         <active>true</active>
         <apply_to_child_topics>false</apply_to_child_topics>
-        <available_for/>
         <banner_image/>
         <banner_image_url/>
         <description/>
-        <enable_user_criteria_check>false</enable_user_criteria_check>
         <icon/>
         <icon_url/>
         <name>Architecture Templates</name>
-        <not_available_for/>
         <order/>
         <parent_topic display_value="Brainboard">aff2087f473062506161e99b116d43e0</parent_topic>
         <sys_class_name>topic</sys_class_name>

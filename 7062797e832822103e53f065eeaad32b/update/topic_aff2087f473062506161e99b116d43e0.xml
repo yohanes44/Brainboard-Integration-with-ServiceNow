@@ -2,15 +2,12 @@
     <topic action="INSERT_OR_UPDATE">
         <active>true</active>
         <apply_to_child_topics>false</apply_to_child_topics>
-        <available_for/>
         <banner_image/>
         <banner_image_url/>
         <description/>
-        <enable_user_criteria_check>false</enable_user_criteria_check>
         <icon/>
         <icon_url/>
         <name>Brainboard</name>
-        <not_available_for/>
         <order>350</order>
         <parent_topic/>
         <sys_class_name>topic</sys_class_name>

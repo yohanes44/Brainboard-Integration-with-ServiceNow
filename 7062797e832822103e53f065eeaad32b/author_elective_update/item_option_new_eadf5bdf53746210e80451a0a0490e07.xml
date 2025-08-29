@@ -174,7 +174,7 @@
         <update_guid_history>6adf5bdfe8746210a06a1b68bfea6012:2085590684</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="dns_prefix">ef36cb6747b822506161e99b116d438d</sys_audit_delete>
+        <sys_audit_delete display_value="">ef36cb6747b822506161e99b116d438d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-15 15:01:57</sys_created_on>

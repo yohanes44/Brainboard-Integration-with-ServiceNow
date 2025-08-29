@@ -130,7 +130,7 @@
         <update_guid_history>4d26436767b822507edc4f2867c5bf15:-2017215045,782603676cb82250dcfed470f8cdaccf:-312584198,7db503e337b82250b7511c7c3120e5e7:1392046649,e90a7663c37822507600431484b50bba:-1198289800,01efdbdfbb74621075994706ace969a5:-165108788,021f1fdbf1746210a678d149975cbdb8:-873708196,4e1f1fdbdb7462101a899ed7535320ad:830922651,c61f1fdbc774621018de23627b40fb99:-1759413798,b11f1fdb54746210bcc874d704bbe893:-54782951,f11f1fdb4e7462101d48fbbcaa5f977e:1649847896,f51f1fdbd174621044e8ffb63817f76b:-940488553,311f1fdb557462106e93f6ab9d099d63:764142294,b51f1fdbde74621032106993cff81537:-1826194155,f51f1fdba9746210ee7c4aa841bc553b:-121563308,f51f1fdba9746210ee7c4aa841bc553b:-121563308</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Region VPC and 2 AZ building block">699603e747b822506161e99b116d43a8</sys_audit_delete>
+        <sys_audit_delete display_value="">699603e747b822506161e99b116d43a8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-04-15 15:03:28</sys_created_on>

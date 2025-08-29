@@ -18,7 +18,6 @@
         <internal_name>get_architecture_template_variables</internal_name>
         <label_cache>[{"name":"{{action.ritm}}","label":"action➛RITM","type":"action","ref":"","reference_display":"Requested Item","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ritm.sys_id}}","label":"action➛RITM➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sc_req_item","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{step[8ad6e887-9263-483c-8dac-b336814b9c94].payload}}","label":"step➛Script step➛payload","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"4b5e567f-a7c9-4c48-84b7-b423c1600358"}}]</label_cache>
         <master_snapshot>87ac936e837462103e53f065eeaad3a4</master_snapshot>
-        <master_snapshot_digest/>
         <name>Get Architecture Template Variables</name>
         <natlang/>
         <outputs/>
@@ -38,8 +37,8 @@
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a0fb132e837462103e53f065eeaad39b</sys_update_name>
-        <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-15 10:50:40</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-04 19:50:06</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -406,6 +405,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=107c5f2e837462103e53f065eeaad31e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_107c5f2e837462103e53f065eeaad31e^sys_idNOT IN6b77e24bc34122107e68b41ed40131fa"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>payload</element>
         <help/>
@@ -417,7 +417,7 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:05:02</sys_created_on>
-        <sys_id>a47c5f2e837462103e53f065eeaad32b</sys_id>
+        <sys_id>6b77e24bc34122107e68b41ed40131fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>payload</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
@@ -788,6 +788,7 @@
         <sys_updated_on>2025-04-12 14:03:41</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=fc2c972e837462103e53f065eeaad332"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a0fb132e837462103e53f065eeaad39b^sys_idNOT INd377e24bc34122107e68b41ed40131a8"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>ritm</element>
         <help/>
@@ -799,7 +800,7 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:03:41</sys_created_on>
-        <sys_id>782c972e837462103e53f065eeaad310</sys_id>
+        <sys_id>d377e24bc34122107e68b41ed40131a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>RITM</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
@@ -812,24 +813,25 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_a0fb132e837462103e53f065eeaad39b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a0fb132e837462103e53f065eeaad39b^sys_idNOT INab77e24bc34122107e68b41ed40131d5,af77e24bc34122107e68b41ed40131dd,ef77e24bc34122107e68b41ed40131d9"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>__dont_treat_as_error__</element>
+        <element>__action_status__</element>
         <help/>
         <hint/>
-        <label>Don't Treat as Error</label>
+        <label>Action Status</label>
         <language>en</language>
         <name>var__m_sys_hub_action_output_a0fb132e837462103e53f065eeaad39b</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:03:41</sys_created_on>
-        <sys_id>782c972e837462103e53f065eeaad32c</sys_id>
+        <sys_id>ab77e24bc34122107e68b41ed40131d5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Don't Treat as Error</sys_name>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a0fb132e837462103e53f065eeaad39b___dont_treat_as_error___en</sys_update_name>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a0fb132e837462103e53f065eeaad39b___action_status___en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-12 14:03:41</sys_updated_on>
         <url/>
@@ -846,7 +848,7 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:05:57</sys_created_on>
-        <sys_id>b1ac536e837462103e53f065eeaad3e0</sys_id>
+        <sys_id>af77e24bc34122107e68b41ed40131dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>payload</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
@@ -859,23 +861,23 @@
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>__action_status__</element>
+        <element>__dont_treat_as_error__</element>
         <help/>
         <hint/>
-        <label>Action Status</label>
+        <label>Don't Treat as Error</label>
         <language>en</language>
         <name>var__m_sys_hub_action_output_a0fb132e837462103e53f065eeaad39b</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:03:41</sys_created_on>
-        <sys_id>f42c972e837462103e53f065eeaad326</sys_id>
+        <sys_id>ef77e24bc34122107e68b41ed40131d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a0fb132e837462103e53f065eeaad39b___action_status___en</sys_update_name>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a0fb132e837462103e53f065eeaad39b___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-12 14:03:41</sys_updated_on>
         <url/>
@@ -1301,6 +1303,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=d7ac936e837462103e53f065eeaad3bd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d7ac936e837462103e53f065eeaad3bd^sys_idNOT IN2b77264bc34122107e68b41ed4013107"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>payload</element>
         <help/>
@@ -1312,7 +1315,7 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:06:02</sys_created_on>
-        <sys_id>d3ac936e837462103e53f065eeaad3e1</sys_id>
+        <sys_id>2b77264bc34122107e68b41ed4013107</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>payload</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
@@ -1683,6 +1686,7 @@
         <sys_updated_on>2025-04-12 14:06:03</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=53acd36e837462103e53f065eeaad30b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_87ac936e837462103e53f065eeaad3a4^sys_idNOT IN9f77e24bc34122107e68b41ed40131a3"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>ritm</element>
         <help/>
@@ -1694,7 +1698,7 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:06:02</sys_created_on>
-        <sys_id>9bac936e837462103e53f065eeaad3b8</sys_id>
+        <sys_id>9f77e24bc34122107e68b41ed40131a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>RITM</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
@@ -1707,29 +1711,7 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_87ac936e837462103e53f065eeaad3a4"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>__action_status__</element>
-        <help/>
-        <hint/>
-        <label>Action Status</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_output_87ac936e837462103e53f065eeaad3a4</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>yohanes.yilma</sys_created_by>
-        <sys_created_on>2025-04-12 14:06:03</sys_created_on>
-        <sys_id>57ac936e837462103e53f065eeaad3f2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Action Status</sys_name>
-        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_87ac936e837462103e53f065eeaad3a4___action_status___en</sys_update_name>
-        <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-12 14:06:03</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_87ac936e837462103e53f065eeaad3a4^sys_idNOT IN2f77e24bc34122107e68b41ed40131cd,e777e24bc34122107e68b41ed40131c9,eb77e24bc34122107e68b41ed40131d1"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>
@@ -1741,13 +1723,36 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:06:03</sys_created_on>
-        <sys_id>57acd36e837462103e53f065eeaad304</sys_id>
+        <sys_id>2f77e24bc34122107e68b41ed40131cd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_87ac936e837462103e53f065eeaad3a4___dont_treat_as_error___en</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-04-12 14:06:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_87ac936e837462103e53f065eeaad3a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-04-12 14:06:03</sys_created_on>
+        <sys_id>e777e24bc34122107e68b41ed40131c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_87ac936e837462103e53f065eeaad3a4___action_status___en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-12 14:06:03</sys_updated_on>
         <url/>
@@ -1764,7 +1769,7 @@
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:06:03</sys_created_on>
-        <sys_id>d7ac936e837462103e53f065eeaad3ee</sys_id>
+        <sys_id>eb77e24bc34122107e68b41ed40131d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>payload</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="GCP cloud CDN &amp; Load balancer">2b1f6a9fc36722107e68b41ed4013196</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-29 11:35:06</sys_created_on>
+        <sys_id>ef1f6a9fc36722107e68b41ed4013197</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GCP cloud CDN &amp; Load balancer.SNC External</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_ef1f6a9fc36722107e68b41ed4013197</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 11:35:06</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_ef1f6a9fc36722107e68b41ed4013197</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="GCP cloud CDN &amp; Load balancer">2b1f6a9fc36722107e68b41ed4013196</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-08-29 11:35:06</sys_created_on><sys_id>ef1f6a9fc36722107e68b41ed4013197</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GCP cloud CDN &amp; Load balancer.SNC External</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_ef1f6a9fc36722107e68b41ed4013197</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-08-29 11:35:06</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>1817880661</payload_hash>
+        <record_name>GCP cloud CDN &amp; Load balancer.SNC External</record_name>
+        <reverted_from/>
+        <source>b1272911c31022107e68b41ed40131ef</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-03-14 11:48:46</sys_created_on>
+        <sys_id>1ed87a13c3e722107e68b41ed4013168</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>195947c41300000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>dad87a1393e722105b134a4bb8244268</update_guid>
+        <update_guid_history>dad87a1393e722105b134a4bb8244268:1817880661</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="GCP cloud CDN &amp; Load balancer.SNC External">92d87a13c3e722107e68b41ed4013169</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-29 12:17:37</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>4d7a760737d540588b3424522cfb2040</sys_id>
+        <sys_metadata>ef1f6a9fc36722107e68b41ed4013197</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GCP cloud CDN &amp; Load balancer.SNC External</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_ef1f6a9fc36722107e68b41ed4013197</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_ef1f6a9fc36722107e68b41ed4013197">1ed87a13c3e722107e68b41ed4013168</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 12:17:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

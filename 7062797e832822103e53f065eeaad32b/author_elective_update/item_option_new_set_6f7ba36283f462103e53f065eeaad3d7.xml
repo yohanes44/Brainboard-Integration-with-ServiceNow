@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>architecture_template_common_readonly_variables</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-04-12 15:11:50</sys_created_on>
+        <sys_id>6f7ba36283f462103e53f065eeaad3d7</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>Architecture Template Customizable Fields</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>item_option_new_set_6f7ba36283f462103e53f065eeaad3d7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 10:27:41</sys_updated_on>
+        <title>Architecture Template Customizable Fields</title>
+        <type>one_to_one</type>
+        <version>40</version>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>item_option_new_set_6f7ba36283f462103e53f065eeaad3d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>false</display_title><internal_name>architecture_template_common_readonly_variables</internal_name><layout>normal</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>yohanes.yilma</sys_created_by><sys_created_on>2025-04-12 15:11:50</sys_created_on><sys_id>6f7ba36283f462103e53f065eeaad3d7</sys_id><sys_mod_count>40</sys_mod_count><sys_name>Architecture Template Customizable Fields</sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>item_option_new_set_6f7ba36283f462103e53f065eeaad3d7</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-08-29 10:27:41</sys_updated_on><title>Architecture Template Customizable Fields</title><type>one_to_one</type><version>40</version><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>-1762130308</payload_hash>
+        <record_name>Architecture Template Customizable Fields</record_name>
+        <reverted_from/>
+        <source>ec3d6518c32522107e68b41ed40131a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-29 10:27:44</sys_created_on>
+        <sys_id>f4bfd69bc3e322107e68b41ed4013154</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198f55e74190000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 10:27:44</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>78bfd69b65e32210e73e0e4e474d2153</update_guid>
+        <update_guid_history>78bfd69b65e32210e73e0e4e474d2153:-1762130308,55af1a5bb6e322108ffe215a20975b3c:-1465734938,a09f921b9ee3221048e9f6a632ac5338:-1257036635,d597ee4b1b412210a6604beef27b8b7a:-1673948068</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Architecture Template Customizable Fields">9bb22653c32722107e68b41ed4013175</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-29 10:42:12</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>759248d0f28547a8bda3c2f4e3b951f1</sys_id>
+        <sys_metadata>6f7ba36283f462103e53f065eeaad3d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Architecture Template Customizable Fields</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>item_option_new_set_6f7ba36283f462103e53f065eeaad3d7</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_6f7ba36283f462103e53f065eeaad3d7">f4bfd69bc3e322107e68b41ed4013154</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 10:42:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

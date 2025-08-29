@@ -174,7 +174,7 @@
         <update_guid_history>ae10ab1386b46210dcdd1bd154cabc2f:-1572790192</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="enable_syn_sqlpool">0c164b2747b822506161e99b116d43bb</sys_audit_delete>
+        <sys_audit_delete display_value="">0c164b2747b822506161e99b116d43bb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-15 15:01:11</sys_created_on>

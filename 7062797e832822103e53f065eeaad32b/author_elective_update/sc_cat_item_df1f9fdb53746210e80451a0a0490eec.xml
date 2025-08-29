@@ -130,7 +130,7 @@
         <update_guid_history>624603a7eab8225069857d95b36f05d8:-501443675,be368b6701b82250a89615c2a11e5d70:1203187172,0916cb27bcb82250926248b107817334:-1387149277,6e2a7a63b67822504ea86ec7a0065290:317481570,759fd39fc774621039a5a4dac9a339de:448271362,e71fdfdb85746210f19592dd3765334f:-861013284,271fdfdb357462105ea43ea982826a45:843617563,671fdfdb05746210907e91022ea1803d:-1746718886,231fdfdb65746210908ba77f93302d37:-42088039,2b1fdfdbc774621056c6582e63ef122e:1662542808,e31fdfdb8d7462108f06b833361a1128:-927793641,571fdfdbbe746210402d3cf9f7184f13:776837206,131fdfdb70746210c042a60f329da80d:-1813499243,971fdfdb1b746210c51b400ce4431100:-108868396,9f1f9fdbe07462105dde4f86ac2cabf9:1030862640</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS instance inside VPC &amp; Subnet">8b96c3e747b822506161e99b116d4364</sys_audit_delete>
+        <sys_audit_delete display_value="">8b96c3e747b822506161e99b116d4364</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-04-15 15:03:34</sys_created_on>

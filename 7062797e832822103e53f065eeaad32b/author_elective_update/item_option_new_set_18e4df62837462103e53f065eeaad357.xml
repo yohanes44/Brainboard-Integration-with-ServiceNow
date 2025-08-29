@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>architecture_template_item_widget</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-04-12 13:32:19</sys_created_on>
+        <sys_id>18e4df62837462103e53f065eeaad357</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Architecture Template Item Widget  </sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>item_option_new_set_18e4df62837462103e53f065eeaad357</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 10:27:21</sys_updated_on>
+        <title>Architecture Template Item Widget  </title>
+        <type>one_to_one</type>
+        <version>7</version>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>item_option_new_set_18e4df62837462103e53f065eeaad357</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>false</display_title><internal_name>architecture_template_item_widget</internal_name><layout>normal</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>yohanes.yilma</sys_created_by><sys_created_on>2025-04-12 13:32:19</sys_created_on><sys_id>18e4df62837462103e53f065eeaad357</sys_id><sys_mod_count>7</sys_mod_count><sys_name>Architecture Template Item Widget  </sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>item_option_new_set_18e4df62837462103e53f065eeaad357</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-08-29 10:27:21</sys_updated_on><title>Architecture Template Item Widget  </title><type>one_to_one</type><version>7</version><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>1753451311</payload_hash>
+        <record_name>Architecture Template Item Widget  </record_name>
+        <reverted_from/>
+        <source>ec3d6518c32522107e68b41ed40131a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-29 10:27:24</sys_created_on>
+        <sys_id>3f9f125bc3e322107e68b41ed401319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198f55e25a20000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 10:27:24</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>bf9f125b73e32210df26f3ddada6d39d</update_guid>
+        <update_guid_history>bf9f125b73e32210df26f3ddada6d39d:1753451311,5597ee4ba6412210738147885c4bd278:910184550</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Architecture Template Item Widget  ">3c72e69fc3e322107e68b41ed4013146</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-29 10:40:59</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>9988cbf7254c4691a6b8086f61cae481</sys_id>
+        <sys_metadata>18e4df62837462103e53f065eeaad357</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Architecture Template Item Widget  </sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>item_option_new_set_18e4df62837462103e53f065eeaad357</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_18e4df62837462103e53f065eeaad357">3f9f125bc3e322107e68b41ed401319e</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 10:40:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -174,7 +174,7 @@
         <update_guid_history>19bf5f9fec74621076fa11cc2431b875:1062526210</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="vnet_spoke_addrspace">59360b6747b822506161e99b116d434a</sys_audit_delete>
+        <sys_audit_delete display_value="">59360b6747b822506161e99b116d434a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-15 15:01:48</sys_created_on>

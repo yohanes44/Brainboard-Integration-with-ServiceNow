@@ -174,7 +174,7 @@
         <update_guid_history>a400e3137bb46210dd96b604f76f2008:1417176929</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="dns_zone">b0a50ba347b822506161e99b116d43cc</sys_audit_delete>
+        <sys_audit_delete display_value="">b0a50ba347b822506161e99b116d43cc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-15 14:59:18</sys_created_on>

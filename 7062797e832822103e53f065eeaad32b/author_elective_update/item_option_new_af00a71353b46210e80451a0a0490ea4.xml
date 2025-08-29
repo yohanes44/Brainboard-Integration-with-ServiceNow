@@ -174,7 +174,7 @@
         <update_guid_history>6700a713e6b46210a8b7425c3c8e39b1:-1366075782</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="auto_create_subnetworks">2516cb2747b822506161e99b116d43e6</sys_audit_delete>
+        <sys_audit_delete display_value="">2516cb2747b822506161e99b116d43e6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-15 15:01:17</sys_created_on>
