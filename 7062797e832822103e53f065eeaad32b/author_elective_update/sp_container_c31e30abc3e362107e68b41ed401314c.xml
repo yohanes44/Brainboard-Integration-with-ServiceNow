@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Track Clone Request - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="track_clone_request">6d6d30abc3e362107e68b41ed40131ab</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-08-29 21:59:50</sys_created_on>
+        <sys_id>c31e30abc3e362107e68b41ed401314c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Track Clone Request - Container 1</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sp_container_c31e30abc3e362107e68b41ed401314c</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-08-29 21:59:50</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sp_container_c31e30abc3e362107e68b41ed401314c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Track Clone Request - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="track_clone_request">6d6d30abc3e362107e68b41ed40131ab</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>yohanes.yilma</sys_created_by><sys_created_on>2025-08-29 21:59:50</sys_created_on><sys_id>c31e30abc3e362107e68b41ed401314c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Track Clone Request - Container 1</sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>sp_container_c31e30abc3e362107e68b41ed401314c</sys_update_name><sys_updated_by>yohanes.yilma</sys_updated_by><sys_updated_on>2025-08-29 21:59:50</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1843001350</payload_hash>
+        <record_name>Track Clone Request - Container 1</record_name>
+        <reverted_from/>
+        <source>ec3d6518c32522107e68b41ed40131a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-08-29 21:59:51</sys_created_on>
+        <sys_id>831e30abc3e362107e68b41ed401314e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198f7d817e50000001</sys_recorded_at>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-08-29 21:59:51</sys_updated_on>
+        <type>Container</type>
+        <update_guid>471e30ab22e36210d9287cef8e009c4d</update_guid>
+        <update_guid_history>471e30ab22e36210d9287cef8e009c4d:1843001350</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Track Clone Request - Container 1">622ef8abc3e362107e68b41ed40131c1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-08-29 22:00:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>180e0b660bb9498982e8359a6462cdb1</sys_id>
+        <sys_metadata>c31e30abc3e362107e68b41ed401314c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Track Clone Request - Container 1</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sp_container_c31e30abc3e362107e68b41ed401314c</sys_update_name>
+        <sys_update_version display_value="sp_container_c31e30abc3e362107e68b41ed401314c">831e30abc3e362107e68b41ed401314e</sys_update_version>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-08-29 22:00:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

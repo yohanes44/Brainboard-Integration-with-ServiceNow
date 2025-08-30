@@ -3,7 +3,7 @@
         <create_roles/>
         <description/>
         <display_title>false</display_title>
-        <internal_name>customizable_fields</internal_name>
+        <internal_name>variables</internal_name>
         <layout>2across</layout>
         <name/>
         <order>100</order>
@@ -13,17 +13,17 @@
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-08-29 19:01:02</sys_created_on>
         <sys_id>52b414ebc3af22107e68b41ed40131f4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Customizable Fields</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Variables</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>item_option_new_set_52b414ebc3af22107e68b41ed40131f4</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-08-29 20:05:44</sys_updated_on>
-        <title>Customizable Fields</title>
+        <sys_updated_on>2025-08-29 23:31:12</sys_updated_on>
+        <title>Variables</title>
         <type>one_to_one</type>
-        <version>1</version>
+        <version>10</version>
         <write_roles/>
     </item_option_new_set>
 </record_update>

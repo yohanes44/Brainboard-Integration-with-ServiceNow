@@ -18,7 +18,7 @@ BrainboardUtility.variableSets = [
 	{
 		sys_id: "52b414ebc3af22107e68b41ed40131f4",
 		order: 200,
-		description: "Customizable Fields"
+		description: "Variables"
 	},
 	{
 		sys_id: "17459cafc3af22107e68b41ed4013110",
@@ -182,20 +182,20 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		return 'sys_idIN' + envIDs.join(',');
 	},
 
-	getCloneRequestPayload: function (ritmSysId) {
+	generatePayload: function (ritmSysId) {
 		var ritmGR = new GlideRecord("sc_req_item");
 		if (ritmGR.get(ritmSysId)) {
 
 			var projectUUID = null;
 			var projectGR = new GlideRecord("x_854636_b_board_project");
-			if (projectGR.get(ritmGR.variables.project.toString())) {
+			if (projectGR.get(ritmGR.variables.selectedProject.toString())) {
 				projectUUID = projectGR.getValue("uuid");
 			}
 
 			var payload = {
-				"description": ritmGR.variables.description.toString(),
-				"environment": ritmGR.variables.u_environment.toString(),
-				"name": ritmGR.variables.name.toString(),
+				"description": ritmGR.variables.architectureTemplateDescription.toString(),
+				"environment": ritmGR.variables.selectedEnvironment.toString(),
+				"name": ritmGR.variables.architectureTemplateName.toString(),
 				"project": projectUUID,
 				"variable_values": {
 				}
@@ -218,15 +218,35 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		}
 	},
 
-	cloneArchitectureTemplate: function (payload, archTemplateUuid) {
-		var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'Clone Architecture Template');
-		r.setStringParameterNoEscape('template', archTemplateUuid);
-		r.setStringParameterNoEscape('payload', payload);
-		r.setStringParameterNoEscape('token', BrainboardUtility.token);
-		var response = r.execute();
-		var responseBody = response.getBody();
-		var httpStatus = response.getStatusCode();
-		return responseBody;
+	cloneArchitectureTemplate: function (payload, archTemplateUuid) { 
+		try{
+			var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'Clone Architecture Template');
+			r.setStringParameterNoEscape('template', archTemplateUuid);
+			r.setStringParameterNoEscape('payload', payload);
+			r.setStringParameterNoEscape('token', BrainboardUtility.token);
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			if(httpStatus >= 200 && httpStatus < 300){
+				return {
+					success: true,
+					status: httpStatus,
+					body: JSON.parse(responseBody)
+				};
+			}else {
+				return {
+					success: false,
+					status: httpStatus,
+					error: JSON.parse(responseBody).error_code
+				};
+			}
+		}catch(error){
+			gs.info("ScriptInclude ERROR - BrainboardUtility - cloneArchitectureTemplate == " + error.message);
+			return {
+				success: false,
+				error: error.message
+			};
+		}
 	},
 
 	createCatalogItem: function (archTplSysId, iconImageAttachment, pictureImageAttachment) {
@@ -323,13 +343,13 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-02 09:57:22</sys_created_on>
         <sys_id>e19347df83e4e2103e53f065eeaad3da</sys_id>
-        <sys_mod_count>131</sys_mod_count>
+        <sys_mod_count>144</sys_mod_count>
         <sys_name>BrainboardUtility</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_script_include_e19347df83e4e2103e53f065eeaad3da</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-29 19:47:28</sys_updated_on>
+        <sys_updated_on>2025-08-29 23:22:42</sys_updated_on>
     </sys_script_include>
 </record_update>
