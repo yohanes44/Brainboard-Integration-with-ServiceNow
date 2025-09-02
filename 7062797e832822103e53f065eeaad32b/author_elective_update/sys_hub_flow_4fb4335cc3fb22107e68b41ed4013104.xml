@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>deploy_architecture_template</internal_name>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Deploy Architecture Template</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-01 19:13:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4fb4335cc3fb22107e68b41ed4013104</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deploy Architecture Template</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_hub_flow_4fb4335cc3fb22107e68b41ed4013104</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-01 19:13:11</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_variable_value action="DELETE" query="document_key=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=4fb4335cc3fb22107e68b41ed4013104^sys_idNOT IN83b4335cc3fb22107e68b41ed4013105"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>4fb4335cc3fb22107e68b41ed4013104</id>
+        <name>Deploy Architecture Template</name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-01 19:13:11</sys_created_on>
+        <sys_id>83b4335cc3fb22107e68b41ed4013105</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-01 19:13:11</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=83b4335cc3fb22107e68b41ed4013105"/>
+    <sys_hub_flow_input action="DELETE" query="model=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_hub_flow_output action="DELETE" query="model=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_hub_action_instance action="DELETE" query="flow=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_hub_flow_variable action="DELETE" query="model=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=4fb4335cc3fb22107e68b41ed4013104"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sys_hub_flow_4fb4335cc3fb22107e68b41ed4013104</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes>labelCacheCleanUpExecuted=true</attributes><authored_on_release_version>25000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category display_value="">{}</category><compiler_build/><copied_from/><copied_from_name/><description/><display_name_after_preview/><flow_priority>MEDIUM</flow_priority><generation_source/><internal_name>deploy_architecture_template</internal_name><label_cache>null</label_cache><latest_snapshot/><master_snapshot/><name>Deploy Architecture Template</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><substatus/><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>yohanes.yilma</sys_created_by><sys_created_on>2025-09-01 19:13:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4fb4335cc3fb22107e68b41ed4013104</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Deploy Architecture Template</sys_name><sys_overrides/><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>sys_hub_flow_4fb4335cc3fb22107e68b41ed4013104</sys_update_name><sys_updated_by>yohanes.yilma</sys_updated_by><sys_updated_on>2025-09-01 19:13:11</sys_updated_on><type>subflow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=4fb4335cc3fb22107e68b41ed4013104"/><sys_variable_value action="delete_multiple" query="document_key=4fb4335cc3fb22107e68b41ed4013104"/><sys_hub_trigger_instance action="delete_multiple" query="flow=4fb4335cc3fb22107e68b41ed4013104"/><sys_hub_flow_stage action="delete_multiple" query="flow=4fb4335cc3fb22107e68b41ed4013104"/><sys_flow_cat_variable_model action="delete_multiple" query="id=4fb4335cc3fb22107e68b41ed4013104^sys_idNOT IN83b4335cc3fb22107e68b41ed4013105"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>4fb4335cc3fb22107e68b41ed4013104</id><name>Deploy Architecture Template</name><sys_created_by>yohanes.yilma</sys_created_by><sys_created_on>2025-09-01 19:13:11</sys_created_on><sys_id>83b4335cc3fb22107e68b41ed4013105</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>yohanes.yilma</sys_updated_by><sys_updated_on>2025-09-01 19:13:11</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=83b4335cc3fb22107e68b41ed4013105"/><sys_hub_flow_input action="delete_multiple" query="model=4fb4335cc3fb22107e68b41ed4013104"/><sys_hub_flow_output action="delete_multiple" query="model=4fb4335cc3fb22107e68b41ed4013104"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=4fb4335cc3fb22107e68b41ed4013104"/><sys_hub_action_instance action="delete_multiple" query="flow=4fb4335cc3fb22107e68b41ed4013104"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=4fb4335cc3fb22107e68b41ed4013104"/><sys_hub_flow_logic action="delete_multiple" query="flow=4fb4335cc3fb22107e68b41ed4013104"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=4fb4335cc3fb22107e68b41ed4013104"/><sys_hub_flow_variable action="delete_multiple" query="model=4fb4335cc3fb22107e68b41ed4013104"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4fb4335cc3fb22107e68b41ed4013104"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4fb4335cc3fb22107e68b41ed4013104"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4fb4335cc3fb22107e68b41ed4013104"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4fb4335cc3fb22107e68b41ed4013104"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=4fb4335cc3fb22107e68b41ed4013104"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=4fb4335cc3fb22107e68b41ed4013104"/></record_update>]]></payload>
+        <payload_hash>-978172502</payload_hash>
+        <record_name>Deploy Architecture Template</record_name>
+        <reverted_from/>
+        <source>ec3d6518c32522107e68b41ed40131a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-01 19:13:11</sys_created_on>
+        <sys_id>cfb4335cc3fb22107e68b41ed4013108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19906b296180000001</sys_recorded_at>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-01 19:13:11</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>83b4335c07fb2210b63238d22d91b008</update_guid>
+        <update_guid_history>83b4335c07fb2210b63238d22d91b008:-978172502</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-01 19:14:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>be4c0b2b9c9b4f1888b53ce77fd6c2c4</sys_id>
+        <sys_metadata>4fb4335cc3fb22107e68b41ed4013104</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deploy Architecture Template</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_4fb4335cc3fb22107e68b41ed4013104</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_4fb4335cc3fb22107e68b41ed4013104">cfb4335cc3fb22107e68b41ed4013108</sys_update_version>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-01 19:14:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
