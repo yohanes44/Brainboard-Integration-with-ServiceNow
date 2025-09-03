@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ticket_tab_configuration">
+    <ticket_tab_configuration action="DELETE">
+        <advanced>false</advanced>
+        <order>20</order>
+        <parent display_value="x_854636_b_board_clone_template_task">1cd7e6c1c33b26107e68b41ed4013173</parent>
+        <script><![CDATA[/** * The script should evaluate true/false or `answer` populated with true/false which validates if a tab is visible  * The `current` object refers to the current Task(extension) record  **/ ]]></script>
+        <sys_class_name>ticket_tab_configuration</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-03 21:34:12</sys_created_on>
+        <sys_id>9438e6c1c33b26107e68b41ed40131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>ticket_tab_configuration_9438e6c1c33b26107e68b41ed40131cd</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-03 21:34:12</sys_updated_on>
+        <tab_name>Attachments</tab_name>
+        <table>x_854636_b_board_clone_template_task</table>
+        <type>attachments</type>
+        <visible/>
+        <widget/>
+        <widget_param/>
+    </ticket_tab_configuration>
+    <sys_translated_text action="DELETE" query="documentkey=9438e6c1c33b26107e68b41ed40131cd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>ticket_tab_configuration_9438e6c1c33b26107e68b41ed40131cd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="ticket_tab_configuration"&gt;&lt;ticket_tab_configuration action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;order&gt;20&lt;/order&gt;&lt;parent display_value="x_854636_b_board_clone_template_task"&gt;1cd7e6c1c33b26107e68b41ed4013173&lt;/parent&gt;&lt;script&gt;&lt;![CDATA[/** * The script should evaluate true/false or `answer` populated with true/false which validates if a tab is visible  * The `current` object refers to the current Task(extension) record  **/ ]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;ticket_tab_configuration&lt;/sys_class_name&gt;&lt;sys_created_by&gt;yohanes.yilma&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-03 21:34:12&lt;/sys_created_on&gt;&lt;sys_id&gt;9438e6c1c33b26107e68b41ed40131cd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;ticket_tab_configuration_9438e6c1c33b26107e68b41ed40131cd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;yohanes.yilma&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-03 21:34:12&lt;/sys_updated_on&gt;&lt;tab_name&gt;Attachments&lt;/tab_name&gt;&lt;table&gt;x_854636_b_board_clone_template_task&lt;/table&gt;&lt;type&gt;attachments&lt;/type&gt;&lt;visible/&gt;&lt;widget/&gt;&lt;widget_param/&gt;&lt;/ticket_tab_configuration&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9438e6c1c33b26107e68b41ed40131cd"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-339331421</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ec3d6518c32522107e68b41ed40131a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-03 21:34:12</sys_created_on>
+        <sys_id>1038eec1c33b26107e68b41ed40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19911806b620000001</sys_recorded_at>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-03 21:34:12</sys_updated_on>
+        <type>Tab Configuration</type>
+        <update_guid>5838e6c10e3b261005ab081e9938b9ce</update_guid>
+        <update_guid_history>5838e6c10e3b261005ab081e9938b9ce:-339331421</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ea29e205c33b26107e68b41ed40131f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-03 21:38:27</sys_created_on>
+        <sys_db_object display_value="" name="ticket_tab_configuration">ticket_tab_configuration</sys_db_object>
+        <sys_id>5373ed6c74894b3d8bf1dfb706848501</sys_id>
+        <sys_metadata>9438e6c1c33b26107e68b41ed40131cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>ticket_tab_configuration_9438e6c1c33b26107e68b41ed40131cd</sys_update_name>
+        <sys_update_version display_value="ticket_tab_configuration_9438e6c1c33b26107e68b41ed40131cd">1038eec1c33b26107e68b41ed40131e0</sys_update_version>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-03 21:38:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

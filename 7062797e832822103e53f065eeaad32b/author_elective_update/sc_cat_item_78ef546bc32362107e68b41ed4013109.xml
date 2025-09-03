@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>3cef146bc32362107e68b41ed40131f9</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>AWS instance and DB with multiple networks</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>b4ef546bc32362107e68b41ed4013108</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=78ef546bc32362107e68b41ed4013109&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method>submit</request_method>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-29 19:47:48</sys_created_on>
+        <sys_id>78ef546bc32362107e68b41ed4013109</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>AWS instance and DB with multiple networks</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_78ef546bc32362107e68b41ed4013109</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-02 19:50:53</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>35</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=78ef546bc32362107e68b41ed4013109"/>
+    <fx_price action="DELETE" query="id=78ef546bc32362107e68b41ed4013109"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>78ef546bc32362107e68b41ed4013109</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-08-29 19:47:48</sys_created_on>
+        <sys_id>bcef546bc32362107e68b41ed401310c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-29 19:47:48</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_78ef546bc32362107e68b41ed4013109</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item"><sc_cat_item action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>true</active><availability>on_desktop</availability><billable>false</billable><category/><checked_out/><cost>0</cost><custom_cart/><delivery_plan/><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow/><fulfillment_automation_level>unspecified</fulfillment_automation_level><group/><hide_sp>false</hide_sp><icon>3cef146bc32362107e68b41ed40131f9</icon><ignore_price>true</ignore_price><image/><location/><make_item_non_conversational>false</make_item_non_conversational><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>AWS instance and DB with multiple networks</name><no_attachment_v2>true</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>true</no_cart_v2><no_delivery_time_v2>true</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>true</no_quantity_v2><no_save_as_draft>true</no_save_as_draft><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="">system</owner><picture>b4ef546bc32362107e68b41ed4013108</picture><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=78ef546bc32362107e68b41ed4013109&amp;sysparm_preview=true", "summary");</preview><price>0</price><published_ref/><recurring_frequency/><request_method>submit</request_method><roles/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><sc_template/><short_description/><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state/><sys_class_name>sc_cat_item</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-08-29 19:47:48</sys_created_on><sys_id>78ef546bc32362107e68b41ed4013109</sys_id><sys_mod_count>35</sys_mod_count><sys_name>AWS instance and DB with multiple networks</sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>sc_cat_item_78ef546bc32362107e68b41ed4013109</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-09-02 19:50:53</sys_updated_on><taxonomy_topic/><template/><template_manager_roles/><type>item</type><use_sc_layout>true</use_sc_layout><vendor/><version>35</version><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item><sys_translated_text action="delete_multiple" query="documentkey=78ef546bc32362107e68b41ed4013109"/><fx_price action="delete_multiple" query="id=78ef546bc32362107e68b41ed4013109"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price</field><id>78ef546bc32362107e68b41ed4013109</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>system</sys_created_by><sys_created_on>2025-08-29 19:47:48</sys_created_on><sys_id>bcef546bc32362107e68b41ed401310c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-08-29 19:47:48</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1888518698</payload_hash>
+        <record_name>AWS instance and DB with multiple networks</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-02 19:50:53</sys_created_on>
+        <sys_id>01f6c578c33ba2107e68b41ed40131f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1990bfb76f80000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-02 19:50:53</sys_updated_on>
+        <type>Catalog Item</type>
+        <update_guid>45f6c5783b3ba21015212de2fb59eeef</update_guid>
+        <update_guid_history>45f6c5783b3ba21015212de2fb59eeef:-1888518698,41f6c5789d3ba210a829945084d60fcd:1741497573,cdf6c578ac3ba210250ec44ff6d3d4bc:-1400792434,f8f6c578823ba2107beac9aef95389a5:303838413,f8f6c5787c3ba210cd5f35160db93c9a:2008469260,34f6c578e03ba210f519aa2af557d38e:-581867189,f4f6c578a13ba2105328ca2bb4a36f2e:-1734694219,ecf68578e23ba2102202c9a5d4bf13f3:-30063372,acf68578d73ba2102961bb2e75594dc5:1674567475,e8f68578603ba210878d44d562478481:-915768974,98f68578303ba2103f448fb812d5e853:788861873,d4f68578963ba210e0fc394df0759f0f:-1801474576,84f64578753ba2108fe437804dd600e1:-96843729,44f64578973ba21083012160042240b3:1607787118,b3e645780c3ba210d2ba65959cc27d77:-982549331,973e35103fb322108457ef3765ccd8cf:722081516,ed0db46b3fe362107fbbfe75252ff24e:922555010,a8c938277be36210e07214563ddb9a6c:-1667781439,e2d7b86385e362106b89854df2d8c30f:36849408,72312caf3a236210b2561792a79c8654:388179731,fdef946b832362103a246a49d79d7b19:2003722632,b9ef946b9823621053a135d8a983e60a:-586613817,a9ef546b1e2362101353b84d3db3defb:1118017030,edef546b572362109b5f29cebf0558ec:-1472319419,69ef546bc1236210bd90b3c9dc3c18de:232311428,29ef546b2f236210c43c72eacc326dd0:1936942275,2def546b9d236210ac23da672990c8c2:7390919,65ef546be723621065ba566f692deeb5:1712021766,c1ef546b64236210ff939228527c1669:-878314683,c9ef546b83236210d48f0aee6dc83b5d:826316164,49ef546b64236210955e08188e629e54:-1764020285,c9ef546bce2362104cc5ef406e12a64b:-59389438,74ef546bd2236210d648397b976c2e42:1645241409,7cef546bf0236210b8384688bc02e03a:-945095040,74ef546be7236210e97a4a82fb967f2d:-1437525355,f8ef546b7b23621023f0a198b7858a26:-1189185229</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AWS instance and DB with multiple networks">45f6c578c33ba2107e68b41ed40131f3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-02 19:50:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item">sc_cat_item</sys_db_object>
+        <sys_id>7bb7fe537cce47ea9197f57ddd5d5481</sys_id>
+        <sys_metadata>78ef546bc32362107e68b41ed4013109</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS instance and DB with multiple networks</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_78ef546bc32362107e68b41ed4013109</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_78ef546bc32362107e68b41ed4013109">01f6c578c33ba2107e68b41ed40131f0</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-02 19:50:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

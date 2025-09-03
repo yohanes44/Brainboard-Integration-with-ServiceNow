@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>300</order>
+        <sc_cat_item display_value="GCP VPC">22e115fcc3bba2107e68b41ed401310c</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-02 20:38:47</sys_created_on>
+        <sys_id>b2e115fcc3bba2107e68b41ed401315d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project &amp; Environment.GCP VPC</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>io_set_item_b2e115fcc3bba2107e68b41ed401315d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-02 20:38:47</sys_updated_on>
+        <variable_set display_value="Project &amp; Environment">17459cafc3af22107e68b41ed4013110</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>io_set_item_b2e115fcc3bba2107e68b41ed401315d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>300</order><sc_cat_item display_value="GCP VPC">22e115fcc3bba2107e68b41ed401310c</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-09-02 20:38:47</sys_created_on><sys_id>b2e115fcc3bba2107e68b41ed401315d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Project &amp; Environment.GCP VPC</sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>io_set_item_b2e115fcc3bba2107e68b41ed401315d</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-09-02 20:38:47</sys_updated_on><variable_set display_value="Project &amp; Environment">17459cafc3af22107e68b41ed4013110</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-3902759</payload_hash>
+        <record_name>Project &amp; Environment.GCP VPC</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-02 20:38:47</sys_created_on>
+        <sys_id>bae115fcc3bba2107e68b41ed4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1990c2752190000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-02 20:38:47</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>7ee115fc89bba2109298f327a5d84665</update_guid>
+        <update_guid_history>7ee115fc89bba2109298f327a5d84665:-3902759</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Project &amp; Environment.GCP VPC">f8389a85c3b726107e68b41ed40131e1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-03 20:24:19</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>4040df2d11264508a586bcab27149240</sys_id>
+        <sys_metadata>b2e115fcc3bba2107e68b41ed401315d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project &amp; Environment.GCP VPC</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>io_set_item_b2e115fcc3bba2107e68b41ed401315d</sys_update_name>
+        <sys_update_version display_value="io_set_item_b2e115fcc3bba2107e68b41ed401315d">bae115fcc3bba2107e68b41ed4013166</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-03 20:24:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

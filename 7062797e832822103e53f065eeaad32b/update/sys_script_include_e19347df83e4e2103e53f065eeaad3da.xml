@@ -34,23 +34,9 @@ BrainboardUtility.portalTopic = "3833c87f473062506161e99b116d43d4";
 BrainboardUtility.clone_architecture_tpl_flow = "3bbb5fea837462103e53f065eeaad3bc";
 
 
+
 BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	
-	addVariables: function(catItem, taskID) {
-		//Query for the variables to add
-		var getVar = new GlideRecord('item_option_new');
-		getVar.addEncodedQuery("sys_scope.nameSTARTSWITHbrain^type!=14^ORtype=NULL^type!=12^ORtype=NULL^type!=19^ORtype=NULL");
-        getVar.addQuery('cat_item', catItem);
-        getVar.query();
-		//For each variable, create an associated record in sc_item_variables_task
-        while(getVar.next()) {
-            setVar = new GlideRecord('sc_item_variables_task');
-            setVar.initialize();
-            setVar.task = taskID;
-            setVar.variable = getVar.getValue('sys_id');
-            setVar.update();
-        }
-    },
 	syncVariable: function(architecture) {
 		var apiKey = gs.getProperty('x_854636_b_board.api.token');
 		var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'ListVariables');
@@ -78,6 +64,9 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 			grArch.addEncodedQuery("sys_idIN" + arch_tpl_sysId);
 			grArch.query();
 			while (grArch.next()) {
+				gs.info("INN");
+				gs.info("INN grArch.sys_id == "+ grArch.sys_id);
+
 				gs.eventQueue("x_854636_b_board.delete arch template", grArch, grArch.sys_id, "");
 			}
 		} catch (error) {
@@ -197,59 +186,29 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		return 'sys_idIN' + envIDs.join(',');
 	},
 
-	// generatePayload: function (ritmSysId) {
-	// 	var ritmGR = new GlideRecord("sc_req_item");
-	// 	if (ritmGR.get(ritmSysId)) {
-
-	// 		var projectUUID = null;
-	// 		var projectGR = new GlideRecord("x_854636_b_board_project");
-	// 		if (projectGR.get(ritmGR.variables.selectedProject.toString())) {
-	// 			projectUUID = projectGR.getValue("uuid");
-	// 		}
-
-	// 		var payload = {
-	// 			"description": ritmGR.variables.architectureTemplateDescription.toString(),
-	// 			"environment": ritmGR.variables.selectedEnvironment.toString(),
-	// 			"name": ritmGR.variables.architectureTemplateName.toString(),
-	// 			"project": projectUUID,
-	// 			"variable_values": {
-	// 			}
-	// 		};
-	// 		var variableGr = new GlideRecord("x_854636_b_board_variable");
-	// 		variableGr.addQuery("architecture_template.catalog_item", ritmGR.cat_item);
-	// 		variableGr.query();
-	// 		while (variableGr.next()) {
-	// 			var varLabel = variableGr.catalog_variable.name;
-	// 			payload.variable_values[variableGr.name] = ritmGR.variables[varLabel].toString();
-	// 		}
-	// 		return JSON.stringify(payload);
-	// 	}
-	// },
-
-	generatePayload: function (ritmSysId) {
-		var ritmGR = new GlideRecord("sc_req_item");
-		if (ritmGR.get(ritmSysId)) {
-
+	generatePayload: function (clnTplTaskSysId) {
+		var clnTplTaskGR = new GlideRecord("x_854636_b_board_clone_template_task");
+		if (clnTplTaskGR.get(clnTplTaskSysId)) {
 			var projectUUID = null;
 			var projectGR = new GlideRecord("x_854636_b_board_project");
-			if (projectGR.get(ritmGR.variables.selectedProject.toString())) {
+			if (projectGR.get(clnTplTaskGR.variables.selectedProject.toString())) {
 				projectUUID = projectGR.getValue("uuid");
 			}
-
+			var archTplUUID = clnTplTaskGR.variables.uuid.toString();
 			var payload = {
-				"description": ritmGR.variables.architectureTemplateDescription.toString(),
-				"environment": ritmGR.variables.selectedEnvironment.toString(),
-				"name": ritmGR.variables.architectureTemplateName.toString(),
+				"description": clnTplTaskGR.variables.architectureTemplateDescription.toString(),
+				"environment": clnTplTaskGR.variables.selectedEnvironment.toString(),
+				"name": clnTplTaskGR.variables.architectureTemplateName.toString(),
 				"project": projectUUID,
 				"variable_values": {
 				}
 			};
 			var variableGr = new GlideRecord("x_854636_b_board_variable");
-			variableGr.addQuery("architecture_template.catalog_item", ritmGR.cat_item);
+			variableGr.addQuery("architecture_template.uuid", archTplUUID);
 			variableGr.query();
 			while (variableGr.next()) {
 				var varLabel = variableGr.catalog_variable.name;
-				payload.variable_values[variableGr.name] = ritmGR.variables[varLabel].toString();
+				payload.variable_values[variableGr.name] = clnTplTaskGR.variables[varLabel].toString();
 			}
 			return JSON.stringify(payload);
 		}
@@ -293,36 +252,36 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		}
 	},
 
+
 	createCatalogItem: function (archTplSysId, iconImageAttachment, pictureImageAttachment) {
 		var archTplGr = this.getArchitectureTemplateGR(archTplSysId);
-		var catItemGr = new GlideRecord("sc_cat_item");
-		catItemGr.initialize();
-		catItemGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
-		catItemGr.name = archTplGr.getValue("name");
-		catItemGr.description = archTplGr.getValue("description");
-		catItemGr.request_method = "submit";
-		catItemGr.no_cart_v2 = true;
-		catItemGr.no_quantity_v2 = true;
-		catItemGr.no_delivery_time_v2 = true;
-		catItemGr.no_save_as_draft = true;
-		catItemGr.no_attachment_v2 = true;
-		catItemGr.icon = iconImageAttachment;
-		catItemGr.picture = pictureImageAttachment;
-		catItemGr.active = true;
-		catItemGr.category = BrainboardUtility.catItemCategory;
-		catItemGr.sc_catalogs = BrainboardUtility.catItemCatalog;
-		catItemGr.flow_designer_flow = BrainboardUtility.clone_architecture_tpl_flow;
-		var catItemSysId = catItemGr.insert();
 
-
+		var rp = new GlideRecord("sc_cat_item_producer");
+		rp.initialize();
+		rp.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
+		rp.name = archTplGr.getValue("name");    
+		rp.short_description = archTplGr.getValue("name");
+		rp.description = archTplGr.getValue("description");
+		rp.table_name = "x_854636_b_board_clone_template_task"; 
+		rp.catalog = "e0d08b13c0a8016400a5f79be54a0ed2"; 
+		rp.category = BrainboardUtility.catItemCategory;
+		rp.script = 'current.project = producer.selectedProject;\n' +
+					'current.environment = producer.selectedEnvironment;';
+		rp.active = true;
+		rp.icon = iconImageAttachment;
+		rp.picture = pictureImageAttachment;
+		rp.no_attachment_v2 = true;
+		rp.no_save_as_draft = true;
+		var rpSysId = rp.insert();
+		
 		var mtmCon = new GlideRecord("m2m_connected_content");
 		mtmCon.initialize();
 		mtmCon.setValue("topic", BrainboardUtility.portalTopic);
 		mtmCon.setValue("content_type", "98f9a16553622010069addeeff7b1248");
-		mtmCon.setValue("catalog_item", catItemSysId);
+		mtmCon.setValue("catalog_item", rpSysId);
 		mtmCon.insert();
 
-		archTplGr.setValue("catalog_item", catItemSysId);
+		archTplGr.setValue("catalog_item", rpSysId);
 		archTplGr.update();
 
 		// attach the variables sets to the cat item
@@ -331,7 +290,7 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 			variableSetGr.initialize();
 			variableSetGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
 			variableSetGr.variable_set = variableSet.sys_id;
-			variableSetGr.sc_cat_item = catItemSysId;
+			variableSetGr.sc_cat_item = rpSysId;
 			variableSetGr.order = variableSet.order;
 			variableSetGr.insert();
 		});
@@ -344,7 +303,7 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		containerStartGr.name = "variables";
 		containerStartGr.order = "390";
 		containerStartGr.display_title = true;
-		containerStartGr.cat_item = catItemSysId;
+		containerStartGr.cat_item = rpSysId;
 		containerStartGr.insert();
 
 		var formatterBreakGr = new GlideRecord("item_option_new");
@@ -352,7 +311,7 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		formatterBreakGr.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
 		formatterBreakGr.type = "12";
 		formatterBreakGr.order = "380";
-		formatterBreakGr.cat_item = catItemSysId;
+		formatterBreakGr.cat_item = rpSysId;
 		formatterBreakGr.insert();
 
 	},
@@ -387,13 +346,13 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-02 09:57:22</sys_created_on>
         <sys_id>e19347df83e4e2103e53f065eeaad3da</sys_id>
-        <sys_mod_count>147</sys_mod_count>
+        <sys_mod_count>168</sys_mod_count>
         <sys_name>BrainboardUtility</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_script_include_e19347df83e4e2103e53f065eeaad3da</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-09-01 23:05:40</sys_updated_on>
+        <sys_updated_on>2025-09-03 21:40:23</sys_updated_on>
     </sys_script_include>
 </record_update>

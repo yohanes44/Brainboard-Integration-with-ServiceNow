@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>200</order>
+        <sc_cat_item display_value="Azure vWAN">9c021dfcc3bba2107e68b41ed40131f8</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-02 20:39:10</sys_created_on>
+        <sys_id>d8025dfcc3bba2107e68b41ed401314c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variables.Azure vWAN</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>io_set_item_d8025dfcc3bba2107e68b41ed401314c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-02 20:39:10</sys_updated_on>
+        <variable_set display_value="Variables">52b414ebc3af22107e68b41ed40131f4</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>io_set_item_d8025dfcc3bba2107e68b41ed401314c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>200</order><sc_cat_item display_value="Azure vWAN">9c021dfcc3bba2107e68b41ed40131f8</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-09-02 20:39:10</sys_created_on><sys_id>d8025dfcc3bba2107e68b41ed401314c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Variables.Azure vWAN</sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>io_set_item_d8025dfcc3bba2107e68b41ed401314c</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-09-02 20:39:10</sys_updated_on><variable_set display_value="Variables">52b414ebc3af22107e68b41ed40131f4</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-339104340</payload_hash>
+        <record_name>Variables.Azure vWAN</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-02 20:39:10</sys_created_on>
+        <sys_id>a0025dfcc3bba2107e68b41ed4013156</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1990c27ac9d0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-02 20:39:10</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>64025dfc83bba210e003435e85922655</update_guid>
+        <update_guid_history>64025dfc83bba210e003435e85922655:-339104340</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Variables.Azure vWAN">73d7dec1c3b726107e68b41ed401319e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-03 20:22:54</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>974a3d620beb40a8afd045f1ab3a7510</sys_id>
+        <sys_metadata>d8025dfcc3bba2107e68b41ed401314c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variables.Azure vWAN</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>io_set_item_d8025dfcc3bba2107e68b41ed401314c</sys_update_name>
+        <sys_update_version display_value="io_set_item_d8025dfcc3bba2107e68b41ed401314c">a0025dfcc3bba2107e68b41ed4013156</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-03 20:22:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

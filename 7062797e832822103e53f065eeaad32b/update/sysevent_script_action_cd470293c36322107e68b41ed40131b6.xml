@@ -12,7 +12,7 @@ var grArch = new GlideRecord('x_854636_b_board_architecture_template');
 if (grArch.get(archTplSysId)) { // fetch the architecture template
     var catalogItemSysId = grArch.getValue('catalog_item');
 
-    // Delete related io_set_item_list records
+    // Delete related io_set_item_list records/ variables
     var grVarItemList = new GlideRecord("item_option_new");
     grVarItemList.addQuery('cat_item', catalogItemSysId);
     grVarItemList.query();
@@ -20,7 +20,7 @@ if (grArch.get(archTplSysId)) { // fetch the architecture template
         grVarItemList.deleteRecord();
     }
 
-    // Delete related io_set_item_set records
+    // Delete related io_set_item_set records/ catalog item and variable set connector
     var grVarItemSet = new GlideRecord("io_set_item");
     grVarItemSet.addQuery('sc_cat_item', catalogItemSysId);
     grVarItemSet.query();
@@ -40,7 +40,7 @@ if (grArch.get(archTplSysId)) { // fetch the architecture template
 
     // Delete the catalog item
     if (catalogItemSysId) {
-        var grCatItem = new GlideRecord('sc_cat_item');
+        var grCatItem = new GlideRecord('sc_cat_item_producer');
         if (grCatItem.get(catalogItemSysId)) {
             grCatItem.deleteRecord();
         }
@@ -57,7 +57,7 @@ if (grArch.get(archTplSysId)) { // fetch the architecture template
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cd470293c36322107e68b41ed40131b6</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Delete cat item</sys_name>
         <sys_overrides/>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
@@ -65,6 +65,6 @@ if (grArch.get(archTplSysId)) { // fetch the architecture template
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sysevent_script_action_cd470293c36322107e68b41ed40131b6</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-29 12:12:06</sys_updated_on>
+        <sys_updated_on>2025-09-03 20:19:26</sys_updated_on>
     </sysevent_script_action>
 </record_update>
