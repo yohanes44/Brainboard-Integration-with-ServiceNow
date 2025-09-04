@@ -3,7 +3,7 @@
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Approved" max_length="40" name="approved" type="boolean"/>
         <element label="Author" max_length="8000" name="author" type="string"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Catalog Item" max_length="32" name="catalog_item" read_only="true" reference="sc_cat_item_producer" reference_cascade_rule="delete" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true" label="Catalog Item" max_length="32" name="catalog_item" read_only="true" reference="sc_cat_item_producer" reference_cascade_rule="delete" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Clone Count" max_length="40" name="clone_count" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Cloud Provider" max_length="40" name="cloud_provider" read_only="true" type="choice">
             <choice>

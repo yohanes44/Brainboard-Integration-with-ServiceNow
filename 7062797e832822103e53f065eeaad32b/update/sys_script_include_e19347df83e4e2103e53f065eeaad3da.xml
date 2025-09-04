@@ -17,12 +17,12 @@ BrainboardUtility.variableSets = [
 	},
 	{
 		sys_id: "52b414ebc3af22107e68b41ed40131f4",
-		order: 200,
+		order: 300,
 		description: "Variables"
 	},
 	{
 		sys_id: "17459cafc3af22107e68b41ed4013110",
-		order: 300,
+		order: 200,
 		description: "Project & Environment"
 	}
 ];
@@ -36,8 +36,8 @@ BrainboardUtility.clone_architecture_tpl_flow = "3bbb5fea837462103e53f065eeaad3b
 
 
 BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
-	
-	syncVariable: function(architecture) {
+
+	syncVariable: function (architecture) {
 		var apiKey = gs.getProperty('x_854636_b_board.api.token');
 		var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'ListVariables');
 		r.setStringParameterNoEscape('architectureUUID', architecture.uuid);
@@ -56,7 +56,7 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 			}
 		}
 	},
-	
+
 	removeArchTemplate: function (archSysIds) {
 		try {
 			var arch_tpl_sysId = (archSysIds) ? archSysIds : this.getParameter("sysparm_archSysIds");
@@ -65,7 +65,7 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 			grArch.query();
 			while (grArch.next()) {
 				gs.info("INN");
-				gs.info("INN grArch.sys_id == "+ grArch.sys_id);
+				gs.info("INN grArch.sys_id == " + grArch.sys_id);
 
 				gs.eventQueue("x_854636_b_board.delete arch template", grArch, grArch.sys_id, "");
 			}
@@ -194,10 +194,17 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 			if (projectGR.get(clnTplTaskGR.variables.selectedProject.toString())) {
 				projectUUID = projectGR.getValue("uuid");
 			}
+
+			var environmentUUID = null;
+			var environmentUUIDGR = new GlideRecord("x_854636_b_board_environment");
+			if (environmentUUIDGR.get(clnTplTaskGR.variables.selectedEnvironment.toString())) {
+				environmentUUID = environmentUUIDGR.getValue("uuid");
+			}
+
 			var archTplUUID = clnTplTaskGR.variables.uuid.toString();
 			var payload = {
 				"description": clnTplTaskGR.variables.architectureTemplateDescription.toString(),
-				"environment": clnTplTaskGR.variables.selectedEnvironment.toString(),
+				"environment": environmentUUID,
 				"name": clnTplTaskGR.variables.architectureTemplateName.toString(),
 				"project": projectUUID,
 				"variable_values": {
@@ -221,29 +228,45 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		}
 	},
 
-	cloneArchitectureTemplate: function (payload, archTemplateUuid) { 
-		try{
+	cloneArchitectureTemplate: function (payload, archTemplateUuid) {
+		try {
 			var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'Clone Architecture Template');
 			r.setStringParameterNoEscape('template', archTemplateUuid);
 			r.setStringParameterNoEscape('payload', payload);
 			r.setStringParameterNoEscape('token', BrainboardUtility.token);
+
 			var response = r.execute();
 			var responseBody = response.getBody();
 			var httpStatus = response.getStatusCode();
-			if(httpStatus >= 200 && httpStatus < 300){
+
+			if (httpStatus >= 200 && httpStatus < 300) {
 				return {
 					success: true,
 					status: httpStatus,
 					body: JSON.parse(responseBody)
 				};
-			}else {
+			} else {
+				var errorCode = "";
+				try {
+					var parsed = JSON.parse(responseBody || "{}");
+					if (parsed.error_code) {
+						errorCode = parsed.error_code;
+					} else if (parsed.message) {
+						// Sometimes APIs return "message" instead of "error_code"
+						errorCode = parsed.message;
+					}
+				} catch (e) {
+					// responseBody wasn’t valid JSON, fallback to raw body
+					errorCode = responseBody;
+				}
+
 				return {
 					success: false,
 					status: httpStatus,
-					error: JSON.parse(responseBody).error_code
+					error: httpStatus + " " + errorCode
 				};
 			}
-		}catch(error){
+		} catch (error) {
 			gs.info("ScriptInclude ERROR - BrainboardUtility - cloneArchitectureTemplate == " + error.message);
 			return {
 				success: false,
@@ -252,28 +275,27 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
 		}
 	},
 
-
 	createCatalogItem: function (archTplSysId, iconImageAttachment, pictureImageAttachment) {
 		var archTplGr = this.getArchitectureTemplateGR(archTplSysId);
 
 		var rp = new GlideRecord("sc_cat_item_producer");
 		rp.initialize();
 		rp.setValue("sys_scope", "7062797e832822103e53f065eeaad32b");
-		rp.name = archTplGr.getValue("name");    
+		rp.name = archTplGr.getValue("name");
 		rp.short_description = archTplGr.getValue("name");
 		rp.description = archTplGr.getValue("description");
-		rp.table_name = "x_854636_b_board_clone_template_task"; 
-		rp.catalog = "e0d08b13c0a8016400a5f79be54a0ed2"; 
+		rp.table_name = "x_854636_b_board_clone_template_task";
+		rp.catalog = "e0d08b13c0a8016400a5f79be54a0ed2";
 		rp.category = BrainboardUtility.catItemCategory;
 		rp.script = 'current.project = producer.selectedProject;\n' +
-					'current.environment = producer.selectedEnvironment;';
+			'current.environment = producer.selectedEnvironment;';
 		rp.active = true;
 		rp.icon = iconImageAttachment;
 		rp.picture = pictureImageAttachment;
 		rp.no_attachment_v2 = true;
 		rp.no_save_as_draft = true;
 		var rpSysId = rp.insert();
-		
+
 		var mtmCon = new GlideRecord("m2m_connected_content");
 		mtmCon.initialize();
 		mtmCon.setValue("topic", BrainboardUtility.portalTopic);
@@ -346,13 +368,13 @@ BrainboardUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor,
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-02 09:57:22</sys_created_on>
         <sys_id>e19347df83e4e2103e53f065eeaad3da</sys_id>
-        <sys_mod_count>168</sys_mod_count>
+        <sys_mod_count>177</sys_mod_count>
         <sys_name>BrainboardUtility</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_script_include_e19347df83e4e2103e53f065eeaad3da</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-09-03 21:40:23</sys_updated_on>
+        <sys_updated_on>2025-09-04 21:47:51</sys_updated_on>
     </sys_script_include>
 </record_update>

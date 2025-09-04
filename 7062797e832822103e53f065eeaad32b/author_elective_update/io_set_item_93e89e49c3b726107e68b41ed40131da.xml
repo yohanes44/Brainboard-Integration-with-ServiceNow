@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>200</order>
+        <sc_cat_item display_value="AWS ASG and LB with VPC &amp; subnets">9be89e49c3b726107e68b41ed4013154</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-03 20:27:31</sys_created_on>
+        <sys_id>93e89e49c3b726107e68b41ed40131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variables.AWS ASG and LB with VPC &amp; subnets</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>io_set_item_93e89e49c3b726107e68b41ed40131da</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-03 20:27:31</sys_updated_on>
+        <variable_set display_value="Variables">52b414ebc3af22107e68b41ed40131f4</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>io_set_item_93e89e49c3b726107e68b41ed40131da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>200</order><sc_cat_item display_value="AWS ASG and LB with VPC &amp; subnets">9be89e49c3b726107e68b41ed4013154</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-09-03 20:27:31</sys_created_on><sys_id>93e89e49c3b726107e68b41ed40131da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Variables.AWS ASG and LB with VPC &amp; subnets</sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>io_set_item_93e89e49c3b726107e68b41ed40131da</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-09-03 20:27:31</sys_updated_on><variable_set display_value="Variables">52b414ebc3af22107e68b41ed40131f4</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1362343338</payload_hash>
+        <record_name>Variables.AWS ASG and LB with VPC &amp; subnets</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-03 20:27:31</sys_created_on>
+        <sys_id>63e89e49c3b726107e68b41ed40131f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19911435ca30000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-03 20:27:31</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>27e89e49bbb7261008bac5d4cad04aef</update_guid>
+        <update_guid_history>27e89e49bbb7261008bac5d4cad04aef:1362343338</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Variables.AWS ASG and LB with VPC &amp; subnets">6004a751c3f3a6107e68b41ed40131ef</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-04 20:34:02</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>46eab60c308c4d3e8d2e62e9a7d6ba41</sys_id>
+        <sys_metadata>93e89e49c3b726107e68b41ed40131da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variables.AWS ASG and LB with VPC &amp; subnets</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>io_set_item_93e89e49c3b726107e68b41ed40131da</sys_update_name>
+        <sys_update_version display_value="io_set_item_93e89e49c3b726107e68b41ed40131da">63e89e49c3b726107e68b41ed40131f0</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-04 20:34:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

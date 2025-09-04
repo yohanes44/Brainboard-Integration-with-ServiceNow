@@ -5,7 +5,7 @@
         <active>true</active>
         <advanced>false</advanced>
         <description_field>description</description_field>
-        <info_fields>status,project,environment,architecture_template</info_fields>
+        <info_fields>architecture_template,project,environment,status,error_message</info_fields>
         <info_widget/>
         <info_widget_param/>
         <show_description>always</show_description>
@@ -16,7 +16,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1cd7e6c1c33b26107e68b41ed4013173</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_854636_b_board_clone_template_task</sys_name>
         <sys_overrides/>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
@@ -24,7 +24,7 @@
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>ticket_configuration_1cd7e6c1c33b26107e68b41ed4013173</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-09-03 21:34:12</sys_updated_on>
+        <sys_updated_on>2025-09-04 21:35:18</sys_updated_on>
         <table>x_854636_b_board_clone_template_task</table>
     </ticket_configuration>
 </record_update>

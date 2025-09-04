@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="architecture_template" table="x_854636_b_board_clone_template_task">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>readonly_clickthrough=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -58,7 +58,7 @@
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_dictionary_x_854636_b_board_clone_template_task_architecture_template</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-09-03 21:46:54</sys_updated_on>
+        <sys_updated_on>2025-09-04 19:27:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
