@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Azure private endpoints ">aac07f91c377a6107e68b41ed40131ae</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-04 21:29:52</sys_created_on>
+        <sys_id>66c07f91c377a6107e68b41ed40131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Widget Item.Azure private endpoints </sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>io_set_item_66c07f91c377a6107e68b41ed40131ec</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-04 21:29:52</sys_updated_on>
+        <variable_set display_value="Widget Item">f4c1942bc3af22107e68b41ed40131cd</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>io_set_item_66c07f91c377a6107e68b41ed40131ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Azure private endpoints ">aac07f91c377a6107e68b41ed40131ae</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-09-04 21:29:52</sys_created_on><sys_id>66c07f91c377a6107e68b41ed40131ec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Widget Item.Azure private endpoints </sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>io_set_item_66c07f91c377a6107e68b41ed40131ec</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-09-04 21:29:52</sys_updated_on><variable_set display_value="Widget Item">f4c1942bc3af22107e68b41ed40131cd</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-21070638</payload_hash>
+        <record_name>Widget Item.Azure private endpoints </record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-04 21:29:52</sys_created_on>
+        <sys_id>aec07f91c377a6107e68b41ed40131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19916a2cf8a0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-04 21:29:52</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>62c07f916c77a610f74667f68255b0f5</update_guid>
+        <update_guid_history>62c07f916c77a610f74667f68255b0f5:-21070638</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Widget Item.Azure private endpoints ">c5c283f5c33322107e68b41ed40131fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-06 07:25:45</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>2a92be4895db4f5faf771b36053630e1</sys_id>
+        <sys_metadata>66c07f91c377a6107e68b41ed40131ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Widget Item.Azure private endpoints </sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>io_set_item_66c07f91c377a6107e68b41ed40131ec</sys_update_name>
+        <sys_update_version display_value="io_set_item_66c07f91c377a6107e68b41ed40131ec">aec07f91c377a6107e68b41ed40131f5</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-06 07:25:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

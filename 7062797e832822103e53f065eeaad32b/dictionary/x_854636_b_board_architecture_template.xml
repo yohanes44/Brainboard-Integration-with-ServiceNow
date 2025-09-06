@@ -25,7 +25,7 @@
         <element label="ReadMe" max_length="256000" name="readme" read_only="true" type="string"/>
         <element label="Revision" max_length="8000" name="revision" type="string"/>
         <element label="Snapshot URL" max_length="8000" name="snapshot_url" read_only="true" type="url"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Wip" sequence="10" value="wip"/>
                 <element inactive_on_update="false" label="Approved" sequence="20" value="approved"/>
