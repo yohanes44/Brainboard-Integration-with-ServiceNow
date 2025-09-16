@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[Provisioning a virtual machine (VM) in Azure requires additional components besides the VM itself, including networking and storage resources. This article shows best practices for running a secure Linux VM on Azure.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>5af1a897c3f322107e68b41ed40131b8</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Run a Linux VM on Azure</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>daf1a897c3f322107e68b41ed40131b9</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=1ef1a897c3f322107e68b41ed40131ba&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Run a Linux VM on Azure</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:34:07</sys_created_on>
+        <sys_id>1ef1a897c3f322107e68b41ed40131ba</sys_id>
+        <sys_mod_count>108</sys_mod_count>
+        <sys_name>Run a Linux VM on Azure</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_1ef1a897c3f322107e68b41ed40131ba</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:06:58</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>109</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=1ef1a897c3f322107e68b41ed40131ba"/>
+    <fx_price action="DELETE" query="id=1ef1a897c3f322107e68b41ed40131ba"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>1ef1a897c3f322107e68b41ed40131ba</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:34:07</sys_created_on>
+        <sys_id>daf1a897c3f322107e68b41ed40131bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:34:07</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_1ef1a897c3f322107e68b41ed40131ba</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[Provisioning a virtual machine (VM) in Azure requires additional components besides the VM itself, including networking and storage resources. This article shows best practices for running a secure Linux VM on Azure.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;5af1a897c3f322107e68b41ed40131b8&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Run a Linux VM on Azure&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;daf1a897c3f322107e68b41ed40131b9&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=1ef1a897c3f322107e68b41ed40131ba&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Run a Linux VM on Azure&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 11:34:07&lt;/sys_created_on&gt;&lt;sys_id&gt;1ef1a897c3f322107e68b41ed40131ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;108&lt;/sys_mod_count&gt;&lt;sys_name&gt;Run a Linux VM on Azure&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_1ef1a897c3f322107e68b41ed40131ba&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 12:06:58&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;109&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1ef1a897c3f322107e68b41ed40131ba"/&gt;&lt;fx_price action="delete_multiple" query="id=1ef1a897c3f322107e68b41ed40131ba"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;1ef1a897c3f322107e68b41ed40131ba&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 11:34:07&lt;/sys_created_on&gt;&lt;sys_id&gt;daf1a897c3f322107e68b41ed40131bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 11:34:07&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1976678206</payload_hash>
+        <record_name>Run a Linux VM on Azure</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:06:58</sys_created_on>
+        <sys_id>2b79e89bc33722107e68b41ed401312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19933859d650000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:06:58</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>6f79e89b20372210ce35ff1354d5432b</update_guid>
+        <update_guid_history>6f79e89b20372210ce35ff1354d5432b:-1976678206,5779e89b103722104f2504000860f919:-1677833250,d379e89b76372210bd897b2fe84eeb0c:-2060461525,d779e89b3d37221095fa22100ec45000:-246287156,db79a89bb5372210e2380f59c071d0f4:1567887213,5f79a89b413722104a995ea44fbbfde7:-912905714,9f79a89b483722100e73d8ac897dd3d4:901268655,5379a89b023722109866d8de2f1a7ca9:-1579524272,cb79a89b25372210e7920e83beed1c89:234650097,4779a89b5e372210c9fe14c66671e76a:-1428033162,4b79a89bbe3722108af94d7fedc9a958:386141207,ba79a89bab372210f15bc22f79779e45:-2094651720,3679a89b8b372210e4de560fd4a6f726:-280477351,7679a89bc83722107436c893ffb03713:1533697018,fe79689b2537221075e572630b5bf5f3:-947095909,3279689be83722109ba4919d1d3a68e1:867078460,7279689be2372210bd07c471183dcdce:-1613714467,a279689b20372210271425ce77a6b5bb:200459902,e279689bb23722106019b3b33813faa8:2014634271,2679689b3937221022d9a00b44670295:-1023202571,ae79689b7a37221029ad0002b6a64375:790971798,ee79689b6437221091344d6acd8a9c62:-1689821129,2279689b58372210487998d1e762a250:124353240,5279689bc037221022e78abfa9c1f73d:1938527609,5679689b93372210c56c6128d51fe62b:-542265318,9679689b94372210ede34f22f4731e18:1271909051,1279289b3e37221029566a1b47cdbff9:-1208883876,d279289bc637221096d2a4593d9d5acd:605290493,5e79289b073722105ba93bcb80ad67ad:-1875502434,8e79289b2f372210b7a10368c9853d9a:-618371980,ce79289b853722102be1298801465487:1195802389,0279289b34372210ed4aa57e5449a875:-1284990538,4279289b103722109a53bae5a43ca862:529183831,8279289bd537221035774553f33bfb4f:-1951609096,c279289b6a372210ec1b86fd961d7c3c:-137434727,3579289b7b37221003672cf90dbfe929:1676739642,7579289b6b372210ed3cc83f92e5c816:-804053285,fd79e49b17372210f6041f2d1f2cbdf6:1010121084,3179e49b043722105ad82a95aaf501e4:-1470671843,7179e49b86372210ad627442315b2ad1:-213541389,a179e49b7e372210f90491cc8a359fbe:1600632980,e179e49b26372210fbdbc54421deb9ab:-880159947,2579e49b49372210648e2995dfce0598:934014422,ad79e49b36372210e712e71e2b241278:-1546778505,ed79e49bf4372210959f4c0ec51b4465:267395864,2179e49bc23722108abf18a88a847753:2081570233,5179e49b6e37221074d28f83095e2d40:-399222694,d979e49b2937221002ab98d113880820:1414951675,1d79e49b4f372210f5daada789667e0d:-1065841252,5d79a49b58372210f61adc4dea84cafa:191289202,9d79a49be8372210fcf0c62e686810e7:2005463571,dd79a49ba33722101b3384cc925c33d4:-475329356,0179a49b703722102f1783fb0c9268c2:1338845013,0d79a49b14372210d9b80c653bf8dbae:-1141947914,c50220d774f32210be0ffca1a61bb820:672226455,4102ec9751f32210a7a6c55fe2789ef7:-1808566472,0102ec97b0f3221075f7c9609ad2eace:5607897,3402ec97dbf32210ffea881096b2e7a5:1819782266,3402ec978df322109d8efe1e21963489:-661010661,7802ec9792f32210f1adb82b128ddf6d:596119793,2c02ec9738f32210bbf2ebd8340f5d45:-1884673134,2402ec97c3f322102cb64e2fefa34a1e:-70498765,2802ec977bf32210fe008594129b2f03:1743675604,6402ac97dcf322101c80699932d80edc:-737117323,d002ac974af32210f7c6da7c9417a9c2:1077057046,9402ac97b2f322106c73e67b201916a8:-1403735881,d402ac97e1f32210fa5bccb305e56782:410438488,5c02ac9734f32210c28433fc87593d5c:-2070354439,cc02ac9756f32210932a6e34c46b5443:-256180070,8402ac97cff3221094718cc4c6d8932b:1000950384,8002ac97a6f322108ee046a3b08a7f13:-1479842543,c0026c9753f322101c594e422c36fcfb:334331826,48026c9786f322101a96d2a600e433e3:-2146461101,f7f16c97d8f322107170d8a11e0d4ebf:-332286732,f7f16c9783f32210fbb8e0b7eac985a8:1481887637,3ff16c97dbf32210db1aa8b46bc8ad91:-998905290,b7f16c9712f32210b90c302059a62b7b:815269079,23f16c9740f32210457ed6f3537da240:-1665523848,27f16c9715f322104aadc303c8cf7b2a:148650521,6ff16c9787f3221017968c323f1a7a14:1405780975,ebf12c971af32210593d126f9254f0ff:-1075011952,23f12c97dff32210b1c29c4eec756bd2:739162417,1bf12c9792f32210c8e4b71107184abd:-1741630510,57f12c977ff32210c0a3bd8c57cb2da9:72543859,d7f12c97e1f32210ca06ca787f3ffe95:1886718228,9ff12c9755f32210818621fe75682e81:-594074699,8bf12c97fdf322106398261fac229c6e:1220099670,07f12c978bf322101906fd6fbcd5984f:-1260693257,8bf12c9706f32210ad467f4bf62fad3c:553481112,47f12c974ff322106a537be899f9372a:1810611566,8ff12c97dff32210abebe0679272b90b:-670181361,c3f1e897c9f322107c0f914e96ac66fa:1143993008,7ef1e89721f32210ca2112a5649edbe8:-1336799919,3ef1e8971ff32210ac46cd8531651bd7:477374450,b2f1e897b1f32210d84ae2fb58fe6eae:-2003418477,faf1e8970ff322100ae083d19762849d:-189244108,faf1e897acf32210dee0e54eaff98f74:1624930261,aef1e897d0f322109d3d7706e9f7f364:-855862666,a6f1e89794f3221011857cf2ebe7b055:958311703,e2f1e89771f3221025556ef709887246:-1478121431,aef1e897baf3221082e26d9299c8dd2a:336052938,1ef1e89758f3221067081b91e3d27d0f:-2144739989,d6f1e89722f3221021b4e60718235002:-330565620,92f1a8976cf322101403e58e7d2fcbf9:1483608749,56f1a897e4f32210e25352e42c8b46ef:-997184178,9af1a897d4f3221034e66af25e5b4ae5:816990191,52f1a897c0f32210a362bc96ad773bde:-1663802736,92f1a8970ef32210c2fa40c0ef9026cf:1904610949,56f1a89757f3221015889cd64fde95ca:-192567339</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Run a Linux VM on Azure">af79e89bc33722107e68b41ed401312f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:06:58</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>33f92628be2c46b883c1f1c886bd6c40</sys_id>
+        <sys_metadata>1ef1a897c3f322107e68b41ed40131ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Run a Linux VM on Azure</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_1ef1a897c3f322107e68b41ed40131ba</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_1ef1a897c3f322107e68b41ed40131ba">2b79e89bc33722107e68b41ed401312c</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:06:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

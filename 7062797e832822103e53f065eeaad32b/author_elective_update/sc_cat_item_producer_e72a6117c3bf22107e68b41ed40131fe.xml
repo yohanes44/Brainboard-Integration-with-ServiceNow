@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[The content filtering component is a critical safety layer in the Azure OpenAI Gateway architecture. It leverages Azure AI Content Safety service to screen all incoming requests before they reach the OpenAI models, effectively preventing inappropriate or harmful content from being processed.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>272a6117c3bf22107e68b41ed40131fc</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure AI Content Filtering (APIM)</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>a72a6117c3bf22107e68b41ed40131fd</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=e72a6117c3bf22107e68b41ed40131fe&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure AI Content Filtering (APIM)</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:49:36</sys_created_on>
+        <sys_id>e72a6117c3bf22107e68b41ed40131fe</sys_id>
+        <sys_mod_count>112</sys_mod_count>
+        <sys_name>Azure AI Content Filtering (APIM)</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_e72a6117c3bf22107e68b41ed40131fe</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:13:11</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>113</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=e72a6117c3bf22107e68b41ed40131fe"/>
+    <fx_price action="DELETE" query="id=e72a6117c3bf22107e68b41ed40131fe"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>e72a6117c3bf22107e68b41ed40131fe</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:49:36</sys_created_on>
+        <sys_id>a72aa117c3bf22107e68b41ed4013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:49:36</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_e72a6117c3bf22107e68b41ed40131fe</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[The content filtering component is a critical safety layer in the Azure OpenAI Gateway architecture. It leverages Azure AI Content Safety service to screen all incoming requests before they reach the OpenAI models, effectively preventing inappropriate or harmful content from being processed.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;272a6117c3bf22107e68b41ed40131fc&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure AI Content Filtering (APIM)&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;a72a6117c3bf22107e68b41ed40131fd&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=e72a6117c3bf22107e68b41ed40131fe&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure AI Content Filtering (APIM)&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:49:36&lt;/sys_created_on&gt;&lt;sys_id&gt;e72a6117c3bf22107e68b41ed40131fe&lt;/sys_id&gt;&lt;sys_mod_count&gt;112&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure AI Content Filtering (APIM)&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_e72a6117c3bf22107e68b41ed40131fe&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 22:13:11&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;113&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e72a6117c3bf22107e68b41ed40131fe"/&gt;&lt;fx_price action="delete_multiple" query="id=e72a6117c3bf22107e68b41ed40131fe"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;e72a6117c3bf22107e68b41ed40131fe&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:49:36&lt;/sys_created_on&gt;&lt;sys_id&gt;a72aa117c3bf22107e68b41ed4013101&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:49:36&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1463782043</payload_hash>
+        <record_name>Azure AI Content Filtering (APIM)</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:13:11</sys_created_on>
+        <sys_id>ef347697c37762107e68b41ed4013139</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19935b09f990000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:13:11</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>27347697e4776210b30843817e8bab39</update_guid>
+        <update_guid_history>27347697e4776210b30843817e8bab39:-1463782043,63347697a9776210e459f7d892e5c61a:-1510151093,27347697ca7762107edebc84d891ac00:-2119855326,2734369764776210cff7052f023986f4:-862724872,6f343697757762106813cc0f58e60bdb:951449497,db3436973e776210d9d3b0e049bc7fce:-1529343430,533436971a776210ec5d83d4056d42af:284830939,9f343697ee77621061232d6aa9a3ab9b:2099005308,5f343697ad7762107ba8fdc63bb9b66f:-381787619,1f34369746776210e3aa7adee2117e43:1432386750,833436973177621062c8975f877ce624:-1048406177,cf3436970e7762101d61d62b724a6b10:765768192,0f34f297837762102035a2b1045802fd:-1715024735,4b34f297ee7762103a1db8f3548a0dea:-2005218980,cf34f297bf776210d5cef63286db15ca:-191044611,3e34f2979277621061b13b5fe4ae0cb7:1623129758,fa34f297767762104ba98084234f378b:-857663169,7234f29739776210b0ae21645585136c:956511200,be34f29727776210d2b271dbc9ca1958:-1524281727,fa34f297297762107ed088fc42efcc45:289892642,7234f2970777621098fc5a9d3001bd26:2104067011,ae34f2974d776210d3fb139987f61112:-376725916,ea34b297ee7762109f8fd392f4a5caff:1437448453,2a34b2974c776210d60d34046f89dcec:-1600388389,6634b2977d7762108595618bfb41c0d9:213785980,a234b297317762109df0b780719ef9c6:2027960349,ee34b297df7762107aefa3ecb3c6e3b2:-452832578,d634b29763776210dfbcaa3d43eb5f7a:1361341791,1634b297467762105facc7e7fd30ab67:-1119451136,1e34b2976e77621097d491301ad5762e:694723233,5a34b297d6776210a6e28db57a782e1b:-1786069694,9634b2974d776210fce38f622253fd08:28104675,c2347297c07762103ee585045191c1f5:1842279044,02347297207762104cafcc72d92284e2:-1195557798,ce34729733776210eb87c11490f432b5:618616571,0e34729774776210d0015e6c1cd6b1a2:-1862176356,823472978e7762106051ff6d1dff1483:-48001987,82347297d877621085e282437f853671:1766172382,fd347297ad776210cc68e0fe6d804b5d:-714620545,3d347297d67762102b5fee634e3d104a:1099553824,79347297ce776210ce2010112ac05e37:-1381239103,fd3472977577621023c961fcc93bcc17:432935266,3d34729710776210a403aabedef4d904:-2047857661,79343297807762100c7bf31eebb665f1:-790727207,29343297e4776210cbbef215637a27c5:1023447162,653432970c77621027be55b7529383b2:-1457345765,253432977d7762106e40dfe7e552f686:356828604,61343297c57762105588ce1eb6ca5973:-2123964323,11343297be7762108e9e4af41f9bae47:-309789954,1134329745776210ed4fbfa980bf5f35:1504384415,5d343297c1776210323ccd07e8385021:-976408512,9934329730776210190425231386cf0e:837765857,d534fe575b7762104028ebf4545034fb:-1643027070,8534fe5717776210310eb0c03020fbcf:-385896616,c134fe57607762102a570f26ff2947bc:1428277753,0534fe57d477621091b39a13a8d4539c:-1052515174,623ae517e5bf2210b9f414d1f6449fe9:761659195,2a3ae51779bf2210fafe1d2fbf4350cb:-1719133732,263ae517fdbf2210dbb8e7f3dc738eae:95040637,563ae51728bf22101eb508bace207791:1909215006,5e3ae517c6bf2210d3172682a132835b:-571577921,1a3ae51719bf2210d74fbe0cb5fcf23f:1242596448,1a3ae5174cbf22105c59d239dc6f4623:-1238196479,4e3ae5171abf22102bcf2a47d87ede07:18933975,4a3aa517a2bf2210fd59a4dc144a7ed3:1833108344,0a3aa51712bf221057b3625393fcc4b8:-647684583,0e3aa51796bf2210b902bfbc8562d19d:1166489786,753aa51711bf2210b31ec23be529d783:-1314303141,f13aa51758bf2210b79cde9fd6eb1869:499871228,fd3aa51750bf221062dc96d87624c942:-1980921699,213aa517a2bf2210b17b3f0f36bd841d:-166747330,6d3aa51710bf22103e91e8da8fa4ec03:1647427039,293a6517a5bf2210d58144417099dbde:-833365888,ed3a65177bbf221046d65ae159fb7fc5:423764566,153a6517acbf2210ced04a2a6e446aa1:-2057028361,9d3a6517c6bf2210fb043879c7d0057c:-242853992,5d3a65179cbf2210b8f3cc97af27be58:1571320377,193a651744bf22108a73fbe964b6a341:-909472550,093a651706bf2210598ddb8ccceb812a:904701819,853a6517c6bf221058a3ba2b59e67507:-1576091108,013a25176fbf2210086e29fa4ad660f1:238083261,cd3a25171bbf22109f2374cee546b9da:2052257630,c13a25174bbf2210331ad080a4d5f3c5:-428535297,743a251757bf22109dee90c756799da3:828595157,f03a2517c7bf2210937560f43575798e:-1652197770,fc3a25174cbf2210c66f2db7fe46036c:161976599,b03a251794bf22101c6d480301630b33:1976150968,fc3a2517e3bf221064464521d138261e:-504641959,ac3ae11735bf221029b497f6555683cc:1309532410,643ae117d0bf22100de2cb4940ce7fb9:-1171260517,603ae11704bf2210bba573721444ada6:642913852,a03ae11724bf22103a8c49e2a1272993:-1837879075,283ae11710bf2210416f6d6993e57680:-23704706,d03ae117ccbf22107d791457d8b0fd6e:1233425748,d03ae117c6bf2210c70b3646c946ba5c:-1247367179,183ae11707bf2210cb88c0532788ee4a:566807190,d83ae117b4bf2210d269f1841608722c:-1913985737,983ae11702bf2210b38e08e1d2f9bf1b:-99811368,8c3ae117f5bf221019d825a6128a150a:1714363001,003aa1170abf22105620117e5dddddee:-766429926,8c3aa11730bf2210f497b2aa724907dd:1047744443,403aa117fbbf2210ee5e703d88e46ace:-1433048484,483aa11755bf2210e85fa636d8a158be:381125885,403aa11736bf2210d51056fc4ad9738a:1037007897,f32aa117bdbf2210cf6d9a9cbb1fb17b:-1443785030,b72aa1172cbf221048d716ba1c77746c:370389339,732aa117adbf221035c49e37a9d13b5f:-2110403588,e72aa11721bf2210036cc4370cf6bf12:232271723,2f2aa11776bf22103d88194ae699fb55:-296229219,ef2aa11723bf221065a8f420eea9f84b:1517945150,e72aa11738bf2210a43d87effce96729:-962847777,2f2aa117f9bf2210ecab76b79d2cee21:851326592,232aa11792bf221051785f700f58730e:266014111</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure AI Content Filtering (APIM)">67347697c37762107e68b41ed401313d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:13:11</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>11f6f59f27a648f892da92bf6b3c5510</sys_id>
+        <sys_metadata>e72a6117c3bf22107e68b41ed40131fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure AI Content Filtering (APIM)</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_e72a6117c3bf22107e68b41ed40131fe</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_e72a6117c3bf22107e68b41ed40131fe">ef347697c37762107e68b41ed4013139</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:13:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

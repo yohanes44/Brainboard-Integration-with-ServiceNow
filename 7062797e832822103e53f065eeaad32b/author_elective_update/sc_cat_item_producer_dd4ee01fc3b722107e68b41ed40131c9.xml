@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[The solution implements a real-time analytics pipeline using Azure Service Bus as the central message broker, enabling both operational data processing and near real-time analytics on the same data stream.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>1d4ee01fc3b722107e68b41ed40131c7</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Real-time Analytics Architecture with Service Bus</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>9d4ee01fc3b722107e68b41ed40131c8</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=dd4ee01fc3b722107e68b41ed40131c9&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Real-time Analytics Architecture with Service Bus</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:27:51</sys_created_on>
+        <sys_id>dd4ee01fc3b722107e68b41ed40131c9</sys_id>
+        <sys_mod_count>124</sys_mod_count>
+        <sys_name>Azure Real-time Analytics Architecture with Service Bus</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_dd4ee01fc3b722107e68b41ed40131c9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:23:46</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>125</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=dd4ee01fc3b722107e68b41ed40131c9"/>
+    <fx_price action="DELETE" query="id=dd4ee01fc3b722107e68b41ed40131c9"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>dd4ee01fc3b722107e68b41ed40131c9</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:27:51</sys_created_on>
+        <sys_id>9d4ee01fc3b722107e68b41ed40131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:27:51</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_dd4ee01fc3b722107e68b41ed40131c9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[The solution implements a real-time analytics pipeline using Azure Service Bus as the central message broker, enabling both operational data processing and near real-time analytics on the same data stream.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;1d4ee01fc3b722107e68b41ed40131c7&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Real-time Analytics Architecture with Service Bus&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;9d4ee01fc3b722107e68b41ed40131c8&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=dd4ee01fc3b722107e68b41ed40131c9&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Real-time Analytics Architecture with Service Bus&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 12:27:51&lt;/sys_created_on&gt;&lt;sys_id&gt;dd4ee01fc3b722107e68b41ed40131c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;124&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Real-time Analytics Architecture with Service Bus&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_dd4ee01fc3b722107e68b41ed40131c9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:23:46&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;125&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=dd4ee01fc3b722107e68b41ed40131c9"/&gt;&lt;fx_price action="delete_multiple" query="id=dd4ee01fc3b722107e68b41ed40131c9"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;dd4ee01fc3b722107e68b41ed40131c9&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 12:27:51&lt;/sys_created_on&gt;&lt;sys_id&gt;9d4ee01fc3b722107e68b41ed40131cc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 12:27:51&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1190157153</payload_hash>
+        <record_name>Azure Real-time Analytics Architecture with Service Bus</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:23:46</sys_created_on>
+        <sys_id>59442197c33f22107e68b41ed4013125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1993470b95d0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:23:46</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>9d442197633f22100e1881c4a956b924</update_guid>
+        <update_guid_history>9d442197633f22100e1881c4a956b924:-1190157153,85442197923f2210267b489b45dffe12:-1640464663,4d442197133f2210f81022bada9a7a04:1833471252,4144ed57ab3f2210474010ae1b6bbef9:-647321675,4544ed57353f2210b5344016bbe88eed:1166852694,c544ed57933f22100778dc04300a60e0:-1870984148,0944ed57433f2210d19a14b751fdaecd:-56809779,0544ed574a3f2210f004183f2120e795:1757364590,7444ed57593f2210535f144055348482:-723428337,b444ed57773f22100162f0b7ee9f4e6f:1090746032,f444ed57673f2210d165b731f3941d5c:-1390046895,3844ed57773f22107ab9b40e84d13149:424127474,7844ed57293f22109349f7de2bc22f36:-2056665453,a844ed57e23f2210caa76ad018cbdd23:-242491084,e844ed57ce3f22107c5983b51afbe510:1571683285,2c44ad574c3f2210869831b35291eefd:-1466153557,6c44ad575b3f2210cb538dc4aa9bfeea:348020812,ac44ad57d13f2210c2acc6133e4dd0d7:-2132772115,ec44ad57523f221036570faba40bd2c4:-318597746,5844ad57573f2210b973a43d6bd88ba5:1495576623,9844ad57ea3f22107273f3d368581692:-985216304,1444ad57813f2210c2115e8f19a11973:828958065,5444ad57f53f2210f00fae6e9e2e5060:-1651834862,9444ad57563f2210cfd62f0f72e8524d:162339507,d444ad570c3f2210e54f0e18111e993a:1976513876,0844ad57a93f2210cd2780c5992ee027:-323117509,4844ad570e3f2210ac92a2d0dfa81714:1491056860,8844ad57223f2210b3f042270c197601:-989736067,04446d57403f2210a33d97d20377abe2:824438302,00446d57c23f221021dbcea6b9dbc6aa:-1656354625,40446d57f83f2210e4b518f0435c8c97:157819744,fb346d572d3f2210c7a698836e308b77:1971994113,77346d57bd3f2210b8e96e42dba77558:-508798814,b7346d578c3f22106c04e1166c90b145:1305375555,7f342d57d83f22103a6a7b2b371d86e7:-1175417372,bf342d57943f2210308548757d4a50d4:81713082,ff342d574d3f221056a20d931fea46c1:1895887451,23342d57773f2210642191dfede7fcaf:-584905476,63342d570e3f2210f825825920185b9c:1229268893,a3342d57ff3f2210b08a04f597571a89:-1251524034,a7342d57463f22105c6b2e1123cf5577:562650335,e7342d570d3f22100922daedeb174b64:-1918142592,9b342d57d23f2210ac53df52cff4fa38:-103968223,db342d57163f22101829b70f49955a25:1710206146,1f342d57c43f2210f5f4a483d106e712:-770586781,5f34e957803f22100523cc85c6fdf5ff:486543673,c734e9571a3f22106c68d0d1fd3a64e0:-1994249254,0b34e957b63f2210ef6b6747d6d4e4cd:-180074885,4b34e9577a3f221071b764fb05dcf5ba:1634099484,8b34e957aa3f2210c9f4e7080b802ca7:-846693443,cb34e957ed3f22109582464aa4c9bf94:967480926,0f34e957e83f2210f84e4035818abd81:-1513312001,7e34e957d43f2210123d2198ca2c386e:300862368,f634e957013f221094b1d86d59a74d4f:2115036737,7234e957e83f221027b2b53b32e04730:-365756190,b234e9570f3f221033bdd005a196311d:891374264,f234e957033f22100e03d471640d370a:-1589418663,e634a9577d3f2210a32f1498d0c57df8:224755706,2a34a957703f2210b6814b44fb65c8e5:2038930075,6a34a957a53f2210f5ddc0931faa9bd2:-441862852,a234a9578e3f221014adbe6e57968cbf:1372311517,a234a9573a3f2210abcd808610462686:-1108481410,645ee81fcab722101f933f8449022033:705692959,205ea81fbbb72210f07a418f556944fb:-1775099968,ac5ea81f43b72210665c7bfa5401ffdb:39074401,605ea81fbdb72210935845df2771a5bd:1296204855,d85ea81f91b72210632bc9570ec59585:-1184588072,505ea81f83b72210ce80216e082c835b:629586297,1c5ea81f96b7221002137efe97712c30:-1851206630,c05ea81f96b72210343fb92547a34b13:-37032261,405e681f0fb7221043c78ca851d759dd:1777142108,4c5e681f12b7221073a688866b47da9a:-703650819,445e681fc9b7221077de73b5579df765:1110523550,b34e681f1db72210ad970fdc55347430:-1370269377,fb4e681f00b72210095957c29d874a07:443904992,ff4e281f02b7221046b6a11f4a9eee94:1701035446,eb4e281ffbb722107df1bf1126409d60:-779757481,2f4e281ff3b72210ad1975979a42872c:1034416888,a34ee41fb3b7221024a0d7a4385dd8f9:-1446376039,5f4ee41fe6b722107f7355cf4220a0c5:367798330,db4ee41f9eb722102a585ee6297eeaab:-2112994597,9f4ee41fd2b7221045924e824b9fa291:-298820228,974ee41f8ab7221027ed71dbe3cad978:1515354141,c34ee41fe3b722106c7082c381b2fd5f:-965438786,c74ee41f66b72210fb3fd05e6ad0282d:848735583,8f4ee41f1db72210a3852760bcf54d14:2105866037,8b4ea41febb72210737ca7211fd0f5fc:-374926890,cb4ea41f91b722102e96ac99b3b0a8e4:1439247479,f24ea41f6eb72210ea5bea760c967ab4:-1041545448,be4ea41fdbb72210368208c2ae43499c:772628921,be4ea41f3bb722108f12982469f72985:-1708164006,f24ea41f64b72210858be13970e8126f:106010363,6e4ea41f56b72210f485423be3396358:1920184732,664ea41f92b722104ecb8da602c30636:-560608195,6a4ea41f97b722109554645f1b3d5020:1253566174,a24ea41fdab722100db5375356a6ce0b:-1784270668,224e641f7bb72210644955fd2acf01f6:29903701,1e4e641f18b72210a8691c3dacfa5fd4:1844078070,164e641f8ab72210a8e4f92f3d37dcc0:-636714857,524e641f6cb722109e663f0c73605bac:1177459512,1e4e641f40b72210f0c82a422a49258b:-1303333415,d24e641f10b72210aa92dc4f7adf0978:510840954,ce4e641f85b72210880a9b8aae03cd64:-1969951973,024e641fc8b7221048fa9a78334daf52:-155777604,864e641fb0b722102e649ecad073a53f:1658396765,8a4e641f0eb72210ee0dc3f96d2bdf20:-1379440077,8a4e641fe9b7221013f33aedcc15e20e:434734292,394e241f74b7221082c71a1aa7ee7df0:-2046058635,b14e241fdcb72210c678f9c0d80148df:-231884266,714e241fa0b72210762e59ccc8fab2ce:1582290103,f54e241f0db72210f4762d7ef50b69a4:-898502824,314e241f5eb72210b4539fb982de6e94:915671545,bd4e241f8fb72210c4d0a4020fdf4b83:-1565121382,a94e241f82b722103ac31f1d88b03267:249052987,a14e241f2db72210d2325d764cf4ee58:2063227356,ed4e241ff4b72210bd6d56601f767c48:-670847156,614e241f81b72210796a60a3a8136d3a:1143327213,954e241f07b722107a110d544e973e2b:-1337465714,514e241f01b722101092e99b4a765e1e:476708655,1d4e241fd4b722107b13da050850e914:-2004084272,dd4e241f29b72210651120f9e7f7350a:-189909903,154e241fccb722108a4efd16d18fa801:1624264466,d94ee01f68b72210f171d3df0d8a49f9:-856528461,194ee01f9ab722108bfa8cfa29c0f0ed:-116705718,dd4ee01fd6b722107fd2128ec9d7c5e5:559704614</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Real-time Analytics Architecture with Service Bus">dd442197c33f22107e68b41ed4013128</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:23:47</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>e4249751128c4224816dbc0bf4001304</sys_id>
+        <sys_metadata>dd4ee01fc3b722107e68b41ed40131c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Real-time Analytics Architecture with Service Bus</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_dd4ee01fc3b722107e68b41ed40131c9</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_dd4ee01fc3b722107e68b41ed40131c9">59442197c33f22107e68b41ed4013125</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:23:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

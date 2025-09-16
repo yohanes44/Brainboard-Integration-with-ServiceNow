@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[Azure OpenAI Model Routing and Distribution Framework (AMRDF)
+
+The Azure OpenAI Model Routing and Distribution Framework is a high-availability infrastructure solution that intelligently distributes AI workloads across multiple Azure regions. This architecture leverages API Management to route requests to appropriate OpenAI models based on deployment IDs, while implementing circuit breakers and load balancing for resilience. With comprehensive monitoring through Application Insights and Log Analytics, AMRDF provides a robust platform for deploying AI services that can scale efficiently while maintaining optimal performance and fault tolerance.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>16f8981fc33322107e68b41ed4013128</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure AI Model Routing and Circuit Breaker (APIM)</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>96f8981fc33322107e68b41ed4013129</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=d6f8981fc33322107e68b41ed401312a&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure AI Model Routing and Circuit Breaker (APIM)</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 10:54:48</sys_created_on>
+        <sys_id>d6f8981fc33322107e68b41ed401312a</sys_id>
+        <sys_mod_count>112</sys_mod_count>
+        <sys_name>Azure AI Model Routing and Circuit Breaker (APIM)</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_d6f8981fc33322107e68b41ed401312a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:23:21</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>113</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=d6f8981fc33322107e68b41ed401312a"/>
+    <fx_price action="DELETE" query="id=d6f8981fc33322107e68b41ed401312a"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>d6f8981fc33322107e68b41ed401312a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 10:54:48</sys_created_on>
+        <sys_id>96f8981fc33322107e68b41ed401312d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 10:54:48</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_d6f8981fc33322107e68b41ed401312a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[Azure OpenAI Model Routing and Distribution Framework (AMRDF)
+
+The Azure OpenAI Model Routing and Distribution Framework is a high-availability infrastructure solution that intelligently distributes AI workloads across multiple Azure regions. This architecture leverages API Management to route requests to appropriate OpenAI models based on deployment IDs, while implementing circuit breakers and load balancing for resilience. With comprehensive monitoring through Application Insights and Log Analytics, AMRDF provides a robust platform for deploying AI services that can scale efficiently while maintaining optimal performance and fault tolerance.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;16f8981fc33322107e68b41ed4013128&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure AI Model Routing and Circuit Breaker (APIM)&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;96f8981fc33322107e68b41ed4013129&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=d6f8981fc33322107e68b41ed401312a&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure AI Model Routing and Circuit Breaker (APIM)&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 10:54:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d6f8981fc33322107e68b41ed401312a&lt;/sys_id&gt;&lt;sys_mod_count&gt;112&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure AI Model Routing and Circuit Breaker (APIM)&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_d6f8981fc33322107e68b41ed401312a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 11:23:21&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;113&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d6f8981fc33322107e68b41ed401312a"/&gt;&lt;fx_price action="delete_multiple" query="id=d6f8981fc33322107e68b41ed401312a"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;d6f8981fc33322107e68b41ed401312a&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 10:54:48&lt;/sys_created_on&gt;&lt;sys_id&gt;96f8981fc33322107e68b41ed401312d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 10:54:48&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1142699296</payload_hash>
+        <record_name>Azure AI Model Routing and Circuit Breaker (APIM)</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:23:21</sys_created_on>
+        <sys_id>a48fd49bc3b322107e68b41ed40131ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199335dae130000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:23:21</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>e88fd49ba4b32210579f1e9cd452c4ee</update_guid>
+        <update_guid_history>e88fd49ba4b32210579f1e9cd452c4ee:1142699296,e08fd49b9cb32210f277650af034d8dc:-131241224,508fd49b3fb322100b621d37539cc5cf:-1403350959,548fd49bbeb322100d2aea4b2b04efc3:-146220505,588fd49b1eb3221015fb0191736773b7:1667953864,d88fd49bcab3221016d68993a9cd07aa:-812839063,1c8fd49bc5b3221096daa207c8a72597:1001335306,948fd49b11b322109042b7b51f649d78:-1479457621,c48fd49b26b32210705cab1bb7a9a965:334716748,088fd49b1bb32210c86a67749ad93c52:-2146076179,488fd49b84b322103af223ecc9abc13f:-331901810,888fd49b65b322108effb8d8d5b8952c:1482272559,377fd49b8eb3221017aa63cf0130210d:-998520368,f77f949b5cb32210b4f820df58a59ae1:-890004791,3b7f949b72b3221012824152db1e60ce:924169578,7b7f949bd0b322106114fad37bffd0bb:-1556623349,bb7f949b8bb32210165e9be6062a17a8:257551020,eb7f949b71b3221069e6bd929b67c395:2071725389,af7f949b2cb3221000597d3f67d83769:-409067538,ef7f949b16b32210b2811bac5eca1656:1405106831,237f949b2db322100ee6ba556dc4b844:-1075686096,637f949b2cb322109de44305faf5d931:738488273,a37f949bb0b322107d2b81fde60ddc1e:-1742304654,d37f949bccb322103c2e1df328f30d0b:-485174200,177f549bffb3221067f355284bf3f6f8:1329000169,577f549b2ab32210e2ed58e2cd7adfe5:-1151792758,977f549bb1b3221051b83b9406ffebd2:662381611,d77f549b9db322102b4feb007a78edbf:-1818411316,1b7f549bbcb322102663de634bb5ecac:-4236947,4b7f549b72b322108f3f722b9c3f9999:1809937422,8b7f549bbdb32210df0ee64858a7c886:-670855505,cb7f549b3fb32210e386509669c49273:1143318864,477f549b51b3221025da458e226ebb54:-1337474063,cf7f549bf6b3221031e8dc34a5b69f34:-80343609,327f549b86b32210ee679d27158b1322:1733830760,727f549b17b32210e4d6a5cdd6f3f00f:-746962167,b27f149b08b32210dd5f5789ff2267fc:1067212202,f27f149bf4b32210684cb80a4cbcd8e9:-1413580725,367f149b6bb3221014a11f49fbad10d6:400593644,767f149be4b3221068f326fe576e3ac3:-2080199283,6a7f149bffb322104b9c1894d4b58fb1:-266024914,2e7f149b36b322106536254044644485:1548149455,6e7f149b3cb32210363f45ed31e93272:-932643472,ae7f149b2cb32210323dacd0d157485f:324486982,2a7f149b02b322100d7b3bfd2087b840:2138661351,6a7f149b07b32210391eae9fd4f7082d:-342131576,9a7f149b5bb32210150272ee47bdd11a:1472042793,da7f149be0b322104db2e936dbec6e07:-1008750134,567fd09bd9b32210b32b6aee0db2bde8:805424235,de7fd09b48b32210a0a9079337aa69c8:-1675368692,127fd09ba3b3221099fa13bc641884b6:138805677,527fd09b8bb32210f1c9a2bac34293a3:1952980046,ca7fd09bf3b322107c3cefc9073bcc83:-527812881,ce7fd09ba5b32210bf9df856d151ca71:729317573,027fd09b38b32210761920bf6846db5f:-1751475354,0e7fd09bd3b32210f3403e8c4e85c24b:62699015,8d09dc1f593322104a636513233d876c:1876873384,0909dc1f6833221017f18d893f197243:-603919543,c509dc1faf332210fce23643d78ef31a:1210254826,b0099c1f2533221099cc22fefdb1f4fe:-1270538101,b0099c1f573322109b5ea7328128a7e2:543636268,f4099c1f8233221062e567a4980e66c6:-1937156659,78099c1fc23322107588e87ef6fba89e:-122982290,e4099c1f26332210e2c107dc1e93c483:1134148164,a8099c1f7a33221011d0d1c5a8913e68:-1346644763,a0099c1fb233221018f632abc8391f4e:467529606,ec099c1fb03322104b2b57d69312f233:-2013263321,98099c1f9433221069df77a9d70b0c0d:-199088952,14095c1fbf332210aaf90816e90cecdb:1615085417,50095c1ff0332210930be33214a15ac2:-865707510,90095c1fff3322105c1dfd049aa805a9:948466859,08095c1f9f332210ed447dd4e1330790:-1532326068,4c095c1f4a332210708cf6777054d56b:281848301,8c095c1f2433221067d2739410b35a53:1538978755,04095c1f3a332210910617fc379c6a3c:-941814172,fff85c1fb7332210bb11f54e722d7e24:872360197,bff85c1f2333221012c3cb2aa1837d0d:-1608432730,f3f81c1f6f332210dcd5621d87b994f7:205741639,7ff81c1f553322107dcd7047cca3ece0:2019916008,3ff81c1f15332210aa52141370b690ca:-460876919,6bf81c1f7b3322101f369ff9cc7c1ea8:1353297450,abf81c1fc033221013a9617a73f17786:-1127495477,e7f81c1f2833221095a03191bf9d1b71:686678892,a3f81c1ffc3322103ef1f56b9056d250:1943809346,93f81c1fd1332210af0e72175d1ea72f:-536983581,d7f81c1fb2332210dfb3df36e5de990e:1277190788,1bf8d81f9f332210e7644ae189055dfa:-1203602139,dff8d81f2e332210852f9e20cb322fe6:610572230,9bf8d81f4f33221071ee0d51364383d3:-1870220697,9bf8d81fd133221048fdc9545a59d2c0:-56046328,cff8d81f393322105efef9423cc5cfad:1758128041,4bf8d81f193322104955ed85c095cb9b:-722664886,0bf8d81f6a33221025584c570f8cbf89:1091509483,0ff8d81f9233221088f5435ba5f43677:-1946327359,47f8d81f7f3322102e381524353a8d66:-132152990,f2f8d81f9a332210a410d79673e53855:1682021379,fef8d81f6f332210c37eaffa4631a537:-798771548,f6f8d81fe63322101cc43dbec90a7727:1015402821,36f8d81fbf3322104a08eefe1980d417:-1465390106,fef8981f63332210f682f4012d3fd1fa:348784263,b6f8981f5e332210de0283ac835327eb:-2132008664,a2f8981f4d33221092e2d24f52ab11dc:-317834295,2ef8981f673322104cb9565ba5b92cc0:1496340074,eaf8981f46332210c33f57de8fc34ea5:918157704,e6f8981f7d332210c56965a3d90d5697:-1562635223,96f8981fb43322105152efa303fd8f89:251539146,daf8981f1833221091dcaf577367207c:2065713515,daf8981faa332210682cc74823903173:-415079412,d2f8981ff03322102b91e3d9ff3a9c6a:1399094957,96f8981fde3322108c473e1fc9a5e854:-1081697970,5af8981f84332210356e5365f9135c40:732476399,5ef8981fc93322102354d453242b3042:-1181977128,96f8981f9c3322104d6eb93f5ff18839:-1801477178</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure AI Model Routing and Circuit Breaker (APIM)">2c8fd49bc3b322107e68b41ed40131f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:23:21</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>457189b2e07d4488b8cc018ad5b518a4</sys_id>
+        <sys_metadata>d6f8981fc33322107e68b41ed401312a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure AI Model Routing and Circuit Breaker (APIM)</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_d6f8981fc33322107e68b41ed401312a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_d6f8981fc33322107e68b41ed401312a">a48fd49bc3b322107e68b41ed40131ef</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:23:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

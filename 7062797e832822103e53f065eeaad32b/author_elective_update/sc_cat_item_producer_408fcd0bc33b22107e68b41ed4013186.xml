@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[AI Gateway Private Connectivity
+
+This secure architecture isolates Azure OpenAI services in a private network, accessible only through API Management connected via Private Endpoints. Azure Front Door serves as the single public entry point, protected by WAF policies, while all internal communication occurs through private networking. The design ensures high availability with dual OpenAI instances, incorporates security best practices with zero-trust principles, and provides monitoring through Log Analytics and Application Insights.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>0c8fcd0bc33b22107e68b41ed4013183</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>AI Gateway Private Connectivity</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>cc8fcd0bc33b22107e68b41ed4013184</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=408fcd0bc33b22107e68b41ed4013186&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>AI Gateway Private Connectivity</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:14:34</sys_created_on>
+        <sys_id>408fcd0bc33b22107e68b41ed4013186</sys_id>
+        <sys_mod_count>82</sys_mod_count>
+        <sys_name>AI Gateway Private Connectivity</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_408fcd0bc33b22107e68b41ed4013186</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:04:56</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>83</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=408fcd0bc33b22107e68b41ed4013186"/>
+    <fx_price action="DELETE" query="id=408fcd0bc33b22107e68b41ed4013186"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>408fcd0bc33b22107e68b41ed4013186</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:14:34</sys_created_on>
+        <sys_id>0c8fcd0bc33b22107e68b41ed40131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:14:34</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_408fcd0bc33b22107e68b41ed4013186</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[AI Gateway Private Connectivity
+
+This secure architecture isolates Azure OpenAI services in a private network, accessible only through API Management connected via Private Endpoints. Azure Front Door serves as the single public entry point, protected by WAF policies, while all internal communication occurs through private networking. The design ensures high availability with dual OpenAI instances, incorporates security best practices with zero-trust principles, and provides monitoring through Log Analytics and Application Insights.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;0c8fcd0bc33b22107e68b41ed4013183&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;AI Gateway Private Connectivity&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;cc8fcd0bc33b22107e68b41ed4013184&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=408fcd0bc33b22107e68b41ed4013186&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;AI Gateway Private Connectivity&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:14:34&lt;/sys_created_on&gt;&lt;sys_id&gt;408fcd0bc33b22107e68b41ed4013186&lt;/sys_id&gt;&lt;sys_mod_count&gt;82&lt;/sys_mod_count&gt;&lt;sys_name&gt;AI Gateway Private Connectivity&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_408fcd0bc33b22107e68b41ed4013186&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 21:04:56&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;83&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=408fcd0bc33b22107e68b41ed4013186"/&gt;&lt;fx_price action="delete_multiple" query="id=408fcd0bc33b22107e68b41ed4013186"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;408fcd0bc33b22107e68b41ed4013186&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:14:34&lt;/sys_created_on&gt;&lt;sys_id&gt;0c8fcd0bc33b22107e68b41ed40131ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 20:14:34&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>462511181</payload_hash>
+        <record_name>AI Gateway Private Connectivity</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 21:04:56</sys_created_on>
+        <sys_id>ce0b110bc3bb22107e68b41ed40131d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199304bc8150000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:04:56</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>060b110b31bb2210938344672ec81ed2</update_guid>
+        <update_guid_history>060b110b31bb2210938344672ec81ed2:462511181,0e0b110bf3bb22101f1ef9ad056badbf:-2048705127,4a0b110b4abb22109c087e3ff5c9d4b2:64729434,060b110b60bb2210c8cb6c04a885c39a:1321859888,fd0b110ba7bb221053638bcc70671a81:-1158933039,fd0b110bc4bb22100136fab5e4790d74:655241330,790b110b22bb2210e1612f9a6f634855:-1825551597,b90b110badbb22103b4b649263dde042:-11377228,f90b110bcfbb2210e2e53e8a7e38b12f:1802797141,3d0b110bd0bb2210a1affcd72cbc6c1c:-677995786,6d0b110bb2bb2210d87477eea7402509:1136178583,e50bddc73dbb22100fa6b9f5f6bbbfea:-1344614344,e90bddc776bb2210bb7b6f43c6da19d8:469560025,2d0bddc728bb22102378ae12109eb3c5:1726690479,a50bddc73bbb221046bc588bcf6e5da6:-754102448,e50bddc7b3bb22108ecb7b410cc90293:1060071921,190bddc727bb2210490b0b8619963280:-1420721006,590bddc770bb2210f778edce1fdeb16d:393453363,d10bddc7cabb22100bdfa085a154a94e:-2087339564,5d0bddc7ccbb2210384474c8efda852e:-273165195,9d0bddc777bb2210edb9578596f0451b:1541009174,dd0bddc713bb22108f5032bca2f9b608:-939783753,010b9dc778bb2210849f121249793cf6:874390616,890b9dc727bb2210fea4ad49f60139d6:2131521070,c90b9dc72ebb22102110d48d9f20bbc3:-349271857,0d0b9dc721bb22107cfd09639b6b59b0:1464902512,4d0b9dc713bb2210bef9e52c5317229d:-1015890415,8d0b9dc7dbbb2210eb24bfafaaa6b28a:798283954,fc0b9dc747bb2210b273e402c1c69177:-1682508973,780b9dc70bbb2210bd54a61b0264f258:131665396,b80b9dc7fdbb2210843ea092f5854b45:1945839765,f80b9dc782bb2210eaa60d58f2422032:-534953162,740b9dc79dbb2210aab74cd2fc9a8a13:1279221207,a40b9dc7f1bb22106374164011822a00:-1758615635,200b5dc7b2bb22109d55daaccd844ae1:55558734,a80b5dc795bb2210b82f78fdcf2427c1:1869733103,ac0b5dc704bb22104233e5a2dc1982af:-611059824,ec0b5dc769bb22108afb5602eddaa89c:1203114545,200b5dc730bb2210b5f19a50ae0f0e8a:-1277678382,500b5dc736bb22102e00fcb1eba6c977:536495987,5c0b5dc703bb2210aae5bc8c403c3e63:-1944296940,8e8fc14bb73b2210ffc2d12d0e8d6772:-130122571,4a8fc14ba13b2210061e94703330f24d:1684051798,318fc14bd63b2210f4aa37cad128ba35:-1353785044,3d8fc14b2e3b221031963024aba0101c:460389325,b58f814b423b22106c72fa82e9b5c0f8:-2020403602,bd8f814bda3b221000bf7413e349c8c7:-206229233,698f814b4a3b221059249f01391b78b0:1607945136,a18f814b503b221027b17a97cf30538d:-872847791,e58f814be13b22108a9214c84fe7e276:941326578,e18f814b983b2210e2f2e11aa3575047:-1539466349,a18f814bf83b22100f1e47d6f678b631:274708020,958f814b3e3b22108d03d9905848221b:2088882389,dd8f814b733b2210e833cbae00d04505:-948954453,958f414b183b2210f607ddadadda95e4:865219916,598f414b943b22103d1fdad70c337bcf:-1615573011,d18f414bb03b221005eec1d16b96e2a2:198601358,818f414b0d3b2210278b19dc820f1575:2012775727,058f414b8a3b2210b3fe0a0754c8f461:-468017200,058f414b4b3b2210b9157fcf509a0f41:1346157169,018f414bb23b2210387b7d1c31d1912e:-1134635758,418f414b1a3b22109655e0ae80b98e1b:679538611,308f014b833b22108414bcccd8f0e6fc:-1801254316,f88f014b0d3b221063e9bcb5472f1de9:-544123862,f88f014b183b2210a375f211592103d7:1270050507,308f014bb43b2210be5d6e12d67dc4c6:-1210742420,b88f014b443b22101206f199a167c2b4:603431949,688f014b113b221070a719dfd247e0a3:-1877360978,a48f014b963b221099611a3597621186:-63186609,288f014bc73b22103bd05812649de269:1750987760,a48f014b7c3b22109d5aacb210b21c59:-729805167,688f014bb13b221072128dd99e391e49:1084369202,608f014bda3b2210db77eb9a1c9b633a:-1396423725,9c8f014ba63b2210b0ef531a612b732a:-1852197607,108f014b963b2210a074ed8e1616e21c:-38023238,548f014b8b3b2210d2e2edffd8dce50d:1776151131,108f014b3d3b2210c64e481aa33de600:-704641796,d88fcd0b873b22101c1917bfdfd623f6:1109532573,0c8fcd0b223b221038f425c80046ccec:-1371260354,cc8fcd0b2a3b221093876a80722975e2:442914015,0c8fcd0bcb3b2210d8c2e77227fcfdce:-2037878912,8c8fcd0bb93b2210bf1ead52b22d71d2:-1757378751,848fcd0ba53b221019171ca8f80389c7:1062662869</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AI Gateway Private Connectivity">060b110bc3bb22107e68b41ed40131d6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 21:04:57</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>12a7c9f1bb614b50b3065b88e02d1100</sys_id>
+        <sys_metadata>408fcd0bc33b22107e68b41ed4013186</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AI Gateway Private Connectivity</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_408fcd0bc33b22107e68b41ed4013186</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_408fcd0bc33b22107e68b41ed4013186">ce0b110bc3bb22107e68b41ed40131d2</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:04:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

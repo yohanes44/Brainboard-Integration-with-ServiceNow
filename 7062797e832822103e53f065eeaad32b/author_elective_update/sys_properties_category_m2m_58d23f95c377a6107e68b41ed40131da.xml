@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="DELETE">
+        <category display_value="System Properties">5c82bf95c377a6107e68b41ed40131da</category>
+        <order>100</order>
+        <property display_value="x_854636_b_board.api.token" name="x_854636_b_board.api.token">a2c279fe832822103e53f065eeaad3f5</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-04 21:38:43</sys_created_on>
+        <sys_id>58d23f95c377a6107e68b41ed40131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_854636_b_board.api.token.System Properties</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_58d23f95c377a6107e68b41ed40131da</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-04 21:38:43</sys_updated_on>
+    </sys_properties_category_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sys_properties_category_m2m_58d23f95c377a6107e68b41ed40131da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="System Properties">5c82bf95c377a6107e68b41ed40131da</category><order>100</order><property display_value="x_854636_b_board.api.token" name="x_854636_b_board.api.token">a2c279fe832822103e53f065eeaad3f5</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>yohanes.yilma</sys_created_by><sys_created_on>2025-09-04 21:38:43</sys_created_on><sys_id>58d23f95c377a6107e68b41ed40131da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_854636_b_board.api.token.System Properties</sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>sys_properties_category_m2m_58d23f95c377a6107e68b41ed40131da</sys_update_name><sys_updated_by>yohanes.yilma</sys_updated_by><sys_updated_on>2025-09-04 21:38:43</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+        <payload_hash>1511865586</payload_hash>
+        <record_name>x_854636_b_board.api.token.System Properties</record_name>
+        <reverted_from/>
+        <source>ec3d6518c32522107e68b41ed40131a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-04 21:38:43</sys_created_on>
+        <sys_id>18d23f95c377a6107e68b41ed40131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19916aaea460000001</sys_recorded_at>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-04 21:38:43</sys_updated_on>
+        <type>Category Property</type>
+        <update_guid>d8d23f953077a610bd36f1a0bfd4e3dc</update_guid>
+        <update_guid_history>d8d23f953077a610bd36f1a0bfd4e3dc:1511865586</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:18:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties_category_m2m">sys_properties_category_m2m</sys_db_object>
+        <sys_id>07043ec6ca414a8280b9377dd5084851</sys_id>
+        <sys_metadata>58d23f95c377a6107e68b41ed40131da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_854636_b_board.api.token.System Properties</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sys_properties_category_m2m_58d23f95c377a6107e68b41ed40131da</sys_update_name>
+        <sys_update_version display_value="sys_properties_category_m2m_58d23f95c377a6107e68b41ed40131da">18d23f95c377a6107e68b41ed40131dd</sys_update_version>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:18:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

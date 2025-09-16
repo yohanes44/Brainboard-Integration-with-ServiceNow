@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="DELETE">
+        <batch_size>1000</batch_size>
+        <category/>
+        <connection_override_last_success_time/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url/>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <data_in_single_column>false</data_in_single_column>
+        <data_loader><![CDATA[(function loadData(import_set_table) {
+
+	var apiKey = gs.getProperty('x_854636_b_board.apac1_api_token');
+	var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'ListArchitectureTemplates');
+	r.setStringParameterNoEscape('token', apiKey);
+	var response = r.execute();
+	var responseBody = response.getBody();
+	var httpStatus = response.getStatusCode();
+	var resp = global.JSON.parse(responseBody);
+	
+	// Iterate through the array elements
+	for (var i = 0; i < resp.length; i++) {
+		resp[i].api_type = "apac1";
+		import_set_table.insert(resp[i]);
+	}
+
+})(import_set_table);
+
+
+]]></data_loader>
+        <database_name/>
+        <database_port/>
+        <discard_arrays>true</discard_arrays>
+        <enable_parallel_loading>false</enable_parallel_loading>
+        <expand_node_children>false</expand_node_children>
+        <file_path/>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>CSV</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label>Brainboard Architecture Templates</import_set_table_label>
+        <import_set_table_name>x_854636_b_board_brainboard_architecture_templates</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server/>
+        <jdbc_user_name/>
+        <jpath_root_node/>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <last_success_import_time>2025-09-11 08:55:28</last_success_import_time>
+        <ldap_target/>
+        <ldapprobe_result_set_rows>200</ldapprobe_result_set_rows>
+        <limit/>
+        <maximum_rows/>
+        <mid_server/>
+        <name>Brainboard Architecture Templates (apac)</name>
+        <offset>0</offset>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <parallel_loading_script><![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
+
+	// Invoke third party API, create partitions and insert partitions info in parallel job table
+
+})(parallel_job_loader, data_source, import_log, last_success_import_time);]]></parallel_loading_script>
+        <parsing_script><![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"
+// The function uses result variable to return parse result back. 
+(function(line,lineNumber,result) {
+	// add code here
+})(line,lineNumber,result);]]></parsing_script>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <request_action/>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_name>1</sheet_name>
+        <sheet_number>1</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <support_pagination>false</support_pagination>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-11 11:34:02</sys_created_on>
+        <sys_id>ae8b6defc3b322107e68b41ed401317c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Brainboard Architecture Templates (apac)</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_data_source_ae8b6defc3b322107e68b41ed401317c</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-11 11:34:02</sys_updated_on>
+        <table_name/>
+        <type>CUSTOM</type>
+        <use_batch_import>false</use_batch_import>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sys_data_source_ae8b6defc3b322107e68b41ed401317c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_data_source"&gt;&lt;sys_data_source action="INSERT_OR_UPDATE"&gt;&lt;batch_size&gt;1000&lt;/batch_size&gt;&lt;category/&gt;&lt;connection_override_last_success_time/&gt;&lt;connection_timeout&gt;0&lt;/connection_timeout&gt;&lt;connection_url/&gt;&lt;connection_url_parameters/&gt;&lt;csv_delimiter/&gt;&lt;data_in_single_column&gt;false&lt;/data_in_single_column&gt;&lt;data_loader&gt;&lt;![CDATA[(function loadData(import_set_table) {
+
+	var apiKey = gs.getProperty('x_854636_b_board.apac1_api_token');
+	var r = new sn_ws.RESTMessageV2('x_854636_b_board.Brainboard - apac1', 'ListArchitectureTemplates');
+	r.setStringParameterNoEscape('token', apiKey);
+	var response = r.execute();
+	var responseBody = response.getBody();
+	var httpStatus = response.getStatusCode();
+	var resp = global.JSON.parse(responseBody);
+	
+	// Iterate through the array elements
+	for (var i = 0; i &lt; resp.length; i++) {
+		resp[i].api_type = "apac1";
+		import_set_table.insert(resp[i]);
+	}
+
+})(import_set_table);
+
+
+]]&gt;&lt;/data_loader&gt;&lt;database_name/&gt;&lt;database_port/&gt;&lt;discard_arrays&gt;true&lt;/discard_arrays&gt;&lt;enable_parallel_loading&gt;false&lt;/enable_parallel_loading&gt;&lt;expand_node_children&gt;false&lt;/expand_node_children&gt;&lt;file_path/&gt;&lt;file_retrieval_method&gt;Attachment&lt;/file_retrieval_method&gt;&lt;format&gt;CSV&lt;/format&gt;&lt;glide_keystore&gt;false&lt;/glide_keystore&gt;&lt;header_row&gt;0&lt;/header_row&gt;&lt;import_set_table_label&gt;Brainboard Architecture Templates&lt;/import_set_table_label&gt;&lt;import_set_table_name&gt;x_854636_b_board_brainboard_architecture_templates&lt;/import_set_table_name&gt;&lt;instance_name/&gt;&lt;jdbc_password/&gt;&lt;jdbc_server/&gt;&lt;jdbc_user_name/&gt;&lt;jpath_root_node/&gt;&lt;last_run_database_field/&gt;&lt;last_run_datetime/&gt;&lt;last_success_import_time&gt;2025-09-11 08:55:28&lt;/last_success_import_time&gt;&lt;ldap_target/&gt;&lt;ldapprobe_result_set_rows&gt;200&lt;/ldapprobe_result_set_rows&gt;&lt;limit/&gt;&lt;maximum_rows/&gt;&lt;mid_server/&gt;&lt;name&gt;Brainboard Architecture Templates (apac)&lt;/name&gt;&lt;offset&gt;0&lt;/offset&gt;&lt;oracle_port&gt;1521&lt;/oracle_port&gt;&lt;oracle_sid&gt;orcl&lt;/oracle_sid&gt;&lt;parallel_loading_script&gt;&lt;![CDATA[(function loadTasks(parallel_job_loader, data_source, import_log, last_success_import_time) {
+
+	// Invoke third party API, create partitions and insert partitions info in parallel job table
+
+})(parallel_job_loader, data_source, import_log, last_success_import_time);]]&gt;&lt;/parallel_loading_script&gt;&lt;parsing_script&gt;&lt;![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"
+// The function uses result variable to return parse result back. 
+(function(line,lineNumber,result) {
+	// add code here
+})(line,lineNumber,result);]]&gt;&lt;/parsing_script&gt;&lt;properties/&gt;&lt;query&gt;All Rows from Table&lt;/query&gt;&lt;query_timeout&gt;0&lt;/query_timeout&gt;&lt;request_action/&gt;&lt;scp_authentication&gt;Username and Password&lt;/scp_authentication&gt;&lt;scp_password/&gt;&lt;scp_port/&gt;&lt;scp_server/&gt;&lt;scp_user_name/&gt;&lt;sheet_name&gt;1&lt;/sheet_name&gt;&lt;sheet_number&gt;1&lt;/sheet_number&gt;&lt;sql_statement/&gt;&lt;ssh_keyfile_path/&gt;&lt;support_pagination&gt;false&lt;/support_pagination&gt;&lt;sys_class_name&gt;sys_data_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;yohanes.yilma&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-11 11:34:02&lt;/sys_created_on&gt;&lt;sys_id&gt;ae8b6defc3b322107e68b41ed401317c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Brainboard Architecture Templates (apac)&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_data_source_ae8b6defc3b322107e68b41ed401317c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;yohanes.yilma&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-11 11:34:02&lt;/sys_updated_on&gt;&lt;table_name/&gt;&lt;type&gt;CUSTOM&lt;/type&gt;&lt;use_batch_import&gt;false&lt;/use_batch_import&gt;&lt;use_integrated_authentication&gt;false&lt;/use_integrated_authentication&gt;&lt;use_last_run_datetime&gt;false&lt;/use_last_run_datetime&gt;&lt;xpath_root_node/&gt;&lt;zipped&gt;false&lt;/zipped&gt;&lt;/sys_data_source&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>239660951</payload_hash>
+        <record_name>Brainboard Architecture Templates (apac)</record_name>
+        <reverted_from/>
+        <source>ec3d6518c32522107e68b41ed40131a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-11 11:34:02</sys_created_on>
+        <sys_id>2a8ba12fc3f322107e68b41ed401316b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199388dd1210000001</sys_recorded_at>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-11 11:34:02</sys_updated_on>
+        <type>Data Source</type>
+        <update_guid>ea8ba12fb8f322102b8b4dbf14c0956a</update_guid>
+        <update_guid_history>ea8ba12fb8f322102b8b4dbf14c0956a:239660951</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-11 11:35:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_source">sys_data_source</sys_db_object>
+        <sys_id>4345de8a39824ef0ab15251f67149100</sys_id>
+        <sys_metadata>ae8b6defc3b322107e68b41ed401317c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Brainboard Architecture Templates (apac)</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sys_data_source_ae8b6defc3b322107e68b41ed401317c</sys_update_name>
+        <sys_update_version display_value="sys_data_source_ae8b6defc3b322107e68b41ed401317c">2a8ba12fc3f322107e68b41ed401316b</sys_update_version>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-11 11:35:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

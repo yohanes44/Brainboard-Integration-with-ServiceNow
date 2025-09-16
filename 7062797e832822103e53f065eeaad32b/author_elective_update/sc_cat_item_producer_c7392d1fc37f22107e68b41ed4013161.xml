@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[This architecture establishes a secure, scalable infrastructure for an AI-powered chat application on Azure. The solution combines several Azure AI services to create a comprehensive conversational experience with advanced capabilities.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>07392d1fc37f22107e68b41ed401315f</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Chat Solution Accelerator by Azure OpenAI1</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>87392d1fc37f22107e68b41ed4013160</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=c7392d1fc37f22107e68b41ed4013161&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Chat Solution Accelerator by Azure OpenAI1</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:45:28</sys_created_on>
+        <sys_id>c7392d1fc37f22107e68b41ed4013161</sys_id>
+        <sys_mod_count>114</sys_mod_count>
+        <sys_name>Azure Chat Solution Accelerator by Azure OpenAI1</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_c7392d1fc37f22107e68b41ed4013161</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:13:57</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>115</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=c7392d1fc37f22107e68b41ed4013161"/>
+    <fx_price action="DELETE" query="id=c7392d1fc37f22107e68b41ed4013161"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>c7392d1fc37f22107e68b41ed4013161</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:45:28</sys_created_on>
+        <sys_id>87392d1fc37f22107e68b41ed4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:45:28</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_c7392d1fc37f22107e68b41ed4013161</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[This architecture establishes a secure, scalable infrastructure for an AI-powered chat application on Azure. The solution combines several Azure AI services to create a comprehensive conversational experience with advanced capabilities.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;07392d1fc37f22107e68b41ed401315f&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Chat Solution Accelerator by Azure OpenAI1&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;87392d1fc37f22107e68b41ed4013160&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=c7392d1fc37f22107e68b41ed4013161&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Chat Solution Accelerator by Azure OpenAI1&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:45:28&lt;/sys_created_on&gt;&lt;sys_id&gt;c7392d1fc37f22107e68b41ed4013161&lt;/sys_id&gt;&lt;sys_mod_count&gt;114&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Chat Solution Accelerator by Azure OpenAI1&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_c7392d1fc37f22107e68b41ed4013161&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 22:13:57&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;115&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c7392d1fc37f22107e68b41ed4013161"/&gt;&lt;fx_price action="delete_multiple" query="id=c7392d1fc37f22107e68b41ed4013161"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;c7392d1fc37f22107e68b41ed4013161&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:45:28&lt;/sys_created_on&gt;&lt;sys_id&gt;87392d1fc37f22107e68b41ed4013164&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:45:28&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1364630919</payload_hash>
+        <record_name>Azure Chat Solution Accelerator by Azure OpenAI1</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:13:57</sys_created_on>
+        <sys_id>fe647ed7c37762107e68b41ed40131af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19935b151b50000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:13:57</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>36647ed74077621078b0aef76edcafaf</update_guid>
+        <update_guid_history>36647ed74077621078b0aef76edcafaf:1364630919,2a647ed756776210db6bd0aec0ebec9c:-1135938771,ea647ed7b27762101cbba29c57527282:-1913536080,ea647ed709776210508632d395211c76:-99361711,ea647ed7757762102fe458268da5446a:1714812658,6a647ed7117762105b5beddeaced2e5d:-1323024184,a6647ed771776210283295b832fe554a:491150185,e2647ed721776210f21130d6edf3db37:-1989642742,5a647ed70b7762108308a2e10ffdc617:-175468373,de643ed7f5776210383ced23dea2aff7:1638705996,1e643ed720776210df7f3022d1fbe7e4:-842086931,92643ed71e776210177b622e283b31c5:972087438,de643ed7177762104f16ab69dd7a97b1:-1508705489,1e643ed7e2776210381dcfbf1b70079e:305468880,82643ed7397762104914956a17fd797f:2119643249,ce643ed71677621089dc928777fe606b:-1864379904,0e643ed7c3776210182532fb6d8a5758:-50205535,4a643ed7cb776210daf4aa0c7d745445:1763968834,71643ed7547762102ba0565552bbba0d:-716824093,bd64fad7a97762106c8f14b816b037f9:1097350276,3564fad773776210bc52462ab68088da:-1383442651,b964fad7aa776210c3bf71b536442aba:430731718,f564fad747776210a4568741bc1a22a7:-2050061209,2564fad7a57762100224d03b4bd7ac94:-235886840,a964fad74d7762108ffe91852779c474:1578287529,e564fad7c07762108f003a8b839a5a61:-1459549313,2564fad78c776210da4d898e05eb044e:354625056,a964fad759776210108bcc81e2e2032e:-2126167871,2164fad74b77621014504997265d5c0f:-311993502,dd64bad7a6776210307dd7b75ef96ce2:1502180867,5164bad756776210ec25f1fbe4607eb8:-978612060,d564bad7e2776210fb10adf05783aa98:835562309,5d64bad7c57762101a451c86b820a778:-1645230618,9964bad7f77762102ec26eeeb3504265:168943751,c564bad7ad7762106b4057d6cb108352:1983118120,0964bad70e776210d576520be8df440d:-1054718722,45647ad7007762102205f3269d07dcfa:759455647,81647ad7c177621023ba8c58db06c8e7:-1721337280,cd647ad7ac776210e344573fb67879d3:92837089,0d647ad7d77762105d815447064ec8c0:1907011458,78647ad752776210bd5cd619cb36c5ad:-573781469,b4647ad7ad7762101d19cd93e1b99c9a:1240392900,b4647ad747776210b3d835ccac181688:-1240400027,f0647ad77277621012eeb5ba50baf875:573774342,30647ad7af776210cdd7cbaf37706262:-1907018585,ec647ad7d9776210c5c472ea729e3c35:-649888131,2c647ad7b4776210750b30c42e8be222:1164286238,68647ad75c776210a1b8b3fc91780d0f:-1316506689,a4643ad7d0776210935cdfff7d2510fc:497667680,e0643ad73e776210f4d6b0ad233b2ae9:-1983125247,a0643ad7eb7762102ce7abdaf0a7dbbd:-168950878,dc643ad738776210289e99f9363ca4a9:1645223491,1c643ad7c9776210ec67080bc82b8d96:-835569436,58643ad74e77621058b5d53dc794ae83:978604933,94643ad73a776210751477c4a8a58770:-1502187994,d0643ad733776210283158f597cad65d:-245057540,5c643ad71d7762106e358b33674fe330:1569116829,8249e15f847f221004677b5d6f92996f:-911676098,4249e15f237f221024cd60048e5d9b13:902498271,0a49a15f0d7f2210f2d26375336421f5:-1578294656,3549a15fa57f22101b735feda2769bd8:235879713,bd49a15fd17f2210e4fa85ad8f077bae:2050054082,3549a15f487f22103c578f4157fabd92:-430738845,ed49a15ff17f221012831cb5467a0975:1383435524,ed49a15f377f2210e37d69a168abf859:-1097357403,2549a15ffb7f2210c249cbc8eb08ca3e:159773051,e549a15f9e7f22106368533bf5ad5d16:1973947420,dd49615fbc7f22109b1655c371bc5cee:-506845507,1d49615f6d7f22101fa8fc8303de4ac7:1307328862,5549615f847f22105ce1e620978ccdad:-1173464065,1d49615ff47f2210e3363f77bae30d86:640710304,cd49615f327f2210b8e455f1e0ae146c:-1840082623,0149615fc97f221079367f8ddd7b8547:-25908254,4d49615f3f7f22106d266cac7e6c152d:1788266115,cd49615f0b7f221002fa9f9155713c14:-692526812,b449215f717f2210cd35a644cacb38fc:564603642,b049215f0d7f2210549c15b62c89c2e4:-1916189285,f049215f857f221016f5a527bffd85cc:-102014916,b049215f757f2210e6137e1c616851a8:1712159453,6c49215fe37f2210db5ce6fc193d6190:-768633474,6c49215fb27f22109b7c3d71178d3079:1045540895,a049215f907f2210d02e93946f382c63:-1435252032,2c49215f947f2210c1363441b494244c:378922337,e849215f927f2210b26f85cd82ee4836:-2101870590,dc49215fd97f221000641cf47ba8ab20:-287696221,1849215f7f7f22106eb104ce14f0be0b:969434233,1849ed1fd77f2210c16b6d32fa0538dd:-1511358694,9449ed1f607f22109864519451ac54a3:302815675,d449ed1fd97f22108c71610982ce6b82:2116990044,0849ed1f147f2210925a13cbc5180f3c:-363802883,0c49ed1f637f2210d98d536430b2e80f:1450371486,0c49ad1f357f2210414344ccedf897ef:-1030421441,8849ad1f5e7f221046026e18ae292cc3:783752928,0449ad1f0c7f22107ab22b9de2290ca4:-1697039999,3f39ad1f477f22106457d84eb8c79178:117134370,b339ad1fe27f2210deb1894e88c24b41:1374264824,3739ad1f0f7f2210d371c03e60cac816:-1106528103,37396d1f8e7f22101f3292fd537548df:707646266,33396d1f977f221038d65f4659f43bb5:-1773146661,2b396d1f017f2210f5c3407f866dec97:41027708,67396d1f667f22100f9e93071ce1e77a:1855202077,a3396d1fec7f2210b1370e92ed690738:-625590850,a3396d1fa87f221077ff92b39614fd0f:1188583519,67392d1f017f2210fdc0444ae8eecaff:-1292209408,6f392d1f697f2210aecb0cca790636ef:521964961,9b392d1f437f221056580e29a94e98e0:227407209,1f392d1fc17f2210953882eadabf6ed1:2041581578,df392d1f457f2210d1a9f3e49b3aa3c2:-439211349,9b392d1f547f2210880aa1a35d23ccb5:1374963020,cb392d1f507f2210b2c1f31f1ff4447f:-1189444081,47392d1f527f2210e843bc8f81a3ccac:-1105829907,0b392d1f5b7f2210b4fe442df1c25aa2:708344462,8f392d1ff67f2210406c73085b35e998:-1772448465,c3392d1f227f221065786008c60cd591:41725904,c7392d1f427f2210a0df0307c2588f7d:1262391815</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Chat Solution Accelerator by Azure OpenAI1">3e647ed7c37762107e68b41ed40131bf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:13:57</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>1c4c88e37a8b4f559bade20e39cbd9f9</sys_id>
+        <sys_metadata>c7392d1fc37f22107e68b41ed4013161</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Chat Solution Accelerator by Azure OpenAI1</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_c7392d1fc37f22107e68b41ed4013161</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_c7392d1fc37f22107e68b41ed4013161">fe647ed7c37762107e68b41ed40131af</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:13:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

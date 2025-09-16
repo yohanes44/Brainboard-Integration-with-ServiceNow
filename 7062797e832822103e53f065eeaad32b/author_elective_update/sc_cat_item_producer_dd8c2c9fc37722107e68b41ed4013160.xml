@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[This solution deploys a secure Azure Application Gateway with an integrated Web Application Firewall to protect against common attacks.
+SSL certificates are centrally managed in Azure Key Vault and accessed via a managed identity for precise control.
+The entire setup is hosted in isolated virtual networks with strict security rules, delivering a scalable, highly available platform that meets modern security standards.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>1d8c2c9fc37722107e68b41ed401315e</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Secure Application Gateway - WAF Policy</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>9d8c2c9fc37722107e68b41ed401315f</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=dd8c2c9fc37722107e68b41ed4013160&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Secure Application Gateway - WAF Policy</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:20:13</sys_created_on>
+        <sys_id>dd8c2c9fc37722107e68b41ed4013160</sys_id>
+        <sys_mod_count>80</sys_mod_count>
+        <sys_name>Azure Secure Application Gateway - WAF Policy</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_dd8c2c9fc37722107e68b41ed4013160</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:36:23</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>81</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=dd8c2c9fc37722107e68b41ed4013160"/>
+    <fx_price action="DELETE" query="id=dd8c2c9fc37722107e68b41ed4013160"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>dd8c2c9fc37722107e68b41ed4013160</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:20:13</sys_created_on>
+        <sys_id>9d8c2c9fc37722107e68b41ed4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:20:13</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_dd8c2c9fc37722107e68b41ed4013160</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[This solution deploys a secure Azure Application Gateway with an integrated Web Application Firewall to protect against common attacks.
+SSL certificates are centrally managed in Azure Key Vault and accessed via a managed identity for precise control.
+The entire setup is hosted in isolated virtual networks with strict security rules, delivering a scalable, highly available platform that meets modern security standards.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;1d8c2c9fc37722107e68b41ed401315e&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Secure Application Gateway - WAF Policy&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;9d8c2c9fc37722107e68b41ed401315f&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=dd8c2c9fc37722107e68b41ed4013160&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Secure Application Gateway - WAF Policy&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 12:20:13&lt;/sys_created_on&gt;&lt;sys_id&gt;dd8c2c9fc37722107e68b41ed4013160&lt;/sys_id&gt;&lt;sys_mod_count&gt;80&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Secure Application Gateway - WAF Policy&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_dd8c2c9fc37722107e68b41ed4013160&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:36:23&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;81&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=dd8c2c9fc37722107e68b41ed4013160"/&gt;&lt;fx_price action="delete_multiple" query="id=dd8c2c9fc37722107e68b41ed4013160"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;dd8c2c9fc37722107e68b41ed4013160&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 12:20:13&lt;/sys_created_on&gt;&lt;sys_id&gt;9d8c2c9fc37722107e68b41ed4013163&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 12:20:13&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>573551560</payload_hash>
+        <record_name>Azure Secure Application Gateway - WAF Policy</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:36:23</sys_created_on>
+        <sys_id>7d272d53c37f22107e68b41ed4013114</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199347c444f0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:36:23</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>b1272d53ec7f2210554017773881ab14</update_guid>
+        <update_guid_history>b1272d53ec7f2210554017773881ab14:573551560,b9272d53d87f221088e1019d436f0601:-694604527,3927e9535d7f2210a09ecbe392203df4:-1334209698,3d27e953357f22101dbb40fdf46830e8:479964671,3127e953fc7f221087c5be7e8542b1dd:-2000828256,b127e953fe7f221009abe7592d4a66d0:-186653887,e127e953217f22105855e98573b2e8bd:1627520482,e527e953187f221020caf63d193e67ab:-853272445,2927e9534e7f22101fbe459099cf8498:960901924,a127e953da7f2210f72a0fe8053db679:-1519891003,e127e953557f221006ed95ba4c694266:294283366,1527e953a97f221074e7bde239667353:1551413820,5527e953e07f2210bf5062f34170a740:-929379107,1927e953677f2210641de7074a604714:884795262,1527a953247f22105a7aebb7576f8ddc:-1595997665,4527a9533a7f221073eae2a78da427c9:218176704,8527a953cb7f2210db97c6a56db739b6:2032351073,c527a953177f22105a0ed5c31c463ea3:-448441854,0927a953f37f221075626bacc361e690:1365732515,4927a953e17f22108f558b30eccb237d:-1115060412,4d27a953e47f221098cefdc493287e6b:699113957,bc27a953107f22104176cad506273558:1956244411,fc27a953387f22104e994e632d16c745:-524548516,3027a953e67f22104806982558c6aa33:1289625853,7027a953957f221022c98c7195d01d20:-1191167074,b027a953357f2210f7ec022883ff460d:623007295,f02769530f7f2210a2308c17318fe6fa:-1857785632,24276953687f22100589264381d755e7:-43611263,64276953db7f2210a5bb2d8979d9dbd4:1770563106,28276953537f22103f81b3f119d219a8:-710229821,682769539f7f22105702bf488d6ec895:1103944548,e0276953ae7f221061daf3f5942ef976:-1933892294,24276953167f22105bf2fcc81b8ce363:-119717925,54276953eb7f2210f3fb3449b4706450:1694456444,94276953147f2210a7abd459e449443d:-786336483,10276953717f2210e9ab966261747e1e:1027837886,502769533d7f22109ff0571eeb66e80b:-1452955041,90272953487f221061adbc949420f7f8:361219328,d0272953477f2210b59789317bd180e5:-2119573599,cc2729539c7f2210887fef937f4bc5d1:-305399230,1f8cec9f907722108cee4eacb96e9be9:1508775139,1f8cec9f347722107fbef1343e010bc4:-1529061703,1b8cec9f99772210864c0655cdeddaac:285112666,4b8cec9faa772210a669ec5e1f890794:2099287035,0b8cec9f607722106c40da7a64aef770:-381505892,c38cec9ff9772210ffed3c7cc6709659:1432668477,c38cec9f64772210c21e45b0ff086a42:-1048124450,728cec9fd277221046f178248409bf1f:766049919,368cac9f2d772210d235440cbe51f2fc:-1714743008,f28cac9fbc772210d8a00b75147638e6:99431361,f68cac9f067722108822d1e146275dd0:1913605730,328cac9f877722104545c22221d468bb:-1124231112,ae8cac9f80772210b993ff810493e7a5:689943257,aa8cac9f2d77221094b5af8567b62e84:-1790849670,a28cac9ff57722109c56ad3289709770:23324699,2a8cac9f0f772210aa8f872986136e4f:1837499068,aa8cac9f3577221012621ff7be1f583b:-643293859,528cac9fb077221055150496c4ba5128:1170880510,5e8cac9f507722104e1bf28540f04e14:-1309912417,d68c6c9f4f772210da4de5d313f268f5:504261952,5e8c6c9ff6772210f798c4e5520ad7e2:-1976530975,1a8c6c9f2077221005e08d6cc7de82d0:-719400521,0a8c6c9f87772210ff14c91742b378be:1094773848,4e8c6c9fe5772210add555b88e24a9ac:-1386019079,c68c6c9f857722101f2059076631519b:428155290,428c6c9f8f7722109342ef9cf15e6865:-2052637637,468c6c9f0177221009d4193215fffb54:-238463268,8e8c6c9fd577221087f66ec39c0dc043:1575711101,3d8c6c9f427722108348428e00a8f533:-905081826,fd8c6c9f18772210d7c18faed2e9cc23:909092543,f58c6c9f7d77221050dd8aef6ff81914:-1571700384,358c6c9f4a772210384222619d382a05:-1720516454,b58c2c9fd977221084ce24d17f5009f6:93657915,258c2c9f78772210f5b61e546de6bcdb:1907832284,ed8c2c9f5b772210dc8af75edc73bfcd:-572960643,a98c2c9f79772210104b4ae298c797c4:1241213726,a58c2c9f4177221082d95f0762489aae:-1239579201,258c2c9fe2772210cb8e6befcdb65498:574595168,e98c2c9fb177221063682e559b156090:-1906197759,d18c2c9f7f772210fae6eac459800075:1372604110,198c2c9f397722103b2f50e54aa8e370:-856593672</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Secure Application Gateway - WAF Policy">f1272d53c37f22107e68b41ed4013118</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:36:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>2049df0e6b874110a0605db12d2d8900</sys_id>
+        <sys_metadata>dd8c2c9fc37722107e68b41ed4013160</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Secure Application Gateway - WAF Policy</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_dd8c2c9fc37722107e68b41ed4013160</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_dd8c2c9fc37722107e68b41ed4013160">7d272d53c37f22107e68b41ed4013114</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:36:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

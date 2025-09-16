@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[This Azure architecture uses a central NVA with NAT and BGP to enable communication between networks with overlapping IP addresses, ideal for company mergers, migrations, or multi-cloud integrations where addressing schemes cannot be modified. Traffic between spokes is routed through the hub via specific UDRs, where the NVA performs intelligent address translation and advertises virtual address spaces via BGP, delivering a flexible, controllable, and scalable solution without requiring IP addressing restructuring. Key strengths: preservation of existing addressing schemes, isolation and security with centralized traffic inspection, scalability to easily integrate additional overlapping networks, and optimal use of native Azure services (Route Server, UDR) for simplified management.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>025ec103c33b22107e68b41ed4013189</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Route Server in Hub &amp; Spoke</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>c25ec103c33b22107e68b41ed401318a</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=465ec103c33b22107e68b41ed401318b&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Route Server in Hub &amp; Spoke</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:09:31</sys_created_on>
+        <sys_id>465ec103c33b22107e68b41ed401318b</sys_id>
+        <sys_mod_count>142</sys_mod_count>
+        <sys_name>Azure Route Server in Hub &amp; Spoke</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_465ec103c33b22107e68b41ed401318b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:01:40</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>143</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=465ec103c33b22107e68b41ed401318b"/>
+    <fx_price action="DELETE" query="id=465ec103c33b22107e68b41ed401318b"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>465ec103c33b22107e68b41ed401318b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:09:31</sys_created_on>
+        <sys_id>c25ec103c33b22107e68b41ed401318e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:09:31</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_465ec103c33b22107e68b41ed401318b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[This Azure architecture uses a central NVA with NAT and BGP to enable communication between networks with overlapping IP addresses, ideal for company mergers, migrations, or multi-cloud integrations where addressing schemes cannot be modified. Traffic between spokes is routed through the hub via specific UDRs, where the NVA performs intelligent address translation and advertises virtual address spaces via BGP, delivering a flexible, controllable, and scalable solution without requiring IP addressing restructuring. Key strengths: preservation of existing addressing schemes, isolation and security with centralized traffic inspection, scalability to easily integrate additional overlapping networks, and optimal use of native Azure services (Route Server, UDR) for simplified management.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;025ec103c33b22107e68b41ed4013189&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Route Server in Hub &amp;amp; Spoke&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;c25ec103c33b22107e68b41ed401318a&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=465ec103c33b22107e68b41ed401318b&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Route Server in Hub &amp;amp; Spoke&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:09:31&lt;/sys_created_on&gt;&lt;sys_id&gt;465ec103c33b22107e68b41ed401318b&lt;/sys_id&gt;&lt;sys_mod_count&gt;142&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Route Server in Hub &amp;amp; Spoke&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_465ec103c33b22107e68b41ed401318b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 21:01:40&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;143&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=465ec103c33b22107e68b41ed401318b"/&gt;&lt;fx_price action="delete_multiple" query="id=465ec103c33b22107e68b41ed401318b"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;465ec103c33b22107e68b41ed401318b&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:09:31&lt;/sys_created_on&gt;&lt;sys_id&gt;c25ec103c33b22107e68b41ed401318e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 20:09:31&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-285154229</payload_hash>
+        <record_name>Azure Route Server in Hub &amp; Spoke</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 21:01:40</sys_created_on>
+        <sys_id>ce4ad183c3bb22107e68b41ed401316c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1993048c8fb0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:01:40</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>064ad183f6bb2210438edeb20f81ac6c</update_guid>
+        <update_guid_history>064ad183f6bb2210438edeb20f81ac6c:-285154229,0e4ad1832abb221074224b4703f19d59:1895473301,824ad1838dbb22107f5d94f185f91f40:839900784,064ad1834fbb22105fcef23f0a0cbf34:2097031238,864ad1835cbb22101276ed93d3764b28:-383761689,b54ad183a6bb2210761b8f452bd4c21b:1430412680,f54ad18361bb2210a5a68eff11c47208:-1050380247,394a91839ebb22105bdec17d8addfaf5:763794122,794a918311bb221058a4771f7dd840e2:-1716998805,b94a9183a5bb2210e611ad05632aeccf:97175564,f94a9183d4bb221078c6bd25cb2570bc:1911349933,e54a918359bb22109dbe540997115f84:-569442994,294a91839bbb2210ff78d48407220f71:1244731375,e94a9183a1bb2210bf00b61964831845:-1793105467,654a918393bb2210e3f00a4b4f32cd26:21068902,a54a918339bb2210cce74fbcebe37f13:1835243271,d54a91837cbb2210152255a716714100:-645549656,194a518319bb2210f5352101f90f02ed:1168624713,594a51834abb2210de1e87f738a80cda:-1312168214,5d4a5183a3bb22102322619796aa6dc8:502006155,9d4a51830ebb2210fa989c8f740874b5:-1978786772,914a518338bb22102374c9e5a54697a4:-164612403,c14a518333bb221097d33b317c0f3491:1649561966,054a5183a7bb2210a4a9e8bb40183b7e:-1388274876,454a5183bcbb2210c5bfc3c29925b26b:425899493,854a5183c5bb22107a29b0a8be66e458:-2054893434,c54a5183a0bb221019b5f07078d0ad45:-240719065,704a518359bb221048c90b15eb554626:1573455304,b04a518385bb221070bffb1e7465c213:-907337623,f04a51833cbb221023e2ba5bedfd4700:906836746,344a118308bb2210b596422400830ced:-1573956181,744a118342bb2210b55cfc443ccf9eda:240218188,b44a1183d3bb2210123f7c437699e4c7:2054392557,204a118351bb2210e0858e9c9087a5a8:-983444285,a84a118392bb2210a900107cda1cd288:830730084,e84a118324bb2210a7d502d8706dd275:-1650062843,2c4a118301bb22107a3b59b03585cf62:164111526,6c4a1183d9bb2210abd132a32de1e74f:1978285895,ac4a118380bb221016c4c8d0c324e23c:-502507032,dc4a1183b1bb2210c267610d1bf10c29:1311667337,584a11834bbb2210335023befedf570a:-1169125590,984add43e0bb2210dcf1e8e772724df7:645048779,144add4325bb2210ab031900eedeb3d8:-1835744148,544add43c0bb2210302efc6f2b76d6c5:742428579,844add43bfbb22106887960cce9286b2:-1738364348,c44add431ebb2210cb3903b626b1059f:75810021,c04add43d2bb2210a577133e544e6867:1889984390,044add4329bb221031f3203bb17ab254:-590808537,8c4add4315bb2210d78bbfa40d771334:1223365832,3b3add4314bb22108cd5c9136ff37b15:-1257427095,fb3a9d4389bb2210ccfb21535f6f2ce9:556747274,773a9d431abb2210f9bfec92c30179ca:-1924045653,3b3a9d43a0bb22109b0bd0385b1f2c9e:-109871284,a33a9d4352bb2210c9455b9073d7427f:1147259170,e33a9d4321bb221039f5bdc572ab6b6c:-1333533757,a73a9d43b1bb22100fe9b55010559540:480640612,e73a9d431dbb2210d344dabb97b0872d:-2000152315,1b3a9d437fbb2210df49ebccc3caea1a:-185977946,5b3a9d43bbbb2210960ca1cbd7dfed07:1628196423,9b3a5d4300bb22107f9239bf9c1ab2f4:-852596504,db3a5d439ebb221052b62f5f405357e1:961577865,1f3a5d4329bb22105b45db68a31e61ce:-1519215062,5f3a5d43f7bb2210ffc713b991829abb:294959307,8f3a5d438bbb2210a9c9b3fc3742dea8:1552089761,cf3a5d43fdbb2210e588c05de93b5e95:-928703166,033a5d43a7bb2210261a1156fc4e6d83:885471203,433a5d43f2bb221067da2c2331a29870:-1595321724,cb3a5d439abb221016ff6d3e1ee40450:218852645,0f3a5d438cbb22104dbecd6c48f8233d:2033027014,7e3a5d4393bb2210605f36a6f440342a:-447765913,7a3a5d4303bb2210e61193b84beb3917:1366408456,a26e4d03d13b22105f9b990b5d43b00f:-1114384471,a66e0d03e53b22109e2704bc2543f4e0:699789898,966e0d03ef3b2210a041882444f410be:1956920352,566e0d037d3b2210bc36e0502b52b090:-523872575,9a6e0d030d3b221086e02c942952c749:1290301794,c66ec9031a3b2210e01ef19db86ec0ea:-1190491133,066ec9030e3b2210f4384de7274067bd:623683236,4e6ec903ee3b2210136e264c3b0b8b9c:-1857109691,7d6ec903673b2210f64b2ff9bcecc063:-42935322,716ec9033c3b22100bd06c9919006444:1771239047,796ec903ca3b221010da51a8491c7124:-709553880,616e89036c3b2210ef3c150407e8a4e0:1104620489,e16e8903d43b221001c64a3bbf8206c1:-1933216353,a96e8903853b2210f75c8e62f5ae2ba2:-119041984,a56e8903fd3b2210023ed6c722acdb84:1695132385,116e8903d03b2210290f59720b7c205a:-785660542,dd6e8903f63b22102b8e7e2d481be12f:1028513827,d16e8903473b2210b71b8e23e5c55206:-1452279100,c16e4903a93b22104c998c308c7971e9:361895269,096e49033c3b22100742fc361e7ab3cc:-2118897658,816e4903ea3b2210bcb7033fae1ef5b0:-304723289,f06e4903403b2210c7b7e5e697af527b:1509451080,b06e4903da3b22100f9cc91f8be6e73a:-1528385762,346e49034a3b2210a56bd53734845712:285788607,f86e0903223b2210807c5970b28174ea:2099962976,ac6e0903bc3b22105c87e59a59649ecf:-380829951,a46e0903a33b221038e87632fba755b5:1433344418,e06e0903a53b22105515208eb337359b:-1047448509,106e0903353b221025fce94aac15425c:766725860,d46e0903f83b2210b6256da33678f842:-1714067067,1c6e0903e73b221078d168e6f2cb0b1c:100107302,5c6e0903893b22107732967e54346503:1914281671,c06ec503473b22104b998e611df872eb:-1123555171,c46ec503753b22100bccb3b486d951c6:690619198,c46ec503c43b221043466118235a88ae:-1790173729,0c6ec503513b22106b45943ab9905a96:24000640,3b5ec503fa3b22109685c59bd479b266:1838175009,7b5ec503843b221065daf6ba26d50436:-642617918,7f5ec503b23b22108a705269ae00ae1f:1171556451,b75ec503593b22106908bc1a14be8909:-1309236476,275e8503533b22106762116141ceecf3:504937893,e75e8503c53b221016658a73bbc10add:-1975855034,635e8503943b22106aaa6f93874dc6af:-718724580,af5e8503773b2210b1462f7cd045d499:1095449789,a35e8503993b2210a2bdf6bd0752396c:-1385343138,5b5e8503f93b2210019c42418c140a57:428831231,575e8503b23b22100d3ce3a193928143:-2051961696,5f5e85035d3b2210ea0ac9580846e72e:-237787327,d35e8503893b2210242e261c0f3b421b:1576387042,8f5e8503383b2210e935d5ecb07c4a06:-904405885,cf5e4503a93b22108d5cc151d1a436f3:909768484,475e4503ce3b2210b0dbf7c1fb70d1e1:-1571024443,035e4503d13b2210eb52c70b3570b6cf:-313893989,035e4503463b221043a32dad770460bd:1500280380,365e4503b63b2210b701e07955b928ab:-980512547,b65e45032a3b2210b3010139c49c768d:833661822,365e45038a3b2210b95d567f2104d27c:-1647131105,f65e4503e03b2210988dce1afb35116b:167043264,3a5e4503b63b2210cd6a6d52ef6c514e:1981217633,be5e45039d3b2210aaa119cd34aae731:-499575294,aa5e4503473b2210f8bd527f4f94fd15:1314599075,ea5e0503ff3b2210a32e5d05ef89bff9:-1166193852,aa5e05037a3b2210a2b22900710df3d1:829142116,6a5e0503193b22104919be51a0d3e884:-1651650811,125e0503123b2210c95baf8e6af3155d:162523558,165e05032d3b2210917cc5dd9b0b3a43:1976697927,525e0503ba3b2210f72ade397240eb21:-504095000,925e0503a63b221062c2687e99ce3117:1310079369,9e5e05031e3b2210a73ea2afb67bfe00:-1170713558,4e5ec103e03b2210b7aff5c135b8d4ec:643460811,c65ec103ae3b221055bb3f7eb6b668da:444981170,c65ec103f53b22100e8c61d8527ea9e5:749480476</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Route Server in Hub &amp; Spoke">064ad183c3bb22107e68b41ed4013170</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 21:01:41</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>6804a35341f74c0098bdc5ebae11e769</sys_id>
+        <sys_metadata>465ec103c33b22107e68b41ed401318b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Route Server in Hub &amp; Spoke</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_465ec103c33b22107e68b41ed401318b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_465ec103c33b22107e68b41ed401318b">ce4ad183c3bb22107e68b41ed401316c</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:01:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

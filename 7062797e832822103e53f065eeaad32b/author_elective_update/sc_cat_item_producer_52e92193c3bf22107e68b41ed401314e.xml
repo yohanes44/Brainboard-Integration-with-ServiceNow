@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[Production-ready private Azure Kubernetes Service (AKS) architecture with public DNS zone to enable external access. Built with best practices for security, networking, and high availability.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>d6e92193c3bf22107e68b41ed401313f</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Private Kubernetes Service cluster</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>12e92193c3bf22107e68b41ed401314d</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=52e92193c3bf22107e68b41ed401314e&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Private Kubernetes Service cluster</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:48:25</sys_created_on>
+        <sys_id>52e92193c3bf22107e68b41ed401314e</sys_id>
+        <sys_mod_count>132</sys_mod_count>
+        <sys_name>Azure Private Kubernetes Service cluster</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_52e92193c3bf22107e68b41ed401314e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:10:16</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>133</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=52e92193c3bf22107e68b41ed401314e"/>
+    <fx_price action="DELETE" query="id=52e92193c3bf22107e68b41ed401314e"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>52e92193c3bf22107e68b41ed401314e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:48:25</sys_created_on>
+        <sys_id>12e92193c3bf22107e68b41ed4013151</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:48:25</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_52e92193c3bf22107e68b41ed401314e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[Production-ready private Azure Kubernetes Service (AKS) architecture with public DNS zone to enable external access. Built with best practices for security, networking, and high availability.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;d6e92193c3bf22107e68b41ed401313f&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Private Kubernetes Service cluster&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;12e92193c3bf22107e68b41ed401314d&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=52e92193c3bf22107e68b41ed401314e&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Private Kubernetes Service cluster&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:48:25&lt;/sys_created_on&gt;&lt;sys_id&gt;52e92193c3bf22107e68b41ed401314e&lt;/sys_id&gt;&lt;sys_mod_count&gt;132&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Private Kubernetes Service cluster&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_52e92193c3bf22107e68b41ed401314e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 22:10:16&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;133&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=52e92193c3bf22107e68b41ed401314e"/&gt;&lt;fx_price action="delete_multiple" query="id=52e92193c3bf22107e68b41ed401314e"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;52e92193c3bf22107e68b41ed401314e&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:48:25&lt;/sys_created_on&gt;&lt;sys_id&gt;12e92193c3bf22107e68b41ed4013151&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:48:25&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1500410926</payload_hash>
+        <record_name>Azure Private Kubernetes Service cluster</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:10:16</sys_created_on>
+        <sys_id>f893f613c37762107e68b41ed4013127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19935adf3c50000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:10:16</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>3093f6134f776210c4e28307b80a6827</update_guid>
+        <update_guid_history>3093f6134f776210c4e28307b80a6827:1500410926,3493f6130c776210af6630eee77cbc14:-859494054,bc93f613d477621059f694ba903d9c06:674304259,f493b6130b77621041552b8e44271eee:1931434713,f493b6138e7762103a887a3b0d8781e2:-549358214,6493b61313776210494c1ea9d4b92cd5:1264816155,a093b613687762105c6e77f68368d9c2:-1215976772,6093b613c8776210f9ab2646ccc89596:598197597,2093b6136c776210a36506a65621156a:-1882595330,6c93b6136c7762104559843a806b0d56:-68420961,9893b613a577621093f78590a64e8b43:1745753408,d493b613b17762105bf29ebeca3e4d30:-735039519,1493b613b97762103b6f1e8814f6091d:1079134850,54937613ac77621054452686101020d8:-1958701992,0493761376776210a4c20520d16cb3ac:-144527623,40937613bd77621096cbc77de1283799:1669646746,c4937613f77762100851f02b57e0d379:-811146181,04937613a9776210469c5eda2b7bf366:1003028188,4093761380776210ed1eee1add648a53:-1477764739,73837613a67762109229cade793f4a41:336409630,bf83761378776210f4f797ade0228b2d:-2144383297,fb837613037762107dda881ed6c34e1a:-330208928,3b83761319776210eccdf4a5c1c16b07:1483965441,778336133977621079c461071db90df4:-1553871401,fb8336131977621040437bbed719ddd4:260302968,6383361393776210d5d0b8f81964c6b5:2074477337,af8336136d77621007fbf142b6dc25a1:-406315590,2783361378776210367ce455e7dc0c82:1407858779,63833613f8776210eaa6c314c3aae56f:-1072934148,af833613f5776210da65b45deabfca5b:741240221,db833613ac7762108e86e8aef37c6b48:-1739552706,1b83361343776210f53400d60a583c35:74621663,d783361364776210fb4161d7d9cece09:1888796032,1783f213ed776210ab0c9a12a6e98cf6:131594793,5383f213b17762107ed39626332d65e3:1945769162,9f83f213b777621020c3c5fad40d54cf:-535023765,0783f213967762109f95c7ecc9a0b4b0:1279150604,4383f213927762104c4035c6ac0eb69d:-1201642323,c783f213c3776210f4921314c05b657d:612532046,0783f21361776210e64818422c60816a:-1868260881,8b83f213ce776210cdc55ed5cacbb04a:-54086512,7a83f213f6776210627b166b5745901e:1760087857,b683f213e2776210c9350516c6889c0b:-720705070,3e83b213da77621054d20c1d05ed1ceb:536425384,7a83b213d2776210e3ffddd067a081d8:-1944367543,7283b213927762102086c8ddc84cd3a0:-130193174,be83b21385776210af2b733b39a0678c:1683981195,2683b213a3776210e699e9d2a0fd1b6d:-796811732,aa83b21314776210314e9392bd9c0b4d:1017362637,e683b213ad77621009b5665d28ba453a:-1463430290,2683b213537762106383a791055a3827:350744079,aa83b21322776210e2c89a2cdb398d07:-2130048848,22837213e6776210739233bd82d128e8:-315874479,5e837213557762105d93f9a75cc451d4:941255975,9a837213b17762109e6bb8dfe611d5c1:-1539536952,d6837213e7776210c09d1a20a66aa1ae:274637417,168372138f7762101f689915e9ae279b:2088811786,428372137777621082bfa32d4ddc2088:-391981141,8e837213ed77621012fb523d09facd74:1422193228,8e837213a07762109dd2e1c9b5b54e62:-1058599699,068372133a776210de99e11671651b43:755574670,8a8372133b776210be3e7ae8a1e1ef23:-1725218257,f5837213fb7762108fec4f7ad263b910:88956112,7d8332134a776210a8accc658d2b6ef0:1346086566,b983321304776210e6f73d08777973dd:-1134706361,b183321350776210eee76e876fa835ca:679468008,82f9299311bf2210a6e72acefa19c283:-1801324919,06f92993e3bf2210d2de0e4a92c6b824:12849450,f5f9e593b6bf2210af1cbe1336d1d0f7:1827023819,b5f9e59394bf221026301ba3b4410ed7:-653769108,f1f9e593a1bf22109e4393fcadf983ab:1160405261,65f9e593afbf221054111eba2f3a117f:-1320387666,e1f9e59363bf2210328f68da2bd58d60:493786703,a5f9e59330bf2210dd0df47f53cc3c41:1750917157,9df9e593ffbf2210d2703a5a332f4f22:-729875770,15f9a593ffbf2210d01569d8b00075f8:1084298599,95f9a59388bf22106b9b18c7e3fdf7da:-1396494328,5df9a5938cbf2210f3e12b5b0c743bbc:417680041,49f9a59348bf221062b783af0e6d779f:-2063112886,89f9a593fabf221069047d5fc0234b82:-248938517,c9f9a59302bf2210e20417a111a3dc40:1565235852,b4f9a593cabf221039e32754b0b69224:-915557075,b4f9a593b2bf22109e94200b13a90308:898617294,f8f96593dbbf2210bac80f3cd2ca41ec:-2139219548,74f96593c8bf221044fcd04703ab82d1:-325045179,24f96593c8bf2210800547d8b82cdeb6:1489129190,60f965939abf2210d606631612b97d8f:-991663737,e0f9659369bf22100e3953495f48c868:822510632,60f96593aabf22105b4bdfe54bd7584e:-1658282295,5cf9659373bf2210fea2cc48284b4927:155892074,54f9659349bf221044d4cc1d2319fa0e:1970066443,90f9259309bf22100c5be72ec4b4f9f5:-510726484,5cf925933fbf22100892d658898ff7cf:1303447885,04f9259396bf221064519a2738331eb7:-1734388957,c8f92593cdbf22108cbb7483a92bfd79:79785412,44f925939abf2210867c8ea1eb945555:1893959781,04f9259303bf2210ad5fbfb79ac4f831:-586833146,73e92593fdbf2210e77db0a1c901da01:1227341223,f3e9e19350bf2210f545f98335d52dd1:-1253451704,bbe9e19387bf22106658b1e35ad632a1:560722665,ffe9e19358bf221031b89083df7f6365:-1920070262,b3e9e1930bbf2210d31956ea89faa61e:-105895893,efe9a193b1bf2210e1d41066573daffb:1708278476,2fe9a193aebf22105d9c283151fcccb4:-1329558366,2fe9a193aabf2210ba568ce11d22cd86:484616003,2be9a1930dbf22102b5279bc00dd2565:-1996176924,13e9a193f2bf221097af018f2c565251:-182002555,5fe9a193c0bf2210be3d4993e5e7873c:1632171814,1be9a19308bf221023187c63581e2b1c:-848621113,dfe9a193c2bf221035bf36d5934fd808:965553256,dbe9619397bf22101c3182d8441b4ff5:-1515239671,0fe961936dbf2210338eea48b1f742e2:298934698,83e96193ecbf2210476d93aa8f8f2ad0:2113109067,4fe961938fbf2210f83eb4d7bec983bd:-924727775,4fe961936cbf2210126264e1be2750ab:889446594,83e96193fbbf221022a1cdd5ae5cef9a:-1591346333,0fe9619333bf2210bb8db1d24caeeb88:222828036,7ee96193dcbf2210999b72f20c6bd25e:2037002405,72e9619337bf22105a383682b338274e:-443790522,f2e96193efbf2210a0d127e27c433f31:1370383847,72e96193b7bf22101c81cce4ca2b2e21:-1110409080,36e96193c2bf22107ba37ebbff8c0811:703765289,3ee9619327bf22105bcd76e76079bb01:-1777027638,6ae921939cbf22109a5e0e9d595029f2:-891373768,eae92193f1bf22100b2bf3953660fee3:922800601,6ae921939dbf2210d7db77d8c73183af:-1557992326,16e9219348bf2210ada86d20677623a2:256182043,dee9219316bf2210dfb162214043e298:2070356412,dae921939cbf2210baf8b7e2ed837473:-402252488,92e92193f3bf221077f929204175368f:-410436515,1ae9219375bf2210e6fa968106bfbd85:1403737854,96e92193ebbf2210b953488420196771:-1077055073,52e9219377bf22105711b49f67d0106a:-1915238774</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Private Kubernetes Service cluster">7093f613c37762107e68b41ed401312b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:10:16</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>b21966bd4abe4d6095917447e80942e4</sys_id>
+        <sys_metadata>52e92193c3bf22107e68b41ed401314e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Private Kubernetes Service cluster</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_52e92193c3bf22107e68b41ed401314e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_52e92193c3bf22107e68b41ed401314e">f893f613c37762107e68b41ed4013127</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:10:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

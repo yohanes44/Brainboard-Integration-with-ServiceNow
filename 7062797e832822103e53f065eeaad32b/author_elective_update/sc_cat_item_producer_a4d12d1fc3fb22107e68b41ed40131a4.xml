@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>d0d12d1fc3fb22107e68b41ed40131a2</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>AWS 3-tier web app with a database</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>64d12d1fc3fb22107e68b41ed40131a3</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=a4d12d1fc3fb22107e68b41ed40131a4&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>AWS 3-tier web app with a database</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:13:05</sys_created_on>
+        <sys_id>a4d12d1fc3fb22107e68b41ed40131a4</sys_id>
+        <sys_mod_count>68</sys_mod_count>
+        <sys_name>AWS 3-tier web app with a database</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_a4d12d1fc3fb22107e68b41ed40131a4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:27:05</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>69</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=a4d12d1fc3fb22107e68b41ed40131a4"/>
+    <fx_price action="DELETE" query="id=a4d12d1fc3fb22107e68b41ed40131a4"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>a4d12d1fc3fb22107e68b41ed40131a4</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:13:05</sys_created_on>
+        <sys_id>24d12d1fc3fb22107e68b41ed40131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:13:05</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_a4d12d1fc3fb22107e68b41ed40131a4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description/&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;d0d12d1fc3fb22107e68b41ed40131a2&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;AWS 3-tier web app with a database&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;64d12d1fc3fb22107e68b41ed40131a3&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=a4d12d1fc3fb22107e68b41ed40131a4&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;AWS 3-tier web app with a database&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:13:05&lt;/sys_created_on&gt;&lt;sys_id&gt;a4d12d1fc3fb22107e68b41ed40131a4&lt;/sys_id&gt;&lt;sys_mod_count&gt;68&lt;/sys_mod_count&gt;&lt;sys_name&gt;AWS 3-tier web app with a database&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_a4d12d1fc3fb22107e68b41ed40131a4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:27:05&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;69&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a4d12d1fc3fb22107e68b41ed40131a4"/&gt;&lt;fx_price action="delete_multiple" query="id=a4d12d1fc3fb22107e68b41ed40131a4"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;a4d12d1fc3fb22107e68b41ed40131a4&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:13:05&lt;/sys_created_on&gt;&lt;sys_id&gt;24d12d1fc3fb22107e68b41ed40131a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:13:05&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1346189209</payload_hash>
+        <record_name>AWS 3-tier web app with a database</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:27:05</sys_created_on>
+        <sys_id>b105a11fc33f22107e68b41ed40131a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1993473c33f0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:27:05</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>f505a11fae3f2210ce95137423bbb5a4</update_guid>
+        <update_guid_history>f505a11fae3f2210ce95137423bbb5a4:1346189209,fd05a11fde3f2210374034e944472691:-928869247,7d05a11f783f2210d2de47d963d2c784:1049504650,7105a11f1f3f2210559874b9e4825a79:-1431288277,ad05a11fde3f221013bc1bf791900d60:382886092,2105a11f883f2210c34fe80af3ea0a54:-2097906835,6105a11f383f2210356a471fd3543e41:-283732466,2505a11fcd3f221014d67a6bbbb7c115:1530441903,6505a11f623f2210d6678c4906fe7102:-950351024,a505611fe33f22101c5723938be9e8ef:306779430,e505611f7a3f2210b43bcaaf4865fcdc:2120953799,1905611fda3f22105753719af19bd7c9:-359839128,5905611fc03f2210be1479585f3638b6:1454335241,9905611fe23f221089d0f827a14c50a3:-1026457686,d905611f133f2210c9250e66b3937890:787716683,d505611f383f22105d174e6d352f2c58:-1693076244,1905611fd23f2210b8c09960478d0c45:121098125,4905611fb63f2210ec38575b7655fb32:1935272494,8905611f2a3f2210a081b5d7a577461f:-545520433,c905611ffb3f2210ae8cd69e2cc2790c:711610021,0d05211f6e3f2210b46de5b6bd8e53f9:-1769182906,b405211f6f3f221048a0ee4f3c393ada:44991463,f405211f443f2210f411d721c089f3c7:1859165832,7005211ff63f221090715ede3c1216a8:-621627095,7c05211f373f2210fc05fa2a71f02d6f:1192547274,3005211f833f2210adbb8aed4b6c0c44:-1288245653,a805211fdf3f2210afb92f960eb88c24:525928716,e405211f9e3f22109fae0d6a40b90706:-1954864211,6c05eddbe83f22102e946c01ecc708db:-140689842,e405eddbb63f22106664580744db65bc:1116440612,2805eddb2d3f2210d510664eeee901a9:-1364352315,6805eddb6e3f2210cf9f189b03702e96:449822054,9805eddb6d3f2210fe3a9fe0513e1b83:-2030970873,9405eddb973f2210122e1352dc417a70:-216796504,5ad1615f40fb2210e2ba8cb1309d357b:1597377865,9ad1615f62fb2210b8c328303584903f:-883415062,56d1615ff4fb221083d3362f1408ef29:930759307,46d1615f59fb2210907c8eb7b6e6fb13:-1550033620,8ad1215fe5fb2210c0076e83652fb1fd:264140749,82d1215f85fb22100b72ee69033d87b7:1521271203,46d1215f65fb221028e431bf018aa770:-959521724,4ed1215f8cfb22104c82f0739afece5c:854652645,b9d1215fedfb22104d6bf9e59b991124:-1626140282,39d1215f80fb2210ebd89529dff96610:188034087,f9d1ed1f83fb221032974cbcaa267cfc:2002208456,3dd1ed1f5efb2210e9636073c22fa9dc:-478584471,a9d1ed1f1bfb221070e2ae1bd2c486b2:1335589898,e1d1ed1f9ffb2210f09271a5fabf0287:-1145203029,61d1ed1fbffb2210b03735270f114d5c:668971340,a5d1ed1f60fb2210ad441e7b4d874a3d:1926101794,a1d1ed1f7dfb221062ceb44717f95206:-554691133,61d1ad1f76fb221013bb52f63f8d44e8:1259483236,1dd1ad1fa2fb2210b82d7bfa5594d8d6:-1221309691,1dd1ad1ff2fb221012e14672708072c5:592864678,51d1ad1f83fb2210c1961d8dbf1e87b5:-1887928249,d9d1ad1fb0fb22109be52697719cb3a4:-73753880,d1d1ad1f15fb2210240490b3b9761488:1740420489,11d1ad1f4afb2210dd90e0830581d96c:-740372438,c9d1ad1f74fb221006c70b49b3483d43:1073801931,c9d1ad1f86fb2210427d70cb92e1e11b:1352219593,cdd16d1f94fb221018dcc2da35023b9c:-1128573334,74d16d1f1dfb22102750d02af1c94875:685601035,3cd16d1ffafb2210c0e7a9ff97301b42:-1795191892,f8d16d1feefb2210cc508d5d077e3001:1867037241,38d16d1faffb221052bf072f96eb9239:18982477,64d16d1f2bfb2210c09bc09337d0f423:1833156846,2cd16d1f7dfb2210954b4073660ea319:-647636081,a0d16d1f4dfb221026f5073fbc5b7612:1166538288,20d12d1f20fb221091c5cd5edd2a5bf2:2051097167</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AWS 3-tier web app with a database">3905a11fc33f22107e68b41ed40131a8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:27:06</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>8327321ee45f41c59cf6236e5b0f51c9</sys_id>
+        <sys_metadata>a4d12d1fc3fb22107e68b41ed40131a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS 3-tier web app with a database</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_a4d12d1fc3fb22107e68b41ed40131a4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_a4d12d1fc3fb22107e68b41ed40131a4">b105a11fc33f22107e68b41ed40131a5</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:27:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

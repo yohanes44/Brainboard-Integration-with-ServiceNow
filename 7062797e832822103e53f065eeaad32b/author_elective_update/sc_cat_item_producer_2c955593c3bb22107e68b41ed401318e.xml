@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>94955593c3bb22107e68b41ed401318b</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Traffic Routing Automation - Smart Slot</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>e8955593c3bb22107e68b41ed401318d</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=2c955593c3bb22107e68b41ed401318e&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Traffic Routing Automation - Smart Slot</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 15:19:33</sys_created_on>
+        <sys_id>2c955593c3bb22107e68b41ed401318e</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_name>Azure Traffic Routing Automation - Smart Slot</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_2c955593c3bb22107e68b41ed401318e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:27:14</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>59</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=2c955593c3bb22107e68b41ed401318e"/>
+    <fx_price action="DELETE" query="id=2c955593c3bb22107e68b41ed401318e"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>2c955593c3bb22107e68b41ed401318e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 15:19:33</sys_created_on>
+        <sys_id>a0955593c3bb22107e68b41ed4013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 15:19:33</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_2c955593c3bb22107e68b41ed401318e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description/&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;94955593c3bb22107e68b41ed401318b&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Traffic Routing Automation - Smart Slot&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;e8955593c3bb22107e68b41ed401318d&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=2c955593c3bb22107e68b41ed401318e&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Traffic Routing Automation - Smart Slot&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 15:19:33&lt;/sys_created_on&gt;&lt;sys_id&gt;2c955593c3bb22107e68b41ed401318e&lt;/sys_id&gt;&lt;sys_mod_count&gt;58&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Traffic Routing Automation - Smart Slot&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_2c955593c3bb22107e68b41ed401318e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:27:14&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;59&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2c955593c3bb22107e68b41ed401318e"/&gt;&lt;fx_price action="delete_multiple" query="id=2c955593c3bb22107e68b41ed401318e"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;2c955593c3bb22107e68b41ed401318e&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 15:19:33&lt;/sys_created_on&gt;&lt;sys_id&gt;a0955593c3bb22107e68b41ed4013196&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 15:19:33&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1755326776</payload_hash>
+        <record_name>Azure Traffic Routing Automation - Smart Slot</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:27:14</sys_created_on>
+        <sys_id>0c15a51fc33f22107e68b41ed40131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1993473e5e30000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:27:14</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>4015a51f2c3f22106e76078bf41a5bdb</update_guid>
+        <update_guid_history>4015a51f2c3f22106e76078bf41a5bdb:-1755326776,7b05a51ffd3f22101ddd3f90ddc295c8:-1129668788,f705a51f333f221012adadc6c5f532bb:1142184193,fb05a51f5a3f2210e7d086ebc69b8eaf:-1338608734,ff05a51f783f2210cc4402f9bef626a3:475565635,7305a51f533f221077f56efd01ca6397:-2005227292,fb05a51f7f3f2210a2c3ed28f078d477:-191052923,3f05a51f473f2210fc8686be03addc64:1623121446,b705a51f203f2210ed57601a964c6e45:-857671481,e705a51fdb3f2210e5e0e1b4c06fc032:399458973,2b05a51f6a3f2210cf6c7d4d65269b1f:-2081333954,a305a51fcc3f22104e9e2d751d8af400:-267159585,e305651f873f221002b20a132537e0ed:1547014784,1705651fff3f221007f9f3cee2e6b7da:-933778143,1305651f0d3f22109bc24b61220c33a2:880396226,5305651fe93f22105cb414a2270d1c8f:-1600396701,9305651fc23f221084e4855b029b747c:213777668,c305651f903f22108e61bffd3862a969:2027952037,4f05651fe33f2210037f4603c071a849:-452840890,4b05651f513f22101b0b710bd63b2e11:804289564,8b05251f293f22107f8d5b2de24c97fe:-1676503363,cb05251f243f2210d9408fb1b6d6d1eb:137671006,0f05251f153f2210c45b80d0981621d8:1951845375,7e05251f643f2210fdfa681b8c944dc5:-528947552,7205251fca3f221004394d56bfadb8b4:1285226817,7605251f6a3f2210c9d1497d56860aa2:-1195566110,b605251fc33f2210c5cdaa537d077b8f:618608259,f605251f883f2210a8a208814366ba7c:-1862184668,f205251f2c3f2210e25f2edf9d969e69:-48010299,d6951993d8bb221042a2df6cb2d1cdc9:1209120155,4695199303bb2210febaa849207eb9b4:-1271672772,4295199369bb2210e98b48eb473e9293:542501597,4a9519939bbb2210d6376c3baed19e7e:-1938291330,b5951993bbbb2210f612c1949c8e076a:-124116961,b99519931abb2210a13009ec0a08e43d:1690057408,b9951993d4bb2210b44d20ae77b2721d:-790735519,b595199384bb22101caabbf17e20110a:1023438850,e595d59318bb221021d8a7d33c61f4f7:-1457354077,a595d593a0bb2210f1537a4572cb7cd8:356820292,a995d593aabb2210d50a619747a294b9:1613950746,a995d593c0bb2210d8c66d1a0879b0a7:-866842181,dd95d593e8bb2210c31ce049b41f6395:947332188,5995d593f3bb2210c0e0ce717c57ba84:-1533460739,9995d59382bb2210c743892ef877ad5a:280713630,d595d59300bb2210fcc2d2143e8a8b3d:2094887999,1195d593bdbb2210a7a3fabc991b7b2d:-385904928,8d95d59398bb22100ec4c223cbb5671c:1428269441,4195d5937dbb2210a4d2a62cea50ef0d:-1052523486,4d95959395bb2210389bda26b5e84dcb:761650883,8995959384bb221011ee0ccd4b732abc:1616640405,0d959593a7bb2210cda864ebedeb2dad:-864152522,3495959390bb221050615e65b7b7aa9e:950021847,74959593d1bb22108d296790a023c384:-1530771080,bc95959364bb22100cb7780c8cb1436a:283403289,a09595930bbb2210677ab8dca4253260:2097577658,6c959593afbb22101be5eda240101008:1290706993,289595932cbb221063a54a0ebd73c649:-383215269,e0959593d2bb2210516701546e110d1c:1430959100,e095959347bb2210eaf2aa967d50f914:2130012889</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Traffic Routing Automation - Smart Slot">8015a51fc33f22107e68b41ed40131df</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:27:15</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>65fc507dd4214ca0a440bda83d9eb900</sys_id>
+        <sys_metadata>2c955593c3bb22107e68b41ed401318e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Traffic Routing Automation - Smart Slot</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_2c955593c3bb22107e68b41ed401318e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_2c955593c3bb22107e68b41ed401318e">0c15a51fc33f22107e68b41ed40131db</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:27:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

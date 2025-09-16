@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>744e09cfc3f722107e68b41ed40131de</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Fileshare template</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>384e09cfc3f722107e68b41ed40131df</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=b84e09cfc3f722107e68b41ed40131e0&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Fileshare template</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:09:09</sys_created_on>
+        <sys_id>b84e09cfc3f722107e68b41ed40131e0</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>Fileshare template</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_b84e09cfc3f722107e68b41ed40131e0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:04:32</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>61</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=b84e09cfc3f722107e68b41ed40131e0"/>
+    <fx_price action="DELETE" query="id=b84e09cfc3f722107e68b41ed40131e0"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>b84e09cfc3f722107e68b41ed40131e0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:09:09</sys_created_on>
+        <sys_id>384e09cfc3f722107e68b41ed40131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:09:09</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_b84e09cfc3f722107e68b41ed40131e0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description/&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;744e09cfc3f722107e68b41ed40131de&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Fileshare template&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;384e09cfc3f722107e68b41ed40131df&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=b84e09cfc3f722107e68b41ed40131e0&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Fileshare template&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:09:09&lt;/sys_created_on&gt;&lt;sys_id&gt;b84e09cfc3f722107e68b41ed40131e0&lt;/sys_id&gt;&lt;sys_mod_count&gt;60&lt;/sys_mod_count&gt;&lt;sys_name&gt;Fileshare template&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_b84e09cfc3f722107e68b41ed40131e0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 21:04:32&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;61&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b84e09cfc3f722107e68b41ed40131e0"/&gt;&lt;fx_price action="delete_multiple" query="id=b84e09cfc3f722107e68b41ed40131e0"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;b84e09cfc3f722107e68b41ed40131e0&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:09:09&lt;/sys_created_on&gt;&lt;sys_id&gt;384e09cfc3f722107e68b41ed40131e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 20:09:09&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1512813862</payload_hash>
+        <record_name>Fileshare template</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 21:04:32</sys_created_on>
+        <sys_id>18fa55c7c3bb22107e68b41ed401311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199304b6a420000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:04:32</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>5cfa55c7febb2210e3f9998064fc021e</update_guid>
+        <update_guid_history>5cfa55c7febb2210e3f9998064fc021e:1512813862,44fa55c7edbb2210526f2d56816a220c:923489415,80fa15c7fcbb221041fec0a2341bc9ff:-1796124148,04fa15c76bbb22103a98f34130d4eef3:18050221,84fa15c780bb2210775e08b6fc7c56e7:1832224590,84fa15c7dcbb22105cd1e5f7aec18eda:-648568337,c4fa15c7a3bb221005a3a3acd52a0ac7:1165606032,73ea15c721bb221066bf5d98b8911da8:-1315186895,fbea15c7a0bb22101ba09bfdad47d788:498987474,3bea15c7fdbb2210580e59d89be0826a:-1981805453,fbea15c7f7bb2210c71a85b74214593e:-167631084,77ea15c7e1bb2210a6e8237a27138c1f:1089499370,3bead1c727bb2210ecd1add2a83c04f3:-1391293557,6bead1c78dbb221003db9da85e54fde0:422880812,abead1c705bb221076761e92a08254cd:-2057912115,ebead1c7bcbb22109897aab1772704ba:-243737746,67ead1c715bb22106db2c8531007a99b:1570436623,a7ead1c73ebb22102d716c58159c0f88:-910356304,13ead1c771bb22107a1c69925587e769:903818065,53ead1c7babb2210139c104db43c1756:-1576974862,dbead1c7bebb221056370c83515fce36:237199507,1fead1c762bb2210e69d925509e79623:1494329961,87ead1c70ebb221053d39a070d43e404:-986462966,03ea91c7a8bb22101774f44e2e7100e5:827711403,43ea91c784bb22109157c6790c2ae1d2:-1653081524,83ea91c70fbb22104678d8fee69b09bf:161092845,c3ea91c71fbb221035c41b34b1d295ac:1975267214,36ea91c75ebb2210b0ad4d43e90ec699:-505525713,76ea91c7c9bb2210d1337a1a98355486:1308648656,36ea91c749bb22102e5bad1a7f054674:-1172144271,1a4ec9cfb5f72210a14393c876139f83:642030098,124ec9cf5ef72210373e214a1503b96e:1899160552,4e4ec9cfb4f72210caac67bd02952c58:-581632375,ce4ec9cfbff72210294bede60eea7343:1232541994,c64ec9cf3bf72210f923a315d72dbf2f:-1248250933,c24ec9cf49f7221058a89962c1f0131b:565923436,4e4e89cfaaf722106d143b55435f97fa:-1914869491,3d4e89cfd6f72210d741231871466eda:-100695122,f54e89cfb1f722103821a9adff6bc2c7:1713479247,754e89cf80f72210da2f65fbdfc167b4:-767313680,f94e89cfbbf72210bcc99b20bbafa8a1:1046860689,fd4e89cfbcf72210bd74b0a3be832482:-1990976153,ad4e89cf5af72210cfe65dda922c5e70:-176801784,e94e89cfd5f72210ac0eb8c0b90c5952:1637372585,a54e89cf44f722107720719c2d65f528:-843420342,254e89cf40f72210a1be58a841e8e817:970754027,e54e89cf93f7221076681c3a2c088406:-1510038900,dd4e49cfb2f7221021ded1d5e78314f5:304135469,1d4e49cfacf7221049d286b4870599e5:2118309838,d54e49cfc9f722102aa33b1236375bc9:-362483089,9d4e49cfdcf7221028a9fb9870e550b9:1451691280,d14e49cf15f7221069bc63b12cbbe49e:-781901294,554e49cf37f7221097eb10d6e65d488f:1032273075,c94e49cffdf722107b164ca4d8071b67:-1448519852,414e49cf44f72210b4d891a6b944f035:365654517,0d4e49cfbcf72210d946d292ca49252b:-2115138410,7c4e49cf12f72210cab3b92609048c21:-300964041,784e49cfc7f722109b0fab650e81bc0b:1513210328,fc4e49cfd6f72210dd9be39eac33ac03:-967582599,f44e09cf4bf72210caa62eaea09b72f8:1408484990,b04e09cf4df72210fa0051f4d0ea68f0:-826031758</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Fileshare template">5cfa55c7c3bb22107e68b41ed4013122</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 21:04:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>c29e6f9bc3744053967ad763251373d9</sys_id>
+        <sys_metadata>b84e09cfc3f722107e68b41ed40131e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fileshare template</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_b84e09cfc3f722107e68b41ed40131e0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_b84e09cfc3f722107e68b41ed40131e0">18fa55c7c3bb22107e68b41ed401311f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:04:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

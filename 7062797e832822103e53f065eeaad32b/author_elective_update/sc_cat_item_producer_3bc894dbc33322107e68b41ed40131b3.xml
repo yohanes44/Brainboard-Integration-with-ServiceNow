@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[This architecture implements a comprehensive Blue-Green deployment strategy for Azure Kubernetes Service (AKS) clusters, following Microsoft&#39;s architectural guidance for high-availability deployments.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>77c894dbc33322107e68b41ed40131b1</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Blue-Green AKS Deployment</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>f7c894dbc33322107e68b41ed40131b2</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=3bc894dbc33322107e68b41ed40131b3&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Blue-Green AKS Deployment</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 10:54:05</sys_created_on>
+        <sys_id>3bc894dbc33322107e68b41ed40131b3</sys_id>
+        <sys_mod_count>142</sys_mod_count>
+        <sys_name>Azure Blue-Green AKS Deployment</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_3bc894dbc33322107e68b41ed40131b3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:21:15</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>143</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=3bc894dbc33322107e68b41ed40131b3"/>
+    <fx_price action="DELETE" query="id=3bc894dbc33322107e68b41ed40131b3"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>3bc894dbc33322107e68b41ed40131b3</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 10:54:05</sys_created_on>
+        <sys_id>f7c894dbc33322107e68b41ed40131b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 10:54:05</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_3bc894dbc33322107e68b41ed40131b3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[This architecture implements a comprehensive Blue-Green deployment strategy for Azure Kubernetes Service (AKS) clusters, following Microsoft&amp;#39;s architectural guidance for high-availability deployments.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;77c894dbc33322107e68b41ed40131b1&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Blue-Green AKS Deployment&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;f7c894dbc33322107e68b41ed40131b2&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=3bc894dbc33322107e68b41ed40131b3&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Blue-Green AKS Deployment&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 10:54:05&lt;/sys_created_on&gt;&lt;sys_id&gt;3bc894dbc33322107e68b41ed40131b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;142&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Blue-Green AKS Deployment&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_3bc894dbc33322107e68b41ed40131b3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 11:21:15&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;143&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=3bc894dbc33322107e68b41ed40131b3"/&gt;&lt;fx_price action="delete_multiple" query="id=3bc894dbc33322107e68b41ed40131b3"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;3bc894dbc33322107e68b41ed40131b3&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 10:54:05&lt;/sys_created_on&gt;&lt;sys_id&gt;f7c894dbc33322107e68b41ed40131b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 10:54:05&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1966055478</payload_hash>
+        <record_name>Azure Blue-Green AKS Deployment</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:21:16</sys_created_on>
+        <sys_id>710fd897c3b322107e68b41ed4013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199335bc45f0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:21:16</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>b50fd89747b32210feb007597f2e4037</update_guid>
+        <update_guid_history>b50fd89747b32210feb007597f2e4037:1966055478,bd0fd897ddb322104c0e8d6b7f0f4624:1754724466,3d0fd8971db32210f255d3ee88111d17:-777032945,310fd8979fb32210495bd27cafa2750c:480097509,b50f98974cb32210cb86632b5d19fae7:-2000695418,390f9897aeb322104775147794679bda:-186521049,690f989714b322106934394c9ffcf2c7:1627653320,e10f98971ab32210841fa9a50d7b71a8:-853139607,250f98976db322100c9567929eed3395:961034762,650f98977cb32210db3efbb495528382:-1519758165,a50f989738b32210c7669164072d846f:294416204,e50f989769b322109c73c1e5400dac5c:2108590573,190f989726b32210cfe12421ae3d8149:-372202354,d90f989765b32210da3543dfd789071d:884928100,1d0f9897d6b3221072184be426b7cd0a:-1595864827,5d0f58971cb322106f995cfe2318e9f7:218309542,d50f5897bab322104e78aa2b2aa804d8:2032483911,410f589720b3221098e7e3598fae18b9:-448309016,810f5897d3b3221037ed39093d7645a6:1365865353,c10f589756b32210eecae9612af75793:-1114927574,050f5897feb32210ae186aea7a8daf80:699246795,450f589775b32210e5fba9742ea9796d:-1781546132,850f589774b32210e9b1a8302b793e5a:32628237,f40f58976ab322108835644b11dee047:1289758691,b80f589743b3221074151b263204321b:-1191034236,f80f58972ab32210743fda67026d4c08:623140133,3c0f189755b322103375f59cd88dddf5:-1857652794,7c0f1897ceb3221056b5f5c9c5f5f9e2:-43478425,e40f1897efb322101b9ce331e91f79c3:1770695944,e80f1897bfb32210918af15c598598b1:-710096983,640f1897aeb322108078dfda57d07c92:1104077386,a40f189707b322102ec25b5f6207a27f:-1376715541,680f189749b32210fbe6cf4c7a833853:437458828,a80f18976fb32210ae4dae61883b6740:1694589282,d80f18979cb3221085ccd32c5c5ece2d:-786203645,1c0f1897cdb32210ec575f447828ef1a:1027970724,5c0f1897e8b32210816e654174485307:-1452822203,9c0fd497e0b32210f3912eefca7475f4:361352166,dc0fd49768b32210b3a27fe6b7bb0de1:-2119440761,000fd4972cb322103fa51c5b19b688cf:-305266392,400fd4979bb322107c2d856c395895bc:1508907977,c80fd49796b3221026000e2b77a6e29c:-971884950,0c0fd497bbb322101b10cbee80a5b289:842289419,4c0fd4974fb32210dd35f8e787d88b76:-154414528,8c0fd49715b32210567d24f756aa9263:1659759841,fffed497e2b32210b8e8b91034496c50:-821033086,b3fed49752b32210ebfcdfc1483a4d25:993141283,f3fed49704b322108c6eca5dd765bd12:-1487651644,37fe9497e9b322104b64a29c727ee9ff:326522725,77fe949766b32210eef3e48e7027caec:2140697094,effe949730b32210ad71b277b29f13cc:-340095833,23fe9497d0b322103bc38437d2856eba:1474078536,63fe949748b3221030175c5eab7a5aa7:-1006714391,a3fe949747b32210642d3efc6e364f94:250416063,1ffe9497aeb3221077a8c6b07d247874:2064590432,13fe949751b322100538e4f292f28763:-416202495,53fe9497ceb32210bc9fd50c93fa7f50:1397971874,93fe949730b322106dc1cfa2a074c23d:-1082821053,1ffe9497e1b32210bcd03b313aa8121d:731353316,5ffe9497c0b322102b5febd9e038a80a:-1749439611,8ffe549766b3221077f6c8f19a6792f7:64734758,0bfe54973eb3221080e5b888695c7ad8:1878909127,4bfe549794b322102bb57a6d87a1f4c5:-601883800,8bfe54972db322107593808586fecbb2:655246654,cbfe5497f9b3221050c5c1d9a30aad9f:-1825546273,47fe54978db322100231675aa621f480:-11371904,b6fe5497c9b3221052b58e3ca560a26d:1802802465,f6fe549755b32210f5ce43d7e487275a:-677990462,3afe54978db32210a568e5fcedcee647:1136183907,b2fe549774b32210096b9adfd5e02d28:-1344609020,befe549757b32210e5bedd1582613114:469565349,40e89cdbb433221022e80edf46450689:-2011227578,b7d89cdb5d3322109cde9e5668644267:-197053209,7bd89cdb4e3322101ad7c8ee9cf43739:1060077245,3bd89cdb98332210a89ee8597b854218:-1420715682,2fd85cdbf63322106f1ea85f8d4e1ef7:393458687,e7d85cdb1833221065c31bd2c68970be:-2087334240,67d85cdb99332210b0c45a3bf1006f9e:-273159871,1bd85cdb06332210847bd965c092dc7e:1541014498,5bd85cdbe93322100d03da540cbbb752:-939778429,97d85cdb18332210ba9d94a7a98f3733:874395940,0bd85cdb0e3322105a0647a77c0e7414:-1606396987,cfd81cdbd3332210de1eab2b259c53f5:207777382,4fd81cdbca332210bcec96a2093fd3be:1464907836,bed81cdb74332210ab115cc1548a9ba0:-1015885091,7ed81cdb733322106e1bc390caaafd76:798289278,72d81cdb7d3322104dcbca295193434d:-1682503649,fad81cdb6433221040d4dd22be1fcb23:131670720,ead8d8dbf133221045005d93f8c178e1:1945845089,aed8d8dbd8332210ca80153f5a85b0b8:-534947838,aed8d8dbdc332210f98ff6f933193a9c:1279226531,92d8d8dbcd332210ef3f8e35a94e5181:-1201566396,dad8d8dbd033221048bedbaf4c832865:612607973,92d8d8dbfc332210989805db9f63283e:1869738427,96d8d8db2e332210ba090d0eedd51f23:-611054500,c6d898dbb03322109f36a7cf6ccdf6fc:1203119869,46d898dbf03322109f530bf3014a6fe2:-1277673058,02d898db89332210a4412c9bc888a5bc:536501311,c6d898dbff3322106c0206e41ad8fba2:-1944291616,f1d898db0133221079acd244289ac889:-130117247,75d898db4d332210757210494b0a2d70:1684057122,f9d898db9a332210f00b026b736fb857:-796735805,f5d898db6b332210b4ee085f68eac83f:1017438564,21d898dbd6332210648c7005d47abc1b:-2020398278,a5d898dbfc332210277074e943e05903:-206223909,21d858dbf4332210084b4cffc13785ec:1607950460,edd858db33332210960dc93f52cda9d4:-872842467,d1d858db4c332210c1850f9b565ba1be:941331902,9dd858dba433221016904f661038ca8e:-1539461025,55d858db48332210adff222a780b7c6c:274713344,19d858dbfb332210df3feb303c415556:2088887713,11d858db48332210450ecccbf5689941:-391905214,49d858db8933221011e3f5ba2d8d5806:1422269155,c9d818db123322101ccdb79a6fbe54f1:-1615567687,81d818dbe93322107541c63b8b8343dd:198606682,8dd818db103322108956d947e735ffc8:2012781051,fcd818db6d332210096e2956078db6b4:-468011876,74d818db2933221083aa1cad827529a1:1346162493,b0d818dbca332210b92af2bb17300275:-1134630434,b0d818dbcd3322102f9730d1d6eb1862:679543935,f4d818dbc6332210ae8706c751d0e94f:-1801248992,60d818db84332210c6719a63605fb93d:12925377,20d818db14332210d533c179ccda002b:1827099746,24d818dbab332210291979ea66e41819:-1210737096,a4d8d4db0333221002c71b251b452efb:603437273,acd8d4db4b332210291ec68c9183c6dd:-1877355654,60d8d4db933322104b7ab0e393e05acd:-63181285,98d8d4dbbb3322102cb9c6b4f9a1a7bc:1750993084,18d8d4db473322106a91ff477c19dfac:-729799843,d8d8d4dbc333221079c293acf9e3109c:1084374526,90d8d4dbd5332210105fdf4c921ec28d:-1396418401,dcd8d4dbed332210c249ee87caf75d7d:417755968,98d8d4dbb1332210208222c9cf7cfd62:-2063036959,88d8d4dbbc33221084bbd6f7774b5a47:232622403,84d8d4db29332210b5a2ade024090839:2046796772,44d8d4db67332210d7c8069eddcacf2b:-433996155,3fc8d4dbc33322109c9941ef89a60905:1380178214,3fc894db1e33221084cb0f8f3c892cfc:-1100614713,37c894dbe53322104568e543e93668f3:713559656,bfc894dbb23322100a0a92c59c4cc7e9:-1767233271,3bc894db293322106096a03043ab3be2:46941098,7fc894db203322108f1a5973d0d203d3:-1450559665,bfc894db713322103dd1403dfe11b0ce:1509974911</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Blue-Green AKS Deployment">f50fd897c3b322107e68b41ed401313b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:21:16</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>32ce55d01f054f68bf7c46ac4c0edec1</sys_id>
+        <sys_metadata>3bc894dbc33322107e68b41ed40131b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Blue-Green AKS Deployment</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_3bc894dbc33322107e68b41ed40131b3</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_3bc894dbc33322107e68b41ed40131b3">710fd897c3b322107e68b41ed4013138</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:21:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>942c2cdbc37722107e68b41ed40131a6</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Architecture 1</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>182c2cdbc37722107e68b41ed40131a7</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=582c2cdbc37722107e68b41ed40131a8&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Architecture 1</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:18:30</sys_created_on>
+        <sys_id>582c2cdbc37722107e68b41ed40131a8</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_name>Architecture 1</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_582c2cdbc37722107e68b41ed40131a8</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:35:54</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>71</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=582c2cdbc37722107e68b41ed40131a8"/>
+    <fx_price action="DELETE" query="id=582c2cdbc37722107e68b41ed40131a8"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>582c2cdbc37722107e68b41ed40131a8</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:18:30</sys_created_on>
+        <sys_id>182c2cdbc37722107e68b41ed40131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:18:30</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_582c2cdbc37722107e68b41ed40131a8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description/&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;942c2cdbc37722107e68b41ed40131a6&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Architecture 1&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;182c2cdbc37722107e68b41ed40131a7&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=582c2cdbc37722107e68b41ed40131a8&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Architecture 1&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 12:18:30&lt;/sys_created_on&gt;&lt;sys_id&gt;582c2cdbc37722107e68b41ed40131a8&lt;/sys_id&gt;&lt;sys_mod_count&gt;70&lt;/sys_mod_count&gt;&lt;sys_name&gt;Architecture 1&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_582c2cdbc37722107e68b41ed40131a8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:35:54&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;71&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=582c2cdbc37722107e68b41ed40131a8"/&gt;&lt;fx_price action="delete_multiple" query="id=582c2cdbc37722107e68b41ed40131a8"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;582c2cdbc37722107e68b41ed40131a8&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 12:18:30&lt;/sys_created_on&gt;&lt;sys_id&gt;182c2cdbc37722107e68b41ed40131ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 12:18:30&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1891349512</payload_hash>
+        <record_name>Architecture 1</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:35:54</sys_created_on>
+        <sys_id>be07ad13c37f22107e68b41ed4013107</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199347bd4130000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:35:54</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>f207ad130c7f2210a8f2991f7c2d4907</update_guid>
+        <update_guid_history>f207ad130c7f2210a8f2991f7c2d4907:-1891349512,fa076d13387f2210571c9667e6549cf4:1081673441,7a076d13a07f2210feb9ddc95ce896e7:1924468254,b6076d13607f22103e028b0da4dbf5cf:-556324673,f2076d13777f2210021cd6c8c149c8b7:1257849696,76076d13f57f22105c14817caa5b23aa:-1222943231,a6076d133e7f2210976134ced5515a97:591231138,e6076d134f7f2210601ed3b242194384:-1889561789,2a076d13737f22104b9f04232defff71:-75387420,6a076d13587f2210c683faeb9ce0b25e:1738786949,aa076d13d77f2210a545c2f9bab6f14b:-742005978,ea076d13307f2210985ace383b963b38:515124476,56076d13277f2210d0bdce28df1a1019:-1965668451,96076d137a7f22105f14d0e2e6a5af06:-151494082,d6072d131a7f2210d0022931469c02f3:1662680287,52072d13c97f2210e526ffad8a48f3d4:-818112640,92072d13d67f2210656253888790dfc1:996061729,d2072d13d27f2210fd10e827f4d88eae:-1484731198,86072d13997f221088836b5d716f8a82:329443171,c6072d135e7f2210161541b64ded106f:2143617540,0a072d13827f22107f49ca1617a1c35c:-337175387,4a072d13c87f2210513c0c158bb2dd49:919955067,8a072d13457f22104c2c3dc61c93ea36:-1560837860,ca072d13167f2210dabf17f7717ded23:253336509,3d072d13a07f2210044d893df00ed110:2067510878,b507e913827f2210da0b105a51354ff1:-413282049,f507e913ee7f22107cd0068188d6f6de:1400892320,2907e9130a7f2210aae43c3720e5b4cb:-1079900607,6907e913137f221077e9d3395799c8b8:734273762,a907e913337f2210975319b70396e3a5:-1746519165,e907e913457f2210b3352caa9ba82a92:67655204,2907e913c57f221098ee4184cb344474:1324785658,2d07e913e67f221062cd2e24d2be9462:-1156007269,5d07e913487f2210cbd3d15c60803f4f:658167100,5907e9132f7f2210bb4dcb0d2d81823c:-1822625827,792c201f49772210704a1d0a20173599:-8451458,b12c201f2777221079ab4b3475c41376:1805722911,f52c201fb477221097d63c0659786e5f:-675070016,712c201f5d772210d6b56156baf7d549:1139104353,212c201f11772210773d514c74fc9233:-1341688574,252c201f57772210d0c4b93f5841d81d:472485795,6d2c201f18772210bc5d7ae3d47ec207:1729616249,e92cecdb50772210c7d7b72da5e319f2:-751176678,ad2cecdb15772210ec029ca0166b93dd:1062997691,952cecdbf6772210b54edbea8c0fe0c9:-1417795236,d12cecdb60772210160bcda3e927acb5:396379133,552cecdbbd772210568a31b371a35ba1:-2084413794,1d2cecdb047722101d0534d259e4878d:-270239425,192cecdbb977221025de09089dd59f7a:1543934944,812cecdbc977221097dec4dd7b38015b:-936857983,092cecdb4d7722106b4c14b21f756b48:877316386,0d2cecdb71772210337d063c75226329:2134446840,0d2cecdb0d77221031ffac4209266c17:-346346087,c12cacdb1a77221069d9dc462e5599ed:1467828282,852cacdbcf772210fb4ede7517af68cf:-1012964645,742cacdbfc77221068a0fb5d4e8b16be:801209724,782cacdb67772210db4b03fa8ffaecad:-1679583203,b02cacdb22772210e44f8a0d95c53d9d:134591166,782cacdb4a7722104858be26200a4780:1948765535,f42cacdbaf772210beb2bf70dac8af4b:-532027392,382cacdbc1772210d426b1b0108fce2f:1282146977,ac2cacdb79772210ad5bf3935dde6613:-917771541,a02c6cdbad77221040e5b3417bbbf4ec:896402828,282c6cdb69772210d74e905c132f426d:-1584390099,1c2c6cdb1977221025e791f47b7f0553:229784270,102c6cdbf8772210e5d9f9aec853973e:2043958639,1c2c6cdb76772210204eb9c8ccf59327:-436834288,982c6cdb9f772210fe13958a4a98f911:1377340081,502c6cdb1d7722101759caacd668060a:-1103452846,542c2cdb6677221029ce9d8fcb539af1:326414351,d42c2cdb8277221071d33c13900e91dd:-27876981</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Architecture 1">3607ad13c37f22107e68b41ed401310b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:35:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>9f76000515af499e8a5b214a599780c4</sys_id>
+        <sys_metadata>582c2cdbc37722107e68b41ed40131a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Architecture 1</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_582c2cdbc37722107e68b41ed40131a8</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_582c2cdbc37722107e68b41ed40131a8">be07ad13c37f22107e68b41ed4013107</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:35:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

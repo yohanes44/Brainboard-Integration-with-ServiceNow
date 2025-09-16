@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>API Token</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_854636_b_board.api.token</name>
+        <read_roles/>
+        <suffix>api.token</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-03-31 14:46:29</sys_created_on>
+        <sys_id>a2c279fe832822103e53f065eeaad3f5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>x_854636_b_board.api.token</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_properties_a2c279fe832822103e53f065eeaad3f5</sys_update_name>
+        <sys_updated_by>chafik.belhaoues</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:38:41</sys_updated_on>
+        <type>string</type>
+        <value>bb_JDJhJDEwJFFZdFdOWVVWMFRWakV1bS83OS9Ra3V3NUhDbm5ycE1mLmhKdlh1NkxHZ0VMWS5yeXEzUy9X</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=a2c279fe832822103e53f065eeaad3f5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sys_properties_a2c279fe832822103e53f065eeaad3f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>API Token</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_854636_b_board.api.token</name><read_roles/><suffix>api.token</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>yohanes.yilma</sys_created_by><sys_created_on>2025-03-31 14:46:29</sys_created_on><sys_id>a2c279fe832822103e53f065eeaad3f5</sys_id><sys_mod_count>8</sys_mod_count><sys_name>x_854636_b_board.api.token</sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>sys_properties_a2c279fe832822103e53f065eeaad3f5</sys_update_name><sys_updated_by>chafik.belhaoues</sys_updated_by><sys_updated_on>2025-09-09 13:38:41</sys_updated_on><type>string</type><value>bb_JDJhJDEwJFFZdFdOWVVWMFRWakV1bS83OS9Ra3V3NUhDbm5ycE1mLmhKdlh1NkxHZ0VMWS5yeXEzUy9X</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=a2c279fe832822103e53f065eeaad3f5"/></record_update>]]></payload>
+        <payload_hash>1070558834</payload_hash>
+        <record_name>x_854636_b_board.api.token</record_name>
+        <reverted_from/>
+        <source>c1e4fbb6c33322107e68b41ed4013150</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chafik.belhaoues</sys_created_by>
+        <sys_created_on>2025-09-09 13:38:41</sys_created_on>
+        <sys_id>05e4fbb6c33322107e68b41ed4013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1992eb339b30000001</sys_recorded_at>
+        <sys_updated_by>chafik.belhaoues</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:38:41</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>09e4fbb6123322109a484cd7c3156a51</update_guid>
+        <update_guid_history>09e4fbb6123322109a484cd7c3156a51:1070558834,8b3edb35f4f32210a46eae4e4a1d45f4:1213807777,5c2e1b3595f32210387112edb92f7be7:-363097974,8d15f7999077a610f0823e51d6b01f34:1213807777,64d33f198c77a6104a561c779533b227:-1786278328,24e277955a77a6101f342898fb4e787f:1213807777,8ddd82c7e767e210ea163a91c6ada9eb:-2130496986,8a6e31f98091221051505634c81d348f:0,1b97a28b36412210a57c7bd079cf1372:0,46566786f8c1221059320f61251706df:-124062686,b6d2f1feb5282210fee9fca4cd06c15a:-2130496986</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chafik.belhaoues</sys_created_by>
+        <sys_created_on>2025-09-10 20:32:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>35d26aa4a04d45b592469e903deae5d9</sys_id>
+        <sys_metadata>a2c279fe832822103e53f065eeaad3f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_854636_b_board.api.token</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sys_properties_a2c279fe832822103e53f065eeaad3f5</sys_update_name>
+        <sys_update_version display_value="sys_properties_a2c279fe832822103e53f065eeaad3f5">05e4fbb6c33322107e68b41ed4013152</sys_update_version>
+        <sys_updated_by>chafik.belhaoues</sys_updated_by>
+        <sys_updated_on>2025-09-10 20:32:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

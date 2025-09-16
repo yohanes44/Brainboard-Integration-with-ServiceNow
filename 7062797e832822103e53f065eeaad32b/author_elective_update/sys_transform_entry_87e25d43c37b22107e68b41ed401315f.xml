@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Transform Brainboard Projects">b33f9edb53fc2210e80451a0a0490ee2</map>
+        <reference_value_field/>
+        <source_field>api_type</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_854636_b_board_imp_projects</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:29:41</sys_created_on>
+        <sys_id>87e25d43c37b22107e68b41ed401315f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>api_type</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_transform_entry_87e25d43c37b22107e68b41ed401315f</sys_update_name>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:29:41</sys_updated_on>
+        <target_field>api_type</target_field>
+        <target_table>x_854636_b_board_project</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sys_transform_entry_87e25d43c37b22107e68b41ed401315f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Transform Brainboard Projects"&gt;b33f9edb53fc2210e80451a0a0490ee2&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;api_type&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_854636_b_board_imp_projects&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;yohanes.yilma&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:29:41&lt;/sys_created_on&gt;&lt;sys_id&gt;87e25d43c37b22107e68b41ed401315f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;api_type&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_87e25d43c37b22107e68b41ed401315f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;yohanes.yilma&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 20:29:41&lt;/sys_updated_on&gt;&lt;target_field&gt;api_type&lt;/target_field&gt;&lt;target_table&gt;x_854636_b_board_project&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1592384453</payload_hash>
+        <record_name>api_type</record_name>
+        <reverted_from/>
+        <source>ec3d6518c32522107e68b41ed40131a3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:29:41</sys_created_on>
+        <sys_id>a1f29d43c37b22107e68b41ed4013184</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199302b7f6c0000001</sys_recorded_at>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:29:41</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>65f29d43747b2210d8d62dcfbe0fcd83</update_guid>
+        <update_guid_history>65f29d43747b2210d8d62dcfbe0fcd83:-1592384453</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:43:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>1ef54b6b128c464298c737df5af6e2a4</sys_id>
+        <sys_metadata>87e25d43c37b22107e68b41ed401315f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>api_type</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_87e25d43c37b22107e68b41ed401315f</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_87e25d43c37b22107e68b41ed401315f">a1f29d43c37b22107e68b41ed4013184</sys_update_version>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:43:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

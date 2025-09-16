@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[This Terraform configuration deploys a comprehensive Azure architecture for automated document classification and processing using Azure AI services, designed based on the Microsoft Azure Architecture Center pattern for document classification automation.
+]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>563de017c3b722107e68b41ed401314a</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Document Classification Architecture with AI Service</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>e63de017c3b722107e68b41ed401314b</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=2a3de017c3b722107e68b41ed401314c&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Document Classification Architecture with AI Service</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:23:17</sys_created_on>
+        <sys_id>2a3de017c3b722107e68b41ed401314c</sys_id>
+        <sys_mod_count>140</sys_mod_count>
+        <sys_name>Azure Document Classification Architecture with AI Service</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_2a3de017c3b722107e68b41ed401314c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:26:54</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>141</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=2a3de017c3b722107e68b41ed401314c"/>
+    <fx_price action="DELETE" query="id=2a3de017c3b722107e68b41ed401314c"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>2a3de017c3b722107e68b41ed401314c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:23:17</sys_created_on>
+        <sys_id>e63de017c3b722107e68b41ed401314f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:23:17</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_2a3de017c3b722107e68b41ed401314c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[This Terraform configuration deploys a comprehensive Azure architecture for automated document classification and processing using Azure AI services, designed based on the Microsoft Azure Architecture Center pattern for document classification automation.
+]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;563de017c3b722107e68b41ed401314a&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Document Classification Architecture with AI Service&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;e63de017c3b722107e68b41ed401314b&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=2a3de017c3b722107e68b41ed401314c&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Document Classification Architecture with AI Service&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 12:23:17&lt;/sys_created_on&gt;&lt;sys_id&gt;2a3de017c3b722107e68b41ed401314c&lt;/sys_id&gt;&lt;sys_mod_count&gt;140&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Document Classification Architecture with AI Service&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_2a3de017c3b722107e68b41ed401314c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:26:54&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;141&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2a3de017c3b722107e68b41ed401314c"/&gt;&lt;fx_price action="delete_multiple" query="id=2a3de017c3b722107e68b41ed401314c"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;2a3de017c3b722107e68b41ed401314c&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 12:23:17&lt;/sys_created_on&gt;&lt;sys_id&gt;e63de017c3b722107e68b41ed401314f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 12:23:17&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1174359342</payload_hash>
+        <record_name>Azure Document Classification Architecture with AI Service</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:26:55</sys_created_on>
+        <sys_id>43f42ddbc33f22107e68b41ed40131f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199347398ca0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:26:55</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>87f42ddb083f2210f268147d28590bf5</update_guid>
+        <update_guid_history>87f42ddb083f2210f268147d28590bf5:1174359342,8ff42ddb883f221007275b52f3d4e9e2:-1462658251,0ff42ddb863f22106a4e777e7db7aad5:-457430644,4bf42ddb913f221008077396be6932bd:1356743725,4ff42ddb9c3f2210ae260f813d9770b1:-1124049202,cff42ddbc83f2210ec795085c2b2c7a4:690125167,03f42ddb633f221085ac8199b7c59e92:-1790667760,72f42ddbd23f22103f44e009411e4f7f:23506609,b2f42ddb863f2210a41980262741886c:1837680978,3ef42ddb803f221094a698d91685644c:-643111949,7ef42ddbf63f2210126e2300de67b239:1171062420,bef42ddbc63f221041bde9a15b75cd26:-1866774422,fef42ddb7a3f2210ad61d7cf0ada6513:-52600053,22f42ddb6f3f2210e9e04726726d1001:1761574316,62f4e9db9f3f2210ac6446ac820948ee:-719218611,a2f4e9db893f2210373c4e28a95c67db:1094955758,e2f4e9db983f2210d226ad546f5225c8:-1385837169,16f4e9dbe93f2210fdd5c325f3375cb5:428337200,56f4e9db483f2210ceb014d955e630a2:-2052455727,96f4e9db1a3f22103599baa48aa3448f:-238281358,d6f4e9db923f2210111744e4e6d4de7c:1575893011,1af4e9db3a3f2210f815eefed3046a69:-1461943831,92f4e9dbc13f2210fdb104d69900f44a:352230538,c2f4e9db2d3f22106dd417479db5c737:-2128562389,86f4e9db9e3f221007b09d6ad5d2a70b:-314388020,c2f4a9dba73f2210a35bd88c44c414ed:1499786349,06f4a9db493f22100b70982670ce8ada:-981006578,46f4a9dba23f221004bfea68d18575c7:833167791,86f4a9db593f2210397402838c0543b4:-1647625136,f5f4a9db8e3f2210593124b97caf66a1:166549233,39f4a9db6e3f2210a581b7cb44c65e8e:1980723602,79f4a9db2c3f22109061a500ac58957b:-1057113240,b9f4a9db603f22105bc9b18d0caf5a68:757061129,f9f4a9db133f2210d78e345aada55355:-1723731798,65f4a9dbd53f2210ed9d3a418c8c9936:90442571,edf4a9db1b3f2210b56486797f965616:1904616940,21f4a9db6b3f2210b631a5071ac6ef04:-576175987,61f469db9a3f221073a40a94f1cd5ef1:1237998382,6df469db893f22109518fd916c15cdb8:-1242794545,e5f469dbaa3f2210b507c179c0ac5299:571379824,19f469db133f22108068a902fd2dc486:-1909413103,91f469db6e3f22100da44ac067747e67:1109987404,d1f469db8f3f221069a1c5b9e20a5254:-1370805523,15f469dbe13f22105eca695d64950941:443368846,55f469db6f3f221082b86364aca8dc2e:-2037424081,95f469db8c3f2210c0ebe592d7337c1b:-223249712,c5f469db123f2210a95ac82fd0c1f208:1590924657,c9f429db873f2210dc2af361ae43b0f6:-889868270,0df429db1b3f22108c315a410d087ce3:924306099,4df429dbd83f22106ac4ca97fd5cdad0:-1556486828,8df429db8f3f2210433f7933249d24bd:257687541,cdf429dbe13f2210b745ae943fb305aa:1514817995,30f429db353f22108c4176d098ae9d98:-965974932,70f429dbcd3f22101f32f20ceddc0c85:848199437,b0f429db163f221074f8fb5cb9ae8c72:-1632593490,f0f429dbbb3f22101ccbcf05110bdd5f:181580879,34f429db273f2210a4bb94ea07ed824c:1995755248,74f429db2d3f2210c09b84b7c5bbf039:-485037679,a4f429dbf93f2210373bdd6d9061a326:1329136690,e4f429db333f221049f6a2b4aeda1a13:-1151656237,28f429db943f2210e74fbad57db92100:662518132,68f4e5dbe33f2210c1244b1497f970ed:1919648586,e0f4e5dbbf3f221097c19cdc3c9374ce:-561144341,24f4e5dbc73f2210ededba16be298dbb:1253030028,54f4e5db8f3f22108db2066129fa20a8:-1227762899,94f4e5dba23f2210c7080875a4c19c95:586411470,d4f4e5dbf43f2210c68424eba3a9b982:-1894381457,18f4e5db2a3f221042aba59f8b94fe6f:-80207088,58f4e5dbfb3f22108ef111d31b98df5c:1733967281,d4f4e5db573f22102c73de9ea2d2f830:-746825646,3e4de817a4b722101127e50069c470fa:1067348723,6e4de8179ab72210d890675f90b164d8:-1970488119,2e4de817eeb7221008228899321c34aa:-156313750,e64de81737b72210c4e8f8d6a70f2689:1657860619,d64de8174fb722102a24f5bf4b302368:-822932308,564de817fdb72210ee472cff707ea73b:991242061,de4de8178db7221096fba8610f52241a:-1489550866,024da817d0b72210b4ba7d47138331e2:324623503,864da8172ab7221069be00d9caeb14a9:2138797872,8a4da8179ab722102bd98cb67bb67f64:-341995055,b94da817feb72210caa8e99e29ad7f2c:1472179314,f14d6817a4b72210cf2ac5848a8feac3:-1565657528,fd4d6817b5b722108a5c1a41643a8972:248516841,e54d6817bab72210100879b818fe002f:2062691210,254d28171ab7221032f4e3fb4749e4ec:-418101717,e94d281716b722104dd63d762fc6fbce:1396072652,d54d2817acb722102eef731f2a213cb1:-1084720275,194d281701b722104e5d6ad9e839c894:729454094,594d281761b722103c773d7551b63d52:-1751338833,054d281770b72210960c87066303be36:62835536,054d2817edb7221054926f524286a41a:1877009905,494de41757b72210d45c003156ccaafe:-1160826937,0d4de4171ab722102d6f2c71dd902ed6:653347432,f84de41710b72210c94be8a3e4f451bb:-1827445495,fc4de41748b72210f37f7bf09bf241a0:-13271126,384de41726b72210e8d61ac4c7d8fd86:1800903243,b44de417cab722103c6b1c4d0e7eb76c:-679889684,a04de4178eb72210a5b465333dfd2346:1134284685,e04de417b9b722100a92742ed8f0a120:-1346508242,684da417a0b7221064cb7ca461f57dfa:467666127,e84da417c8b722103a312668b93951e1:-2013126800,904da4175bb722109ff07a66cefafdc9:-755996346,9c4da41702b72210ef84b0bd5cd289b0:1058178023,dc4da4175ab722104b7de7026fe5a198:-1422614904,544da417e9b722107378c022e3949481:391559465,484da417aab72210b1371c179f66a75d:-2089233462,484da417a8b72210cc6ab09ad5ae1846:-275059093,c44da417bbb72210337fd4a46a136823:1539115276,884da41785b7221058cbfc45006c6000:-941677651,b33d641714b7221027f7ceb61f6e0bde:872496718,b73d641740b72210b8f552137e4094c8:-1608296209,ff3d64177fb722106f4730fcc809e8b2:-351165755,b73d6417f1b72210382c1e7c725b5d91:1463008614,7b3d641706b7221041aeae152e68b97c:-1017784313,633d6417a4b7221060fe97c425c3f168:796390056,af3d64172ab72210a940e677427b3e53:-1684402871,6b3d6417a2b72210df54d6984a3a4333:129771498,233d6417fdb722101d1c7d4c8fa35120:1943945867,1f3d641733b7221062624b0881a5200c:-536847060,5f3d2417c3b72210ee3eef1835a7e0f9:1277327309,d33d24171cb72210da98c98314d05fe7:-1203465618,9f3d241759b72210bfeb5320fc9ad9d4:53664836,d73d241726b72210a2e990aa6c6fbbb6:1867839205,1f3d241714b722105184361f87317fa4:-612953722,cf3d24177ab7221030c4fc572b274186:1201220647,8f3d241785b722109a49068a454a5275:-1279572280,833d24179bb72210dea07feaaa339f65:534602089,073d24179fb722105cf295ed7555aa48:-1946190838,833d241767b72210b83d8bbad2109338:-132016469,763d24178eb72210099be9b1df202e28:1682157900,7e3d24171db72210edb4eb5cf5f55018:-798635027,f23de017dab72210ce6de0360baa58fd:-1144370551,be3de01781b72210d2a1a08ed3a7f1e1:669803818,e23de0176cb722101dfbabd501ced9d3:-1810989109,ae3de01758b722101a0d866cb1f417c5:3185260,6a3de01764b7221003b4b868a13034bc:1817359629,e23de017d8b72210a99a538a294d7d85:-583190949,663de01761b7221012a5025740cd2da6:-663433298,ea3de0178fb722107043d0510ec0fb9c:1150741071,a23de01762b72210231c5552e9f8b695:-1330051856,ee3de017f0b72210188cf92abb995d74:1527393065</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Document Classification Architecture with AI Service">c7f42ddbc33f22107e68b41ed40131f9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:26:55</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>02d77a2cce91444eab634111334e2c84</sys_id>
+        <sys_metadata>2a3de017c3b722107e68b41ed401314c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Document Classification Architecture with AI Service</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_2a3de017c3b722107e68b41ed401314c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_2a3de017c3b722107e68b41ed401314c">43f42ddbc33f22107e68b41ed40131f6</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:26:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

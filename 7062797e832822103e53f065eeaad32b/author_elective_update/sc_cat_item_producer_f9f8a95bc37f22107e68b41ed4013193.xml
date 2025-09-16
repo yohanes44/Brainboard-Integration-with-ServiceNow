@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[The core components of this architecture are a web front end that serves client requests, and a worker that performs resource-intensive tasks, long-running workflows, or batch jobs. The web front end communicates with the worker through a message queue.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>39f8a95bc37f22107e68b41ed4013191</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Web-Queue-Worker architecture style</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>b9f8a95bc37f22107e68b41ed4013192</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=f9f8a95bc37f22107e68b41ed4013193&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Web-Queue-Worker architecture style</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:44:18</sys_created_on>
+        <sys_id>f9f8a95bc37f22107e68b41ed4013193</sys_id>
+        <sys_mod_count>126</sys_mod_count>
+        <sys_name>Azure Web-Queue-Worker architecture style</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_f9f8a95bc37f22107e68b41ed4013193</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:09:09</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>127</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=f9f8a95bc37f22107e68b41ed4013193"/>
+    <fx_price action="DELETE" query="id=f9f8a95bc37f22107e68b41ed4013193"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>f9f8a95bc37f22107e68b41ed4013193</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:44:18</sys_created_on>
+        <sys_id>b9f8a95bc37f22107e68b41ed4013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:44:18</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_f9f8a95bc37f22107e68b41ed4013193</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[The core components of this architecture are a web front end that serves client requests, and a worker that performs resource-intensive tasks, long-running workflows, or batch jobs. The web front end communicates with the worker through a message queue.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;39f8a95bc37f22107e68b41ed4013191&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Web-Queue-Worker architecture style&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;b9f8a95bc37f22107e68b41ed4013192&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=f9f8a95bc37f22107e68b41ed4013193&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Web-Queue-Worker architecture style&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:44:18&lt;/sys_created_on&gt;&lt;sys_id&gt;f9f8a95bc37f22107e68b41ed4013193&lt;/sys_id&gt;&lt;sys_mod_count&gt;126&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Web-Queue-Worker architecture style&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_f9f8a95bc37f22107e68b41ed4013193&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 22:09:09&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;127&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f9f8a95bc37f22107e68b41ed4013193"/&gt;&lt;fx_price action="delete_multiple" query="id=f9f8a95bc37f22107e68b41ed4013193"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;f9f8a95bc37f22107e68b41ed4013193&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:44:18&lt;/sys_created_on&gt;&lt;sys_id&gt;b9f8a95bc37f22107e68b41ed4013196&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:44:18&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1984026212</payload_hash>
+        <record_name>Azure Web-Queue-Worker architecture style</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:09:09</sys_created_on>
+        <sys_id>1853f29fc33762107e68b41ed401317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19935aced320000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:09:09</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>5c53f29fef37621092f80fa134bcec7c</update_guid>
+        <update_guid_history>5c53f29fef37621092f80fa134bcec7c:-1984026212,5053f29ffe376210a7ffa85aeee41b6a:-1471070314,d853f29f70376210187d35ac6f7c595c:-1408932043,d853f29f4237621019caf91a0a97d350:405242326,d853f29f84376210abfe5da4edb65b44:-2075550601,5853f29f4c376210307dc0dc9d3d5d37:-261376232,dc53f29f15376210b181ecafdbf7ee17:1552798137,0c53f29f27376210b6971605e37b9304:-1485038705,4853b29f513762100ebaeefb9d4abdf1:329135664,cc53b29fcf376210e3688a3a0f3ed3d1:2143310033,8c53b29fba376210d25916885755fca5:-337482894,c853b29f2e376210e1e9e49c5ec9f892:1476691475,0853b29f5e3762100667b1537aeeb07f:-1004101452,7743b29fc0376210afc0532139e1e96c:810072917,b343b29fff37621014da9ec5fad0fe59:-1670720010,7343b29f6a376210a99195a3408f482d:143454359,f743b29ffd376210419543f43196d70d:1957628728,7f43729f40376210ed81d2d6fa769ced:-1080208114,bb43729f073762108d8e3b1e31d25dda:733966255,e743729f7e376210cc131054d15296c7:-1746826672,6f43729fea376210c955aed9479ae4a7:67347697,ab43729f2b376210ab68b39bf2075b94:1881522066,2343729f6a376210ecb9b5faf96f3d75:-599270861,6f43729f7537621014b94e142327c061:1214903508,9b43729f953762100d71993180aee14e:-1265889419,d743729f39376210aec3ca8fb035333b:548284950,5f43729ffb376210bf796d9869e8e51b:-1932507977,9b43729f63376210e66275c90eb2da08:-1346939990,1343329f96376210b5e36eb509576fe9:467234379,5f43329f343762103cd6e45e62053bd5:-2013558548,8b43329f65376210d50e074b15fe18c2:-199384179,8b43329f51376210089623478c2279b0:1614790190,8f43329f2d37621071fb523cb951d06c:-866002737,3643329f8f37621095bc276c1347e94d:948171632,ba43329f673762105e5b1c2669e89a2d:-1532621295,f643329fd1376210fbd304173e19551a:281553074,3643329f46376210fda590bc4ef8a107:2095727443,ba43fe5f99376210c9b34450bad340e7:-942109399,7a43fe5f61376210d2bddfbc4f7c2dbb:872064970,ee43fe5f4c3762102e52a7078fa8b69b:-1608727957,2e43fe5fc8376210a79f87e8d70ec288:205446412,a643fe5feb376210087deab30647ec37:2019620781,6643fe5f75376210383076349917e40b:-461172146,ea43be5fc437621010f13ee9201c41eb:1353002223,5243be5f1c3762101d3e9def39a781cc:-1127790704,5a43be5f7f3762107f5f691820d00b93:686383665,de43be5fa8376210f982d369ebc07a73:-1794409262,1e43be5f7637621075dba1e06371a360:-537278808,9243be5fd13762109f7271375afa8741:1276895561,ce43be5fd537621093019dad25317a2d:-1203897366,4643be5f61376210c3fee5af1939820e:610277003,82437e5f7937621030f0d8f219cc4cfb:-1870515924,ce437e5f17376210ac9e58638b0d3de7:-56341555,46437e5fe337621065a9426e30a07ac8:1757832814,82437e5f2f3762107d7d8a0fe93c88b5:-722960113,39437e5f10376210013a5473e83f2c95:1091214256,75437e5f68376210cd2cadf9f0e4b982:-1389578671,b1437e5f69376210e58d32de8da3816f:-132448217,fd437e5f1037621007e108841dcd545b:1681726152,3d437e5ff4376210f7e0405246d67f48:-799066775,b1437e5f07376210afc68c453f125329:1015107594,61433e5f7e376210a2654294d595b2fd:-1465685333,69433e5ffd376210020fe0071a2b9ce9:348489036,5d09a59b187f22109b3b6858aefd2c51:-2132303891,1109659bb17f221025687708d431bbe9:-318129522,8909659bd27f22105ae52c8e5a77738b:1496044847,c109659b437f2210bff13af4559ccd47:-984748080,4509259b5c7f221076d2000d4ef13ed1:272382374,b809259b697f22100365a37ad24f6781:2086556743,b009259b067f22102ef26117b10ce93e:-394236184,fc09e19b817f22108f8082bdda643ffa:1419938185,a809e19be37f2210cb255ebc877411b9:-1060854742,2c09e19b047f22106700a4b1aa7e7584:753319627,a809e19b227f2210924ecbdf7e6f125b:-1727473300,6809e19bf37f2210c03292ca76863c32:86701069,9409a19bae7f221039ed33cbf650a8fd:1900875438,5809a19bd57f2210ec60a57925ba0dd5:-579917489,1409a19b857f221013b7bf61792198a2:677212965,4809a19bf07f22104a66b0cc6018cb61:-1803579962,8809a19b2e7f221040bb97bc505c8e2d:10594407,8409a19bcd7f221059288b83538b0e08:1824768776,8809619be87f22107ac67e35aa2af6d6:-656024151,fff8619b507f22100275fb2212b1d57e:1158150218,fff8619bcf7f22101cb94691c8c62e59:-1322642709,b3f8619b7f7f22101b6247ab036b2229:491531660,b7f8219bdd7f2210f23dc1880ec43df7:-1989261267,f7f8219bd67f221038e015bcbc3a4cba:-175086898,abf8219b1b7f22108564d607c0f62189:1082043556,2ff8219ba77f2210ef2faea38448de59:-1398749371,2bf8219bfd7f2210330a4cc1130df22a:415424998,2ff8ed5b607f2210b28fbc6cda5b32e1:-2065367929,17f8ed5b617f2210bd386ba54910cbbf:-251193560,93f8ed5b107f2210ac8bb47c9618de9c:1562980809,1bf8ed5b487f2210884546f50f98706c:-917812118,93f8ed5be27f22108c69531b2bf39856:896362251,53f8ed5bac7f22104c7e20f94f068f40:-1584430676,8ff8ed5bbd7f22101b6cb83ff302501d:229743693,03f8ad5bd67f2210cd2c4bf2e46356fc:1486874147,8ff8ad5bdd7f2210b791e50b2805a9e6:-993918780,4bf8ad5bd37f22105b46e8f600775cc7:820255589,3af8ad5bcf7f2210fe9c7640358cd69a:-1660537338,fef8ad5b647f2210f73440b0a3826f54:153637031,f2f8ad5bf17f221039b3f473712b8a28:1967811400,3ef86d5b137f221071f4fdf99e1823fb:-512981527,3ef86d5bd17f221071f40c7e52e9a3dc:1301192842,2af86d5bbe7f2210ae5f629b54e0a3a4:-1179600085,e6f86d5bb87f22103425bdb5106c4585:634574284,26f86d5bc87f2210e495639ecbcd3b5a:1891704738,e2f86d5bd27f22100cc7a5b447564c3c:-589088189,22f86d5b457f221035180b1b7f85fc20:1225086180,aef82d5bc07f2210f3f85f28d81bc2dc:-1255706747,96f82d5b247f2210e722cb6cfbd7d3bf:558467622,1ef82d5b747f2210b8181adcf7b21095:-1922325305,9ef82d5b117f221099b7036239acfe78:-108150936,d2f82d5bd87f2210aa99e2e407324051:1706023433,16f82d5b1d7f22104b513e058422de36:-774769494,9ef82d5b087f22104d37413f7e5d730d:1039404875,06f8e95b377f221036448d8d6116c1f2:-1047409361,02f8e95b9b7f22108c4a2f1de1d4338d:766765008,caf8e95bef7f2210fe99185d1d08ea73:-1714027919,cef8e95b647f22100fa4a7eb4d6d2259:100146450,82f8e95b807f22105bf769237d34f242:1914320819,bdf8e95b187f221051636c38baa0142b:-566472108,f1f8e95b417f22101048fd03a1ac6822:1247702261,b9f8e95b527f221093e2f269473a2501:-1233090666,31f8a95bfe7f2210a71de4cf33abf6e5:1016425913,79f8a95b947f22101b11fea3154f00c8:-1293729983</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Web-Queue-Worker architecture style">ac53f29fc33762107e68b41ed4013180</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:09:09</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>9ee7813d76fd4fa797bcf28b1e8a0d21</sys_id>
+        <sys_metadata>f9f8a95bc37f22107e68b41ed4013193</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Web-Queue-Worker architecture style</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_f9f8a95bc37f22107e68b41ed4013193</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_f9f8a95bc37f22107e68b41ed4013193">1853f29fc33762107e68b41ed401317d</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:09:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

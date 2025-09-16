@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[Azure AI Resilient Priority Load Balancing Architecture
+This architecture establishes a robust infrastructure for serving OpenAI&#39;s GPT-4o models on Azure with high availability and resilience. It features:
+
+Reliable AI Model Access: Deploys multiple instances of the GPT-4o model across different Azure AI services, enabling applications to access these models via API.
+Intelligent Load Balancing: Distributes requests across multiple OpenAI instances through a backend pool, with each instance having defined priority and weight settings.
+Fault Management: Implements a &#34;circuit breaker&#34; mechanism that temporarily halts calls to failing backends to prevent cascade failures.
+Rate Limit Handling: Automatically manages 429 errors (too many requests) by retrying after the recommended delay.
+Enhanced Security: Uses managed identity authentication, eliminating the need to store secrets or API keys.
+API Abstraction: API Management serves as a facade, providing a unified interface and allowing backend modifications without affecting API consumers.
+
+This architecture is typically employed by enterprise applications requiring reliable and scalable access to AI models, with availability guarantees and protection against demand spikes. It specifically implements a prioritized PTU (Provisioned Throughput Unit) with fallback consumption scenario, where higher priority backends are fully utilized before gracefully falling back to equally-weighted lower priority backends.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>faae0d83c33b22107e68b41ed4013117</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure AI Priority LB Architecture (APIM)</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>beae0d83c33b22107e68b41ed4013118</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=32ae0d83c33b22107e68b41ed401311a&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure AI Priority LB Architecture (APIM)</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:10:55</sys_created_on>
+        <sys_id>32ae0d83c33b22107e68b41ed401311a</sys_id>
+        <sys_mod_count>76</sys_mod_count>
+        <sys_name>Azure AI Priority LB Architecture (APIM)</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_32ae0d83c33b22107e68b41ed401311a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:58:42</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>77</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=32ae0d83c33b22107e68b41ed401311a"/>
+    <fx_price action="DELETE" query="id=32ae0d83c33b22107e68b41ed401311a"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>32ae0d83c33b22107e68b41ed401311a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:10:55</sys_created_on>
+        <sys_id>beae0d83c33b22107e68b41ed401311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:10:55</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_32ae0d83c33b22107e68b41ed401311a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[Azure AI Resilient Priority Load Balancing Architecture
+This architecture establishes a robust infrastructure for serving OpenAI&amp;#39;s GPT-4o models on Azure with high availability and resilience. It features:
+
+Reliable AI Model Access: Deploys multiple instances of the GPT-4o model across different Azure AI services, enabling applications to access these models via API.
+Intelligent Load Balancing: Distributes requests across multiple OpenAI instances through a backend pool, with each instance having defined priority and weight settings.
+Fault Management: Implements a &amp;#34;circuit breaker&amp;#34; mechanism that temporarily halts calls to failing backends to prevent cascade failures.
+Rate Limit Handling: Automatically manages 429 errors (too many requests) by retrying after the recommended delay.
+Enhanced Security: Uses managed identity authentication, eliminating the need to store secrets or API keys.
+API Abstraction: API Management serves as a facade, providing a unified interface and allowing backend modifications without affecting API consumers.
+
+This architecture is typically employed by enterprise applications requiring reliable and scalable access to AI models, with availability guarantees and protection against demand spikes. It specifically implements a prioritized PTU (Provisioned Throughput Unit) with fallback consumption scenario, where higher priority backends are fully utilized before gracefully falling back to equally-weighted lower priority backends.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;faae0d83c33b22107e68b41ed4013117&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure AI Priority LB Architecture (APIM)&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;beae0d83c33b22107e68b41ed4013118&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=32ae0d83c33b22107e68b41ed401311a&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure AI Priority LB Architecture (APIM)&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:10:55&lt;/sys_created_on&gt;&lt;sys_id&gt;32ae0d83c33b22107e68b41ed401311a&lt;/sys_id&gt;&lt;sys_mod_count&gt;76&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure AI Priority LB Architecture (APIM)&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_32ae0d83c33b22107e68b41ed401311a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 20:58:42&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;77&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=32ae0d83c33b22107e68b41ed401311a"/&gt;&lt;fx_price action="delete_multiple" query="id=32ae0d83c33b22107e68b41ed401311a"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;32ae0d83c33b22107e68b41ed401311a&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:10:55&lt;/sys_created_on&gt;&lt;sys_id&gt;beae0d83c33b22107e68b41ed401311c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 20:10:55&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1118975928</payload_hash>
+        <record_name>Azure AI Priority LB Architecture (APIM)</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:58:42</sys_created_on>
+        <sys_id>62999d0fc37b22107e68b41ed40131ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199304610a30000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:58:42</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>a6999d0f977b22100579cf2ef6cbfaab</update_guid>
+        <update_guid_history>a6999d0f977b22100579cf2ef6cbfaab:-1118975928,ae999d0f8f7b2210465634d622d7ad98:155771478,ea999d0fc87b221021c39ebd3e10498b:-632420187,6e999d0f2b7b221010a97546d9cd467f:1181754182,ee999d0fdb7b2210abd239b5d6940c73:-1299038745,52999d0f5b7b221031ebec5b91119a4e:515135624,92999d0fee7b221032e167ded3d9163b:-1965657303,d2999d0f4b7b221034d9a33f90c8e628:-708526849,16999d0fc27b22100bd358952cd10515:1105647520,9e995d0f187b2210493f13747179dbf5:-1375145407,ce995d0f407b2210cdf70df84223ede2:439028962,02995d0f327b2210d1dd221804768fd0:-2041763965,42995d0feb7b22101376e687c53fcabd:-227589596,ca995d0fb67b2210f8fc8ddd3fc3279d:1586584773,c6995d0f067b2210cbdfc98b04f43b65:-894208154,ca995d0f4c7b2210d1653107d8de5253:919966215,3d995d0f947b2210ace5aa9e6c81d040:-1560826712,7d995d0f9d7b221091a5211cb1a6be2d:-303696258,bd995d0f887b22102a6b9383734e381a:1510478111,fd995d0fb87b2210bbea6838f2f44a07:-970314816,b1991d0f467b2210c2bd4251f9e08bdc:843859553,e1991d0fe37b2210c0173ae912e59fc9:-1636933374,a5991d0fc27b2210ce008c2bbef5589d:177240995,e5991d0f397b2210dc5d72b33f35728a:1991415364,61991d0fdf7b22101a5fbf10474b116b:-489377563,91991d0fb07b2210ad7b2ff00fee6d58:1324796806,d1991d0f0b7b2210a442e6f804b07345:-1155996121,15991d0f597b221078cdc5dae1f56f32:101134333,9d991d0f877b2210411b6f9e23203112:1915308702,dd99d90fdc7b2210bc6ff379315668ff:-565484225,1199d90f7d7b221095bf6766377895ed:1248690144,8999d90f737b22103717daaccd713fcd:-1232102783,0599d90fb27b2210210613548a162fae:582071586,4599d90f957b22107f70d99640c70f9b:-1898721341,8599d90fea7b2210c64646dc5cae5788:-84546972,c599d90f4b7b22100cf553b9d901e675:1729627397,3899d90f947b2210c263e9bae425cb62:-751165530,3499d90fae7b22106281f658a5d2384f:505964924,f0be01c3783b221077d06625024f4253:-1974828003,34be01c3763b2210776dd6076bf07b3b:-160653634,2cbe01c3973b22101ae26ee06459a50a:1653520735,20becd831c3b2210fcf25e2c0524c8e7:-827272192,e8becd833f3b2210ef3387c387f648aa:986902177,68becd83e23b221062d3cefeea608e87:-1493890750,14becd833c3b2210383805465e01d158:320283619,1cbecd83023b22103394672845d69435:2134457988,d8be8d83bf3b22104335aca4336027fa:-346334939,dcbe8d83193b2210c982bbb0f029adbf:910795515,8cbe8d83503b22107eb9350c43527f91:-1569997412,80be8d83a53b221020372b79f65f1264:244176957,c8be8d83973b22105b66dde49d372136:2058351326,00be8d83a23b22109f88eff241609e16:-422441601,3fae4d835c3b22100172f2fb5cebf8dc:1391732768,b3ae4d83293b22100548d5f2173672c9:-1089060159,b7ae4d83d03b2210960a911d2b43d2a9:725114210,b7ae4d83213b2210fa2c01d4b3a47296:-1755678717,fbae4d830d3b2210cbe1332b40d67d83:58495652,67ae4d83433b221009b9411cc5de3671:1315626106,afae4d83f23b22103ce4c1526aa94652:-1165166821,2fae4d83c73b22103cdbccc1331be134:649007548,a7ae4d83183b221094de33db0d025f23:-1831785379,67ae4d83a23b2210b46bf99a9f3c8812:-17611010,2bae4d83af3b22108becacddd7d56101:1796563359,13ae0d83fd3b2210c2852e3f83e75ef1:-684229568,9fae0d83113b22105f2acc22b4f758e0:1129944801,5bae0d830d3b221092d27f70647e93c4:-1350848126,53ae0d83c83b22100213217f130958b5:463326243,5fae0d837b3b22100751c0ae0486c2a5:1577365019,dfae0d83043b2210112635920591de96:-903427908,07ae0d83ea3b221012ecc4b010ae9988:910746461,0bae0d83053b221088d0a3666426976e:-1570046466,03ae0d83c73b221033f410daaba52a3a:1765784721,c3ae0d833c3b221077056818f1b01a65:244127903,36ae0d83e23b221009708adf86e1085b:2058302272,3aae0d83b23b2210e9c017589c9faa51:-422490655,3eae0d832d3b221037f0201b5cb0ac49:1391683714,3aae0d832f3b22108ba9ed700e79c429:1640697739</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure AI Priority LB Architecture (APIM)">a6999d0fc37b22107e68b41ed40131af</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:58:42</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>0156e456b50547ee8c92b25822c78109</sys_id>
+        <sys_metadata>32ae0d83c33b22107e68b41ed401311a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure AI Priority LB Architecture (APIM)</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_32ae0d83c33b22107e68b41ed401311a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_32ae0d83c33b22107e68b41ed401311a">62999d0fc37b22107e68b41ed40131ac</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:58:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

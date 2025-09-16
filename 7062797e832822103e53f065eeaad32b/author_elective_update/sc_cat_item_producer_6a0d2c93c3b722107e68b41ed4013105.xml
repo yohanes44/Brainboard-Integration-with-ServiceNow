@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[Highly available and resilient Azure architecture for business continuity leveraging Azure Chaos Studio for proactive failure testing and resilience validation. Spread across two regions, East US (EUS) and West Europe (WEU), using redundant infrastructure, load balancing, and firewall protection to minimize downtime and enhance security.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>a60d2c93c3b722107e68b41ed4013103</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Chaos Resilient Architecture</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>2a0d2c93c3b722107e68b41ed4013104</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=6a0d2c93c3b722107e68b41ed4013105&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Chaos Resilient Architecture</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:22:28</sys_created_on>
+        <sys_id>6a0d2c93c3b722107e68b41ed4013105</sys_id>
+        <sys_mod_count>106</sys_mod_count>
+        <sys_name>Azure Chaos Resilient Architecture</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_6a0d2c93c3b722107e68b41ed4013105</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:21:23</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>107</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=6a0d2c93c3b722107e68b41ed4013105"/>
+    <fx_price action="DELETE" query="id=6a0d2c93c3b722107e68b41ed4013105"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>6a0d2c93c3b722107e68b41ed4013105</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:22:28</sys_created_on>
+        <sys_id>2a0d2c93c3b722107e68b41ed4013108</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:22:28</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_6a0d2c93c3b722107e68b41ed4013105</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[Highly available and resilient Azure architecture for business continuity leveraging Azure Chaos Studio for proactive failure testing and resilience validation. Spread across two regions, East US (EUS) and West Europe (WEU), using redundant infrastructure, load balancing, and firewall protection to minimize downtime and enhance security.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;a60d2c93c3b722107e68b41ed4013103&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Chaos Resilient Architecture&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;2a0d2c93c3b722107e68b41ed4013104&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=6a0d2c93c3b722107e68b41ed4013105&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Chaos Resilient Architecture&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 12:22:28&lt;/sys_created_on&gt;&lt;sys_id&gt;6a0d2c93c3b722107e68b41ed4013105&lt;/sys_id&gt;&lt;sys_mod_count&gt;106&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Chaos Resilient Architecture&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_6a0d2c93c3b722107e68b41ed4013105&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:21:23&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;107&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6a0d2c93c3b722107e68b41ed4013105"/&gt;&lt;fx_price action="delete_multiple" query="id=6a0d2c93c3b722107e68b41ed4013105"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;6a0d2c93c3b722107e68b41ed4013105&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 12:22:28&lt;/sys_created_on&gt;&lt;sys_id&gt;2a0d2c93c3b722107e68b41ed4013108&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 12:22:28&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>723748140</payload_hash>
+        <record_name>Azure Chaos Resilient Architecture</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:21:23</sys_created_on>
+        <sys_id>1ab36953c33f22107e68b41ed40131b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199346e8a1a0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:21:23</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>5eb36953bf3f22103bbd04d9e45f1db8</update_guid>
+        <update_guid_history>5eb36953bf3f22103bbd04d9e45f1db8:723748140,9eb36953203f22104106fa69ea3e3099:-2043418876,0eb36953e63f2210f4ff2887625ba48c:-925391359,4ab36953c53f221065d78af43515b974:888783010,86b36953e43f2210749b6e1b15a8155c:-1592009917,0ab36953ad3f2210d6b2ef3eafef574f:222164452,4ab369533b3f221035354f3ae4f2f43c:2036338821,8ab36953413f22108374d90e1f329b29:1755793754,cab36953203f2210b018b6a13789f016:-724999173,3db369531d3f221089cc0a57008e9503:1089175196,7db32953a13f2210663e5054948124f0:-1391617731,bdb32953e73f22102c7bc57d6de31ddd:422556638,edb329533a3f22100eba2e7065a4a6ca:-2058236289,21b32953693f22109d49002fb1b2a1b8:-244061920,61b32953d43f2210e7f13906cff9efa5:1570112449,a5b32953f93f22109b8edfddc5af2460:-910680478,e5b32953443f22107607d6bcbc698c4d:903493891,19b32953ec3f22103d4f8b8b22b83a3a:-2134342951,59b32953003f221042e8e0ca483ab527:-320168582,99b329533e3f22106efa177724d5a314:1494005787,d9b32953093f22103e484269e4f43c01:-986787140,55b3e5538b3f2210171ad7a3569e69e2:827387229,95b3e553143f2210e66729a1b76a04cf:-1653405698,01b3e5537e3f221058c8a3f240026eb0:160768671,41b3e5539e3f2210029a85f9333de29d:1974943040,81b3e553933f2210be01e0344be1208a:-505849887,c1b3e5531c3f221036fee427a6d38177:1308324482,05b3e5536c3f22105c820f6b4df9bf64:-1729512360,c5b3e553ea3f22106cc3d745702e9838:84662009,38b3e553df3f22100be49b2b9e019c25:1898836378,78b3e553853f2210e09c5a2feee52012:-581956549,f0b3a553f93f2210cad068e1fa0b9bf3:1232217820,34b3a553353f2210da7514b2862a7ee0:-1248575107,bcb3a553793f2210538f2963057d4ec0:565599262,a0b3a553b63f2210e170bd37966cf6af:-1915193665,a4b3a553183f22108a1584c8a030199d:-101019296,20b3a553253f221050507348e1d26f7e:1713155073,60b3a553c63f22104ceb948666f78a6b:-1324681769,a0b3a553ef3f2210139480b515bef758:489492600,e0b3a553393f2210a163f8c9d2c41a45:-1991300327,14b3a553723f2210df2effb8c6141a32:-177125958,54b3a553ab3f2210d677c237d703ce1f:1637048411,94b3a5533a3f22105166b3800866960c:-843744516,10b365530e3f22108aaf66fe241c95ed:970429853,50b365538b3f2210bb1745a6d163ccda:-1510363074,90b36553a43f221057364713441df8c7:303811295,c0b36553163f2210f116c8ac9b68dab4:2117985664,04b36553123f2210643cc94f8f1cc6a1:-919851178,44b365532b3f22105b959e7d57d1458e:894323191,84b365532a3f22103d3d4318ff48c27b:-1586469736,c4b365533e3f2210fbae195c7b61a468:227704633,08b36553b53f221015dece9a244ce555:2041879002,7fa36553773f22104f5aa226403b2135:-438913925,951da0d39fb7221049c8cf5c14539d25:1375260444,1d1da0d3c2b722101997e16c2a476a08:-1105532483,111d60d38db722106c595e74a7996be0:708641886,491d60d336b7221006109223722ceab7:-1772151041,8d1d60d348b722109250122e593ef19b:-515020587,091d60d3bbb7221057ae888cf271b180:1299153782,c51d60d30ab72210b0619e3efc7be165:-1181639145,f81d60d3e7b722103057e3b236d94d4a:632535224,341d60d3f1b72210249547bb55c96730:-1848257703,7c1d20d34bb72210951aac97e50225f0:-34083334,b81d20d3d0b7221020cf6c220ce922d2:1780091035,a01d20d30db722109afa92ef7b15d9b9:-700701892,281d20d3beb722104a2c9e7b25da4193:1113472477,a81d20d37bb722107f79739b48b4ce7a:-1367320450,601d20d310b722104801c698daf85362:-110189996,181d20d367b722101f6750938a31ea24:1703984373,581d20d39cb72210453f269bedd4660c:-776808554,dc1dec936ab7221097e28f5f607571f4:1037365815,981dec9319b72210ae20fdfd0436b5dd:-1443427112,881dec9337b72210529d942b7d89e9c6:370747257,081dec933ab7221022aee2fae0d76aa3:-2110045670,801dec9364b72210c41c1733ec1d718d:-295871301,401dec932eb72210014dad196c058377:1518303068,441dec93efb722104c27b009bafe9361:-962489859,bf0dec933ab72210fc514ab76fb2fd4b:294640595,770dec931bb72210adeced6904cdc92a:2108814964,bb0dac937db72210fa2dbdaf89ac4cfc:-371977963,b30dac93e2b72210874cdcb642c425e8:1442196406,ff0dac93b4b7221096a4e5180ffed7d3:-1038596521,630dac93abb722102b179414cda166c0:775577848,630dac9378b72210bfe082449442caa0:-1705215079,6f0dac9323b72210cee135356123fa8c:108959290,e70dac93ceb72210f7e8baa9365b496d:1923133659,6f0dac9385b72210cf68d3747dcb1e5a:-557659268,1b0dac93ccb7221099add061cf4b3c48:699471186,9b0dac9306b72210f50ebc658a62b61d:-1781321741,1b0d6c932db72210bec4fa3bfb0a56ff:32852628,170d6c9344b722103d597aec339812d5:1847026997,1f0d6c9376b72210587afeb0805510b7:-633765930,db0d6c93e7b72210d1164d2616c0c581:1180408439,870d6c93a5b722109dd4ea5306f0e458:-1300384488,4f0d6c934cb72210f27876fe6367263b:513789881,cb0d6c93b0b722101115fb4d63a9b406:-1967003046,470d2c9303b7221018d978bf8e505cde:-152828677,cb0d2c93bdb7221056a4218877ff13c2:-1436298051,870d2c93bfb7221063dc51df8f3803a7:377876318,a60d2c9348b72210b0b7854acd82a873:-2102916609,620d2c931db7221023a486386b798466:-288742240,2e0d2c93cfb722101ad05bbd49860326:-1956798871,660d2c9307b72210dcfbf70f828edf50:1525432129,2a0d2c93bcb72210f33708c139ed8846:-955360798,ae0d2c933ab7221044c9469699879d3c:858813571,660d2c93f8b72210db6683fa5358ab35:-1621979356,a20d2c9393b72210dbfa042025593a15:-725961765</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Chaos Resilient Architecture">9eb36953c33f22107e68b41ed40131bc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:21:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>0dc92e22fe9b4be289d5940c7ca630c4</sys_id>
+        <sys_metadata>6a0d2c93c3b722107e68b41ed4013105</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Chaos Resilient Architecture</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_6a0d2c93c3b722107e68b41ed4013105</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_6a0d2c93c3b722107e68b41ed4013105">1ab36953c33f22107e68b41ed40131b9</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:21:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

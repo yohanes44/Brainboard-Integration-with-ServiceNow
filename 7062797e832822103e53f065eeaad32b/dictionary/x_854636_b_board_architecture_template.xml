@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="9816770783e4a2103e53f065eeaad315" label="Architecture Template" max_length="40" name="x_854636_b_board_architecture_template" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element choice="3" default="us1" label="API Type" max_length="40" name="api_type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="us1" sequence="10" value="us1"/>
+                <element inactive_on_update="false" label="apac1" sequence="20" value="apac1"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Approved" max_length="40" name="approved" type="boolean"/>
         <element label="Author" max_length="8000" name="author" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true" label="Catalog Item" max_length="32" name="catalog_item" read_only="true" reference="sc_cat_item_producer" reference_cascade_rule="delete" type="reference"/>

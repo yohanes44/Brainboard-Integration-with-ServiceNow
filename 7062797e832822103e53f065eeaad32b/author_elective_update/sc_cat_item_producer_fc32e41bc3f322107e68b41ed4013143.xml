@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>3c32e41bc3f322107e68b41ed4013141</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure AI architecture</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>bc32e41bc3f322107e68b41ed4013142</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=fc32e41bc3f322107e68b41ed4013143&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure AI architecture</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:35:07</sys_created_on>
+        <sys_id>fc32e41bc3f322107e68b41ed4013143</sys_id>
+        <sys_mod_count>118</sys_mod_count>
+        <sys_name>Azure AI architecture</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_fc32e41bc3f322107e68b41ed4013143</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:14:35</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>119</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=fc32e41bc3f322107e68b41ed4013143"/>
+    <fx_price action="DELETE" query="id=fc32e41bc3f322107e68b41ed4013143"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>fc32e41bc3f322107e68b41ed4013143</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:35:07</sys_created_on>
+        <sys_id>7032e41bc3f322107e68b41ed4013185</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:35:07</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_fc32e41bc3f322107e68b41ed4013143</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description/&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;3c32e41bc3f322107e68b41ed4013141&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure AI architecture&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;bc32e41bc3f322107e68b41ed4013142&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=fc32e41bc3f322107e68b41ed4013143&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure AI architecture&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 11:35:07&lt;/sys_created_on&gt;&lt;sys_id&gt;fc32e41bc3f322107e68b41ed4013143&lt;/sys_id&gt;&lt;sys_mod_count&gt;118&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure AI architecture&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_fc32e41bc3f322107e68b41ed4013143&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 12:14:35&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;119&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=fc32e41bc3f322107e68b41ed4013143"/&gt;&lt;fx_price action="delete_multiple" query="id=fc32e41bc3f322107e68b41ed4013143"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;fc32e41bc3f322107e68b41ed4013143&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 11:35:07&lt;/sys_created_on&gt;&lt;sys_id&gt;7032e41bc3f322107e68b41ed4013185&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 11:35:07&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-579102042</payload_hash>
+        <record_name>Azure AI architecture</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:14:35</sys_created_on>
+        <sys_id>c73b2c1bc37722107e68b41ed40131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199338c96aa0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:14:35</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>0f3b2c1bf577221065045512eebd67d5</update_guid>
+        <update_guid_history>0f3b2c1bf577221065045512eebd67d5:-579102042,073b2c1b2d772210036981ebb6b60ac3:-2033439804,833b2c1b3c7722100c9dcfd57a18a5b6:-1002138665,b63b2c1b45772210aa674abbe291dfaa:812035704,ba3b2c1b37772210d4f32bec1de5519e:-1668757223,3e3b2c1b377722106f79be7a4d58aa91:145417146,7e3b2c1b1c77221003ce151dddd7607e:1959591515,be3b2c1beb772210bb12aff51e9a716b:-521201412,fe3b2c1b1377221011bd370eb4479b58:1292972957,323b2c1b6e7722106767bfb2d0aef846:-1744863885,263b2c1b8f772210412e630a1d592034:69310484,663b2c1b6577221075bd80c11ea59b21:1883484853,ee3b2c1b477722107b8983c4fec8ac01:-597308074,223be81b62772210ae31c94f3de65bef:1216866295,2e3be81b2f772210eeae3ace33ffefb6:-1263926632,6e3be81bd4772210c54700f9140e93a3:550247737,9e3be81b17772210bc3ff1c19257c590:-1930545190,de3be81ba87722100430b82a78888a7d:-116370821,d23be81ba5772210a59578cf8e52d26c:1697803548,163be81b24772210e646a56bb621c859:-109602021,563be81bcb772210e841ec11bca07a46:1704572348,963be81b4b7722104c7e56f2bec55433:-776220579,c63be81bd6772210b5373e8350bab620:1037953790,0a3be81b0f772210ed3194195788360d:-1442839137,4a3ba81bf977221051a0f19ffc0032fa:371335232,463ba81bba7722101cf5ef71482a8bc2:-2109457695,0a3ba81b3b7722106c230ebb4f57ea96:-295283326,b13ba81b23772210a3e1ef23cfe7d577:1518891043,f53ba81b2d7722108d2c833209d59432:-961901884,713ba81bab7722108d2713e74f42a313:295228570,b13ba81bb4772210af0585fa52279400:2109402939,3d3b681bc9772210a1605aa5e7ccc2e0:-371389988,7d3b681bf2772210310fbd9a95a881cd:1442784381,ad3b681b24772210f865e10b2d733fba:-1038008546,ed3b681bd2772210a70f1d1aa37f1ea7:776165823,213b681b6977221042e6c205017a3a95:-1704627104,513b681b55772210c115bf8772a67b82:109547265,d93b681bcd7722101d86d672ce3be562:1923721634,1d3b681b74772210f2307e6093e72a4f:-557071293,5d3b681b2a7722109f8c85fa9814443c:700059161,9d3b681b93772210f9daee4175cab029:-1780733766,193b681bb1772210b02ab063feff020a:33440603,493b281b71772210a663452e177caef7:1847614972,c13b281b9c77221052a4aaae806401d8:-633177955,053b281b7d772210dbc7abd9454fc7c5:1180996414,453b281bac77221088658614dd494eb2:-1299796513,853b281b58772210eb2a613855e68e9f:514377856,013b281bc2772210c5af2bff71866780:-1966415071,b83b281b70772210296518f25948e960:-152240702,b43b281b48772210fa3363623c474d28:1104889752,f43b281be77722106bcfb57e5d8cac15:-1375903175,383b281b31772210f09cf5f890165d02:438271194,783be41b2e7722106c25b667211113ef:-2042521733,b83be41bb477221067c9e903abca1ddc:-228347364,e83be41b247722107c22c2a9349489c9:1585827005,2c3be41b7e772210663132642e9146b6:-894965922,6c3be41bc7772210cbe315a4700ea4a3:919208447,ac3be41b0d7722103603c674488c6b90:-1561584480,a83be41b5a77221042bd8b0c2ec9d27d:252589889,0442ac1b28f32210610bba8172c7f275:1509720343,0c42ac1b39f32210bb969e79a110de56:-971072584,c842ac1b9ff3221032d74b16fd2ecc1f:843101785,7f32ac1b05f32210d9df13b9b0369d01:-1637691142,37326c1bb0f32210299b415e7a1c93e4:176483227,33326c1b11f322104e4f84c84e28b4c7:1990657596,2f326c1bdcf32210e1156f941f9d3b84:-490135331,27326c1bf2f32210ce1f14d662c7b54f:1324039038,ef326c1bf9f322104daa8739b788f232:-1156753889,2b326c1b1bf32210350885102388840a:657420480,5f322c1be4f3221055ee8a29def614ee:1914550934,d7322c1bc7f32210b76e23b7d1c775d3:-566241993,97322c1b9ff322106c58804e62ff56b8:1247932376,0f322c1b61f32210acd5f866828f9184:-1232860551,47322c1b03f322105f00ec4444cec56a:581313818,c3322c1b63f3221095613ba3310b9150:-1899479109,0b322c1b8ef32210e1ea43907581221d:-85304740,7a32e81b64f3221039b710f3e336e8f7:1728869629,3a32e81beaf322109f981d669d731fc5:-751923298,be32e81be2f32210046691b6bc926b7a:1062251071,2232e81bfaf322103ee0a3b5109ba73d:-1975585771,6632e81beaf32210eab9777ef1679c18:-161411402,2a32a81b49f32210b922e05e2f300de7:1652762967,e632a81b99f322104920c8c1e13f2cc3:-828029960,9232a81bd6f3221031ab8e2735cce0ac:986144409,9232a81b0ef3221028b5604ace4b8595:-1494648518,1232a81bccf32210f12935ce23179c72:319525851,9a32a81b63f32210268498178743b75b:2133700220,4a32a81bf6f322102ca8c8d035ce8445:-347092707,4e32a81b26f32210ae7808298faa812f:1467081662,8632a81bf9f32210988e283b5a00c21a:-1570755180,0632a81b4af322105066d7cd6e0f8f05:243419189,0232681b68f322106b03cbe4a3a08ee4:2057593558,3932681bdef322108e5110c2873b00cf:-423199369,bd32681b70f32210220e221488c213ae:1390975000,7932681b12f3221040aa65b2b0c5f38e:-1089817927,7932681bddf32210d73eaf8bf49ab76e:724356442,bd32681bb1f322104b09758713c6f84e:-1756436485,ed32681bf7f32210f9c29bf10ca1e53b:57737884,2132681bc0f3221000941b1750383104:1871912253,e932281b51f322103e334980faeabdf1:-1165924589,e932281b98f322102ebacbbd02b076df:648249780,6932281b53f322107492dedbc744f8c1:-1832543147,d132281b20f32210176cda8f96b4a3b0:-18368778,9132281bdff322105efdaddb2ea0969f:1795805591,9532281b7af3221012d681c2b68da68e:-684987336,dd32281bd8f322105e66b126585a337d:1129187033,dd32281b3df322109490bbe07198ee54:-1351605894,9132281b84f32210d011e6f09a8a4745:462568475,8932281b1ef3221096fc8f652aad7535:-2018224452,c532281b74f322106808ef0475aeef26:-580000748,c932e41bcef3221025d640021af59cfe:1234173621,3032e41baaf322104cf5971ee92f12f0:-1246619306,f832e41b49f322106a25cf2b00c8e9e2:567555063,fc32e41b0cf322102c07fcf0b0697ccc:-1913237864,b032e41b80f3221000c585a532d5d0c3:-99063495,f432e41b3ff32210d16ee84ca97b55b9:1715110874,bc32e41bccf32210c052d4bc233bb9b1:-765682053,7832e41bebf32210bff6a6bd9f107f9e:1701820202,7832e41b05f3221033f718e2ad20edaa:-830615018</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure AI architecture">4f3b2c1bc37722107e68b41ed40131d9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:14:35</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>23ba8cc2492a41218d9b79106fc12ea1</sys_id>
+        <sys_metadata>fc32e41bc3f322107e68b41ed4013143</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure AI architecture</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_fc32e41bc3f322107e68b41ed4013143</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_fc32e41bc3f322107e68b41ed4013143">c73b2c1bc37722107e68b41ed40131d6</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:14:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

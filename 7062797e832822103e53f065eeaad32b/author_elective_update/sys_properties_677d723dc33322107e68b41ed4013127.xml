@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices>apac1,us1</choices>
+        <description>API Type</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_854636_b_board.api.type</name>
+        <read_roles/>
+        <suffix>api.type</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-06 07:06:22</sys_created_on>
+        <sys_id>677d723dc33322107e68b41ed4013127</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_854636_b_board.api.type</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sys_properties_677d723dc33322107e68b41ed4013127</sys_update_name>
+        <sys_updated_by>chafik.belhaoues</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:38:41</sys_updated_on>
+        <type>choicelist</type>
+        <value>us1</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=677d723dc33322107e68b41ed4013127"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sys_properties_677d723dc33322107e68b41ed4013127</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices>apac1,us1</choices><description>API Type</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_854636_b_board.api.type</name><read_roles/><suffix>api.type</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>yohanes.yilma</sys_created_by><sys_created_on>2025-09-06 07:06:22</sys_created_on><sys_id>677d723dc33322107e68b41ed4013127</sys_id><sys_mod_count>7</sys_mod_count><sys_name>x_854636_b_board.api.type</sys_name><sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package><sys_policy/><sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope><sys_update_name>sys_properties_677d723dc33322107e68b41ed4013127</sys_update_name><sys_updated_by>chafik.belhaoues</sys_updated_by><sys_updated_on>2025-09-09 13:38:41</sys_updated_on><type>choicelist</type><value>us1</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=677d723dc33322107e68b41ed4013127"/></record_update>]]></payload>
+        <payload_hash>-1736978211</payload_hash>
+        <record_name>x_854636_b_board.api.type</record_name>
+        <reverted_from/>
+        <source>c1e4fbb6c33322107e68b41ed4013150</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>chafik.belhaoues</sys_created_by>
+        <sys_created_on>2025-09-09 13:38:41</sys_created_on>
+        <sys_id>c9e4f7f6c33322107e68b41ed40131a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1992eb339ff0000001</sys_recorded_at>
+        <sys_updated_by>chafik.belhaoues</sys_updated_by>
+        <sys_updated_on>2025-09-09 13:38:41</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>01e4f7f6763322100fddbe6786b3cea1</update_guid>
+        <update_guid_history>01e4f7f6763322100fddbe6786b3cea1:-1736978211,19480b7517732210130c13c41761eceb:780768720,55f7c375e273221019657626b957a98c:-1736978211,5a45077d7a332210f157ed715025f81f:780768720,600187b1f4332210ba38ac6f582f67f9:-1736978211,933fb2fdc0332210c31d28ea5032a698:780768720,14be727dbc33221071a14b4b95a9d295:-1518639649,655efe3d1a3322105ab44e1bed440710:1991658736</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chafik.belhaoues</sys_created_by>
+        <sys_created_on>2025-09-10 20:30:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>26b869b1dae2447e9b808ba00c212121</sys_id>
+        <sys_metadata>677d723dc33322107e68b41ed4013127</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_854636_b_board.api.type</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sys_properties_677d723dc33322107e68b41ed4013127</sys_update_name>
+        <sys_update_version display_value="sys_properties_677d723dc33322107e68b41ed4013127">c9e4f7f6c33322107e68b41ed40131a1</sys_update_version>
+        <sys_updated_by>chafik.belhaoues</sys_updated_by>
+        <sys_updated_on>2025-09-10 20:30:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

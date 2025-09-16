@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="69493adf83a4e2103e53f065eeaad3e7" label="Variable" max_length="40" name="x_854636_b_board_variable" type="collection">
+        <element choice="1" label="API Type" max_length="40" name="api_type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="apac1" sequence="10" value="apac1"/>
+                <element inactive_on_update="false" label="us1" sequence="20" value="us1"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true" label="Architecture Template" max_length="32" name="architecture_template" read_only="true" reference="x_854636_b_board_architecture_template" type="reference"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;var grArchTpl = current.architecture_template.getRefRecord();&#10;&#9;return current.name + grArchTpl.uuid; &#10;&#10;})(current);" label="Architecture Template Uuid and Variable Name" max_length="8000" name="architecture_template_uuid_and_variable_name" type="script" virtual="true"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true" label="Catalog Variable" max_length="32" name="catalog_variable" read_only="true" reference="item_option_new" reference_cascade_rule="delete" type="reference"/>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[This architecture deploys a complete Azure infrastructure for call center analytics using Azure OpenAI Service, Speech services, and Language services. The architecture processes recorded customer conversations to extract insights, sentiment analysis, and generate summaries.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>9a03e89fc3f322107e68b41ed401315f</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure extract and analyze call center data</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>1e03e89fc3f322107e68b41ed4013160</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=5e03e89fc3f322107e68b41ed4013161&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure extract and analyze call center data</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:38:46</sys_created_on>
+        <sys_id>5e03e89fc3f322107e68b41ed4013161</sys_id>
+        <sys_mod_count>98</sys_mod_count>
+        <sys_name>Azure extract and analyze call center data</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_5e03e89fc3f322107e68b41ed4013161</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:13:38</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>99</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=5e03e89fc3f322107e68b41ed4013161"/>
+    <fx_price action="DELETE" query="id=5e03e89fc3f322107e68b41ed4013161"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>5e03e89fc3f322107e68b41ed4013161</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:38:46</sys_created_on>
+        <sys_id>1e03e89fc3f322107e68b41ed4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:38:46</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_5e03e89fc3f322107e68b41ed4013161</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[This architecture deploys a complete Azure infrastructure for call center analytics using Azure OpenAI Service, Speech services, and Language services. The architecture processes recorded customer conversations to extract insights, sentiment analysis, and generate summaries.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;9a03e89fc3f322107e68b41ed401315f&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure extract and analyze call center data&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;1e03e89fc3f322107e68b41ed4013160&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=5e03e89fc3f322107e68b41ed4013161&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure extract and analyze call center data&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 11:38:46&lt;/sys_created_on&gt;&lt;sys_id&gt;5e03e89fc3f322107e68b41ed4013161&lt;/sys_id&gt;&lt;sys_mod_count&gt;98&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure extract and analyze call center data&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_5e03e89fc3f322107e68b41ed4013161&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 12:13:38&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;99&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5e03e89fc3f322107e68b41ed4013161"/&gt;&lt;fx_price action="delete_multiple" query="id=5e03e89fc3f322107e68b41ed4013161"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;5e03e89fc3f322107e68b41ed4013161&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 11:38:46&lt;/sys_created_on&gt;&lt;sys_id&gt;1e03e89fc3f322107e68b41ed4013164&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 11:38:46&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1867837623</payload_hash>
+        <record_name>Azure extract and analyze call center data</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:13:38</sys_created_on>
+        <sys_id>8d0b20d7c37722107e68b41ed40131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199338bb7ce0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:13:38</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>c10b20d7307722103db8a86321f078b7</update_guid>
+        <update_guid_history>c10b20d7307722103db8a86321f078b7:-1867837623,c90b20d7127722107301939c481e26a4:-509389299,780b20d7fe772210064e9db203781997:-777947334,7c0b20d767772210e03a354b6823988b:1036227035,700b20d7f6772210bcc6cf3376bd2080:-1444565892,f00b20d71077221017d04557cbf5f273:369608477,340b20d7b1772210b8fac595ad564560:-2111184450,740b20d7b47722104e4795aafc187f4d:-297010081,b40b20d7c87722108862ecb43f333e3a:1517164288,200b20d7427722108d7be98a1a959c1b:-1520672554,600b20d743772210d5cd5d06a0082d08:293501815,a00bec97ad77221089a3440b6ab7f9f5:2107676184,a40bec97b477221031f4a7cc450455e3:-373116743,e40bec97b4772210d369cf32bc71abd0:1441057626,180bec9747772210a27be04ede4aa9bd:-1039735301,580bec97be7722108576a84df97a65aa:774439068,980bec97637722103564eaebfc36bc97:-1706353859,140bec97b8772210a59e7a6067115578:107820510,540bec97707722109f6fcae0642f4165:1921994879,940bec97dc772210805f853286e98252:-1115841963,000bec97b27722103a9e75ea6a34a733:698332406,400bec97f67722101e3c64df04ca0920:-1782460521,c80bec978c772210adc00f6645019c00:31713848,0c0bac97ac7722108fb0497d9dc855ed:1845888217,840bac97a5772210566cf56f66f2e1ce:-634904710,c40bac97c1772210a99675bdcf956dbb:1179269659,fbfaac97bd772210dc57b9e3794c81a9:-1301523268,3ffaac974977221065a2f18446352796:512651101,b7faac97b6772210968207c55d0b9d77:-1968141826,7bfaac977a77221042fe690ffbc1bd4b:-711011372,bbfaac9761772210af312c802a231538:1103162997,fbfaac978477221020c2c92547880125:-1377629930,2ffaac977d7722106f5926819e9cbf12:436544439,6ffa6c975477221097e52d31249f53ff:-2044248488,affa6c977777221052796613fc54cbec:-230074119,effa6c97e97722106612ff3103e453d9:1584100250,6bfa6c97f67722107ed52cf0e47d88ba:-896692677,abfa6c9744772210e2a07df979713aa7:917481692,17fa6c970c772210801aa3c04a22b088:-1563311235,13fa6c971d77221010f358451dc6ff50:-306180781,d3fa6c97d6772210c8b2a74e5e4bf924:1507993588,17fa6c9735772210bc6d753c353e1111:-972799339,5bfa2c97717722105088757b221a0fcc:841375030,8bfa2c975c7722109868f390d8c495b9:-1639417897,07fa2c97c9772210ddd962605660909a:174756472,47fa2c97ab772210c001ac151bc5a287:1988930841,87fa2c97d5772210140ccc6cee824274:-491862086,c7fa2c97377722106e020118f279b961:1322312283,c3fa2c97c97722107a3e9bd06fe2b74e:-1158480644,f413ec9f04f322101aff890cd39bdbfb:98649810,6013ec9fcff3221013daf89fe3c21de0:1912824179,2013ec9f4af32210fc308fc8a4db80c5:-567968748,2413ec9fa7f322100ea69216575027aa:1246205621,a413ec9f78f32210bde69137d2d4b883:-1234587306,5c13ec9f23f322102007ef099963b55c:579587063,1013ec9fc5f3221004b2a3568c468043:-1901205864,1813ec9f5df3221008b15f4fc8eac729:-87031495,0813ec9f39f32210ea212d78f6552803:1727142874,0c13ac9f6df3221024a0a38b48f55ed1:-753650053,c013ac9f4df3221086a969c3695a43b9:503480401,0813ac9ff3f3221090bfc0dec8c35494:-1977312526,4813ac9f49f322100205b349a3f9467c:-163138157,ff03ac9f8cf322102df838f088675c64:1651036212,bb03ac9fa4f32210ce1c72f79066ee4d:-829756715,bb03ac9f5cf3221078051547b32f4536:984417654,ff03ac9fa0f32210f63f5d5f4c53441f:-1496375273,6b03ac9f9bf32210bf4ce1223779f809:317799096,2b036c9fdaf322105b737e59ed1fb7f3:2131973465,2f036c9f65f32210505ab33d2edbcadd:-348819462,67036c9f96f322105e84e25a77bce0c8:908310992,2f036c9fd1f32210e8b891ef690183a6:-1572481935,df036c9f67f32210d4dedba654c4f291:241692434,d7036c9f5bf32210ca5ff11fefa6a37d:2055866803,17036c9fc2f32210e6ddf6ab84d4c669:-424926124,1b036c9f37f32210211ac4e7e9b2603c:1389248245,8b036c9f52f322104d3b8c863c984203:-1091544682,87032c9f53f322100ef9783ddaf613f0:722629687,c7032c9f7cf322102fa4b12735ceb3dd:-1758163240,4f032c9fbbf322106e57efd7ed44d9ca:56011129,0b032c9f02f322103d807b06aaaaa4b8:1313141583,0b032c9fcbf3221038cb883de1f4dca6:-1167651344,7e032c9f9df3221010134f8ea4509e94:646523025,32032c9f06f3221089d9fbc31ecb6a77:-1834269902,fe032c9fc9f3221054b1ec3737edf865:-20095533,f2032c9f8af322108b86dc05f3175455:1794078836,3e032c9fbef322102ebee23ea953da44:-686714091,ba032c9f15f32210ea6e2526b206de34:1127460278,6e032c9feaf3221094afdd691279d624:-1353332649,ae032c9f31f32210c17d2ba0f7326d08:460841720,ea03e89f73f3221058940401a978e1f9:1162238802,a603e89f43f32210e63f2ec3545380de:-1318554125,da03e89f75f32210bb484640d77ab4cf:495620244,de03e89fc5f32210043608678f73d0b5:-1985172683,9a03e89f89f322102b8e3968e74b64ac:-170998314,5e03e89f75f32210654e3aecc8c846a2:1643176055,9203e89f3af3221073bf7371cde0a899:-837616872,5a03e89f63f32210e3643b6c3e37bd91:976557497,5203e89fe9f32210b42ec9bc0780e782:-1714145178,5e03e89f91f32210ca8af2a32ec03e7d:-1082118546</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure extract and analyze call center data">050b20d7c37722107e68b41ed40131bb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:13:38</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>3ad11c1c1158421290004f696287e444</sys_id>
+        <sys_metadata>5e03e89fc3f322107e68b41ed4013161</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure extract and analyze call center data</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_5e03e89fc3f322107e68b41ed4013161</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_5e03e89fc3f322107e68b41ed4013161">8d0b20d7c37722107e68b41ed40131b7</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:13:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

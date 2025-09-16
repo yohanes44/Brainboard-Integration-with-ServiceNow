@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[This architecture is for global, internet-facing applications that use HTTP(S) and non-HTTP(S) protocols. It features DNS-based global load balancing, two forms of regional load balancing, and global virtual network peering to create a high availability architecture that can withstand a regional outage. Traffic inspection is provided by both Azure Web Application Firewall (WAF) and Azure Firewall.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>cf9f0d4bc33b22107e68b41ed401315a</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Multi-region lb with Traffic Manager Az Firewall and App Gateway</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>839f0d4bc33b22107e68b41ed401315c</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=079f0d4bc33b22107e68b41ed401315d&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Multi-region lb with Traffic Manager Az Firewall and App Gateway</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:15:03</sys_created_on>
+        <sys_id>079f0d4bc33b22107e68b41ed401315d</sys_id>
+        <sys_mod_count>106</sys_mod_count>
+        <sys_name>Multi-region lb with Traffic Manager Az Firewall and App Gateway</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_079f0d4bc33b22107e68b41ed401315d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:02:23</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>107</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=079f0d4bc33b22107e68b41ed401315d"/>
+    <fx_price action="DELETE" query="id=079f0d4bc33b22107e68b41ed401315d"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>079f0d4bc33b22107e68b41ed401315d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:15:03</sys_created_on>
+        <sys_id>c39f0d4bc33b22107e68b41ed4013160</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:15:03</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_079f0d4bc33b22107e68b41ed401315d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[This architecture is for global, internet-facing applications that use HTTP(S) and non-HTTP(S) protocols. It features DNS-based global load balancing, two forms of regional load balancing, and global virtual network peering to create a high availability architecture that can withstand a regional outage. Traffic inspection is provided by both Azure Web Application Firewall (WAF) and Azure Firewall.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;cf9f0d4bc33b22107e68b41ed401315a&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Multi-region lb with Traffic Manager Az Firewall and App Gateway&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;839f0d4bc33b22107e68b41ed401315c&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=079f0d4bc33b22107e68b41ed401315d&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Multi-region lb with Traffic Manager Az Firewall and App Gateway&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:15:03&lt;/sys_created_on&gt;&lt;sys_id&gt;079f0d4bc33b22107e68b41ed401315d&lt;/sys_id&gt;&lt;sys_mod_count&gt;106&lt;/sys_mod_count&gt;&lt;sys_name&gt;Multi-region lb with Traffic Manager Az Firewall and App Gateway&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_079f0d4bc33b22107e68b41ed401315d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 21:02:23&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;107&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=079f0d4bc33b22107e68b41ed401315d"/&gt;&lt;fx_price action="delete_multiple" query="id=079f0d4bc33b22107e68b41ed401315d"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;079f0d4bc33b22107e68b41ed401315d&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:15:03&lt;/sys_created_on&gt;&lt;sys_id&gt;c39f0d4bc33b22107e68b41ed4013160&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 20:15:03&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1903591976</payload_hash>
+        <record_name>Multi-region lb with Traffic Manager Az Firewall and App Gateway</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 21:02:23</sys_created_on>
+        <sys_id>b87ad5c3c3bb22107e68b41ed40131ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199304972ba0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:02:23</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>fc7ad5c329bb2210721c1e1e539dbffe</update_guid>
+        <update_guid_history>fc7ad5c329bb2210721c1e1e539dbffe:1903591976,e47ad5c35dbb22102e3a7272530342ec:1907046740,247ad5c3a6bb2210abc6f9b4dae953df:133074065,a47ad5c33cbb22104b50905fe2769fd3:1947248434,287ad5c37cbb2210d23cd98fa920dbc7:-533544493,607ad5c3efbb2210ae7d20ccd254abae:1280629876,a07ad5c3d8bb2210ade021a12c4e329b:-1200163051,e07ad5c398bb221029a0da323e336988:194409386,147ad5c3febb22106f210342226ab575:2008583755,9c7ad5c39ebb2210bb43bdcd19614255:-472209172,dc7ad5c3fbbb22109b0abdbb69512f42:1341965197,107ad5c370bb2210c6c16bf3207cae30:-1138827730,507ad5c302bb22107af2f32e56d67a1d:675346639,4c7a95c3a7bb221048ffbfcacdbfb4e4:-1805446288,887a95c33cbb22109f5e93c2dd1ca7c6:8728081,c87a95c30cbb22107d517b860fc9c5b3:1822902450,776a95c322bb2210d4481d5a5ea66694:-657890477,b76a95c378bb22108cd2c2f5b4d4f181:599239977,f76a95c39fbb2210e6fa350f718b056e:-1881552950,3b6a95c3e8bb22105bc051b6fef8f15b:-67378581,b36a95c33cbb2210bc0633c20024cb3c:1746795788,2f6a95c3b1bb22104d36804fe2bcf91c:-733997139,6f6a95c370bb2210813f6090c1614f09:1080177230,af6a55c31ebb2210e276a17a14a5a7f6:-1400615697,ef6a55c3f0bb2210ce435702e6b753e3:413558672,236a55c3b3bb22101feb9dbb3e04ced1:-2067234255,636a55c340bb2210504549214124d8be:-253059886,936a55c35fbb2210a2342748cc5274ab:1004070568,d36a55c31fbb221075aa2c10ea04bb98:-1476722359,176a55c36bbb22103cba319ba685dc85:337452010,9f6a55c328bb22109964785c46534a65:-2143340917,df6a55c309bb22107631e52696824552:-329166548,136a55c3e1bb22105f878408f54bab40:1485007821,436a55c3c2bb2210593bcb6301b30f2d:-995785106,836a55c32cbb2210efe2cc9db037451a:818389263,c36a55c348bb221072b65cb83988a807:-1662403664,076a15c39abb221074c663d25f1d67f4:151770705,476a15c3abbb22104229d7788fce22e1:1408901159,876a15c30dbb22103a8d23a04f3fbcce:-1071891768,326a15c36bbb221005d0c8998b32c1af:742282601,726a15c3e4bb22105817b386bec5899c:-1738510326,366a15c336bb22103dede8d9dce46170:75664043,be6a15c3f8bb2210f6044d869d74ee50:1889838412,fe6a15c341bb2210325f9ac38494633d:-590954515,326a15c39dbb22101d73dfa82f207f2b:1223219854,626a15c352bb22100536ffbfe3d95318:-1257573073,666a15c367bb22105bede1ebd8616306:556601296,a66ad1c359bb2210a5d89067838787f3:1813731750,e66ad1c3b4bb2210aa089bda4742d8e0:-667061177,2a6ad1c394bb2210b001544b6b4888cd:1147113192,5a6ad1c370bb22103d9e835cb637b6ba:-1333679735,9a6ad1c30cbb2210a7ac463d87d465a7:480494634,966ad1c3e7bb22105b2d6df68211ca94:-2000298293,82af818b4e3b2210c5f87f0a44e0007c:-186123924,8aaf818be53b2210e915a4949318f146:1628050445,02af818bd13b2210f6bcd615551fd62a:-852742482,39af818ba63b2210124c11805d2f7001:961431887,7daf418bde3b221045f8d064cf56bee5:-2076404955,b5af418bcd3b221070089392b518faca:-262230586,35af418b5b3b221055af2ace0a41e8af:1551943783,69af418b8f3b221095e076d33c4f5393:-928849144,a1af418b8f3b2210c19634e7aecd6479:885325225,a1af418be43b2210997a46a9db37af46:-1595467702,5daf418b5f3b2210a17bd0ba3b67ab1f:218706667,d5af018bbe3b2210903c9cb02b0d7ff9:2032881036,15af018bf63b2210c31e8c71646c7be0:-447911891,9daf018b7f3b2210c09968d63ec360ba:1366262478,4daf018b893b221069b95ec0ad94cd95:-1671574364,89af018b3b3b221024262c2e07b5fb64:142600005,c1af018b9c3b221069482f11812b7f40:1956774374,38af018b1d3b2210c2ba3e2fe1d84928:-524018553,b0af018bcf3b221040b6ec3a158a7c11:1290155816,70afcd4b0d3b22102bc8511236c166fa:-1190637111,74afcd4bbb3b2210a8f4381b95943ee3:623537258,ecafcd4b373b221067b4defdb712c9cc:-1857255669,6cafcd4b553b2210050dcb312b64ebb6:-43081300,20afcd4b4c3b221042fce995462d2fa1:1771093069,e0afcd4bd73b2210626217c576636b66:-1266743773,60afcd4b833b2210bc3a7a938c203b51:547430596,5cafcd4ba13b22103000bb9a077b662f:-1933362331,9cafcd4b6a3b2210c4527fe18091fb0e:-119187962,d8af8d4b9e3b2210a894ef557fd09efa:1694986407,5caf8d4b253b22100819657269d70ae6:-785806520,14af8d4bde3b221027f0d78eca5fe9d3:1028367849,80af8d4b0e3b2210a439fe8bdc95c4a7:-1452425078,80af8d4b663b22105fe1d0d09441ba94:361749291,08af8d4b6d3b2210c5e866fe9ba59681:-2119043636,80af8d4b7d3b2210d79ede51b52f936f:-861913182,bb9f8d4b363b2210d15978f178a19c50:952261187,3b9f8d4b223b221030754a4136ed9532:-1528531740,b39f8d4bec3b221079af48b9cc43ae21:285642629,739f8d4b0a3b2210e132d6dac3cf6b10:2099816998,bf9f4d4bfd3b2210a78309f0dcfa1cf2:-380975929,f79f4d4bf73b2210a45d9b17fe29e9e2:1433198440,679f4d4b9d3b22107d2d82957f0d97d2:-1047594487,239f4d4bb83b221075efc671728c73b6:766579882,2b9f4d4bde3b2210049d35c64ebb9fa6:-1714213045,679f4d4b1d3b2210b490de5741c64297:797131597,e79f4d4b683b2210fde8684ba9862888:-1683661330,579f4d4bd63b22108af1d017e3a2d26d:130513039,139f4d4b663b2210b9dc53676e328360:1944687408,df9f4d4ba93b2210d684ac3bca7c5a24:-536105519,139f4d4b763b221094f943ab53958f1b:1278068850,579f0d4b563b221004f48abbdd0f12f8:-1202724077,5b9f0d4bd33b22102dbb7f9973c1cef0:611450292,939f0d4bf83b22102f353c649443c3d8:-578459463,579f0d4b463b22106fcbc92ebb3a29d0:-96045481</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Multi-region lb with Traffic Manager Az Firewall and App Gateway">fc7a19c3c3bb22107e68b41ed4013102</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 21:02:24</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>1c27cfb5aae84eca9d6b31d40211ddd1</sys_id>
+        <sys_metadata>079f0d4bc33b22107e68b41ed401315d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Multi-region lb with Traffic Manager Az Firewall and App Gateway</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_079f0d4bc33b22107e68b41ed401315d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_079f0d4bc33b22107e68b41ed401315d">b87ad5c3c3bb22107e68b41ed40131ff</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:02:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

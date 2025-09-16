@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>clone_architecture_template</internal_name>
-        <label_cache>[{"name":"{{action.payload}}","label":"action➛payload","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"b9006644-2e1b-42f5-b90d-7c5c87492a16"}},{"name":"{{action.archtpluuid}}","label":"action➛archTplUUID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[804ca9ee-5d3e-44d2-a736-871c95fb3cb8].result}}","label":"step➛Script step➛result","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"json","uiUniqueId":"7dd30220-cfa3-40da-8680-b8c85f21807b"}}]</label_cache>
+        <label_cache>[{"name":"{{action.payload}}","label":"action➛payload","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"b9006644-2e1b-42f5-b90d-7c5c87492a16"}},{"name":"{{action.archtpluuid}}","label":"action➛archTplUUID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"84f0dcc2-fc8f-4d12-9c05-7b9ca0806135"}},{"name":"{{action.api_type}}","label":"action➛API Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.api_type1}}","label":"action➛api_type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.apitype}}","label":"action➛API Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[804ca9ee-5d3e-44d2-a736-871c95fb3cb8].result}}","label":"step➛Script step➛result","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"json","uiUniqueId":"7dd30220-cfa3-40da-8680-b8c85f21807b"}}]</label_cache>
         <master_snapshot>117fdf2283b462103e53f065eeaad360</master_snapshot>
         <name>Clone Architecture Template</name>
         <natlang/>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>33fe1bee837462103e53f065eeaad35d</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Clone Architecture Template</sys_name>
         <sys_overrides/>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_33fe1bee837462103e53f065eeaad35d</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 19:20:04</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:16:08</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -52,10 +52,10 @@
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:16:39</sys_created_on>
         <sys_id>3e1f1b2283b462103e53f065eeaad30b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 18:57:17</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <sys_updated_on>2025-09-09 20:14:23</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">6a1fd72283b462103e53f065eeaad3fe</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -115,10 +115,10 @@
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:17:33</sys_created_on>
         <sys_id>bf4f1f2283b462103e53f065eeaad380</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 18:57:16</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:16:07</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bf4f1f2283b462103e53f065eeaad380"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -129,14 +129,14 @@
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:17:33</sys_created_on>
         <sys_id>845f1f2283b462103e53f065eeaad38f</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 18:57:16</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:16:07</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 // ... code ...&#13;
 &#13;
   var brainboardUtility = new x_854636_b_board.BrainboardUtility();&#13;
-  outputs.result = brainboardUtility.cloneArchitectureTemplate(inputs.generatedPayload, inputs.archTplUUID);&#13;
+  outputs.result = brainboardUtility.cloneArchitectureTemplate(inputs.apiType ,inputs.generatedPayload, inputs.archTplUUID);&#13;
 &#13;
 &#13;
 })(inputs, outputs);&#13;
@@ -158,6 +158,30 @@
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=bf4f1f2283b462103e53f065eeaad380"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>apiType</field>
+        <id>bf4f1f2283b462103e53f065eeaad380</id>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:16:07</sys_created_on>
+        <sys_id>7edf49cbc33b22107e68b41ed40131e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:16:07</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_bf4f1f2283b462103e53f065eeaad380</table>
+        <value>{{action.apitype}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_type</field>
+        <id>bf4f1f2283b462103e53f065eeaad380</id>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:14:23</sys_created_on>
+        <sys_id>d17f890bc33b22107e68b41ed4013155</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:14:23</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_bf4f1f2283b462103e53f065eeaad380</table>
+        <value>{{action.api_type1}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>archTplUUID</field>
         <id>bf4f1f2283b462103e53f065eeaad380</id>
@@ -209,7 +233,7 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_bf4f1f2283b462103e53f065eeaad380^id=bf4f1f2283b462103e53f065eeaad380"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=bf4f1f2283b462103e53f065eeaad380"/>
     <sys_translated_text action="delete_multiple" query="documentkey=bf4f1f2283b462103e53f065eeaad380"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=bf4f1f2283b462103e53f065eeaad380^sys_idNOT IN0c14732b47fc22506161e99b116d43db,b5a1897283bc62103e53f065eeaad30f"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=bf4f1f2283b462103e53f065eeaad380^sys_idNOT IN0c14732b47fc22506161e99b116d43db,76df49cbc33b22107e68b41ed40131b0,b5a1897283bc62103e53f065eeaad30f"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -321,6 +345,89 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <element>apiType</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">bf4f1f2283b462103e53f065eeaad380</model>
+        <model_id>bf4f1f2283b462103e53f065eeaad380</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_bf4f1f2283b462103e53f065eeaad380</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:16:06</sys_created_on>
+        <sys_id>76df49cbc33b22107e68b41ed40131b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:16:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
         <element>generatedPayload</element>
         <element_reference>false</element_reference>
         <foreign_database/>
@@ -389,7 +496,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>476221b7c32fa2107e68b41ed401316e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -397,7 +504,7 @@
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 19:20:02</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:16:07</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -508,7 +615,91 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=33fe1bee837462103e53f065eeaad35d^sys_idNOT IN2c6aa4b2833c62103e53f065eeaad37a,8814732b47fc22506161e99b116d43ae"/>
+    <sys_hub_action_input action="delete_multiple" query="model=33fe1bee837462103e53f065eeaad35d^sys_idNOT IN2adf49cbc33b22107e68b41ed4013183,2c6aa4b2833c62103e53f065eeaad37a,8814732b47fc22506161e99b116d43ae"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=513d173a-9bc6-4910-9f3e-0bf282a3cff0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>apitype</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>API Type</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Clone Architecture Template">33fe1bee837462103e53f065eeaad35d</model>
+        <model_id>33fe1bee837462103e53f065eeaad35d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_33fe1bee837462103e53f065eeaad35d</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:16:06</sys_created_on>
+        <sys_id>2adf49cbc33b22107e68b41ed4013183</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:16:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2adf49cbc33b22107e68b41ed4013183"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -631,7 +822,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>archTplUUID</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Clone Architecture Template">33fe1bee837462103e53f065eeaad35d</model>
         <model_id>33fe1bee837462103e53f065eeaad35d</model_id>
@@ -656,14 +847,14 @@
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-15 18:22:09</sys_created_on>
         <sys_id>8814732b47fc22506161e99b116d43ae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-15 18:22:09</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:14:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -777,7 +968,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d513adb7c32fa2107e68b41ed40131b4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -785,7 +976,7 @@
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 19:20:02</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:16:07</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -953,14 +1144,14 @@
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:16:39</sys_created_on>
         <sys_id>ee1f1b2283b462103e53f065eeaad302</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 19:20:02</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:16:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -987,7 +1178,7 @@
         <sys_updated_on>2025-04-12 14:16:39</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=721f1b2283b462103e53f065eeaad30d"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_33fe1bee837462103e53f065eeaad35d^sys_idNOT IN0814732b47fc22506161e99b116d43b2,e06aa4b2833c62103e53f065eeaad37e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_33fe1bee837462103e53f065eeaad35d^sys_idNOT IN0814732b47fc22506161e99b116d43b2,26df49cbc33b22107e68b41ed4013187,e06aa4b2833c62103e53f065eeaad37e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>archtpluuid</element>
         <help/>
@@ -1008,6 +1199,29 @@
         <sys_update_name/>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-04-15 18:22:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>apitype</element>
+        <help/>
+        <hint/>
+        <label>API Type</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_33fe1bee837462103e53f065eeaad35d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:16:06</sys_created_on>
+        <sys_id>26df49cbc33b22107e68b41ed4013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:16:06</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1110,17 +1324,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Clone Architecture Template">33fe1bee837462103e53f065eeaad35d</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"a57fdf2283b462103e53f065eeaad3c2","name":"plan","plan_signature":null}}</plan>
-        <snapshot>402321f7c32fa2107e68b41ed4013170</snapshot>
+        <snapshot>dbdfc9cbc33b22107e68b41ed401311a</snapshot>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:18:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a57fdf2283b462103e53f065eeaad3c2</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 19:20:04</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:16:09</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1137,7 +1351,7 @@
         <description/>
         <flow_priority/>
         <internal_name>clone_architecture_template</internal_name>
-        <label_cache>[{"name":"{{action.payload}}","label":"action➛payload","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"b9006644-2e1b-42f5-b90d-7c5c87492a16"}},{"name":"{{action.archtpluuid}}","label":"action➛archTplUUID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[804ca9ee-5d3e-44d2-a736-871c95fb3cb8].result}}","label":"step➛Script step➛result","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"json","uiUniqueId":"7dd30220-cfa3-40da-8680-b8c85f21807b"}}]</label_cache>
+        <label_cache>[{"name":"{{action.payload}}","label":"action➛payload","type":"action","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Object","co_type_name":"","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","uiUniqueId":"b9006644-2e1b-42f5-b90d-7c5c87492a16"}},{"name":"{{action.archtpluuid}}","label":"action➛archTplUUID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"84f0dcc2-fc8f-4d12-9c05-7b9ca0806135"}},{"name":"{{action.api_type}}","label":"action➛API Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.api_type1}}","label":"action➛api_type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.apitype}}","label":"action➛API Type","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[804ca9ee-5d3e-44d2-a736-871c95fb3cb8].result}}","label":"step➛Script step➛result","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"json","uiUniqueId":"7dd30220-cfa3-40da-8680-b8c85f21807b"}}]</label_cache>
         <master>true</master>
         <name>Clone Architecture Template</name>
         <natlang/>
@@ -1150,7 +1364,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>117fdf2283b462103e53f065eeaad360</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1158,7 +1372,7 @@
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 19:20:03</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:16:08</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1186,10 +1400,10 @@
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:18:12</sys_created_on>
         <sys_id>e97fdf2283b462103e53f065eeaad3a2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 18:58:48</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <sys_updated_on>2025-09-09 20:14:24</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">2d7fdf2283b462103e53f065eeaad394</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=117fdf2283b462103e53f065eeaad360"/>
@@ -1235,10 +1449,10 @@
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:18:12</sys_created_on>
         <sys_id>9d7fdf2283b462103e53f065eeaad383</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 18:58:48</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:16:08</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9d7fdf2283b462103e53f065eeaad383"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1249,14 +1463,14 @@
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:18:12</sys_created_on>
         <sys_id>1d7fdf2283b462103e53f065eeaad391</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 18:58:48</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:16:08</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 // ... code ...&#13;
 &#13;
   var brainboardUtility = new x_854636_b_board.BrainboardUtility();&#13;
-  outputs.result = brainboardUtility.cloneArchitectureTemplate(inputs.generatedPayload, inputs.archTplUUID);&#13;
+  outputs.result = brainboardUtility.cloneArchitectureTemplate(inputs.apiType ,inputs.generatedPayload, inputs.archTplUUID);&#13;
 &#13;
 &#13;
 })(inputs, outputs);&#13;
@@ -1278,6 +1492,30 @@
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=9d7fdf2283b462103e53f065eeaad383"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>apiType</field>
+        <id>9d7fdf2283b462103e53f065eeaad383</id>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:16:08</sys_created_on>
+        <sys_id>c7df89cbc33b22107e68b41ed40131e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:16:08</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9d7fdf2283b462103e53f065eeaad383</table>
+        <value>{{action.apitype}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>api_type</field>
+        <id>9d7fdf2283b462103e53f065eeaad383</id>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:14:24</sys_created_on>
+        <sys_id>7d7fc90bc33b22107e68b41ed401312f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:14:24</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9d7fdf2283b462103e53f065eeaad383</table>
+        <value>{{action.api_type1}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>archTplUUID</field>
         <id>9d7fdf2283b462103e53f065eeaad383</id>
@@ -1329,7 +1567,90 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_9d7fdf2283b462103e53f065eeaad383^id=9d7fdf2283b462103e53f065eeaad383"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=9d7fdf2283b462103e53f065eeaad383"/>
     <sys_translated_text action="delete_multiple" query="documentkey=9d7fdf2283b462103e53f065eeaad383"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=9d7fdf2283b462103e53f065eeaad383^sys_idNOT IN6414b32b47fc22506161e99b116d4354,daa1897283bc62103e53f065eeaad37f"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=9d7fdf2283b462103e53f065eeaad383^sys_idNOT IN0fdf89cbc33b22107e68b41ed40131c9,6414b32b47fc22506161e99b116d4354,daa1897283bc62103e53f065eeaad37f"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>apiType</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>apiType</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">9d7fdf2283b462103e53f065eeaad383</model>
+        <model_id>9d7fdf2283b462103e53f065eeaad383</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9d7fdf2283b462103e53f065eeaad383</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:16:08</sys_created_on>
+        <sys_id>0fdf89cbc33b22107e68b41ed40131c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:16:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1509,7 +1830,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>482321f7c32fa2107e68b41ed401313d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1517,7 +1838,7 @@
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 19:20:03</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:16:08</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1628,7 +1949,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=117fdf2283b462103e53f065eeaad360^sys_idNOT IN096ae4b2833c62103e53f065eeaad307,2c14b32b47fc22506161e99b116d4344"/>
+    <sys_hub_action_input action="delete_multiple" query="model=117fdf2283b462103e53f065eeaad360^sys_idNOT IN096ae4b2833c62103e53f065eeaad307,2c14b32b47fc22506161e99b116d4344,cfdf89cbc33b22107e68b41ed401319d"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1751,7 +2072,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>archTplUUID</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Clone Architecture Template">117fdf2283b462103e53f065eeaad360</model>
         <model_id>117fdf2283b462103e53f065eeaad360</model_id>
@@ -1776,14 +2097,14 @@
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-15 18:22:10</sys_created_on>
         <sys_id>2c14b32b47fc22506161e99b116d4344</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-04-15 18:22:10</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:14:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1797,6 +2118,90 @@
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2c14b32b47fc22506161e99b116d4344"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=513d173a-9bc6-4910-9f3e-0bf282a3cff0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>apitype</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>API Type</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Clone Architecture Template">117fdf2283b462103e53f065eeaad360</model>
+        <model_id>117fdf2283b462103e53f065eeaad360</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_117fdf2283b462103e53f065eeaad360</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:16:08</sys_created_on>
+        <sys_id>cfdf89cbc33b22107e68b41ed401319d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:16:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cfdf89cbc33b22107e68b41ed401319d"/>
     <sys_hub_action_output action="delete_multiple" query="model=117fdf2283b462103e53f065eeaad360^sys_idNOT IN042321f7c32fa2107e68b41ed4013155,2d7fdf2283b462103e53f065eeaad394,a17fdf2283b462103e53f065eeaad399"/>
     <sys_complex_object action="INSERT_OR_UPDATE">
         <label/>
@@ -1810,7 +2215,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0c2321f7c32fa2107e68b41ed401314d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1818,7 +2223,7 @@
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 19:20:03</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:16:08</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -2073,14 +2478,14 @@
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-04-12 14:18:12</sys_created_on>
         <sys_id>a17fdf2283b462103e53f065eeaad399</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-08-30 19:20:04</sys_updated_on>
+        <sys_updated_on>2025-09-09 20:16:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2107,7 +2512,30 @@
         <sys_updated_on>2025-04-12 14:18:12</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=217fdf2283b462103e53f065eeaad3a4"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_117fdf2283b462103e53f065eeaad360^sys_idNOT INcd6ae4b2833c62103e53f065eeaad30a,e814b32b47fc22506161e99b116d4347"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_117fdf2283b462103e53f065eeaad360^sys_idNOT IN87df89cbc33b22107e68b41ed40131ad,cd6ae4b2833c62103e53f065eeaad30a,e814b32b47fc22506161e99b116d4347"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>apitype</element>
+        <help/>
+        <hint/>
+        <label>API Type</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_117fdf2283b462103e53f065eeaad360</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-09-09 20:16:08</sys_created_on>
+        <sys_id>87df89cbc33b22107e68b41ed40131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:16:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>payload</element>
         <help/>

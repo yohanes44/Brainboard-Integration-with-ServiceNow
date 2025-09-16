@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[This architecture deploys an Azure SQL IaaS (Infrastructure-as-a-Service) solution with Azure Backup for high availability, data protection. It consists of multiple components including Azure Virtual Machines running SQL Server, Availability Sets for high availability, Storage Accounts for logging and diagnostics, and Azure Backup (Recovery Services Vault) for data protection.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>ae4ec9cfc3f722107e68b41ed4013194</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Backup SQL Server (IaaS)</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>624ec9cfc3f722107e68b41ed4013196</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=624ec9cfc3f722107e68b41ed40131b0&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Backup SQL Server (IaaS)</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:09:16</sys_created_on>
+        <sys_id>624ec9cfc3f722107e68b41ed40131b0</sys_id>
+        <sys_mod_count>94</sys_mod_count>
+        <sys_name>Azure Backup SQL Server (IaaS)</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_624ec9cfc3f722107e68b41ed40131b0</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:58:24</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>95</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=624ec9cfc3f722107e68b41ed40131b0"/>
+    <fx_price action="DELETE" query="id=624ec9cfc3f722107e68b41ed40131b0"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>624ec9cfc3f722107e68b41ed40131b0</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:09:16</sys_created_on>
+        <sys_id>224ec9cfc3f722107e68b41ed40131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:09:16</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_624ec9cfc3f722107e68b41ed40131b0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[This architecture deploys an Azure SQL IaaS (Infrastructure-as-a-Service) solution with Azure Backup for high availability, data protection. It consists of multiple components including Azure Virtual Machines running SQL Server, Availability Sets for high availability, Storage Accounts for logging and diagnostics, and Azure Backup (Recovery Services Vault) for data protection.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;ae4ec9cfc3f722107e68b41ed4013194&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Backup SQL Server (IaaS)&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;624ec9cfc3f722107e68b41ed4013196&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=624ec9cfc3f722107e68b41ed40131b0&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Backup SQL Server (IaaS)&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:09:16&lt;/sys_created_on&gt;&lt;sys_id&gt;624ec9cfc3f722107e68b41ed40131b0&lt;/sys_id&gt;&lt;sys_mod_count&gt;94&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Backup SQL Server (IaaS)&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_624ec9cfc3f722107e68b41ed40131b0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 20:58:24&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;95&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=624ec9cfc3f722107e68b41ed40131b0"/&gt;&lt;fx_price action="delete_multiple" query="id=624ec9cfc3f722107e68b41ed40131b0"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;624ec9cfc3f722107e68b41ed40131b0&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:09:16&lt;/sys_created_on&gt;&lt;sys_id&gt;224ec9cfc3f722107e68b41ed40131b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 20:09:16&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-364293018</payload_hash>
+        <record_name>Azure Backup SQL Server (IaaS)</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:58:24</sys_created_on>
+        <sys_id>1e89950fc37b22107e68b41ed4013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1993045cb980000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:58:24</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>5289950f977b2210ea64876b9542df96</update_guid>
+        <update_guid_history>5289950f977b2210ea64876b9542df96:-364293018,5a89950fd67b2210dbadb9fb76578383:768443140,9689950f257b22105c7b1e602e035076:922055447,0a89950feb7b2210902838c8b7cf6c6a:-1558737480,8a89950fd37b22107e81f67c94f58e5e:255436889,8a89950f237b22107e03b435e9221951:1512567343,ca89950f127b2210e9382ca8d38e0a3e:-968225584,4689950f397b22101e4830759df4911f:845948785,8689950fb77b22107c47d77e274de30c:-1634844142,3189550fda7b22108afc0e1a4e0039ed:179330227,7189550fb77b221030f97ab84697d0da:1993504596,f989550f327b221075f7f4f3ebd68cba:-487288331,3d89550f467b2210e410cfc1ba616da7:1326886038,7d89550fea7b2210f5a5d78bbedb8594:-1153906889,f589550f947b2210144e0e300a992b75:660267480,2989550f0c7b221024850ed415e4c862:1917397934,6989550f947b2210335202271b667c4f:-563394993,e189550f097b2210e638eac813a3c030:1250779376,2589550f8a7b22109c95bb1b5805f51d:-1230013551,6589550ffb7b2210c5b95bb7be0a100a:584160818,9589150fb57b2210d77bb4bf0f7877f7:-1896632109,5989150f7f7b2210ef8516096a058ccb:-82457740,9989150f2d7b2210d5cfc400fd91eab8:1731716629,d989150f817b2210f11e92a0fee0f8a5:-749076298,1d89150fa37b22101e46dcad6acd2992:1065098071,4d89150f297b221084aa425ef3b68f7f:-1972738771,8d89150fa67b22107a7331383119ab6c:-158564402,cd89150f3d7b2210195b6cdad92c2259:1655609967,0189150f977b2210bb14c4bb4a022947:-825182960,8989150f887b2210d1e83ff4f64dca27:988991409,bc89150fbf7b2210ee05a4e433b75515:-1491801518,fc89150f9d7b2210670547a9aad70702:322372851,3089d10f777b22102171b5ccc2f103f0:2136547220,7089d10f3e7b221055cff1c94f8df6dd:-344245707,b089d10ffd7b2210693bf6ef3de64bca:1469928662,6489d10f147b221097ccf926b9c8019e:-1567908180,a489d10faa7b221077e3f31cd516078b:246266189,e489d10fca7b2210914469907527fd78:2060440558,a889d10fec7b2210c2434a969dbd0a4c:-420352369,5c89d10f317b221034391ef183f06620:1393822000,9c89d10f2c7b22104b0bf2d4e9f3130d:-1086970927,9089910f387b2210375ff602f1688dfc:727203442,d089910faf7b221075ff2dcb6cd336e9:-1753589485,1489910ff27b2210678b6cb018af01d6:60584884,8c89910f837b2210c9ed83d399421cb6:1874759253,0889910f577b22109f80184272282097:-1163077589,0489910f817b221095737995e694c284:651096780,015e0103df3b2210e1a9370d9e56b12e:-1829696147,c15e0103363b22107b546d7316040313:-15521778,f85ecdcfdbf72210dd2cf98ffe7409f8:1798652591,705ecdcf0df7221046e61fef954e1ed2:-682140336,3c5ecdcf48f72210184ac534901a90ab:1132034033,e05ecdcfccf722107e8d606e78eba092:-1348758894,ec5ecdcfddf72210a401880133874278:465415475,205ecdcf4ff72210aefabefadb080860:-2015377452,a45ecdcfa4f722104f6b3fd534954e47:-758246998,a85ecdcfb7f722103664709f4edef322:1055927371,985ecdcf98f72210b092cdd2831d580a:-1424865556,105e8dcf93f72210f1f6528dc77903f3:389308813,d05e8dcfa2f7221044187126f006c9cf:-2091484114,905e8dcf5df722102a6a760630addcb8:-277309745,485e8dcf30f7221095a8126e4293b588:1536864624,c05e8dcfe3f7221094a3fb9d80904d72:-943928303,405e8dcf7af722107ecb66de6440455c:870246066,045e8dcf0ff722106bdda6663e1d5746:-1610546861,bf4e8dcff0f72210ea0f425050a38a17:-353416407,fb4e8dcf36f7221026378555d9a63302:1460757962,b74e4dcfd2f72210aa74c6d641161ae1:-1020034965,7f4e4dcfe2f72210c159b5719cd69dcc:794139404,7b4e4dcfd9f722108d8337fb66f3f0b8:-1686653523,ab4e4dcfbaf72210a9c0f5bd0e2c0fa4:127520846,634e4dcfabf72210afd9f04634942491:1941695215,674e4dcf23f72210ec650b82c9604071:-539097712,af4e4dcf48f72210173d6c17caa17251:1275076657,d34e4dcf89f72210936a71d808c5473f:-1205716270,974e4dcf72f722105fc6b6e9f4a00c20:51414184,574e4dcfbdf722106a4092908b21240e:1865588553,9b4e0dcf1bf72210a68b0d6966ca72fc:-615204374,d34e0dcfc2f7221068a46a11ab786aeb:1198969995,534e0dcf0af7221013395e93573220da:-1281822932,074e0dcf89f72210f323927533cac8c9:532351437,0f4e0dcf50f722101fa9871ae554bfb8:-1948441490,4b4e0dcf2af72210a226c9325c38faa8:-134267121,0f4e0dcfdaf7221010250aefd1a82f98:1679907248,4f4e0dcf8af72210d4dc3ef6d9c6217c:-800885679,f24e0dcfbff72210a84810cabb1c6461:-709510651,764e0dcf8ff72210d821802b5359e052:1104663718,ba4e0dcf3af7221077103e0a06631b43:-1376129209,664e0dcff0f72210b44f450be7071d36:438045160,224e0dcf71f72210eb9c2f36d822412d:-2042747767,624e0dcf22f72210669bbae6c322d323:-228573398,264e0dcf3df72210b175ea9d136cf419:1585600971,664ec9cfd7f7221073be0d4937fc9bec:-895191956,a24ec9cf4af72210e9486ce686d0caef:834001599,ee4ec9cfdbf722107495f844c6f8d7e4:-393565269</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Backup SQL Server (IaaS)">5289950fc37b22107e68b41ed401319a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:58:24</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>38d61137df8444fcae20c065c7b8e724</sys_id>
+        <sys_metadata>624ec9cfc3f722107e68b41ed40131b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Backup SQL Server (IaaS)</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_624ec9cfc3f722107e68b41ed40131b0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_624ec9cfc3f722107e68b41ed40131b0">1e89950fc37b22107e68b41ed4013196</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:58:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

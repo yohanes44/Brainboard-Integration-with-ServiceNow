@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[This architecture is designed to provide a secure environment for accessing and managing Azure resources via a Jumpbox and Azure Bastion. Based on a Hub-Spoke model, it ensures a clear separation of roles by hosting the Bastion Host and Jumpbox in dedicated VNets while facilitating communication with Spoke networks, where secure workloads are deployed.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>5eaf818bc33b22107e68b41ed4013194</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Secure Jumpbox &amp; Bastion Hub-Spoke</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>12af818bc33b22107e68b41ed4013196</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=92af818bc33b22107e68b41ed4013197&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Secure Jumpbox &amp; Bastion Hub-Spoke</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:15:16</sys_created_on>
+        <sys_id>92af818bc33b22107e68b41ed4013197</sys_id>
+        <sys_mod_count>108</sys_mod_count>
+        <sys_name>Azure Secure Jumpbox &amp; Bastion Hub-Spoke</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_92af818bc33b22107e68b41ed4013197</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:05:35</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>109</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=92af818bc33b22107e68b41ed4013197"/>
+    <fx_price action="DELETE" query="id=92af818bc33b22107e68b41ed4013197"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>92af818bc33b22107e68b41ed4013197</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:15:16</sys_created_on>
+        <sys_id>52af818bc33b22107e68b41ed401319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:15:16</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_92af818bc33b22107e68b41ed4013197</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[This architecture is designed to provide a secure environment for accessing and managing Azure resources via a Jumpbox and Azure Bastion. Based on a Hub-Spoke model, it ensures a clear separation of roles by hosting the Bastion Host and Jumpbox in dedicated VNets while facilitating communication with Spoke networks, where secure workloads are deployed.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;5eaf818bc33b22107e68b41ed4013194&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Secure Jumpbox &amp;amp; Bastion Hub-Spoke&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;12af818bc33b22107e68b41ed4013196&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=92af818bc33b22107e68b41ed4013197&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Secure Jumpbox &amp;amp; Bastion Hub-Spoke&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:15:16&lt;/sys_created_on&gt;&lt;sys_id&gt;92af818bc33b22107e68b41ed4013197&lt;/sys_id&gt;&lt;sys_mod_count&gt;108&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Secure Jumpbox &amp;amp; Bastion Hub-Spoke&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_92af818bc33b22107e68b41ed4013197&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 21:05:35&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;109&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=92af818bc33b22107e68b41ed4013197"/&gt;&lt;fx_price action="delete_multiple" query="id=92af818bc33b22107e68b41ed4013197"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;92af818bc33b22107e68b41ed4013197&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:15:16&lt;/sys_created_on&gt;&lt;sys_id&gt;52af818bc33b22107e68b41ed401319a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 20:15:16&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>542320190</payload_hash>
+        <record_name>Azure Secure Jumpbox &amp; Bastion Hub-Spoke</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 21:05:35</sys_created_on>
+        <sys_id>132b914bc3bb22107e68b41ed40131f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199304c5dfd0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:05:35</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>572b914b44bb2210c98c04e8d726dff0</update_guid>
+        <update_guid_history>572b914b44bb2210c98c04e8d726dff0:542320190,5f2b914b3cbb2210cddfa91ac56ac7dd:-1807440058,9b2b914bddbb22100000aed35d2e42d0:1163293543,1f2b914b51bb22105f02b6e350d441c4:-1317499384,9f2b914b0bbb221006e0d77393e548b8:496674985,9f2b914b0dbb22108f2dc24b4b428dab:-1984117942,532b914b44bb22104bdcacd422172b80:-169943573,832b914b36bb2210bc124eb95d627f6d:1644230796,c32b914b8abb22106a70f50aff738c5a:-836562131,072b914b3bbb22105bf36e0e10db9a47:1537806430,472b914b4fbb22108de179be59228634:-942986497,872b914b89bb2210565202acd2646821:871187872,c32b914b92bb22104ff7f6cad8816c03:-1609605055,362b514be9bb2210deed9a7e13e046f0:204569314,be2b514b77bb221089f44c7b23473ed0:2018743683,fe2b514b41bb2210dc503a1fbd6a60bd:-462049244,322b514bafbb221034fd45baf82c23ab:1352125125,722b514b54bb22101fd4829438759098:-1128667802,ea2b514ba0bb2210f08cbad68216e678:685506567,2e2b514be9bb22109e5977d88adc1865:1942637021,6e2b514b73bb22100505a06b4e12e752:-538155906,ae2b514b6cbb2210f5e5a793ac8b9f3f:1276018463,ee2b514b9cbb2210c63367ccec18972c:-1204774464,da2b114bf5bb2210f0f2de98c5d60cf4:609399905,562b114bb1bb2210c85c400bb655bad5:-1871393022,da2b114bbcbb2210f1dcd4c7cf8c59aa:-57218653,0e2b114bd4bb2210ef3e70ebf5cf2997:1756955716,4e2b114b4fbb22102a971ec022458284:-723837211,8e2b114b51bb22105bcbf3c35e14c571:1090337158,ce2b114b59bb22102ce9054e62de465e:-1947499684,022b114b03bb2210181c42f7f5b16a4c:-133325315,8a2b114b15bb22107ea5905d198a1c2c:1680849054,352b114bd9bb2210e825119d0157ef0d:-799943873,752bdd0b4bbb2210538502cddc52affa:1014230496,b52bdd0b5bbb2210dd96d8057df236e7:-1466562431,f52bdd0b13bb2210c92c8c85a8b3c7d4:347611938,392bdd0bf4bb2210ac91e7d8118d8cc1:-2133180989,792bdd0ba0bb2210df210ade1edac0ae:-319006620,e12bdd0b38bb221040cb8361184ec48f:1495167749,252bdd0b3fbb2210dfa1fd4bcc0f107c:-1542669093,652bdd0b04bb22105062e61f647bea69:271505276,a52bdd0b8bbb22102d153f0daef37b56:2085679645,e52bdd0b42bb2210a57eeb6e7ebaeb43:-395113282,192bdd0bb4bb22106d37e54457859a30:1419061087,592bdd0bb5bb22105ae5748d10881b1d:-1061731840,d12b9d0b22bb22105d0a0768dd4752fe:752442529,152b9d0bbcbb2210f48271ba3bbbc9eb:-1728350398,552b9d0bbdbb2210382cff957846cfd8:85823971,952b9d0b6ebb221043cb6559365bfcc5:1899998340,492b9d0b36bb2210d55e934c5bd32599:-1137838502,892b9d0b62bb2210ba55aa980b27d686:676335867,052b9d0b3cbb2210e63267bb3923da67:-1804457060,8d2b9d0bf0bb2210e729cc29ef8f6147:9717309,892b9d0b28bb22102f2bc1f85898ce34:1823891678,55bfc58b983b2210228ff438bb2205d9:-656901249,95bfc58b243b2210fb5c83827de9b1bc:1157273120,55bfc58bf23b221017882bf900e49793:-1323519807,cdbfc58b353b2210e32a56608bb4f976:490654562,8dbfc58bfd3b22104bdaf5db46f59a5a:-1990138365,81bfc58b433b22107246848f18be5a3f:-733007911,74bfc58b8a3b221030c869c95edc7b17:1081166458,7cbf858b583b221035cbfec97aa74fef:-1399626469,70bf858bac3b22100e6e92b77ccce9d5:414547900,78bf858b3a3b2210dbdbb56afd2fbeba:-2066245027,a4bf858b403b22100566a097c821aaa0:-252070658,60bf858bee3b22102d9aa6267af4c87a:1562103711,28bf858bc53b2210d58c3d5e2ddeaf60:-918689216,24bf858b9c3b2210205a74bce1f93c47:895485153,54bf858b8b3b2210392a04e998b9502e:-1585307774,14bf858b053b22105cc75dbbc7211109:-328177320,dcbf458b203b221039dbb52889aaf1f0:1485997049,18bf458bb73b2210353728939cbb5bcc:-994795878,84bf458bfe3b2210d02e86e36f5b69a8:819378491,00bf458b753b2210cec816473b68f291:-1661414436,48bf458b0c3b22107627612457b2376d:152759933,8cbf458b063b22103f9175dd1fa64856:1966934302,3baf458ba23b221084fa23a59d704c40:-513858625,f7af458ba43b22106277ff2b6c5b812a:1300315744,bbaf458bb03b22106b673c1d8a295514:-1180477183,fbaf058bd73b2210883be8f17b4a4ff2:76653271,73af058bc43b2210276af8291f27afd1:1890827640,27af058b0c3b2210c485ecfc928685bc:-589965287,ebaf058bb13b221042bf8867526baba7:1224209082,e7af058bbe3b2210d7284506c4ea5693:-1256583845,2baf058b373b2210e409281a65f4bf7f:557590524,9faf058ba23b2210b7eddcf5d652c86b:-1923202403,dbaf058b443b22108f31d22863e6b53f:-109028034,1faf058b003b2210f4478f8d7e359f2c:1705146335,93af058bd13b22102b48f625db22271a:-775646592,5faf058b303b221069092688192d7e07:481483862,4fafc18b2d3b2210ad7fd2bfd47129f5:-1999309065,43afc18b403b221084d1ee3dafe5a1e4:-185134696,c3afc18bc23b2210f634d2ee8696c4c6:1629039673,43afc18b463b2210223f00b62089d8b5:-851753254,07afc18b933b221099529f7a63b71ca4:962421115,87afc18b3a3b221094885e07a79a8087:-1518371812,f2afc18b153b22109f7968720861c377:295802557,76afc18b713b22107a3d12993cad4067:2109976926,beafc18b473b22107239c35d1d116b3e:-370816001,baafc18bc43b22107e96593b95382f2f:-598811675,faafc18b803b22106b6b23abf75d6920:1215362694,2aafc18b9c3b2210fe2b61354a0cd705:-1265430233,e2af818b5d3b221056132b9fab2ff1f8:548744136,aeaf818b5b3b22108faa92c3a6faafee:-1932048791,eeaf818bff3b2210ebb19e56f24c25e4:-117874422,a2af818be63b2210f0cb1a8fd0a0badb:1696299947,a6af818b443b22100b897c52199d5cd3:-784492980,62af818b813b2210065b760b93f3e4b9:-1523474579,a2af818b0e3b2210ce936fe016de2ab3:-1793962159</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Secure Jumpbox &amp; Bastion Hub-Spoke">572b914bc3bb22107e68b41ed40131f4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 21:05:35</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>099371a4a96c4cfe813b6d1a4ec725c4</sys_id>
+        <sys_metadata>92af818bc33b22107e68b41ed4013197</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Secure Jumpbox &amp; Bastion Hub-Spoke</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_92af818bc33b22107e68b41ed4013197</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_92af818bc33b22107e68b41ed4013197">132b914bc3bb22107e68b41ed40131f1</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:05:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

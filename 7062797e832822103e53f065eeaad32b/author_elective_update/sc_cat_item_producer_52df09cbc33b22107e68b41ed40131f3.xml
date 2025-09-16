@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[This architecture allows you to deploy a complete Azure architecture for intelligent image processing and classification using Azure AI services. It is designed for serverless image processing workflows where images are uploaded, automatically processed using Computer Vision AI, and results are stored for consumption by web or mobile applications.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>1edf09cbc33b22107e68b41ed40131f0</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Image Classification with Computer vision</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>dedf09cbc33b22107e68b41ed40131f1</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=52df09cbc33b22107e68b41ed40131f3&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Image Classification with Computer vision</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:16:05</sys_created_on>
+        <sys_id>52df09cbc33b22107e68b41ed40131f3</sys_id>
+        <sys_mod_count>108</sys_mod_count>
+        <sys_name>Azure Image Classification with Computer vision</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_52df09cbc33b22107e68b41ed40131f3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:04:04</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>109</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=52df09cbc33b22107e68b41ed40131f3"/>
+    <fx_price action="DELETE" query="id=52df09cbc33b22107e68b41ed40131f3"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>52df09cbc33b22107e68b41ed40131f3</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 20:16:05</sys_created_on>
+        <sys_id>12df09cbc33b22107e68b41ed40131f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 20:16:05</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_52df09cbc33b22107e68b41ed40131f3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[This architecture allows you to deploy a complete Azure architecture for intelligent image processing and classification using Azure AI services. It is designed for serverless image processing workflows where images are uploaded, automatically processed using Computer Vision AI, and results are stored for consumption by web or mobile applications.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;1edf09cbc33b22107e68b41ed40131f0&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Image Classification with Computer vision&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;dedf09cbc33b22107e68b41ed40131f1&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=52df09cbc33b22107e68b41ed40131f3&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Image Classification with Computer vision&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:16:05&lt;/sys_created_on&gt;&lt;sys_id&gt;52df09cbc33b22107e68b41ed40131f3&lt;/sys_id&gt;&lt;sys_mod_count&gt;108&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Image Classification with Computer vision&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_52df09cbc33b22107e68b41ed40131f3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 21:04:04&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;109&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=52df09cbc33b22107e68b41ed40131f3"/&gt;&lt;fx_price action="delete_multiple" query="id=52df09cbc33b22107e68b41ed40131f3"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;52df09cbc33b22107e68b41ed40131f3&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-09 20:16:05&lt;/sys_created_on&gt;&lt;sys_id&gt;12df09cbc33b22107e68b41ed40131f6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-09 20:16:05&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-733008403</payload_hash>
+        <record_name>Azure Image Classification with Computer vision</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 21:04:04</sys_created_on>
+        <sys_id>15dad587c3bb22107e68b41ed40131ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199304afbd30000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:04:04</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>59dad587c3bb2210280e93f4f329d5e9</update_guid>
+        <update_guid_history>59dad587c3bb2210280e93f4f329d5e9:-733008403,99dad587f6bb2210ae60fcc3b442f0ca:2025518041,d5dad58766bb221019c9408fd97f76bd:1349675242,49dad587febb22109e20b990b5d52bb1:-1131117685,05dad58737bb2210cb497e7619b3a999:683056684,05dad587e6bb2210f057c8e01d64478c:-1797736243,45dad587b3bb22104d5a682b64a4fa79:16438126,85dad58713bb221048803a373f38f666:1830612495,c5dad587f6bb22105d2a3ffc88ba7153:-650180432,09dad58777bb2210dbe05c39c82da440:763668209,78dad587bdbb2210961c1c2840944d2d:-1717124718,b8dad58742bb2210b62c4542f772f91a:97049651,f8dad5875fbb2210d5826b11b7f96807:1911224020,74da9587f4bb22106521451f619cfce8:-569568907,b4da958755bb2210eab1fdfd9e69bfd5:1244605462,2cda9587f9bb2210bfbc5406aceaecaa:-1236187465,6cda9587e5bb2210cada514652e11597:577986904,e4da9587fcbb2210895a9943290db478:-1902806023,a8da958750bb221028c847775d9ffe4c:-88631654,24da958736bb221002b35b536588f92d:1168498800,e4da958772bb2210b6e5da60af19ef01:-1312294127,d0da558723bb221000b43fdca341e3c9:501880242,5cda558778bb2210ab5eba8dafcd25a9:-1978912685,50da558715bb2210b528f8ac040eac98:-164738316,90da55872bbb2210b34b379e77d51e85:1649436053,d0da558773bb22101d15722dcba28b72:-831356874,04da558774bb221019de124a2830435f:982817495,44da5587b8bb2210b386a8eba248914c:-1497975432,ccda558737bb22103b9bfc489231412c:316198937,00da55871cbb221019dafdd5fb682e1a:1573329391,88da158765bb2210bab6ae6080d5c8fa:-907463536,fbca158750bb22100644736c6b0bbae7:906710833,77ca1587dbbb2210266448814b0557c8:-1574082094,b7ca1587e7bb221098dd8298f90b97b5:240092275,e7ca15876abb2210cca727310a2be5a2:2054266644,2bca158709bb22107c5d57227fafe78f:-426526283,6bca158781bb2210d0c9a795db67d67c:1387648086,abca158781bb2210844e2faea285d469:-1093144841,ebca158763bb2210d84ca4cc87401656:721029528,2fca158736bb221063f0339a32f0c243:1978159982,97ca15878abb2210a4a71b3374505324:-502632945,d7ca1587d7bb22104acd4e7362297b11:1311541424,1bcad1870fbb2210d3d03e4cae09e7fe:-1169251503,5bcad18711bb2210bab1e9520bf0c4eb:644922866,9bcad1878ebb22105c3724bf305f12d8:-1835870061,dbcad1874fbb2210c21a97f65c98edc5:-21695692,8fcad1874dbb22106457830e95d8dc99:1792478677,cfcad187fabb22106fbee32556769286:-688314250,03cad18780bb221013a3ad421c3e1974:1125860119,43cad18725bb2210039db9531defce61:-1911976723,83cad187c0bb221096a1b4062902084e:-97802354,f2cad1878dbb22103a68e0a99930843b:1716372015,36cad18797bb22104d9c7f7f1af58428:-764420912,32cad187c5bb2210a9b009d159689615:1049753457,1defcdcb3f3b22101be4500bcb8f93c5:-1431039470,5defcdcb873b2210e33a2870baabf0a8:383134899,0defcdcb213b2210d85caf8a0fa5517f:-2097658028,81efcdcb7b3b2210c037da9f339bbb3e:-283483659,0def8dcbf93b2210dbf3b8ab41bd16fc:1530690710,89ef8dcbd23b2210b980b86b1ec616d4:-1507146132,b4ef8dcbf43b2210d8d09ee9b6b779a0:307028237,f4ef8dcba83b22100ad73814114e636c:2121202606,7cef8dcbd43b2210766719123c241838:-359590321,a4ef8dcb263b2210356314e5f7f2591e:1454584048,6cef4dcb3d3b221057d8e97d51263df7:-1026208879,20ef4dcb953b22102357702794e038de:787965490,a8ef4dcbf83b2210ddf7b6132beb5eab:-1692827437,94ef4dcb693b2210f013bb4fbb0beb92:121346932,50ef4dcba73b221038048026fdf4116d:1935521301,d4ef4dcb7c3b2210ab69d15d027fa954:-1102315541,d0ef4dcba33b221008d2a9ec335ad93c:711858828,c0ef4dcb7e3b2210b895d833b0ddc724:-1768934099,80ef4dcb5e3b2210e0a5d80e7755d100:45240270,4cef0dcbfe3b22107aed2da61d5e41e8:1859414639,0cef0dcb663b221055169a870304e9d1:-621378288,40ef0dcbc83b2210e20b1877c830bfbb:1192796081,fbdf0dcb0b3b2210a85590b82accfaa4:-1287996846,b3df0dcb1b3b2210cd720655dc265482:526177523,77df0dcbc03b2210fb4a264d07b8586c:-1954615404,7fdf0dcb743b2210dcfc131f4b99f356:-697484950,27df0dcb073b2210d7c2b9d34a0d6935:1116689419,a7df0dcb9d3b2210fdd2fb3fd7767e20:-1364103508,afdf0dcbe53b2210ebec75892e40660b:450070861,a7dfc9cbc53b22109849453dfecb49d2:-2030722066,d7dfc9cbe73b2210faae75f427328dbe:-216547697,5fdfc9cbaf3b2210385e041479905faa:1597626672,53dfc9cb943b2210e32fb1ede2b1198b:-883166255,93dfc9cb173b2210236211f9855a2f78:931008114,93dfc9cb243b2210f083cae4d19e4440:-1549784813,4fdfc9cba13b22108907de8c06c6bc20:-292654359,0bdf89cb173b2210018f78fb6a4761dc:1521520010,4fdf89cbc33b2210c0821823f55052bd:-959272917,4fdf89cb973b2210ce6e7fe644702d9f:854901452,c7df89cbb03b2210fd15fb14a7798e69:-1625891475,07df89cb713b2210040ee84da3ca904c:188282894,b6df89cbf23b2210071341b91c92db2f:2002457263,3adf89cbca3b2210cdf2eacdcc1e2b12:-478335664,fadf49cbb53b2210affff3f8ab6cb3f5:1335838705,72df49cbd33b22101ae16fc4f7ed85cd:-1144954222,fadf49cb853b22107e49346b1d9de4a4:258633576,f2df49cb203b221032863d16c47bf970:2072807945,22df49cb943b22105d2128f5e38a7a55:-407984982,eadf49cb8b3b221082a3663140322247:1406189387,a6df49cbdf3b2210ee59c736a62ca73e:-1074603540,d6df49cb8f3b22107afcdffa0cc42034:739570829,9adf49cb913b2210bfe9f357c5edfb2a:-1741222098,9edf49cb463b2210a00cfbc7eb2b1622:72952271,56df49cb2c3b2210eb09b5e533aa3412:-411955712,52df49cbcb3b22103ea0ddf86c6e0c0f:-522719038</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Image Classification with Computer vision">59dad587c3bb22107e68b41ed40131ed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-09 21:04:04</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>0083d496109041c48000514c239c1584</sys_id>
+        <sys_metadata>52df09cbc33b22107e68b41ed40131f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Image Classification with Computer vision</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_52df09cbc33b22107e68b41ed40131f3</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_52df09cbc33b22107e68b41ed40131f3">15dad587c3bb22107e68b41ed40131ea</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-09 21:04:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

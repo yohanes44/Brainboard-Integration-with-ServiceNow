@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[high-availability solution for a web application dealing with large volumes of data that need to be accessible within a specific time frame. The solution involves using Azure Cosmos DB as the primary data store and using the Azure Cosmos DB change feed to replicate data to low-cost secondary storage.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>92c96153c3bf22107e68b41ed40131d5</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>azure storage – change feed to replicate data</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>16c96153c3bf22107e68b41ed40131d6</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=56c96153c3bf22107e68b41ed40131d7&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>azure storage – change feed to replicate data</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:47:53</sys_created_on>
+        <sys_id>56c96153c3bf22107e68b41ed40131d7</sys_id>
+        <sys_mod_count>124</sys_mod_count>
+        <sys_name>azure storage – change feed to replicate data</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_56c96153c3bf22107e68b41ed40131d7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:06:29</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>125</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=56c96153c3bf22107e68b41ed40131d7"/>
+    <fx_price action="DELETE" query="id=56c96153c3bf22107e68b41ed40131d7"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>56c96153c3bf22107e68b41ed40131d7</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:47:53</sys_created_on>
+        <sys_id>16c96153c3bf22107e68b41ed40131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:47:53</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_56c96153c3bf22107e68b41ed40131d7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[high-availability solution for a web application dealing with large volumes of data that need to be accessible within a specific time frame. The solution involves using Azure Cosmos DB as the primary data store and using the Azure Cosmos DB change feed to replicate data to low-cost secondary storage.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;92c96153c3bf22107e68b41ed40131d5&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;azure storage – change feed to replicate data&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;16c96153c3bf22107e68b41ed40131d6&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=56c96153c3bf22107e68b41ed40131d7&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;azure storage – change feed to replicate data&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:47:53&lt;/sys_created_on&gt;&lt;sys_id&gt;56c96153c3bf22107e68b41ed40131d7&lt;/sys_id&gt;&lt;sys_mod_count&gt;124&lt;/sys_mod_count&gt;&lt;sys_name&gt;azure storage – change feed to replicate data&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_56c96153c3bf22107e68b41ed40131d7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 22:06:29&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;125&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=56c96153c3bf22107e68b41ed40131d7"/&gt;&lt;fx_price action="delete_multiple" query="id=56c96153c3bf22107e68b41ed40131d7"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;56c96153c3bf22107e68b41ed40131d7&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:47:53&lt;/sys_created_on&gt;&lt;sys_id&gt;16c96153c3bf22107e68b41ed40131da&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:47:53&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1036212168</payload_hash>
+        <record_name>azure storage – change feed to replicate data</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:06:29</sys_created_on>
+        <sys_id>95b27e1bc33762107e68b41ed4013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19935aa7b5f0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:06:29</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>d9b27e1bc93762104c0a34b1b3388152</update_guid>
+        <update_guid_history>d9b27e1bc93762104c0a34b1b3388152:-1036212168,59b27e1ba63762107428e4387c19e733:-1605786662,15b27e1ba33762109a90440de47f3b26:2030563277,55b27e1b143762106685a1963e2d0a1a:-450229650,cdb27e1b283762106e5a61021d7ada01:1363944719,8db23e1b4937621036043fac6c5363f4:-1673892123,0db23e1b54376210880af18be21aeae1:140282246,45b23e1bef3762105f72ff31418b85a9:1954456615,c1b23e1b20376210bcbaeebc90776396:-526336312,41b23e1ba6376210e8ad6c4c5d464983:1287838057,70b23e1b8f376210266585a64f67d257:-1192954870,fcb23e1bd1376210e9d116423ab9df43:621219499,30b23e1b5d37621070bfdda779d88c32:-1859573428,30b23e1b1e3762102f8d615d5881fa06:-45399059,bcb2fa1bbf376210f744abfd4b9c4ef2:1768775310,2cb2fa1bbe3762106886aa43a187e2df:-1269061532,e0b2fa1bc13762108a5e44a81f9f68c0:545112837,60b2fa1b78376210c586b585eec7d1ad:-1935680090,60b2fa1ba83762104bcc51ded9ed4181:-121505721,28b2fa1b7b3762102ae6da5c919d4f61:1692668648,ecb2fa1bf3376210ec4fa7b25426f941:-788124279,5cb2fa1bfe3762108ff83496d614832e:1026050090,14b2fa1be73762103c4cd42b1a70400f:-1454742837,90b2ba1b883762109d5be09364adb3fc:359431532,10b2ba1bb7376210b8ded77a78706ae9:-2121361395,d4b2ba1b95376210e117e9dfb8a1bac9:-79612372,44b2ba1b0e3762107dad5c30c4214db6:1734561997,8cb2ba1b05376210f5605582e596ee7d:-746230930,0cb2ba1b6c3762106dd48d87a6fc086a:1067943439,0cb2ba1bf73762104f380e55e606b53e:-1412849488,40b27a1b7c376210493f169e401975fb:401324881,08b27a1bee376210370eb9c21d8f49db:-2079468046,3ba27a1b3937621025e18098a7b98aaf:-265293677,b7a27a1b0537621039eef82a7e46949c:1548880692,37a27a1b14376210419a67e46172cc89:-931912235,fba27a1b0c376210be17567ba9994869:325218219,b3a27a1b94376210547f4b293161c44a:2139392588,23a27a1bfc376210870d450781df5737:-341400339,afa27a1b8f376210038c33ed5c80f823:1472774030,2fa27a1b94376210b30ddcc3d7015e10:-1008018897,e3a23a1b0b37621084518dd36faba8f1:806155472,63a23a1b433762103a94b3567e61ddde:-1674637455,dfa23a1b5337621005306c8f6355bfca:139536914,97a23a1bd63762101abdafd5f524c5ab:1953711283,17a23a1b10376210f2943bc304dbc498:-527081644,93a23a1b4f3762100d7d82bdaa567085:730048810,83a23a1bd1376210389e10f3c8421d59:-1750744117,03a23a1bf93762107c1aab24d8b53a46:63430252,03a23a1bdb3762106c17e1953a112f1a:1877604621,8fa23a1b84376210c87760d5790f0806:-603188306,47a2f61b003762100e24bf47ef973de7:1210986063,f2a2f61bbd37621094bd478bf6798ed4:-1269806864,72a2f61b753762102c113a01cdae7dc1:544367505,fea2f61b62376210dedc5bb7bc7fa2ad:-1936425422,b6a2f61b153762108237488b41569e8e:-122251053,36a2f61b6d3762107f017e1d066f8f7b:1134879401,a2a2f61be13762106c1a93f6a25dbd68:-1345913526,22a2f61b683762107f2eb56868acfe55:468260843,e6a2f61bcf3762108ffeffda54b5e035:-2012532084,66a2f61b1a376210319c88d46d94a422:-198357715,2ea2f61b323762107c54ddcc77578202:1615816654,a6a2b61b28376210a32bc3c8f33b87ef:-864976273,fdd96953b5bf2210401865d6ac751c1b:949198096,71d9295352bf22108b6e04ac81d44ef0:-1531594831,39d9295360bf2210f24167b39bd653c4:282579538,e9d9295301bf2210fc707d5a9e73c8a5:1539709992,e1d92953b6bf22100718bd1b901c6287:-941082935,21d9295369bf2210ec69bc580f4f2169:873091434,15d92953b6bf2210dd37e47612775932:-1607701493,5dd9e55326bf22100a5aeb9529c399fb:206472876,59d9e55375bf22103d8bae812e0b57de:2020647245,99d9e5538bbf2210a30e88ba1aa2b0c1:-460145682,49d9e553bcbf2210e0b93f8bd975fe98:1354028687,05d9e553a9bf2210ccafd698d2cacc7c:-1126764240,05d9e55308bf2210d781860e7ccb4e60:687410129,b0d9e553d4bf2210ec03927e444def38:1944540583,74d9e553fcbf2210ed179b97f3274210:-536252344,34d9a553a0bf221037cbd424cd4ba7f5:1277922025,38d9a5532abf2210f50eea719e95b4da:-1202870902,60d9a553f7bf221087f2406e9a9a6dc0:611303467,ecd9a553d8bf2210a0bacdbe9e9a42a5:-1869489460,acd9a55321bf2210159b447b17d2ab72:-55315091,28d9a553f6bf2210758433f59bd01540:1758859278,58d9655379bf2210aaf475bba00266f5:-721933649,5cd9655385bf22105963de90e2d466c3:1092240720,94d9655345bf221068b0eaca2e293e92:-1945596122,14d965538cbf22105c1fd7370a42a561:-131421753,c4d9655378bf2210f3fa1d19c1375d30:1682752616,08d92553d5bf2210ddd91dcb755be5f3:-798040311,c4d925534bbf2210a8c02e08b58ec1aa:1016134058,f7c925537cbf2210281b5dc5c00d1393:-1464658869,3fc92553d2bf2210bc1021b84d745e7c:349515500,b7c92553d4bf2210277219061c06d466:-2131277427,77c925532cbf221000806517988d1b50:-317103058,b3c925538dbf22102ba6abaf2855cf2e:1497071311,ebc9255330bf221097cdd0295ef04718:-1540765531,6bc92553e7bf22107aa68825bfe48503:273408838,2fc9e153d7bf221076d3ec363f0521ee:2087583207,27c9e153ffbf221042cc2cee093564da:-393209720,63c9e153e5bf2210a618ac90e76b5ec6:1420964649,1fc9e153aabf22106c6c52b776dac2a5:-1059828278,d3c9e1533ebf2210e2f012c1d2e50392:754346091,dfc9e153d4bf22102c83d355bd81ad7e:-1726446836,13c9e15324bf2210231f3eaf312f4a6c:87727533,97c9e1539dbf22109d4af41b83cadd59:1901901902,43c9e15343bf2210d100a1134b993347:-1135934940,43c9e153c5bf221008a147184b801135:678239429,87c9e15383bf2210e2046e6e8313f123:-1802553498,4bc9e15334bf2210d502a225214dcf05:11620871,0bc9a153cebf22107d05db4f388586f4:1825795240,3ec9a15391bf2210f848366c63f7bce3:-654997687,76c9a15335bf2210752ec40f2619cbd3:1159176682,76c9a153e4bf2210a3fdef1ec79760aa:-1321616245,3ac9a1538abf2210187493455906ca9a:492558124,32c9a153c8bf22109bee2097d9ce7f8b:-1988234803,7ec9a153c4bf221069642bc41e7b5d7b:-1672770811,fec9a153ebbf2210b52ad7db2fb9796c:141403558,eac9a15374bf2210e8fc8b7e4f1df651:1955577927,a6c9a1537bbf221036a6e1542728c444:-525215000,aec9615371bf22103ab1679d907384ec:-216006085,e2c9a1539bbf2210da956ada7681bb22:1288959369,eec9a15371bf22109c2bf72f6c17d60b:-1191833558,56c9a15362bf2210e3d0795256187102:622340811,9ac96153cdbf2210db11f6e222a714fa:-1858452116,9ec961533dbf22105b76a854846f31e6:-1411454803</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="azure storage – change feed to replicate data">d9b27e1bc33762107e68b41ed4013156</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:06:29</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>4220a1c0f4664340851464b8764f2400</sys_id>
+        <sys_metadata>56c96153c3bf22107e68b41ed40131d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>azure storage – change feed to replicate data</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_56c96153c3bf22107e68b41ed40131d7</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_56c96153c3bf22107e68b41ed40131d7">95b27e1bc33762107e68b41ed4013153</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:06:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

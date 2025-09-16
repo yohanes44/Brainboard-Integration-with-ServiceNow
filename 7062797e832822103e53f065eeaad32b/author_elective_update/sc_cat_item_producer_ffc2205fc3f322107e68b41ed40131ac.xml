@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[The architecture deploys a complete API Management environment, protected by an Application Gateway with Web Application Firewall (WAF), hosted in a virtual network for enhanced security, and exposes three interfaces: gateway (API), management, and developer portal.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>3fc2205fc3f322107e68b41ed40131aa</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Secure Application Gateway - APIM</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>bfc2205fc3f322107e68b41ed40131ab</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=ffc2205fc3f322107e68b41ed40131ac&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Secure Application Gateway - APIM</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:37:47</sys_created_on>
+        <sys_id>ffc2205fc3f322107e68b41ed40131ac</sys_id>
+        <sys_mod_count>108</sys_mod_count>
+        <sys_name>Azure Secure Application Gateway - APIM</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_ffc2205fc3f322107e68b41ed40131ac</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:07:31</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>109</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=ffc2205fc3f322107e68b41ed40131ac"/>
+    <fx_price action="DELETE" query="id=ffc2205fc3f322107e68b41ed40131ac"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>ffc2205fc3f322107e68b41ed40131ac</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:37:47</sys_created_on>
+        <sys_id>77c2205fc3f322107e68b41ed40131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:37:47</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_ffc2205fc3f322107e68b41ed40131ac</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[The architecture deploys a complete API Management environment, protected by an Application Gateway with Web Application Firewall (WAF), hosted in a virtual network for enhanced security, and exposes three interfaces: gateway (API), management, and developer portal.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;3fc2205fc3f322107e68b41ed40131aa&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Secure Application Gateway - APIM&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;bfc2205fc3f322107e68b41ed40131ab&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=ffc2205fc3f322107e68b41ed40131ac&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Secure Application Gateway - APIM&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 11:37:47&lt;/sys_created_on&gt;&lt;sys_id&gt;ffc2205fc3f322107e68b41ed40131ac&lt;/sys_id&gt;&lt;sys_mod_count&gt;108&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Secure Application Gateway - APIM&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_ffc2205fc3f322107e68b41ed40131ac&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 12:07:31&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;109&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ffc2205fc3f322107e68b41ed40131ac"/&gt;&lt;fx_price action="delete_multiple" query="id=ffc2205fc3f322107e68b41ed40131ac"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;ffc2205fc3f322107e68b41ed40131ac&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 11:37:47&lt;/sys_created_on&gt;&lt;sys_id&gt;77c2205fc3f322107e68b41ed40131bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 11:37:47&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>433990836</payload_hash>
+        <record_name>Azure Secure Application Gateway - APIM</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:07:31</sys_created_on>
+        <sys_id>6399e8dbc33722107e68b41ed4013191</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19933861f390000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:07:31</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>a799e8db6b3722107a0f04c3e8ff4290</update_guid>
+        <update_guid_history>a799e8db6b3722107a0f04c3e8ff4290:433990836,ef99e8dbc5372210c1c46d9db97c3b7d:247849918,2399e8dbab372210ef1968c94bc26758:990904977,6799e8dbe0372210cff72a4e4f8f904c:-1489887950,9b99e8db813722108eabe2c0f8cc5440:324286419,9799e8db65372210cb64a00972ae2427:2138460788,1f99a8db4937221006d5355a5eb354e2:-342332139,d799a8db4737221058dda7aeb4473bc3:1471842230,9399a8db6637221053d4f683b0bbf8a4:-1008950697,5f99a8dbd6372210ed1ae20beaaa9c84:-424713834,0b99a8dbbd372210c6bd2c876a307865:1389460535,c399a8db42372210a86ef4256e22ea46:-1091332392,4799a8dbc837221022fd83edf7a86633:722841977,c799a8dbda3722106152dcb9166dfa20:-1757950950,4b99a8db073722109bd510996382220d:56223419,079968dbd73722106aec34801f2562ee:1870397788,b69968db8d37221076a8692f989920db:-610395139,729968db4e3722106ca9d3a4200204bc:1203779230,f29968db0f3722100d0bcba1388c3aa9:-1277013697,769968dba0372210ec78055d06cd2696:-19883243,f69968db063722106468b130bf022583:1794291126,b29968db05372210620ffd5d94df7164:-686501801,269968db61372210a1940ccfa8ebc951:1127672568,ee9968db56372210d048128408e57031:-1353120359,629968db8c372210a23b4a9d4556db1f:461054010,e29968db793722108b243ee0d0fbbf0c:-2019738917,669928db39372210de6cb3b3373f7ff9:-205564548,d69928db09372210af9684006faef9e6:1608609821,929928dbe2372210068cd8ed110aa2c7:-872183106,169928db4937221039ecf834346ffeb4:384947348,969928dbbe3722105f833346ee5afaa1:-2095845579,0a9928db123722100f34810dc6f4288e:-281671210,8a9928db5c372210d69b0a683d0fc87b:1532503159,8e9928db5f372210892c0781eaa0834f:-948289768,029928db8a37221042cb41aa7f30513d:865884601,829928db6d3722101d17235dbb947f2a:-1614908326,069928dbce372210b5e29aae80a6b517:199266043,b59928db49372210b896cbafc4236c04:2013440412,7199e4dbc9372210e62cfeea8c9500e5:-467352515,f199e4db3b37221006e68dc47984bbd2:789777939,3999e4db31372210272712e20f80c0c0:-1691014988,b999e4db47372210c899fea9cb1374ad:123159381,3d99e4dba4372210f465c268d2a24f9a:1937333750,ad99e4dbd3372210643a9d026bac9587:-543459177,2199e4db41372210c327b358ae76ff75:1270715192,a199e4db2b372210d3c55d6e81e1ba62:-1210077735,2599e4dbc33722100c8a5ce0f211bf4f:604096634,ed99e4db4e372210aa3fbc86cdacd52f:-1876696293,6199e4dbdd3722101456f5b4d989ae1d:-62521924,1d99a4db45372210adbca773150a12fd:1194608530,d599a4db62372210efb1f18e5f6f94de:-1286184397,1d99a4db72372210a71cf8181fcc8ecc:527989972,9d99a4dbf13722104ef222e23c5dbeb9:-1952802955,1d99a4db383722107a45908450b9b9a6:-138628586,2ed2645fdff32210fbd47decb03932d3:1675545783,6ed2645f3ff32210fb7796ce9ab0c3b6:-805247144,e2d2645ff4f32210d8e5cf04028c0c9a:1008927225,e6d2645f97f32210e923c5b0865e3f71:-1471865702,d6d2645facf32210edafcef47fa7cf55:342308667,1ed2645fa5f32210f6e1a3519feba639:1599439121,96d2645f85f32210c9fe7c30ff8e6f1e:-881353806,9ed2245ff1f322109f7da023581a65f6:932820563,cad2245f72f32210f6bf64180e5b40cf:-1547972364,06d2245f6ef32210b8354f1ae4156ab5:266202005,82d2245f47f32210375db4cbd421429b:2080376374,bdd2245f81f32210d7ac3484b92fc074:-400416553,b5d2245f8bf3221060f118ac8d32bd5b:1413757816,f1d2245fe3f322107eaff69267c2ab42:-1067035111,75d2245f18f32210a4544676b4ab2c29:747139258,65d2245f25f322108b2936fd862fc304:2004269712,61d2e05fcaf32210d408c1249a310fec:-476523215,a1d2e05fa0f3221098f35b37cc186dd4:1337651154,e1d2e05fedf32210a1eafc65e4c2e697:-1143141773,e5d2e05f00f32210dc5126d3b23e9873:671032596,11d2e05ffdf32210e856d8eb8f50ea50:-1809760331,55d2e05f6ff32210c6ff5c9af1a2d039:4414038,ddd2e05f34f3221071b9e035570a8a22:1818588407,9dd2e05faaf3221052c9bdce7dcced0c:-662204520,81d2a05f86f32210cb463fd9dfc42bf7:1151969849,c9d2a05f09f322108d5eea2152b257e1:-1885866993,81d2a05f3af3221062401ac66c552dc0:-71692624,8dd2a05fbaf322100384cca1b8b8f09e:1742481745,85d2a05f8af322101c1b475fda006b8a:-738311182,f0d2a05f4cf32210cedffd2459b66676:1075863187,74d2a05f6af32210e4a34bd14c4eb162:-1404929740,3cd2a05f13f32210ae89be5eb3126a4e:409244629,38d2a05facf322104c82eaec17d6cf3b:-2071548298,78d2a05f33f322108252eb71daa63228:-257373929,ecd2a05ffaf32210a97791f348254615:1556800440,a8d2a05f63f3221007936b3cb89faf03:-1481036402,a8d2605fcdf32210f63d5adf28cc27f1:333137967,ecd2605fdef3221008b08484e4305fdf:2147312336,68d2605fe2f32210ec6014094ac47ece:-333480591,28d2605fc4f322106c9f473809f80fbd:1480693778,1cd2605f6df3221073f813b30c4a4aac:-1000099149,54d2605fdef32210cd49a826c9517a9c:814075220,d0d2605ffaf322108b61f8426365188c:-1666717707,50d2605fb9f322107df24c6086bd9f57:147456662,58d2605f56f32210382dae75e7169147:1961631031,94d2605f3ff32210748760061d8f3238:-679415473,40d2605f3cf322102ef1710525f9841d:1134758896,84d2605f40f322107d2297732b1ceb0e:-1346034031,40d2605f9af32210260b4b9507e72901:468140338,0cd2205fb5f32210fa40962133aa92f7:-2012652589,ccd2205fcdf322104c307f04f32faded:-198478220,37c2205f18f3221056bcd1353ec832e4:1615696149,fbc2205f0df32210f88c88a878e6f4dc:-865096778,f7c2205fa9f32210777ef49e136d09c9:1580359077,b7c2205f63f32210192168a1ada3efd5:-801898747</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Secure Application Gateway - APIM">a799e8dbc33722107e68b41ed4013194</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:07:32</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>2c62885dba4543c69198c2be82a28fe4</sys_id>
+        <sys_metadata>ffc2205fc3f322107e68b41ed40131ac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Secure Application Gateway - APIM</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_ffc2205fc3f322107e68b41ed40131ac</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_ffc2205fc3f322107e68b41ed40131ac">6399e8dbc33722107e68b41ed4013191</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:07:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

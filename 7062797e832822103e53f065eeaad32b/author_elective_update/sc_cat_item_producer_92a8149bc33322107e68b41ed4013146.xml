@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[The SecureApps architecture is a highly secure, private, and scalable Azure-based infrastructure designed for hosting web applications, function apps, and databases.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>dea8149bc33322107e68b41ed4013143</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Secure 3-tier application </name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>52a8149bc33322107e68b41ed4013145</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=92a8149bc33322107e68b41ed4013146&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Secure 3-tier application </short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 10:53:27</sys_created_on>
+        <sys_id>92a8149bc33322107e68b41ed4013146</sys_id>
+        <sys_mod_count>106</sys_mod_count>
+        <sys_name>Azure Secure 3-tier application </sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_92a8149bc33322107e68b41ed4013146</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:22:15</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>107</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=92a8149bc33322107e68b41ed4013146"/>
+    <fx_price action="DELETE" query="id=92a8149bc33322107e68b41ed4013146"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>92a8149bc33322107e68b41ed4013146</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 10:53:27</sys_created_on>
+        <sys_id>52a8149bc33322107e68b41ed4013149</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 10:53:27</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_92a8149bc33322107e68b41ed4013146</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[The SecureApps architecture is a highly secure, private, and scalable Azure-based infrastructure designed for hosting web applications, function apps, and databases.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;dea8149bc33322107e68b41ed4013143&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Secure 3-tier application &lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;52a8149bc33322107e68b41ed4013145&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=92a8149bc33322107e68b41ed4013146&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Secure 3-tier application &lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 10:53:27&lt;/sys_created_on&gt;&lt;sys_id&gt;92a8149bc33322107e68b41ed4013146&lt;/sys_id&gt;&lt;sys_mod_count&gt;106&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Secure 3-tier application &lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_92a8149bc33322107e68b41ed4013146&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 11:22:15&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;107&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=92a8149bc33322107e68b41ed4013146"/&gt;&lt;fx_price action="delete_multiple" query="id=92a8149bc33322107e68b41ed4013146"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;92a8149bc33322107e68b41ed4013146&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 10:53:27&lt;/sys_created_on&gt;&lt;sys_id&gt;52a8149bc33322107e68b41ed4013149&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 10:53:27&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-276922972</payload_hash>
+        <record_name>Azure Secure 3-tier application </record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:22:15</sys_created_on>
+        <sys_id>504f181bc3b322107e68b41ed4013131</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199335cacba0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:22:15</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>944f181becb32210f6e434d9e6f72530</update_guid>
+        <update_guid_history>944f181becb32210f6e434d9e6f72530:-276922972,9c4f181b47b322104c80cfa42bdd311d:1920033624,1c4f181b78b32210ab2974dbc5bc7a10:1347326777,104f181b1db32210e86e565cc91d4f05:-1133466150,144fd41b44b322100449812e2969fdf9:680708219,944fd41b55b32210ddc72eec0ce133ec:-1800084708,d44fd41b79b322100b8d68093a092fd9:14089661,084fd41b8ab32210247e705ada1b76c6:-1011957970,484fd41b3eb32210e8de321546d34ab3:802216399,884fd41b08b322105ba9eeefaf4783a0:-1678576528,c84fd41bbcb32210b17ea70f98541f8d:135597841,444fd41b71b32210ae41967f61d5636e:1949772210,844fd41b98b32210e853d9669b3eda5b:-531020717,fb3fd41befb322102b9db32496cc0416:1283153652,3f3fd41b2ab3221056b8c75e12ba0903:-1197639275,7f3f941b6ab32210a8665abddf00d5f0:616535094,bf3f941b6fb32210b50c44bf4527f5dd:-1864257833,ff3f941b77b322102c5fabe845f0ebca:-607127379,233f941bacb32210be20ca1b95871eb8:1207046990,633f941b3db32210a2be47623f9454a5:-1273745937,a33f941b3bb3221072e3559f59549992:540428432,2f3f941b8db3221059614496cb343172:-1940364495,6f3f941b54b32210e3f5381ba97c735f:-126190126,e73f941b44b32210d2a6596e8f430d40:1687984243,1b3f941b92b32210da0ae36254ab0e2d:-792808684,5b3f941b8cb32210910c3672eb93d51a:1021365685,d33f541b26b322103433c19c89437ffb:-1459427242,173f541b09b322106f51cb5a2b1763e8:-202296788,9f3f541bcbb3221027f928c36a461dc8:1611877581,df3f541b5fb322100843fa2da1fc05b5:-868915346,4b3f541be6b32210eaedec7cd82ce996:945259023,8b3f541b1fb322108568959d0049a883:-1535533904,cb3f541b8db32210572609e58a7b9a70:278640465,473f541b57b32210e623458096fb4a51:2092814834,873f541b71b32210ee4b9c8b42f9163e:-387978093,323f541b84b322102e75253bcda6901f:1426196276,723f541b54b3221005571b293637a10c:-1054596651,b23f141b3bb32210a761196b6efd59f9:202533803,b63f141b13b322106e1d73ba7eb6cfe7:2016708172,f63f141b29b32210d1cc6abd539239d4:-464084755,3a3f141b2ab32210ce0a22c10ec02ec1:1350089614,ea3f141bddb322102bcc83a259d94695:-1130703313,2e3f141be9b322102db4e21580eb5c82:683471056,6e3f141b21b32210dbbf2cd4075c9e6f:-1797321871,623f141bdeb322104b35c2c246a4425e:16852498,923f141beeb32210b3ce85d36e7ebe4b:1831026867,d23f141b43b32210f4443ad0d1105f38:-649766060,5e3f141b9bb32210e575494df3744b18:607364394,9e3f141b81b322109168afeedee3ba05:-1873428533,de3fd01b45b32210d5b4f36aac0bd5f2:-59254164,123fd01b47b32210b5bbe4a16fd487e0:1754920205,423fd01b74b3221025fd38983ebeadcd:-725872722,4e3fd01bc8b3221052c002c8be1853b9:1088301647,c5b8989b833322104c637c6c4b4ce09b:-1392491280,c5b8989b3933221028f7781b9a3ae17f:421683089,c5b8989ba4332210f746119f0fc69e3e:-2059109838,01b8989bdc3322106a15aab22f497223:-244935469,bcb8989bf2332210362ac7a816c15b07:1012194985,70b8589b4833221004ebc8bf66f86ded:-1468597942,78b8589bcd332210fa111d0b0dd095d2:345576427,f4b8589bd13322106ccba03c538fd3b8:-2135216500,a0b8589bc7332210291be2286e059792:-321042131,68b8589b7e332210ad83682fe0784178:1493132238,64b8589be73322108b712ad23291585f:-987660689,e4b8589b8433221016e39e54cec55146:826513680,5cb8589bfd332210004700a9c005e22d:-1654279247,58b8589b8a3322100041da10f06c0e15:159895122,58b8189bd0332210695e6adae9e943fd:1417025576,9cb8189b8e332210f42d0856f5802fe5:-1063767351,88b8189b833322108ff2e77405e9e9b5:750407018,80b8189bbf3322108c2a6abec1df7f92:-1730385909,84b8189b633322103daa8354c912f07b:83788460,ccb8189b97332210c20e1bcba7535e64:1897962829,b7a8189bdb3322108889f34b5565ff42:-582830098,7fa8d49b8633221027b5794bb3d1d5fa:1231344271,f7a8d49b5f3322102b7161e49a7709cc:-1249448656,7fa8d49b353322104d6ee583dc651faa:564725713,73a8d49b38332210626cf8001b6f3a7d:1821856167,aba8d49b64332210be583e4c756bbe4f:-658936760,2ba8d49b9e332210764f55d0d3e91622:1155237609,eba8949baf332210c547cdd11ffc5bf5:-1325555318,e3a8949bdb3322101392469f47c77bc9:488619051,93a8949bbd3322103caf2f4ea2710a84:-1992173876,1ba8949bd63322109675a2cab8ade726:-177999507,97a8949bdd332210e780be3419f32307:1636174862,dba8549bc333221060e8f7b7e139a5cf:-844618065,17a8549b4a332210d88e49286c4496b1:969556304,0ba8549b59332210e3a6ccab252b2c9f:-2068280538,43a8549b3233221038439070b7b4118e:-254106169,03a8549b1f33221039f74457872c737d:1560068200,c3a8549bb83322104bf768f2c306406c:-920724727,cba8549ba8332210872bfbe83e97405b:893449642,0ba8549b21332210bef747da86cfef4b:-1587343285,faa8549b56332210757e76f26ceeaf3b:226831084,f2a8549bd8332210746475661614612c:2041005453,32a8549be5332210e3e0fa0b6463a71d:-439787474,b2a8549b97332210cc92741b1af40f0e:1374386895,7aa8149b47332210dd2a487a932be9ff:2006531701,bea8149bf7332210c92e8046b7a4eee4:-474261226,aaa8149b773322106a90a5a860ef0e98:1339913143,eea8149b5033221076deca36338c6e8b:-1140879784,eea8149bce33221050b67527c436f682:673294585,e6a8149bcd33221094a3e960a7fbdf79:-1807498342,62a8149b7933221004a350a05e96c570:6676027,eaa8149ba2332210e30d4147435b7f68:1820850396,5aa8149b413322105312e4f21a92095d:1688907325,52a8149b50332210070ac57715e6de55:1561799381</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Secure 3-tier application ">d44f181bc3b322107e68b41ed4013134</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:22:15</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>07748b76030f4600831f860efbff7569</sys_id>
+        <sys_metadata>92a8149bc33322107e68b41ed4013146</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Secure 3-tier application </sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_92a8149bc33322107e68b41ed4013146</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_92a8149bc33322107e68b41ed4013146">504f181bc3b322107e68b41ed4013131</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:22:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

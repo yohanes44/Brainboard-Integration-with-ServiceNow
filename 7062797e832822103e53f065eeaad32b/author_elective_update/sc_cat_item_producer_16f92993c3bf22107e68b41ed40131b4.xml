@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[This architecture demonstrates a document generation solution that enables organizations to create intelligent structured and unstructured documents grounded in their enterprise data.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>42f92993c3bf22107e68b41ed40131b2</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Build a document generation system by using AI</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>d2f92993c3bf22107e68b41ed40131b3</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=16f92993c3bf22107e68b41ed40131b4&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Build a document generation system by using AI</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:48:41</sys_created_on>
+        <sys_id>16f92993c3bf22107e68b41ed40131b4</sys_id>
+        <sys_mod_count>126</sys_mod_count>
+        <sys_name>Build a document generation system by using AI</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_16f92993c3bf22107e68b41ed40131b4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:12:03</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>127</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=16f92993c3bf22107e68b41ed40131b4"/>
+    <fx_price action="DELETE" query="id=16f92993c3bf22107e68b41ed40131b4"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>16f92993c3bf22107e68b41ed40131b4</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:48:41</sys_created_on>
+        <sys_id>12f92993c3bf22107e68b41ed40131d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:48:41</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_16f92993c3bf22107e68b41ed40131b4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[This architecture demonstrates a document generation solution that enables organizations to create intelligent structured and unstructured documents grounded in their enterprise data.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;42f92993c3bf22107e68b41ed40131b2&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Build a document generation system by using AI&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;d2f92993c3bf22107e68b41ed40131b3&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=16f92993c3bf22107e68b41ed40131b4&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Build a document generation system by using AI&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:48:41&lt;/sys_created_on&gt;&lt;sys_id&gt;16f92993c3bf22107e68b41ed40131b4&lt;/sys_id&gt;&lt;sys_mod_count&gt;126&lt;/sys_mod_count&gt;&lt;sys_name&gt;Build a document generation system by using AI&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_16f92993c3bf22107e68b41ed40131b4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 22:12:03&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;127&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=16f92993c3bf22107e68b41ed40131b4"/&gt;&lt;fx_price action="delete_multiple" query="id=16f92993c3bf22107e68b41ed40131b4"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;16f92993c3bf22107e68b41ed40131b4&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:48:41&lt;/sys_created_on&gt;&lt;sys_id&gt;12f92993c3bf22107e68b41ed40131d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:48:41&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-652468188</payload_hash>
+        <record_name>Build a document generation system by using AI</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:12:03</sys_created_on>
+        <sys_id>36f33217c37762107e68b41ed4013141</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19935af93e50000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:12:03</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>7af3321756776210e4665f2160eadb40</update_guid>
+        <update_guid_history>7af3321756776210e4665f2160eadb40:-652468188,fef33217877762103c3ab252ace60b14:314698330,7af332170c776210827bb5c14dd96d07:-2139172551,7af3fed3c0776210c727dfed53c330fb:-324998182,7af3fed3807762104376c67f062a75ef:1489176187,e6f3fed3877762101376e6e34b83cfe2:-991616740,26f3fed3f3776210f403248da3588dcf:822557629,aef3fed36a776210165ef58932b6bb7d:2079688083,26f3fed3d27762106790bb3aa589745e:-401104844,9af3fed39f7762101b31e1a4d030273e:1413069525,92f3fed3cd7762102421729e6ab12606:-1067723402,52f3bed31d77621079ae531ac9d13fda:746450967,d6f3bed33677621091c0c2f5830505ba:-1734341960,16f3bed3bf776210133258571d82a0a7:79832409,42f3bed347776210134cd1c60981f594:1894006778,8af3bed39a776210f71ec93faf3e3c75:-586786149,02f3bed3ad776210439efbad377b2d56:1227388220,4ef3bed3797762107390ef76318b5a42:-1810448622,c2f3bed3ab776210219015eee8bb0123:3725747,31f3bed3f27762106e2d048ee5598610:1817900116,7df37ed3607762106a0de00504684afc:-662892811,b9f37ed32277621042f37687f26dbbe9:1151281558,31f37ed34c776210697732bb16f799ca:-1329511369,39f37ed381776210a5d1898a16653891:484663000,75f37ed37e776210dfefa9fb4e97527e:-1996129927,e9f37ed36977621049c963ca411ceb5e:-181955558,29f37ed31a7762108c0d469a415a0d4b:1632218811,65f37ed36b776210d0fd90ef661bac38:-716507538,a1f37ed3c67762107c0e72948ab4d025:1097666831,a1f37ed3687762104cd4401086231513:-1383126096,edf33ed3c7776210f959b6f6dfb63cff:431048273,55f33ed37e77621084e1c09e1eb593e0:-2049744654,91f33ed3b877621021f0b7dc739b52cd:-235570285,19f33ed3e1776210a08a31ecf38cf2ad:1578604084,55f33ed345776210ff80e90dea90b89a:-902188843,91f33ed3c8776210f9fbc19d731fff87:911985526,cdf33ed32d7762109531ecdc70d6b573:-1568807401,0df33ed31e776210a598577a3c6daa60:-311676947,c9f33ed3c377621071225fc543ffe334:1502497422,09f33ed323776210b15e4f996bde9f21:-978295505,45f33ed33377621035aa566517b5510e:835878864,c9f3fad375776210094c5f2e14a0f8ee:-1644914063,70f3fad3dc776210d7ee7f72873142cf:169260306,bcf3fad3037762108620504a0d6c37bb:1983434675,f8f3fad3d877621099533c9948204ba8:-497358252,38f3fad3e77762107246a6a854c22295:1316816117,74f3fad3e77762106159c06e5c922282:-1163976810,b0f3fad30d776210271ecc6193bbc86f:93153644,28f3fad32c77621093dee5c71c77f94f:1907328013,e4f3fad3797762107635665737986b23:-573464914,6cf3fad3027762101c49268fc96b1b03:1240709455,e0f3bad3637762108260feeab8152fe4:-1240083472,68f3bad3287762101ada1a1027ea25c4:574090897,dcf3bad3a77762106ef17a76654579a4:-1906702030,1cf3bad3e87762103babd06474bfaf91:-92527661,d8f3bad3dc776210f657723317cdf865:1721646708,18f3bad36f776210464fd7b3435dbb52:-759146219,54f3bad3167762107177004b53e49d3f:497984235,90f3bad3e877621051d9942ad659a82c:-1982808692,ccf3bad3087762102bcbef56c4e19218:-168634323,44f37ad350776210884c3b0a259377f9:1645540046,80f37ad31b776210a780282ee1386ce6:-835252881,bbe37ad3f1776210801e346a5a7ce1d2:978921488,3d0aed9321bf2210978292c452229b44:-1501871439,210aed93ebbf22108a7062c47573f825:312302930,690aed9329bf22105a44d08b91d00f05:2126477299,e50aad93b6bf221094e6ec29989b17e6:-354315628,a90aad936cbf2210936424f6809c95c7:902814826,d90aad9320bf2210f1a3c935e64aff9c:-1577978101,190aad9363bf2210d8ed7b2bd56b867e:236196268,990aad937fbf221076da60d22b2d7c60:2050370637,890aad9303bf22107939eec1e9ee3436:-430422290,090aad9306bf22108e5205d0a0130700:1383752079,490a6d93f5bf2210f1881d89b56bdae3:-1097040848,090a6d9310bf22108ddc6ff0d22652ba:717133521,f00a6d9384bf2210c60bc6e4fe47609e:-1763659406,f00a6d93bdbf2210486cf41bacb5a982:50514963,380a6d9311bf2210eeb79881d3c59666:1307645417,e80a6d937abf22103319c1beec649b3e:-1173147510,a80a6d9375bf22100d6ca6a24f71aa23:641026859,ac0a6d9360bf22100db3eda4c5595f08:-1839766068,e40a2d93eabf2210ba80d0f7d1163bee:-25591699,540a2d93fdbf22107f7002fa579850d4:1788582670,180a2d9358bf2210ccd5a0f90898c2ba:-692210257,580a2d93cfbf2210b42e36ec137a5c94:1121964112,dc0a2d93adbf2210fff4c2e2b646816e:-1358828815,400a2d939dbf2210e2ae0ef8a85ae856:455345554,080a2d93acbf2210be80ad924da8253d:1712476008,040a2d9301bf22105012a443b1c76225:-768316919,440a2d93dcbf22108ee95155ef341b0d:1045857450,fbf9e99337bf22106b91194c091545f5:-1434935477,b7f9e993abbf221079252524548186de:379238892,fff9e99367bf2210fc9fed9e62fa2fba:-2101554035,7ff9e993bcbf22109626ab83b4a4db97:-287379666,23f9e99355bf22108946b569cebf2075:1526794703,eff9e9936cbf2210ca7ef614ef7a4d5e:-953998224,e3f9e9933fbf22100e8d4fed56066949:860176145,2ff9e993abbf22100ed1e0055d9cc233:2117306599,67f9a99387bf221079b80271b3862cf9:-363486328,1bf9a9934dbf22102bedaa819a1aaae4:1450688041,13f9a99348bf2210fe8479fe0a345ed0:-1030104886,5ff9a993f0bf2210cb161b1895474ebb:784069483,dff9a993febf22104eb8c324e783e2a7:-1696723444,97f9a993bdbf22103719abd7c951c894:117450925,cbf9a99327bf22108a96171eac38bc74:1931625294,47f9a99323bf2210a5730e75cf1c2655:-549167633,cbf9a993fabf22101b525e029de3d342:1265006736,87f9a99324bf2210851b3ac01d7b1430:-1772830106,87f9a99354bf22109368d7cc1bb2791e:41344263,faf9a99355bf22103a5544289f013f0c:1855518632,76f9699335bf2210fe5e9cd0989a2efb:-625274295,36f96993d5bf22104420c15e2e5c32ea:1188900074,3af96993c9bf2210e2d4041242a2efd9:-1291892853,72f9699383bf22107706874c939b7fc9:522281516,fef969934cbf2210a2d784ae7ea29db8:-1958511411,a2f96993a5bf2210d287e12a7903b7a9:-144337042,e2f96993bebf2210ee2d229ef68d868d:1669837327,6af96993bfbf22108b0cd65b0713ba71:-511631565,eaf9699351bf22103e9de98912c26762:1302542804,12f9699397bf2210537176adcd45623b:-1178250123,daf96993ccbf22100bc0161f94b5de2d:635924246,16f9299344bf2210a2404475886cc4f4:-992661379,def969937fbf22107f74061120711517:-1844868681,92f9699305bf2210d270e3df07f57f0e:-30694312,1af96993f8bf22107c954dcb2e940904:1783480057,96f9299360bf2210302418e944873df0:-697312870,52f9299399bf2210ec7f6aa3b10b2ee9:-729262103</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Build a document generation system by using AI">baf33217c37762107e68b41ed4013144</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:12:03</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>494ed625329e4024931b98e6dcc7ecb1</sys_id>
+        <sys_metadata>16f92993c3bf22107e68b41ed40131b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Build a document generation system by using AI</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_16f92993c3bf22107e68b41ed40131b4</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_16f92993c3bf22107e68b41ed40131b4">36f33217c37762107e68b41ed4013141</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:12:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

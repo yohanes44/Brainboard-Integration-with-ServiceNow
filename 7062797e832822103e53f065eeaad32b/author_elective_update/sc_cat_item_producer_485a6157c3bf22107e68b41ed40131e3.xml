@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>845a6157c3bf22107e68b41ed40131e1</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Azure Let's Encrypt Auto Renew</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>085a6157c3bf22107e68b41ed40131e2</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=485a6157c3bf22107e68b41ed40131e3&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>Azure Let's Encrypt Auto Renew</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:50:11</sys_created_on>
+        <sys_id>485a6157c3bf22107e68b41ed40131e3</sys_id>
+        <sys_mod_count>92</sys_mod_count>
+        <sys_name>Azure Let's Encrypt Auto Renew</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_485a6157c3bf22107e68b41ed40131e3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:08:16</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>93</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=485a6157c3bf22107e68b41ed40131e3"/>
+    <fx_price action="DELETE" query="id=485a6157c3bf22107e68b41ed40131e3"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>485a6157c3bf22107e68b41ed40131e3</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 16:50:11</sys_created_on>
+        <sys_id>085a6157c3bf22107e68b41ed40131e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 16:50:11</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_485a6157c3bf22107e68b41ed40131e3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description/&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;845a6157c3bf22107e68b41ed40131e1&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Azure Let's Encrypt Auto Renew&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;085a6157c3bf22107e68b41ed40131e2&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=485a6157c3bf22107e68b41ed40131e3&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;Azure Let's Encrypt Auto Renew&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:50:11&lt;/sys_created_on&gt;&lt;sys_id&gt;485a6157c3bf22107e68b41ed40131e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;92&lt;/sys_mod_count&gt;&lt;sys_name&gt;Azure Let's Encrypt Auto Renew&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_485a6157c3bf22107e68b41ed40131e3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 22:08:16&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;93&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=485a6157c3bf22107e68b41ed40131e3"/&gt;&lt;fx_price action="delete_multiple" query="id=485a6157c3bf22107e68b41ed40131e3"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;485a6157c3bf22107e68b41ed40131e3&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 16:50:11&lt;/sys_created_on&gt;&lt;sys_id&gt;085a6157c3bf22107e68b41ed40131e6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 16:50:11&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>676286869</payload_hash>
+        <record_name>Azure Let's Encrypt Auto Renew</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:08:16</sys_created_on>
+        <sys_id>6713f61fc33762107e68b41ed401313d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19935ac20570000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:08:16</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>ab13f61f8237621047a7072b475df73c</update_guid>
+        <update_guid_history>ab13f61f8237621047a7072b475df73c:676286869,ef13f61f323762101001d430f62c4729:1832268613,ab13f61fe5376210b22057f331f8cc1c:-160859962,eb13f61f4b3762109fe119ac0c64f710:1096270492,6713b61f2e376210f29d4bec10bf87f8:-1384522435,2713b61ff8376210772b194e7f5e06eb:429651934,a313b61f293762109f8ed310a46820d8:-2051140993,9313b61f753762105c11e3e995ee66ac:-236966624,5b13b61f17376210ae72e990039e2e8c:1577207745,d713b61ffa376210a5ce3f86b9be1179:-903585182,9f13b61f21376210e290118c110d7859:910589187,1f13b61f8a37621004c55bf363f4eb46:-1570203740,c313b61ffb3762109b39303acfc58227:243970629,8b13b61f6f3762102b54c10874c24f07:1501101083,0b13761fa4376210fa818e61fd6c93f4:-979691844,8713761f533762109bdbee97bd7584e1:834482525,0713761ff3376210191af1681c9935ce:-1646310402,cb13761fc3376210370defb94b0fb8ae:167863967,3613761fd0376210f81e122aa4b46a76:1982038336,fa13761fe037621017f08733345a1e56:-498754591,7a13761f58376210a12a82c1902d0a43:1315419778,f613761fea3762106d14f7dbacc6e130:-1165373149,7613761f5037621008a060083d70451d:648801220,e213761fd637621095ef161cbc815f0a:1905931674,aa13361fee3762107bad8c06ce206bea:-574861253,2a13361ff33762108dd1016b90f0b3d7:1239313116,a613361f37376210397a9c3f6d6650c4:-1241479811,9613361f2e3762101fe3919d1dd9bd98:572694558,1613361f8f376210b9eaf7fcc0441985:-1908098369,da13361f823762100e932f3b41126e65:-93924000,5a13361ffb3762108d19f7e133362552:1720250369,d613361fdd37621015718420d3d3913f:-760542558,0a13361f43376210f68a174018e6d92d:1053631811,ce13361f9c376210478f51ca00d1570d:-1984205031,4e13f21f64376210e310c84516e5e4fa:-170030662,0613f21f19376210ccaeb6b54e9f27db:1644143707,8213f21f9f3762108d9643a96ec914c8:-836649220,7913f21f40376210d1ca056427c811a8:977525149,f513f21f7c376210c6cfa84fcd615295:-1503267778,f513f21f6d376210fe973b0bac830069:310906591,7513f21f29376210360d80ed8df83956:2125080960,f113f21f57376210c8d15c1262fe6843:-355711967,ed13f21f9237621085b9043a1d3ac40b:1458462402,6d13b21fc7376210e280665619dfd5f8:-1579374440,2513b21f073762105a3569badb678cd9:234799929,ad13b21f0f376210463b503de099a3c5:2048974298,ee5aa5575ebf221036c168d84b7d3a12:-431818629,2a5a65570cbf2210845a26ffdd8bb0f8:1382355740,965a65573cbf2210534ed07fa9265cde:-1098437187,925a65576abf2210642be98058df07b8:715737182,9a5a655778bf221076a669577220a59e:-1765055745,d65a65578cbf2210f247f5d6550a3a85:49118624,4a5a6557edbf2210320c3a36c31d2a6c:1863292993,025a655769bf2210f66f32f747d89d54:-1174543849,465a655747bf22101dc26c10e2a4492f:639630520,865a655779bf2210498b055dfa9f6d17:-1841162407,755a255762bf2210a883c54d8526b7f3:-26988038,315a2557ebbf2210c999facf382e9bdc:1787186331,795a2557b9bf2210ea66aededc8739b8:-693606596,bd5a255723bf2210baf317d697fdc2a1:1120567773,295a2557c5bf221070a569d528631c8b:-1360225154,e55a255753bf22107a090c165f9cc875:453949215,e95a255796bf2210ffb88e1dfd69915f:-2026843712,255a255744bf2210c92611b5fd040b4a:-769713258,915a2557f4bf22108422f73988c37d35:1044461111,555a25573abf22109331b3fc56df1f20:-1436331816,5d5a2557d8bf2210508341000805370b:377842553,995ae15732bf22109ae06d91235f9ff7:-2102950374,1d5ae157ffbf22102de96afeb33bf6e3:-288776005,c15ae157e3bf22103c6d47e86a7d66d0:1525398364,895ae1578dbf22104759178972747097:-955394563,c95ae1570bbf221089f9d4a8b6f76384:858779806,895ae1575ebf221097b7bc660ae4af65:-1622013121,455ae157b5bf22103a63ee924e90c953:-364882667,745ae15705bf2210247d5d484b419641:1449291702,b85ae1572ebf2210a5adf726a0bf912f:-1031501225,345ae157e3bf221056a33505f07bf71e:782673144,f05ae157abbf2210cc6953fd083a040d:-1698119783,f45aa157d9bf2210a3e8941d2ae934fc:116054586,685aa15777bf2210c9e60f94366dfadf:1930228955,e45aa15726bf2210f1a1be147184b9cf:-550563972,e05aa1570cbf2210f5549ffddde92bb3:1263610397,e85aa15745bf22109b59ecdfd5bf94a3:-1217182530,605aa157e6bf2210d59a5e59c2b7ec88:1057115204,e05aa15708bf22106b95223093c55e79:-1423677723,945aa157efbf2210f1ab87fa5e55626a:390496646,505aa157aebf22103a7798af1077c45d:-2090296281,1c5aa1572fbf2210beff2bf8670d5453:-276121912,945aa15772bf221034c0c0155cebdc0e:-1486542804,505aa15790bf221082ff317023d2e431:1538052457,d45aa157b1bf221048722ddccab4b827:-942740470,0c5aa157a6bf22102894be8c67f5de1f:871433899,005aa15753bf221064a85466ae18cb0c:1970325458</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Let's Encrypt Auto Renew">ab13f61fc33762107e68b41ed4013140</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:08:17</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>3cce770e964145d49d9ad2741d4fb524</sys_id>
+        <sys_metadata>485a6157c3bf22107e68b41ed40131e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Let's Encrypt Auto Renew</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_485a6157c3bf22107e68b41ed40131e3</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_485a6157c3bf22107e68b41ed40131e3">6713f61fc33762107e68b41ed401313d</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:08:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

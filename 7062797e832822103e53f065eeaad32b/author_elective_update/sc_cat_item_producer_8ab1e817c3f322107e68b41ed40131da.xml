@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[This Terraform configuration deploys a complete Azure infrastructure for SQL Server with high availability, featuring on-premises simulation, VPN connectivity, and Always On Availability Groups across hybrid environments.]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>c6b1e817c3f322107e68b41ed40131d8</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>SQL Server Architecture with Site-to-Site VPN</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="">system</owner>
+        <picture>4ab1e817c3f322107e68b41ed40131d9</picture>
+        <post_insert_script><![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></post_insert_script>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=8ab1e817c3f322107e68b41ed40131da&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]></script>
+        <short_description>SQL Server Architecture with Site-to-Site VPN</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:33:01</sys_created_on>
+        <sys_id>8ab1e817c3f322107e68b41ed40131da</sys_id>
+        <sys_mod_count>140</sys_mod_count>
+        <sys_name>SQL Server Architecture with Site-to-Site VPN</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_8ab1e817c3f322107e68b41ed40131da</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:07:15</sys_updated_on>
+        <table_name>x_854636_b_board_clone_template_task</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>141</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=8ab1e817c3f322107e68b41ed40131da"/>
+    <fx_price action="DELETE" query="id=8ab1e817c3f322107e68b41ed40131da"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>8ab1e817c3f322107e68b41ed40131da</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 11:33:01</sys_created_on>
+        <sys_id>46b12c17c3f322107e68b41ed401310f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 11:33:01</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>2fa811a01b0679d4fe1b43f4bd4bcb98</instance_id>
+        <instance_name>dev190630</instance_name>
+        <name>sc_cat_item_producer_8ab1e817c3f322107e68b41ed40131da</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sc_cat_item_producer"&gt;&lt;sc_cat_item_producer action="INSERT_OR_UPDATE"&gt;&lt;access_type&gt;restricted&lt;/access_type&gt;&lt;active&gt;true&lt;/active&gt;&lt;allow_edit&gt;false&lt;/allow_edit&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;can_cancel&gt;false&lt;/can_cancel&gt;&lt;category/&gt;&lt;checked_out/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan display_value="DEFAULT"&gt;523da512c611228900811a37c97c2014&lt;/delivery_plan&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[This Terraform configuration deploys a complete Azure infrastructure for SQL Server with high availability, featuring on-premises simulation, VPN connectivity, and Always On Availability Groups across hybrid environments.]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;fulfillment_automation_level&gt;unspecified&lt;/fulfillment_automation_level&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon&gt;c6b1e817c3f322107e68b41ed40131d8&lt;/icon&gt;&lt;ignore_price&gt;true&lt;/ignore_price&gt;&lt;image/&gt;&lt;location/&gt;&lt;make_item_non_conversational&gt;false&lt;/make_item_non_conversational&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;SQL Server Architecture with Site-to-Site VPN&lt;/name&gt;&lt;no_attachment_v2&gt;true&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;false&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;false&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_save_as_draft&gt;true&lt;/no_save_as_draft&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;owner display_value=""&gt;system&lt;/owner&gt;&lt;picture&gt;4ab1e817c3f322107e68b41ed40131d9&lt;/picture&gt;&lt;post_insert_script&gt;&lt;![CDATA[/**
+* This script is executed after the record is generated. 
+* `current` Is the GlideRecord produced by Record Producer. Use `current.update()` to update the record
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/post_insert_script&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=8ab1e817c3f322107e68b41ed40131da&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;published_ref/&gt;&lt;recurring_frequency/&gt;&lt;redirect_url&gt;generated_record&lt;/redirect_url&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;save_options/&gt;&lt;save_script&gt;&lt;![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]&gt;&lt;/save_script&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;sc_template/&gt;&lt;script&gt;&lt;![CDATA[current.project = producer.selectedProject;
+current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;short_description&gt;SQL Server Architecture with Site-to-Site VPN&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;state/&gt;&lt;sys_class_name&gt;sc_cat_item_producer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 11:33:01&lt;/sys_created_on&gt;&lt;sys_id&gt;8ab1e817c3f322107e68b41ed40131da&lt;/sys_id&gt;&lt;sys_mod_count&gt;140&lt;/sys_mod_count&gt;&lt;sys_name&gt;SQL Server Architecture with Site-to-Site VPN&lt;/sys_name&gt;&lt;sys_package display_value="Brainboard" source="x_854636_b_board"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Brainboard"&gt;7062797e832822103e53f065eeaad32b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sc_cat_item_producer_8ab1e817c3f322107e68b41ed40131da&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 12:07:15&lt;/sys_updated_on&gt;&lt;table_name&gt;x_854636_b_board_clone_template_task&lt;/table_name&gt;&lt;taxonomy_topic/&gt;&lt;template/&gt;&lt;template_manager_roles/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;true&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;version&gt;141&lt;/version&gt;&lt;view/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow/&gt;&lt;/sc_cat_item_producer&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8ab1e817c3f322107e68b41ed40131da"/&gt;&lt;fx_price action="delete_multiple" query="id=8ab1e817c3f322107e68b41ed40131da"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;8ab1e817c3f322107e68b41ed40131da&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-10 11:33:01&lt;/sys_created_on&gt;&lt;sys_id&gt;46b12c17c3f322107e68b41ed401310f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-10 11:33:01&lt;/sys_updated_on&gt;&lt;table&gt;sc_cat_item_producer&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-398302778</payload_hash>
+        <record_name>SQL Server Architecture with Site-to-Site VPN</record_name>
+        <reverted_from/>
+        <source>e3d37109c3c2d2107e68b41ed40131d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:07:15</sys_created_on>
+        <sys_id>ef89e0dbc33722107e68b41ed40131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1993385dff20000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:07:15</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>2789e0db4737221059abe395ef75fab4</update_guid>
+        <update_guid_history>2789e0db4737221059abe395ef75fab4:-398302778,2f89e0db30372210244efd35949f20a1:-1945023203,ab89e0db7b372210820618ac567ea894:1096542552,e789e0db0737221030bd030af6e5d57c:-1384250375,eb89e0db93372210383f048061728170:429923994,6f89e0dba5372210d60a8904ad49c463:-2050868933,9f89e0dbec372210b52dd592d56b8450:-236694564,df89e0db3a37221068e9948d62c4763d:1577479805,1389e0dba8372210023dc2b41386692b:-903313122,5389e0dbea372210fd473c0820639918:910861247,db89a0db783722106a3d825cbf379bf8:-1569931680,0f89a0db7c3722109efa01fd784f3de5:-312801226,4f89a0db56372210196ff4b067f83fd2:1501373143,8f89a0db8d372210bdda1a2230523bbf:-979419784,0b89a0db2e372210767fb2523df39fa0:834754585,4b89a0dbc1372210c3b1e1941a39c58d:-1646038342,8b89a0dbc9372210a2256cf13867eb7a:168136027,7e89a0db4b3722104ca548312578cb4e:1982310396,be89a0db0a372210bbc410f18d0d453b:-498482531,fe89a0db753722105117228e589ec728:1315691838,3289a0db23372210113ee67c69434816:-1165101089,7289a0db64372210e18197ba43a40503:92029365,b28960db263722104d62727fae3e7ef0:1906203734,2e8960db61372210a123570169e6a8d0:-574589193,6e8960db20372210067af1b8398af3bd:1239585176,228960dbca372210b6395bee9851f092:-1241207751,aa8960dbe33722107b8bed4d6e5fd672:572966618,ea8960dbd337221048d21b0c34fb2e5f:-1907826309,668960dbca372210a31fb1380fba5240:-93651940,968960db6e372210e10c08e89075362d:1720522429,128960db533722103aca1cf94f8aa20e:-760270498,9a8920dbf33722108de1e48e693675ee:496859956,da8920db1f3722108817c639ca57f6db:-1983932971,568920db3b372210eb66e95ab0e0a3bc:-169758602,868920db87372210a461e94c038fa2a9:1644415767,c68920dba6372210472c11529fc3f396:-836377160,0a8920db7237221026afa380968a6383:977797209,4a8920dba6372210deef481b58eada70:-1502995718,8a8920db19372210200e19cba687025d:311178651,8e8920dbab3722106f879cf583f1d74b:2125353020,b18920db68372210402b043f654e1b3a:-355439907,f18920db11372210705f633b84154227:330996660,358920db5d372210f0ad654b308d8614:2145171029,758920db50372210ebcc4ddfc88d4c01:-335621898,b589ec9b1137221012984b2074bb44ee:1478552471,e589ec9b3e3722102e33d86340fa5cdb:-1002240456,6189ec9b46372210d635e89911f990bc:811933913,a189ec9bec3722107c23fc8900d99da9:-1668859014,e189ec9b003722109d3edeb8f821eb96:145315355,2589ec9bc2372210a0a74163d7c5dd83:1959489724,9d89ec9b2a372210d7fff24b0679d263:-521303203,dd89ec9b2c372210bc69bdaef2d5b550:735827251,1189ec9b49372210929d383f6c76863e:-1744965676,5189ec9b42372210dd4b071416daf32b:69208693,9189ec9bb2372210339d184e40e03318:1883383062,c189ec9b5e372210fb86cf8638687505:-597409865,0589ac9b33372210ebff46f401d7daf2:1216764504,4589ac9b7d3722109b5057f64ae904df:-1264028423,8589ac9b5a372210946efe213aaaa1cc:550145946,4989ac9bb6372210e69c571fbf17dca0:-1930646981,8989ac9b1d3722108dc274044f8d2f8d:-116472612,f889ac9b09372210c72780f9f737947a:1140657842,3c89ac9b19372210a0e270d3e1b72967:-1340135085,7c89ac9bda372210ba309b7cb4354e54:474039284,f489ac9b9c372210a8813cb24b926a35:-2006753643,7089ac9b47372210111a6071f144f716:-192579274,e8896c9bc5372210a5f4b5f6cb49bef6:1621595095,2c896c9b7d37221009004c498490ebe3:-859197832,a4896c9b5b372210ab80249d92b007c4:954976537,a0896c9b74372210b3a608221cbfa7b1:-1525816390,5ac12457e7f322104500104273f9740c:288357979,c2c1e05792f322106f7fdc6e0e91bdde:1545488433,4ac1e05757f322103e412ef6973ff1bc:-935304494,4ec1e0575bf32210eee563061a92b98e:878869875,7dc1e057e5f32210fa23300e525c4d6d:-1601923052,f9c1e057fef3221003611138eb886640:212251317,75c1e05737f32210e912e80cd53d3420:2026425686,25c1e057e3f322105d388f216f912200:-454367241,61c1a0579bf322101b4b4c0178f29ed4:1359807128,e1c1a0576cf32210506f79c4acf011a8:-1120985799,a9c1a05707f32210fc2e79174f87897c:693188570,5dc1a057bef32210c3f9b5b9e0f49f5d:1950319024,55c1a057eaf3221067cc78292aba993f:-530473903,91c1a0570df3221053dc0b81c4032b21:1283700466,05c1a05749f322102cc397b3a5d4a903:-1197092461,c9c1605714f32210b44fcbe347433ae5:617081908,01c1605776f32210eb129f0a9ab837bc:-1863711019,b8c1605758f32210dfc993c82b629092:-49536650,30c1605741f322105eacf70d366fa576:1764637719,f8c160571df322104251ce9d29451b59:-716155208,f8c16057e9f322104a5b125db9365f3d:1098019161,68c1605711f32210b42ed3f4d4fc6615:-1939817681,e0c120570bf3221044354ef7256cc6fa:-125643312,a0c12057caf3221080e0ab58c94eacdf:1688531057,ecc12057e0f322107863838bb5b9ebb7:-792261870,50c12057d2f3221057b6868d3e76c191:1021912499,50c1205750f322103cd8a7999593d15e:-1458880428,14c12057a1f322107eaa9e95251cae44:355293941,44c120570df322102865641b50830d1e:-2125498986,80c12057bff322100ab911598c133905:-311324617,4cc1ec1728f3221005cc53218305b3df:1502849752,04c1ec1779f3221073d680c366d079c7:-1534987090,33b1ec1766f32210f581d61aa98e08af:279187279,73b1ec17a3f3221037b668b9d3791e97:2093361648,33b1ec172ff322108edc023d7bb87773:-387431279,fbb1ec1713f322109cbbb411f491715b:1426743090,6fb1ec1793f32210580adf49c643dc2b:-1054049837,a3b1ec17ebf32210568d9f622f920a15:760124532,2fb1ac1794f322107230d18206962efe:-1720668395,ebb1ac1770f32210ed199aa95c7025e8:93505974,efb1ac175df32210094443b97da365d2:1907680343,53b1ac179af32210a5e48992014c9db1:-1130156499,dfb1ac1794f32210ca38511eb39a679b:684017870,93b1ac17e1f3221042617054aee2d987:-1796775057,9bb1ac1734f32210302e83fb2e47c972:17399312,c7b1ac17c1f32210ffa5839d4d005b5e:1831573681,4bb1ac17e8f322103cf6825291fb1d4a:-649219246,4bb1ac17c6f3221093ebc669c358612a:1164955123,47b1ac17f3f3221044dbbfb124c2fc17:-1315837804,cfb16c17a5f3221011bf6bcda69b98f7:498336565,47b16c170df32210f54177132ac2f6e5:-1982456362,32b16c170ff3221019d5c09a377b12d3:-725325908,32b16c17fef32210e966f670d6b5ccc1:1088848461,76b16c1789f32210b3cb3ca86d34fcaf:-1391944466,feb16c17dff322108b749a28a01f149d:422229903,beb16c17eff322103c6dbedf02fde08c:-2058563024,b2b16c17d5f322107a07a48eea27e37c:-244388655,eab16c179ff322100f36bc6e0861616b:1569785714,6ab16c173ef32210766f0b78d7e2e15b:-911007213,2eb16c17c1f32210724eba8e8a18614b:903167156,26b16c176ef3221079f081261b9d853c:-1577625771,aab16c1742f32210ab93d24e9e495620:-613144875,aeb12c17a3f32210cf9a37bc6e85e3f8:1201029494,d2b12c17aff32210c5efbdec7b4a3bea:-1279763433,d6b12c1762f322107f64ff946bcbb8d0:534410936,dab12c172df32210871a2659b0a3c9ba:-1946381991,9eb12c1729f32210a48c6e455deca8b0:-132207622,46b12c1735f32210e5611f021154f68e:1681966747,8eb12c172ef32210cc0512626c323e6d:-798826180,cab12c1757f322102932dd57e81d9d71:-2016093245,4ab12c175cf3221040ba1eddd1847466:-1189828557</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SQL Server Architecture with Site-to-Site VPN">6789e0dbc33722107e68b41ed40131b8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 12:07:15</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>765e4a4bc0cb4660918629bc58e54400</sys_id>
+        <sys_metadata>8ab1e817c3f322107e68b41ed40131da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SQL Server Architecture with Site-to-Site VPN</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent display_value="Clone Template Task">9a7fd028c37f22107e68b41ed40131af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_8ab1e817c3f322107e68b41ed40131da</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_8ab1e817c3f322107e68b41ed40131da">ef89e0dbc33722107e68b41ed40131b4</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 12:07:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
