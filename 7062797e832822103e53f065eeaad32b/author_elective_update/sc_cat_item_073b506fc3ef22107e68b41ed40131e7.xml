@@ -130,7 +130,7 @@
         <update_guid_history>99af9c2b70236210bfa8f57691a330bf:-218184768,99af9c2bca236210e695ab5a96e812ae:-1069925901,d5af9c2b4b2362107573c08ffa80aea2:-1530680636,59af9c2b8d236210c16ee9336109f197:173950211,d9af9c2b8e2362106de05508529b0b8c:1878581058,5daf9c2b402362104c89343b36a3e367:-1758774198,1daf9c2bed236210c8eabfc879fe8056:-54143351,573b906f76ef2210362410e741061545:1650487496,5f3b906fa9ef22103f81262713fb3c39:-939848953,db3b906ff5ef2210a9d5100b4ae8fc30:764781894,4f3b906fbbef22101077777f58f51827:-1825554555,c73b906f8fef2210e7d6e5b26069121e:-120923708,0f3b906fe2ef2210b65c9e1f2ac52b0a:1583707139,473b906febef221039fdcff1a2548a10:1418526484,cb3b906febef221066cb76d2180c2303:803546024</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS instance and DB with multiple networks">d5af9c2bc32362107e68b41ed40131c3</sys_audit_delete>
+        <sys_audit_delete display_value="">d5af9c2bc32362107e68b41ed40131c3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:45</sys_created_on>

@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>cf211df8a8bba210ef2f4768fcce4c13:741517068,f6211df839bba21019bac6241a6b5b01:-139417679,ba21d9f802bba2104e57d4ab908fefe7:-1611352610,3621d9f8d2bba210de2203d5b98718cf:202821759,be21d9f8a9bba2102feaaebd7b51bbb6:2016996128,3a21d9f89fbba21041ac039a8bef7984:-463796799,3e21d9f84abba21096df833620d1e972:1350377570,2221d9f855bba210eb0a447c06f88261:-1130415357,2621d9f872bba210357f5d9ba874624f:683759012,2e21d9f81ebba210c716426975f40e30:-1797033915,32ad01f4e77ba21061b22cf7f7d9d0d1:17140454,e6ad01f49f7ba210ffd0ec7456b2efc1:203683392,26ad01f4f37ba210f1ebbd5deb7d79b2:2017857761,16ad01f42e7ba210ee2c94cd824adea3:-462935166,9aad01f4177ba210bf47e944cfa95f95:1351239203,56ad01f4557ba21026808b55a515248c:-1129553724,96ad01f4237ba21008e8ca916acd3982:684620645,1aad01f4547ba210d896ce29291f2178:-1796172282,5aad01f4887ba210f8425867a8798164:18002087,9aad01f48a7ba2109009f81d13638851:-1482668,12ad01f41c7ba210685675028983a55d:-926692806</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Eventhub with Machine Learning">47211df8c3bba2107e68b41ed4013124</sys_audit_delete>
+        <sys_audit_delete display_value="">47211df8c3bba2107e68b41ed4013124</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:35:31</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>bfee0d078d3b22102f69bab92c87085f:-490176292</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="backup_policy_vm_freq">be0a5503c3bb22107e68b41ed401319d</sys_audit_delete>
+        <sys_audit_delete display_value="">be0a5503c3bb22107e68b41ed401319d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:00:38</sys_created_on>

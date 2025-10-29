@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>2371a59b65fb2210a42a5f4d4cab952e:564247238,6b71a59b07fb2210c63879364911441b:1184235320,2b71a59b4afb2210351c1a890667b20e:970488759,6f71a59b0afb22104de5858de3938302:-1510304168,a371659b89fb22106db2b4523fb97cf7:303870201,6771659b19fb22105c30b5ca35df28ea:-638206271,5771659bd8fb2210b41ccabc4c7c05d8:1175968098,c090ad97fffb2210191b9e7351321a81:-1304824829,cc90ad9752fb22107141eba71aadfd74:509349540,4090ad97e5fb221099c1633f2ed3085f:-1971443387,4490ad9741fb2210dc1f452380f86e3c:-157269018,0c90ad97eefb22107e99785f1d9e0219:1656905351,c090ad9789fb22106993eda6ae2d7112:-823887576,8490ad97ecfb2210a601abce9f5c3106:-1299601049,c4906d9737fb221093fa4103239166fe:1138647367</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Windows VM with NIC and Key vault">2371a59bc3fb22107e68b41ed4013132</sys_audit_delete>
+        <sys_audit_delete display_value="">2371a59bc3fb22107e68b41ed4013132</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:39</sys_created_on>

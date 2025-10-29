@@ -174,7 +174,7 @@
         <update_guid_history>046ec503a43b2210e060fe592efa39e3:810750470</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="hub_to_spoke_1_peering_name">873a5d43c3bb22107e68b41ed4013144</sys_audit_delete>
+        <sys_audit_delete display_value="">873a5d43c3bb22107e68b41ed4013144</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:01:27</sys_created_on>

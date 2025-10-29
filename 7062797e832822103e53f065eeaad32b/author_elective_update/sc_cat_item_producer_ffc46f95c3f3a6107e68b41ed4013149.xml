@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>d9bf67d9d237a61037e6f8c31bd80f3f:107334879,15bf67d94d37a610ca555fe93c12b42d:-372365924,51bf67d94f37a610da0ea5d57a3eac20:1079423557,d1bf67d96e37a6108b3df0c97fe77e14:-1401369370,55bf67d99837a6105b1da7042c0e3e08:412804999,45bf27d91c37a6101ee517ef1ed2d4fb:-2067987928,45bf27d9cf37a610db16b0658211eee8:-253813559,c1bf27d93437a61060310a30a28ffcca:1560360810,0dbf27d98a37a610d3da9a36f2cff8aa:-920432117,4dbf27d9ce37a61014cc13a1223db198:893742252,d0d4af9586f3a6102be3a6030e902b55:-1587050675,10d4af95aaf3a61069032a5a2270cf46:1927454379,94d4af950ff3a610f4de842206406b05:-553338548,c8d46f950df3a6109e0b45de7939bcf6:1260835821,84d46f95f4f3a6104c3fec6c503c4ce9:-1219957106,88d46f954bf3a61068dfea4b3e0533d3:594217263,88d46f95faf3a610d024c63f83840cc9:-1886575664,44d46f95e0f3a61097f60c3265e585b3:-72401295,c8d46f9508f3a61082e5f9abe5f26292:1741773074,fbc46f95b8f3a6104355aa301fb0a997:242501307,37c46f95d3f3a610ab0024172e98498b:1069508635</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Serverless">59bf67d9c337a6107e68b41ed4013143</sys_audit_delete>
+        <sys_audit_delete display_value="">59bf67d9c337a6107e68b41ed4013143</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 21:25:09</sys_created_on>

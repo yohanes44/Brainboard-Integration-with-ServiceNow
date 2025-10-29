@@ -174,7 +174,7 @@
         <update_guid_history>a80d2893a5b7221078490092d42d2b7f:-518723740</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="openai_sku">dea3a153c33f22107e68b41ed4013120</sys_audit_delete>
+        <sys_audit_delete display_value="">dea3a153c33f22107e68b41ed4013120</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:21:07</sys_created_on>

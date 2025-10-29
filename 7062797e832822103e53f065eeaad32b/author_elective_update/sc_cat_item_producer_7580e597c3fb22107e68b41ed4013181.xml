@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>3f546d975a3f22103ddd6e2ca7694932:1051433585,37546d97d13f2210a23b6eeed08d5320:-1908229599,fb546d97813f2210b2eafb1b229d9d06:-771331614,bb542d97e33f2210f48bff50ff8fa5d5:1042842755,bf542d97a33f22101c94649c35b771c9:-1437950172,33542d97373f2210debefb92998afebd:1476875370,af542d97ef3f2210e3c3e46e1611c8aa:-1003917557,ca802997a4fb22108863949c14aff6c4:810256812,028029970dfb221085baf073e5f3b7ab:-1670536115,c280299742fb2210fe9fa977ae7a7993:143638254,868029975bfb22109db319e0aa215889:1957812623,0680299756fb221016fa9b202f745c73:-522980304,4e802997d2fb2210cf108b199e8b3152:1291194065,c2802997abfb2210e486fa5e7d0ee857:1741742738,8a80299754fb2210584eefd5ca47454b:-342996114</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure AKS with log analytics">7f546d97c33f22107e68b41ed4013136</sys_audit_delete>
+        <sys_audit_delete display_value="">7f546d97c33f22107e68b41ed4013136</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:24:14</sys_created_on>

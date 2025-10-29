@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>e581a99bf8fb2210bb3ae488e084eb8e:30475441,2181a99b76fb22105c3704b8546ed67c:81062087,ed81a99b48fb2210f7761e5eeab0b16e:-1835597710,2581a99bf3fb2210a89e0b019a367f63:-21423341,6981a99b78fb221037c614ab7d219057:1792751028,2d81a99b22fb22104c5f896958c0894a:1697531088,5581a99bfbfb221082917672f344272c:-783261839,fc80a5970dfb2210b5c3b773e553e316:1030912530,b8806597a1fb22104dec0b4311a404fd:-1449880397,7480659713fb221017c29010d3ed6ff4:364293972,f880659724fb2210cad987b190513c9e:-17309662,70806597bafb2210110e8f8e9e33f2de:-2116498955,7880659742fb221015a1cc6db2256bbb:-302324586,b08065970bfb2210cedbe3f1e45faf9b:1511849783,7c806597cffb2210e4fbf5aee6402f93:1273911350</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS Bastion">e581a99bc3fb22107e68b41ed4013192</sys_audit_delete>
+        <sys_audit_delete display_value="">e581a99bc3fb22107e68b41ed4013192</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:47</sys_created_on>

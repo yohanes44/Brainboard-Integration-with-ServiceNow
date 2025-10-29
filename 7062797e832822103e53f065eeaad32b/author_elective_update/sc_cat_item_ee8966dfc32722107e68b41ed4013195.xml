@@ -130,7 +130,7 @@
         <update_guid_history>030ce2976b6722107ec524345c4c79d5:431893428,be0ce2970d6722103ef5b69291eb34c2:935307021,7e0ce297586722100e968644c81390b8:994945343,fa0ce297a2672210505c14dadf09cdad:-1595391106,3a0ce29798672210f0c5c42298f4bc9d:109239741,368966df5e272210d965cd7d46676de6:1813870588,7e8966df1b272210067a95aa29cbc4db:-776465861,7a8966dfac27221015cbaf84d950b7d2:928164986,668966df7327221003e2510d7261c6bd:-1662171463,228966dffe272210972071ba1f3a03b7:42459384,aa8966df442722104a446d4fda3806a6:-603791393,e28966df53272210ca3e1e41f943dea4:1903971785</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS RDS">4f0ce297c36722107e68b41ed40131d8</sys_audit_delete>
+        <sys_audit_delete display_value="">4f0ce297c36722107e68b41ed40131d8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:21:41</sys_created_on>

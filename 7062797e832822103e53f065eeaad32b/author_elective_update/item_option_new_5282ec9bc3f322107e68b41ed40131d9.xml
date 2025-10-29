@@ -174,7 +174,7 @@
         <update_guid_history>d282ec9b1cf32210dce716a83fd2a0f0:581034145</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="pep_kv_private_srv_connect_name">2e0b24d7c37722107e68b41ed4013150</sys_audit_delete>
+        <sys_audit_delete display_value="">2e0b24d7c37722107e68b41ed4013150</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:13:45</sys_created_on>

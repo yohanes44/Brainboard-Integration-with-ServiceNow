@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>5061295be1fb22104e403f4f4e79b426:1977534975,9861295b54fb22102510e33b3bd9f213:2064665049,5861295bc5fb2210b6ea83de1f7f8a06:-1211901626,9c61e55b10fb2210e2be22696b9b70fa:602272743,d061e55b42fb2210f26e856bd00bcbef:-1878520184,9461e55beefb2210ee5fecb4086381e2:-64345815,8461e55b4bfb221089cf628cc323f7d0:1638320963,1fb0611b9afb2210c0ef4064a19bf0f7:-842471964,ac70ed57a3fb22100e5a33b0dbce3302:-493719872,e870ad57ebfb2210ad99cc2202fab9dc:1320454497,5070ad5737fb2210b347b614c7922fae:-1160338430,5c70ad5798fb2210c34ef8fd1d3cdc97:653835939,9070ad5722fb2210d10775fe2945e48e:-1826956988,5870ad5742fb2210795e88f3060d3486:-12782619,9470ad57dffb2210a24c5ba8cbbae37a:506969788,5c70ad5701fb22106868e8cf76d2eb72:-479686610</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure DDoS Protection Plan">5061295bc3fb22107e68b41ed401312a</sys_audit_delete>
+        <sys_audit_delete display_value="">5061295bc3fb22107e68b41ed401312a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:10</sys_created_on>

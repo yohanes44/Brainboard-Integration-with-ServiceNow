@@ -130,7 +130,7 @@
         <update_guid_history>04961c6382ef22103882ec57ae6ef9b0:1603819372,44961c6399ef221031dac36c8389139f:-1559010735,f3861c63b8ef22104f9a3000cbf82093:1158459538,b7861c6392ef22102a7ba628cd680288:-929781206,f7861c63a9ef2210d081435d6beec57c:774849641,3b861c63d1ef2210474853969797146b:-1815486808,1c093a530de7221024c35aab5e34249f:-110855961,18093a5315e722107a646f5cd1cd3695:1593774886,18093a53a4e72210d848aa98bdcd548c:-996561563,9c093a5309e72210dccf6f0d25a82283:708069284,1c093a530ae7221096f79e0f75c8a264:-1882267165,00093a5368e722103d9a89437034ec5e:-1978236828,04093a53dde72210051eb40d98db396a:1452259428</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS ASG and LB with VPC &amp; subnets">40961c63c3ef22107e68b41ed40131b4</sys_audit_delete>
+        <sys_audit_delete display_value="">40961c63c3ef22107e68b41ed40131b4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:07:04</sys_created_on>

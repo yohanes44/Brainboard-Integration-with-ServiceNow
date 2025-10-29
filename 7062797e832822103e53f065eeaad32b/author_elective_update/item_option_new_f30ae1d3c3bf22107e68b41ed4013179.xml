@@ -174,7 +174,7 @@
         <update_guid_history>3b0ae1d3c1bf2210d2494026c4e0b38d:-947324153</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="availability_zones">93e33ad3c37762107e68b41ed40131ad</sys_audit_delete>
+        <sys_audit_delete display_value="">93e33ad3c37762107e68b41ed40131ad</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:11:49</sys_created_on>

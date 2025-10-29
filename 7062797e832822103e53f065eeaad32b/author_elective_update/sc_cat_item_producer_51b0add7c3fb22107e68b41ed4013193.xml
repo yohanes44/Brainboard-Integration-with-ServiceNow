@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>2d61a95baefb22109a679f7dff20f42a:-925680715,6561a95b97fb22101e42e8e908519118:800739459,5d61695b87fb2210a69c3fcbd69442fe:-251643226,9161695b9afb221026aaf439d95114f3:1562531143,d561695bacfb22106f4fe889c4d479e7:-918261784,d161695bcdfb2210a7aa62755a6373ce:-1748790900,d161695bf9fb221001c708469d7692bc:65383469,a9b0edd730fb2210a8396ef13765a24b:1879557838,e5b0edd730fb22105ee3d49967ccb525:-601235089,e9b0edd724fb2210bfd0ff9c5d9e240f:1212939280,9db0edd773fb22100030b1db24b72705:-1267853647,d1b0add700fb2210444b1c7b2f9ee3fc:546320722,19b0add78efb2210aa8ef5adb2de3df4:-1934472205,d1b0add79ffb2210dd0c6910e8e747e2:-443470250,d1b0add7e4fb2210384cdca555578fed:-690667432</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Key Vault Architecture">2d61a95bc3fb22107e68b41ed401312e</sys_audit_delete>
+        <sys_audit_delete display_value="">2d61a95bc3fb22107e68b41ed401312e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:14</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>172a611741bf221028497945ed2344dc:474826671</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="wildcard_certificate_password">3123fa1fc33762107e68b41ed40131cc</sys_audit_delete>
+        <sys_audit_delete display_value="">3123fa1fc33762107e68b41ed40131cc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:08:26</sys_created_on>

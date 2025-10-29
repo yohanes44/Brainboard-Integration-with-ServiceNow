@@ -174,7 +174,7 @@
         <update_guid_history>f05ee81f36b72210ae3bde7810a37d4b:916154182</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="function_app_storage_account">f044ed57c33f22107e68b41ed401313d</sys_audit_delete>
+        <sys_audit_delete display_value="">f044ed57c33f22107e68b41ed401313d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:23:44</sys_created_on>

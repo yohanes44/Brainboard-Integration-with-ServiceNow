@@ -174,7 +174,7 @@
         <update_guid_history>5569619f5f7f221066ebf5baf20052ae:-433528971</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="azure_computer_name">38c37293c37762107e68b41ed401315a</sys_audit_delete>
+        <sys_audit_delete display_value="">38c37293c37762107e68b41ed401315a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:11:05</sys_created_on>

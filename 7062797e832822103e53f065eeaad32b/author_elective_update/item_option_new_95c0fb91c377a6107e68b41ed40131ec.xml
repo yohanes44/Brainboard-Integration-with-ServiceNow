@@ -174,7 +174,7 @@
         <update_guid_history>5dc0fb91a777a610af15416d17810ffe:712899813</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="rds_master_password">ac138b79c33322107e68b41ed401314a</sys_audit_delete>
+        <sys_audit_delete display_value="">ac138b79c33322107e68b41ed401314a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-06 07:27:05</sys_created_on>

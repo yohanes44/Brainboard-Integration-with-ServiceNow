@@ -174,7 +174,7 @@
         <update_guid_history>3580f3518577a610d88618611a123b37:1850433278</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="beanstalk_env_name">81a2c3b5c33322107e68b41ed4013178</sys_audit_delete>
+        <sys_audit_delete display_value="">81a2c3b5c33322107e68b41ed4013178</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-06 07:25:12</sys_created_on>

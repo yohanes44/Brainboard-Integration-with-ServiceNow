@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>8561695b00fb2210bed1df400485207a:1079162869,cd61695b21fb22102269a78d2f790667:-1746948797,8d61695ba3fb2210a11d0610f7ee755a:849576636,c161695bebfb221037f1b3b71eeae44f:-1631216291,0961695b39fb2210757e0a9cf3827343:182958078,c961695b5bfb2210dcc92a1fc0ebef36:1997132447,0561695b3cfb22104285e545068eaf18:-1891320019,3290e1d7f6fb22105f205e3b60a799f5:-77145650,9d80a597dafb2210a25a30a8e9f2d2f3:1351098004,5980a597d7fb2210c215f578a5ab24e6:-1129694923,5d80a5972ffb2210665c93064240a9d0:684479446,5980a59736fb22105683591e923ea7ba:-1796313481,9d80a59726fb22103f7d4b1c9c7fa6b0:17860888,9d80a597f5fb2210ba56adf43ef5439c:1832035257,0180a5970afb2210b197b10d0e3f038b:-525238904,8180a597eafb22108e1fa3e57f375689:1850302638</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure CAF identity module ">9561695bc3fb22107e68b41ed401317e</sys_audit_delete>
+        <sys_audit_delete display_value="">9561695bc3fb22107e68b41ed401317e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:13</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>78f42fd53ff3a6107c7be0fca854b12a:170944876</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="backend_address_pool_name">718f6f59c337a6107e68b41ed4013131</sys_audit_delete>
+        <sys_audit_delete display_value="">718f6f59c337a6107e68b41ed4013131</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 21:24:21</sys_created_on>

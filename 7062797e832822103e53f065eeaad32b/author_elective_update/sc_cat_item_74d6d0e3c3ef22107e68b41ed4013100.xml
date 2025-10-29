@@ -130,7 +130,7 @@
         <update_guid_history>802b582f06ef2210b92bc95a8a108542:-928782077,042b582fb2ef2210d862ca1333518418:1710443060,402b582f20ef2210dbea245ff0b3770c:-1949965233,0c2b182f8def2210b47473d2857dfcf4:-245334386,8c2b182fb6ef22107225f6cd8cf9f7e9:1459296461,8c2b182f58ef2210210a1471560a19dd:-907742645,4c2b182f10ef2210a04454e98ec915cc:796888202,49d6d0e387ef2210809c2aafb3fb7059:-1793448247,34d6d0e3d1ef2210e9f6e61c3613fe4e:-88817400,fcd6d0e3f6ef2210947ed15a2534fd45:1615813447,70d6d0e34fef2210f20cf5c8ece1b43d:-974523002,34d6d0e35bef221097e7486582349134:730107845,b4d6d0e351ef221060aad9c2e8a3c121:-1860228604,34d6d0e3f2ef2210e22e431afb0ffa25:1402941343,30d6d0e342ef2210f761b3082aac2a1b:-2019828215</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS RDS">842b582fc3ef22107e68b41ed4013152</sys_audit_delete>
+        <sys_audit_delete display_value="">842b582fc3ef22107e68b41ed4013152</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:27:01</sys_created_on>

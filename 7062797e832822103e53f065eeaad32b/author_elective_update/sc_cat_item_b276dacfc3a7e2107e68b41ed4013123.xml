@@ -130,7 +130,7 @@
         <update_guid_history>fc58961f57a32210d19fabe00ad62930:1993829358,8776dacfd5a7e210505bc8d8c9b05898:1019818747,0f76dacfe7a7e21015bf314c390f2a8b:-1570517702,8376dacf5ea7e210deb836d1a88cce83:134113145,c776dacfbea7e210f27f85e123e7976d:1838743992,7e76dacf47a7e210caf60185f13c1a57:-751592457,3276dacf8ea7e21083a96e7b5d4f0051:953038390,7a76dacfffa7e21095a83fbe6717c945:744039263,ba76dacfd8a7e2105bb0ee325c3bc931:1511578889</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="GCP cloud CDN &amp; Load balancer">f858961fc3a322107e68b41ed401310e</sys_audit_delete>
+        <sys_audit_delete display_value="">f858961fc3a322107e68b41ed401310e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 09:55:32</sys_created_on>

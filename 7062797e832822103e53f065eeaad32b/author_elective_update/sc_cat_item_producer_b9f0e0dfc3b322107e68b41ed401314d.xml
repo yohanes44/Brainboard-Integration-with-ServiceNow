@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>7df9289f553722107d3568831f111673:-1469573235,65f9289f77372210e8819ee813005961:783094648,e1f9289fcc372210636f33be0bf07a54:88316083,e5f9289fdc372210055bc59f5564c948:1902490452,e9f9289fec372210f64811e398d2003c:-578302475,6df9289f0d372210c7a36bd0ea0b8f2f:1235871894,a9f9289f863722108e88b0af282a9911:-1244921033,6df9e49f5837221092022ece2553aae5:569253336,11f9e49f8f372210a5eb50180a86b6ba:-1911539591,9df9e49f5937221074578646812b618d:-97365222,4ef0e0df6eb3221061cf95869b28a0db:1716809147,8af0e0dfd2b3221080b4e2b041b01ccc:84194631,0ef0e0dfd6b32210036588b4ffad36bd:1898369000,42f0e0dfdcb3221032b68b4cbefdffaf:-582423927,0ef0e0dfe0b3221075f837bc89bd1fa1:1231750442,f5f0e0dfbab32210af88e9f262f98f98:-1249042485,b9f0e0dfc4b3221073eacd6f1b12c78e:565131884,fdf0e0dfb4b322108742018ab6b82284:-1915661043,b5f0e0dfecb322108a554bfcb8de847d:-101486674,3df0e0df8bb322109609c5b75afe3d63:-2085703639,f1f0e0df9bb322105149e9f809ed905d:-343559151</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Virtual Machine with multiple disks (for_each)">bdf9289fc33722107e68b41ed4013177</sys_audit_delete>
+        <sys_audit_delete display_value="">bdf9289fc33722107e68b41ed4013177</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:09:02</sys_created_on>

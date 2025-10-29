@@ -29,19 +29,19 @@
         <source>b1272911c31022107e68b41ed40131ef</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-03-14 11:48:46</sys_created_on>
         <sys_id>c5bad547c3bb22107e68b41ed4013131</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>195947c41300000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:47:04</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>85bad54737bb2210e7f1d6c34893b731</update_guid>
         <update_guid_history>85bad54737bb2210e7f1d6c34893b731:969806918</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="[Training] AWS onboarding.SNC External">4dbad547c3bb22107e68b41ed4013131</sys_audit_delete>
+        <sys_audit_delete display_value="">4dbad547c3bb22107e68b41ed4013131</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:03:30</sys_created_on>

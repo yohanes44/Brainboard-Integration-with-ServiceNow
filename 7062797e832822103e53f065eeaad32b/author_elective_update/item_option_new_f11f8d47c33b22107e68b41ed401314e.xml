@@ -174,7 +174,7 @@
         <update_guid_history>f51f8d47ac3b22107cb9850f2b4af55e:-882064948</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="azure_tenant_id">70a9d14fc37b22107e68b41ed4013138</sys_audit_delete>
+        <sys_audit_delete display_value="">70a9d14fc37b22107e68b41ed4013138</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 20:58:51</sys_created_on>

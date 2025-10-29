@@ -130,7 +130,7 @@
         <update_guid_history>64b8b6df6ca72210583b6cc6a7c6be78:1409528457,98b8b6df07a722103a0ed24d28f7b058:2125726862,9cb8b6dfcba72210490082e697fc3c4d:-464609587,10b8b6df98a72210a57ad56230733942:-305967043,58b8b6dfc1a722102dc75f6f8d75cd24:1398663804,5f287a5f4ba722108b30da9997a9fe10:-1191672645,d12f6e9fc46722107dfb78bcbb6ba53f:1308624548,dd2f6e9f356722100494d42efdc34b34:-1281711901,dd2f6e9ffb67221067d4b9dceb946c2b:422918946,552f6e9fa86722106f3598619331b523:2127549793,892f6e9fe56722108d50dd7bd7de0610:-462786656,4d2f6e9f3c672210186fe624f6d9d716:446177845,052f6e9f1f67221036751b0711392b0a:-192392929</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Serverless">a0b8b6dfc3a722107e68b41ed401317c</sys_audit_delete>
+        <sys_audit_delete display_value="">a0b8b6dfc3a722107e68b41ed401317c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:16:57</sys_created_on>

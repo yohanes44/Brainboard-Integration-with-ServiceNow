@@ -130,7 +130,7 @@
         <update_guid_history>10ceea1fef6722109493aa38348e4144:-312348038,d4ceea1fda6722104f606c4a7042b625:1929329389,94ceea1f586722106042a7addb7fa11b:1554243669,d4ceea1f5d672210998cc5738119130f:-1036092780,14ceaa1fb7672210ea2450fac94e8fff:668538067,9f2c6e97c66722109b28376f3687c097:-1921798382,5b2c6e9780672210bf49468237425e8d:-217167535,972c6e97a767221010e7c2d83c8b9184:1487463312,932c6e9724672210889432c6c9934b6f:-1102873137,9b2c6e97e56722100721fc3ebb02f268:601757710,9b2c6e972f6722104e3a40e6fd7ab95c:227363519,5f2c6e979c6722105a0744ea9ecbd955:1137462249</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure architecture template">5cceea1fc36722107e68b41ed4013147</sys_audit_delete>
+        <sys_audit_delete display_value="">5cceea1fc36722107e68b41ed4013147</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:33:31</sys_created_on>

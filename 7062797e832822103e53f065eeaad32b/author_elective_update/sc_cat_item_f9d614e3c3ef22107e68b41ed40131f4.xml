@@ -130,7 +130,7 @@
         <update_guid_history>350b1ceb55ef2210e18a8adcaaf461e2:-1791625233,b50b1cebb2ef2210039fd3585f9d8fb8:-1402333600,e10b1ceb24ef221089e0dcfcaba40fac:-1045213511,650b1ceb6bef22105b5c75ff680573a1:659417336,e50b1ceb80ef221072c98d3401ede296:-1930919113,e50b1ceb0cef2210eeddadf96fc6cd8a:-8457289,a50b1cebe2ef22103387c8a2d51b7479:1696173558,7dd654e384ef2210db762a22ffbbb366:-894162891,39d654e3b9ef2210ddd161d4dade585b:810467956,f1d654e3e7ef221092162db36adadf53:-1779868493,75d654e314ef2210fcd6c90c154ce94a:-75237646,b9d654e3beef22106d3eea1a69b46628:1629393201,f1d654e3bbef2210bd2eb3567421b522:-960943248,3dd654e3fbef22108ce8187ea794ae16:1895534345,fdd654e302ef221005bf674dff5c0802:-1508427405</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS costs monitoring">710b1cebc3ef22107e68b41ed40131e6</sys_audit_delete>
+        <sys_audit_delete display_value="">710b1cebc3ef22107e68b41ed40131e6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:35</sys_created_on>

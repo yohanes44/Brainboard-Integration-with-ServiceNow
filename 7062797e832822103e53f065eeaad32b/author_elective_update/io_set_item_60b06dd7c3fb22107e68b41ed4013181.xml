@@ -42,7 +42,7 @@
         <update_guid_history>6cb06dd759fb2210100f708bc78be689:2076554800</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Project &amp; Environment.Kubernetes provider with AKS">3961a95bc3fb22107e68b41ed4013183</sys_audit_delete>
+        <sys_audit_delete display_value="">3961a95bc3fb22107e68b41ed4013183</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:15</sys_created_on>

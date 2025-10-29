@@ -42,7 +42,7 @@
         <update_guid_history>dd597379fab72210f71d703c36d56e21:-1156031024</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Project &amp; Environment.AWS Kubernetes cluster with native CNIs">31fb1d0fc3bb22107e68b41ed40131e1</sys_audit_delete>
+        <sys_audit_delete display_value="">31fb1d0fc3bb22107e68b41ed40131e1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:09:01</sys_created_on>

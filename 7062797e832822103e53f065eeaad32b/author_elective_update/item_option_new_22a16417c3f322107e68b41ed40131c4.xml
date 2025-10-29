@@ -174,7 +174,7 @@
         <update_guid_history>faa16417eff32210015b6b31b0fe70e5:1230545169</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="blue_vpn_pip_name">e4e96c5fc33722107e68b41ed4013150</sys_audit_delete>
+        <sys_audit_delete display_value="">e4e96c5fc33722107e68b41ed4013150</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:08:41</sys_created_on>

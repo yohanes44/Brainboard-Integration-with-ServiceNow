@@ -174,7 +174,7 @@
         <update_guid_history>774a989799732210b14f0b45c82a6707:502799590</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="aks_cluster_name">5f2e1013c3b322107e68b41ed4013114</sys_audit_delete>
+        <sys_audit_delete display_value="">5f2e1013c3b322107e68b41ed4013114</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:17:32</sys_created_on>

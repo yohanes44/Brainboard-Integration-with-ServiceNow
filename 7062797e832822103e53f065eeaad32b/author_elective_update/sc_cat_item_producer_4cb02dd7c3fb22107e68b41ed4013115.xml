@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>d8a4ad1bdd3f22106e1e56f1122fc1bb:-95888665,d0a4ad1ba83f22105fdb2a22c97907a9:1256431545,50a4ad1b403f2210c17a6c68fd81239c:1590887768,54a4ad1be13f2210fffef9babf477b90:-889905159,58a4ad1b8a3f2210bbd97992d9c4e984:924269210,d8a4ad1bca3f2210bde70b5208a4e277:1322904386,58a4ad1b103f2210b295d2ea8149de65:-1157888541,5cb06dd7b0fb2210743c9c0c821dcd31:656285828,18b06dd79cfb22104415c41484664c24:-1824507099,54b06dd710fb2210a996d6c73e3ec802:-10332730,50b02dd7b9fb22104da703732dc2f7ec:1803841639,84b02dd729fb2210ebae8df1ef5512e2:-676951288,c8b02dd7c2fb2210166c6edf031593da:1137223081,ccb02dd7a9fb2210a027f12ead85fcbe:1475109640,88b02dd70afb221046400a72f16ecbba:1542401254</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Cross account AWS S3">2ca4ad1bc33f22107e68b41ed40131bf</sys_audit_delete>
+        <sys_audit_delete display_value="">2ca4ad1bc33f22107e68b41ed40131bf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:25:22</sys_created_on>

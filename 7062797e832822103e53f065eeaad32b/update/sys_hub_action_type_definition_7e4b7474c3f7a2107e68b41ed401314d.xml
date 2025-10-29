@@ -18,6 +18,7 @@
         <internal_name>test_1</internal_name>
         <label_cache>[]</label_cache>
         <master_snapshot>f21c78f4c3f7a2107e68b41ed40131cd</master_snapshot>
+        <master_snapshot_digest/>
         <name>Test 1</name>
         <natlang/>
         <outputs/>
@@ -29,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7e4b7474c3f7a2107e68b41ed401314d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Test 1</sys_name>
         <sys_overrides/>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
@@ -37,7 +38,7 @@
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_7e4b7474c3f7a2107e68b41ed401314d</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
-        <sys_updated_on>2025-09-02 19:03:29</sys_updated_on>
+        <sys_updated_on>2025-10-29 09:21:30</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -136,7 +137,6 @@ utility.createCatalogItem("24ef146bc32362107e68b41ed40131f8", "29b0a0afc32362107
     <sys_hub_step_ext_input action="delete_multiple" query="model=691c38f4c3f7a2107e68b41ed40131e5"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=691c38f4c3f7a2107e68b41ed40131e5"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=691c38f4c3f7a2107e68b41ed40131e5"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_691c38f4c3f7a2107e68b41ed40131e5"/>
     <sys_hub_action_input action="delete_multiple" query="model=7e4b7474c3f7a2107e68b41ed401314d"/>
     <sys_hub_action_output action="delete_multiple" query="model=7e4b7474c3f7a2107e68b41ed401314d^sys_idNOT IN211c78f4c3f7a2107e68b41ed401310b,611c78f4c3f7a2107e68b41ed4013113"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -325,9 +325,7 @@ utility.createCatalogItem("24ef146bc32362107e68b41ed40131f8", "29b0a0afc32362107
         <sys_updated_on>2025-09-02 19:03:24</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a51c78f4c3f7a2107e68b41ed4013136"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_7e4b7474c3f7a2107e68b41ed401314d"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_7e4b7474c3f7a2107e68b41ed401314d"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_7e4b7474c3f7a2107e68b41ed401314d^sys_idNOT INa91c78f4c3f7a2107e68b41ed4013131,ed1c78f4c3f7a2107e68b41ed4013111"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>
@@ -341,11 +339,11 @@ utility.createCatalogItem("24ef146bc32362107e68b41ed40131f8", "29b0a0afc32362107
         <sys_created_on>2025-09-02 19:03:24</sys_created_on>
         <sys_id>a91c78f4c3f7a2107e68b41ed4013131</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7e4b7474c3f7a2107e68b41ed401314d___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-09-02 19:03:24</sys_updated_on>
         <url/>
@@ -364,11 +362,11 @@ utility.createCatalogItem("24ef146bc32362107e68b41ed40131f8", "29b0a0afc32362107
         <sys_created_on>2025-09-02 19:03:24</sys_created_on>
         <sys_id>ed1c78f4c3f7a2107e68b41ed4013111</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7e4b7474c3f7a2107e68b41ed401314d___action_status___en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-09-02 19:03:24</sys_updated_on>
         <url/>
@@ -525,7 +523,6 @@ utility.createCatalogItem("24ef146bc32362107e68b41ed40131f8", "29b0a0afc32362107
     <sys_hub_step_ext_input action="delete_multiple" query="model=361c78f4c3f7a2107e68b41ed40131d2"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=361c78f4c3f7a2107e68b41ed40131d2"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=361c78f4c3f7a2107e68b41ed40131d2"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_361c78f4c3f7a2107e68b41ed40131d2"/>
     <sys_hub_action_input action="delete_multiple" query="model=f21c78f4c3f7a2107e68b41ed40131cd"/>
     <sys_hub_action_output action="delete_multiple" query="model=f21c78f4c3f7a2107e68b41ed40131cd^sys_idNOT IN361c78f4c3f7a2107e68b41ed40131db,3e1c78f4c3f7a2107e68b41ed40131df"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -714,9 +711,7 @@ utility.createCatalogItem("24ef146bc32362107e68b41ed40131f8", "29b0a0afc32362107
         <sys_updated_on>2025-09-02 19:03:29</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=761c78f4c3f7a2107e68b41ed40131e9"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f21c78f4c3f7a2107e68b41ed40131cd"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_f21c78f4c3f7a2107e68b41ed40131cd"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_f21c78f4c3f7a2107e68b41ed40131cd^sys_idNOT INba1c78f4c3f7a2107e68b41ed40131e4,fe1c78f4c3f7a2107e68b41ed40131de"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>
@@ -730,11 +725,11 @@ utility.createCatalogItem("24ef146bc32362107e68b41ed40131f8", "29b0a0afc32362107
         <sys_created_on>2025-09-02 19:03:29</sys_created_on>
         <sys_id>ba1c78f4c3f7a2107e68b41ed40131e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f21c78f4c3f7a2107e68b41ed40131cd___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-09-02 19:03:29</sys_updated_on>
         <url/>
@@ -753,11 +748,11 @@ utility.createCatalogItem("24ef146bc32362107e68b41ed40131f8", "29b0a0afc32362107
         <sys_created_on>2025-09-02 19:03:29</sys_created_on>
         <sys_id>fe1c78f4c3f7a2107e68b41ed40131de</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f21c78f4c3f7a2107e68b41ed40131cd___action_status___en</sys_update_name>
         <sys_updated_by>yohanes.yilma</sys_updated_by>
         <sys_updated_on>2025-09-02 19:03:29</sys_updated_on>
         <url/>

@@ -130,7 +130,7 @@
         <update_guid_history>5776d06352ef2210909614f59f7be65f:1598987940,9776d063c8ef22103e3b00f79e52734e:623886837,0776d063aeef2210412c734f75815542:515117400,c776d06329ef2210fcf550fe7ed65237:889911438,0b76d06348ef2210587fc1f1a0a5a92b:-1700425011,8376d0633fef22102829bf6e13dd360e:4205836,b9197693a7e722100329bbdfc5566b67:1708836683,b5197693a3e72210c5b946c44430285d:-881499766,ed1976939ce7221074d2ed5b85576e47:823131081,651976930ae722103513028abe85b03f:-1767205368,a9197693c2e72210f259308bbf03f02c:-62574521,ad197693e6e7221080d5c8d3eee53a25:-224354146,651976937ae72210c1b6165980cbc531:-1901677526</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS parallel cluster">9376d063c3ef22107e68b41ed4013163</sys_audit_delete>
+        <sys_audit_delete display_value="">9376d063c3ef22107e68b41ed4013163</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:06:44</sys_created_on>

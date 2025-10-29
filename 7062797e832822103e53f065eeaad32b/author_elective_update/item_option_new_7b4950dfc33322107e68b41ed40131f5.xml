@@ -174,7 +174,7 @@
         <update_guid_history>b34990dfb4332210ec5a2ad142368d10:-62017609</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="enable_vm_insights">ac6e9853c3b322107e68b41ed4013107</sys_audit_delete>
+        <sys_audit_delete display_value="">ac6e9853c3b322107e68b41ed4013107</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:18:26</sys_created_on>

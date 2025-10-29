@@ -130,7 +130,7 @@
         <update_guid_history>9766d82321ef2210cb312b54dbfe6b53:774387259,d766d82328ef2210f67cef8cc569ec42:2030536280,9f66d82340ef221004d9972538226729:-239821763,c366d823bcef22103b8b48ca4acb9c06:814616497,07669823bbef2210c67c1290adda81fa:-1775719952,4766982315ef221096ed9eafa10bcae9:-71089105,91193693d3e72210aeea91a6b59ae30b:1633541742,c519f293f7e722106d06874352ee98f4:-956794707,0119f29392e7221001462b2e3c1b67df:747836140,8519f2936fe7221079bbd55af31415d6:-1842500309,c919f293f5e72210833721c7062a08c3:-137869462,8919f2937ee72210efa81775327296c8:-521770481,c119f293c3e72210eab6da593e8dd1bd:-499466747</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure CAF identity module ">d366d823c3ef22107e68b41ed4013157</sys_audit_delete>
+        <sys_audit_delete display_value="">d366d823c3ef22107e68b41ed4013157</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:06:28</sys_created_on>

@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>5181699b99fb22102a527b19b6f536de:-671033055,9981699b4cfb2210341d50b8e23711cb:243603903,9181699b3efb22104ad1ecbe36f4a7b2:-307453270,d581699b09fb22101336e495ad6648a6:1506721099,0d81699b1cfb22106fadb770b3ee569a:-974071828,cd81699bf0fb2210cff18dbff8696e8d:1020669384,cd81699b41fb2210094a72501b75d07b:-1460123543,639065d76ffb22106cc7474f1f819c57:354050826,679065d7fcfb22102bf5088c3d236c3d:-2126742101,239065d71afb2210ff2f2019aef0ad34:-312567732,e39065d75cfb22108c8cd1cbfbb6472a:1501606637,2b9065d7edfb2210ec30e865751dd720:-979186290,a79065d71dfb2210242d207ec097f20c:834988079,6f9065d7adfb221025603024166cde11:924344922,639065d725fb221018a31428127beb05:-186867230</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure AKS Baseline Cluster with hub and spoke">dd81699bc3fb22107e68b41ed40131fa</sys_audit_delete>
+        <sys_audit_delete display_value="">dd81699bc3fb22107e68b41ed40131fa</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:46</sys_created_on>

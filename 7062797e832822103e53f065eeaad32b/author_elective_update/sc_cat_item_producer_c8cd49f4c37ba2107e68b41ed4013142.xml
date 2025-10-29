@@ -167,7 +167,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>241111f829bba210fcde5905769b834b:-1540091138,2c1111f8dfbba21058757b91f28ff638:-1256423846,dc1111f8ccbba210c2063af531c0961e:-315032677,101111f89abba210e4aecf0bbd9b2f13:942097777,9811ddb857bba210d02fbcd20e4645fa:-1538695150,5811ddb8bfbba2104f558e24cfe59eed:275479219,dc11ddb823bba2100555b223ac5254c2:2089653588,d011ddb8a9bba210e8cdcff216539eb1:-391139339,1011ddb8c4bba210df7c585120e20c93:1423035030,4011ddb860bba21082b78e373d2d2343:-1057757897,0011ddb877bba21073d4f46965c9a631:756416472,74cd49f4f07ba2103330caf815457cfb:-1724376455,28cd49f4cb7ba210e4f64290a3aeeaeb:89797914,20cd49f48b7ba210f177db10c61697dc:1424010464,a4cd49f4aa7ba2105d58a6ada099c0c0:-1056782463,dccd49f4887ba21043d6c1ba1fe44ba4:757391906,54cd49f4017ba210bb591f0f23f07a97:-1723401021,10cd49f45d7ba210c3709f2668f1e78e:90773348,50cd49f4787ba2106dab9e462b083284:1904947717,1ccd49f49d7ba2107e31abe63ca82c6d:-575845210,14cd49f4387ba2107aced26510839166:1238329159,00cd49f4db7ba2108a78686a3bbba75b:-2045593464,04cd49f42c7ba210b5bc2dac3f279e52:-1157309230</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS load balancer with target group">e01111f8c3bba2107e68b41ed401314f</sys_audit_delete>
+        <sys_audit_delete display_value="">e01111f8c3bba2107e68b41ed401314f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:35:05</sys_created_on>

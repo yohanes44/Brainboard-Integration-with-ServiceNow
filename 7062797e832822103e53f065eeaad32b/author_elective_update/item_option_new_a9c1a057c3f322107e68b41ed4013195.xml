@@ -174,7 +174,7 @@
         <update_guid_history>2dc1a0573cf322103f697f4fe01eb3bf:-1651155498</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="on_prem_local_gateway_name">828920dbc33722107e68b41ed401318a</sys_audit_delete>
+        <sys_audit_delete display_value="">828920dbc33722107e68b41ed401318a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:07:09</sys_created_on>

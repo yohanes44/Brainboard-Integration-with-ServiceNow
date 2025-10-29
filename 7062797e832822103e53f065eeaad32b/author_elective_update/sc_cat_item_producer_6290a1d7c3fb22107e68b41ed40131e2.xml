@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>df71659b2ffb22102846c0d47e8059a2:-2009869619,1b71659b18fb2210d2fc5f73359dd390:-1785693683,d771659bc9fb22108a31830e7a1a6683:1281717994,0f71659becfb22108dea69e808d9b877:-1199074933,4371659bccfb221097306333f098036c:615099436,0771659b21fb22106338b3b10982c35f:2029017814,0771659bf6fb22103609ff6841f8254d:-451775113,f290e1d700fb2210b0d1d710e9cbbbda:1362399256,f690e1d739fb221036d753a30ff348c0:-1118393671,b290e1d78dfb2210801be50ce2c75eb7:695780698,7a90e1d7adfb2210bc21ca0d32dd939f:-1785012229,f690e1d793fb2210d79320f03a078689:29162140,be90e1d7a6fb221000a9782ca3b2aa68:1843336509,a690e1d7cdfb22101082c7fe855e7e77:1400326554,6a90e1d72efb2210eb64ae3583be6a61:161289858</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure storage account">df71659bc3fb22107e68b41ed40131a6</sys_audit_delete>
+        <sys_audit_delete display_value="">df71659bc3fb22107e68b41ed40131a6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:38</sys_created_on>

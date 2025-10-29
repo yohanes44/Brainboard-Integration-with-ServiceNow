@@ -174,7 +174,7 @@
         <update_guid_history>f75ec503fd3b221089751b883e15ed01:-1728235428</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="vpn_gateway_sku">404add43c3bb22107e68b41ed40131a6</sys_audit_delete>
+        <sys_audit_delete display_value="">404add43c3bb22107e68b41ed40131a6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:01:32</sys_created_on>

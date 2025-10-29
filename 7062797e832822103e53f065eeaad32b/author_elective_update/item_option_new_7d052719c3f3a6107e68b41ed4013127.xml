@@ -174,7 +174,7 @@
         <update_guid_history>3d052719dff3a61053667e7fef83b037:1888417733</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="adf_name">2bcf631dc337a6107e68b41ed40131e1</sys_audit_delete>
+        <sys_audit_delete display_value="">2bcf631dc337a6107e68b41ed40131e1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 21:25:34</sys_created_on>

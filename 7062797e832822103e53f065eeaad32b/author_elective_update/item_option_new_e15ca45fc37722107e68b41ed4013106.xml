@@ -174,7 +174,7 @@
         <update_guid_history>2d5ca45f4a7722103986d7c97084a120:524725122</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="spoke1_default_subnet_prefix">ec076913c37f22107e68b41ed40131bf</sys_audit_delete>
+        <sys_audit_delete display_value="">ec076913c37f22107e68b41ed40131bf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:35:45</sys_created_on>

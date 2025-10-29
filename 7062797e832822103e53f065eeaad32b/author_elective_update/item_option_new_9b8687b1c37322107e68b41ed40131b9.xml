@@ -174,7 +174,7 @@
         <update_guid_history>978687b1dd7322102dfedd6be27f3ec7:-961361223</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="private_subnet_cidr">fb45fb79c37722107e68b41ed401314a</sys_audit_delete>
+        <sys_audit_delete display_value="">fb45fb79c37722107e68b41ed401314a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-06 11:06:35</sys_created_on>

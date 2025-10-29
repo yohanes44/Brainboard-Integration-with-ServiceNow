@@ -174,7 +174,7 @@
         <update_guid_history>9423e4dfe6f322102a2538f7d98e9b1f:1226690058</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="service_bus_sku">42aaa017c37722107e68b41ed4013114</sys_audit_delete>
+        <sys_audit_delete display_value="">42aaa017c37722107e68b41ed4013114</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:12:03</sys_created_on>

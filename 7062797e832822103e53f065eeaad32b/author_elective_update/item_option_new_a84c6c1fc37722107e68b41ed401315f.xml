@@ -174,7 +174,7 @@
         <update_guid_history>ec4c6c1f06772210f0d89be841d1c88f:-713951990</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="recovery_vault_name">8f27ad53c37f22107e68b41ed40131a6</sys_audit_delete>
+        <sys_audit_delete display_value="">8f27ad53c37f22107e68b41ed40131a6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:36:28</sys_created_on>

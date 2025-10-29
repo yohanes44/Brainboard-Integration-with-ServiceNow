@@ -174,7 +174,7 @@
         <update_guid_history>a6b1eddb08fb2210b9340c2f97c01eb4:138616441</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="kv_sku">00c36d53c33f22107e68b41ed4013196</sys_audit_delete>
+        <sys_audit_delete display_value="">00c36d53c33f22107e68b41ed4013196</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:21:31</sys_created_on>

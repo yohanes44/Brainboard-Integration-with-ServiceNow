@@ -130,7 +130,7 @@
         <update_guid_history>1d8fdce7ed236210fcb4d2b788c13337:350073703,998fdce74c23621086408c0e20f8ca0d:-376185808,d58f9ce7882362103e7a59c366af30e8:-1507944639,c58f9ce7ad23621035455d6ec974bfdd:196686208,c58f9ce7732362102b13014756256ad2:1901317055,458f9ce78b23621048fc5d3f0aa1d0c6:645330567,818f9ce775236210f8bd0fd5321a97b5:-1945005882,de5bdc6f05ef22105581c9a3c7baf99c:-240375035,9a5bdc6fadef2210a6be6f8bc637af91:1464255812,5a5bdc6fb2ef22103547c8ac52b97957:-1126080637,da5bdc6fe0ef221078851b5a2bfa964e:578550210,9e5bdc6fd3ef2210df252e2397f3ef45:-2011786239,165bdc6fcaef2210dc76c725e3f9fe3f:-307155392,d65bdc6ff3ef2210360b83fcc76a7d2e:-1974711407,d65bdc6f84ef2210dede6afa86358a2c:-595573235</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="PostgreSQL Flexible Server Database">598fdce7c32362107e68b41ed401313b</sys_audit_delete>
+        <sys_audit_delete display_value="">598fdce7c32362107e68b41ed401313b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:12</sys_created_on>

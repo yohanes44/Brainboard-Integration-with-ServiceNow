@@ -174,7 +174,7 @@
         <update_guid_history>93b1d1bc84bba210da39e7794d850d11:24925082</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="agent_count">68085245c3b726107e68b41ed4013196</sys_audit_delete>
+        <sys_audit_delete display_value="">68085245c3b726107e68b41ed4013196</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-03 20:23:29</sys_created_on>

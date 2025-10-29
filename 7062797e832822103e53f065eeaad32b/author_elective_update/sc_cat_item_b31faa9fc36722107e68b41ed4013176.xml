@@ -130,7 +130,7 @@
         <update_guid_history>a3c8f213e8e72210e9a52df4635cbba8:-1330993445,afc8f213cce722105c5be05f12058694:-1479064988,a3c8f2133ce72210cc313ca221f4f18a:225565859,17c8f2131ee722107a05417847f9ad7e:1354686375,17c8f213e1e722104fad83f9dec4906d:-1235650074,7b083a1fa3a7221041e581bd144f3b64:468980773,442faa9fda672210d0975ea2217f24b9:1193013242,402faa9faf672210703dd32e9f5590af:-1397323207,402faa9f926722100d042665f3dabba6:307307640,c42faa9fe16722102f4f68bb4b4a1c9d:2011938487,0c2faa9fa5672210eb94d7b347636e8a:-578397962,731faa9f3c6722100417731a3c7e7290:2106831263,b71faa9f6a672210ef20c5d4b83e2b84:1368047689</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS Elastic Beanstalk">6fc8f213c3e722107e68b41ed40131c4</sys_audit_delete>
+        <sys_audit_delete display_value="">6fc8f213c3e722107e68b41ed40131c4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:26</sys_created_on>

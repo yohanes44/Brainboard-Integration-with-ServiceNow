@@ -174,7 +174,7 @@
         <update_guid_history>2bb03b91b377a6106bc60a99b2d217e1:-1929363435</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="vnet_main_addrspace">75f20f39c33322107e68b41ed401318c</sys_audit_delete>
+        <sys_audit_delete display_value="">75f20f39c33322107e68b41ed401318c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-06 07:26:37</sys_created_on>

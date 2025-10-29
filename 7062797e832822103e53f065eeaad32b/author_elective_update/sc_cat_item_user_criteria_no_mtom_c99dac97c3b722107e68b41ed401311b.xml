@@ -29,19 +29,19 @@
         <source>b1272911c31022107e68b41ed40131ef</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-03-14 11:48:46</sys_created_on>
         <sys_id>6e00e517c3fb22107e68b41ed40131db</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>195947c41300000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:47:48</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>2e00e517f1fb221075736af6e0378cdb</update_guid>
         <update_guid_history>2e00e517f1fb221075736af6e0378cdb:-327620787</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS S3 API Gateway integration.SNC External">e200e517c3fb22107e68b41ed40131dc</sys_audit_delete>
+        <sys_audit_delete display_value="">e200e517c3fb22107e68b41ed40131dc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:05:18</sys_created_on>

@@ -130,7 +130,7 @@
         <update_guid_history>03a698a3acef22102f634f218a509aaa:-20332015,43a698a3d0ef22106ee6add90c12cb99:-589144382,0ba698a3cdef22103ebf95886b949180:-763313381,07a698a3d7ef2210a906673532157469:1042188187,47a698a357ef2210a84940bdc12a895d:-1548148262,87a698a383ef2210f6eba42188a5434c:156482585,991936932ae7221090618dc52261c36e:1861113432,dd193693d8e722100d2db58e35ed3d57:-729223017,dd193693f1e72210f720443647192e4e:975407830,5519369306e7221028d27e4c84e97846:-1614928619,d11936939ce722101c3177504b375b27:89702228,91193693abe72210a173a18b00b2d42c:1162202861,d91936938de72210e2b27fcb7e343420:608137095</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure vWAN">4fa698a3c3ef22107e68b41ed40131ad</sys_audit_delete>
+        <sys_audit_delete display_value="">4fa698a3c3ef22107e68b41ed40131ad</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:07:33</sys_created_on>

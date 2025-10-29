@@ -174,7 +174,7 @@
         <update_guid_history>26ee4907143b2210b549f94b72efc18a:784040850</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="azure_storage_os_disk_name">c81ad503c3bb22107e68b41ed40131ac</sys_audit_delete>
+        <sys_audit_delete display_value="">c81ad503c3bb22107e68b41ed40131ac</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:00:42</sys_created_on>

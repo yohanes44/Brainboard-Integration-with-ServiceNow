@@ -174,7 +174,7 @@
         <update_guid_history>ca1268d7b8f322101c974bae2c044dbf:-1657838549</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="openai_api_key_secret">07c9a05fc33722107e68b41ed401317b</sys_audit_delete>
+        <sys_audit_delete display_value="">07c9a05fc33722107e68b41ed401317b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:08:19</sys_created_on>

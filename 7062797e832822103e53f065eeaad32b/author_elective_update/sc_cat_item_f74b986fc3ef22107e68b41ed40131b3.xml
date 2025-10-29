@@ -130,7 +130,7 @@
         <update_guid_history>cf7fd8e731236210ee04351384730e58:-905591019,cf7fd8e7cc236210c0556eb44936ce47:874180882,0f7fd8e7a42362107a67fc2dbdf7303b:1532349917,c77fd8e7fb2362107ea2a7973d2f4224:-1057986532,837fd8e75e2362103432445412ccbf0d:646644315,837fd8e7992362108970f38168596b01:1268337449,727f98e7cc23621050114269e19a04f0:-1321999000,8c5bd86f74ef2210fecfb70c1886fe0c:382631847,b34b986fa8ef2210281dff74c9d879f5:2087262694,7f4b986f25ef2210f704ad7cb4570bec:-503073755,ff4b986f69ef2210cefc965d6de41ee3:1201557092,b34b986facef22109fdfd761d1a407db:-1388779357,3b4b986f38ef221062f79965bf6c9bd4:315851490,bb4b986fcfef221044df01a1775fbac2:1361502509,b34b986f99ef221014624320cca68fce:1639323769</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure architecture template">0f7fd8e7c32362107e68b41ed401315c</sys_audit_delete>
+        <sys_audit_delete display_value="">0f7fd8e7c32362107e68b41ed401315c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:03</sys_created_on>

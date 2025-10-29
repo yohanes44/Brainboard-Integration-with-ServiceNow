@@ -174,7 +174,7 @@
         <update_guid_history>d6c8d0dbb933221081d2ffcdd95d6853:1153069237</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="valid_storage_service_image_container_name">e6be5417c3b322107e68b41ed4013169</sys_audit_delete>
+        <sys_audit_delete display_value="">e6be5417c3b322107e68b41ed4013169</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:19:56</sys_created_on>

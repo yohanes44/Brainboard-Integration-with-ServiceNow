@@ -29,19 +29,19 @@
         <source>b1272911c31022107e68b41ed40131ef</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-03-14 11:48:46</sys_created_on>
         <sys_id>c834af91c3f3a6107e68b41ed4013188</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>195947c41300000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:47:41</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>8834af911ef3a610b27c3ba14e77c888</update_guid>
         <update_guid_history>8834af911ef3a610b27c3ba14e77c888:-1845539485</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="VM extension with custom script on blob storage.SNC External">4034af91c3f3a6107e68b41ed4013189</sys_audit_delete>
+        <sys_audit_delete display_value="">4034af91c3f3a6107e68b41ed4013189</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 20:34:49</sys_created_on>

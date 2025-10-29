@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>5c4c1da74cb322103255add37317b1e3:-1211997107,104c1da755b32210182f3e174d7564c9:-1419945569,dc4c1da7bbb3221036abb2b7dad61bb9:394228800,d44c1da714b3221081359de6c2f50f9e:-2086564127,904c1da742b322108a237a2f10a1698e:1266595121,044c1da7b7b3221064cf339752c60877:-1214197806,27078d78f33ba21023dcc436bd040d74:599976563,ab078d784e3ba2107ca6e513a4f28b66:-1880816364,eb078d789d3ba210d39aac945414c85c:-66641995,e7078d785b3ba2104b73746b5e8a5351:1747532374,a3078d78ee3ba210a8facc41d3d23e47:-733260553,ab078d78023ba2104097849f3bc1243f:1080913816,e7078d78d83ba210e5480970804faf31:-794977457,2b078d78a13ba21078195f24b2e1eb2b:1820018531</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Jenkins architecture on AWS">9c4c1da7c3b322107e68b41ed40131cd</sys_audit_delete>
+        <sys_audit_delete display_value="">9c4c1da7c3b322107e68b41ed40131cd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-11 10:27:15</sys_created_on>

@@ -130,7 +130,7 @@
         <update_guid_history>a40b58eb3def2210c7782bc8b4a071dd:-1807436289,a40b58ebdcef2210be0baea68de50acc:2722098,d00b58ebd0ef2210046168707a47eec0:2110681199,9c0b58ebe0ef221095877bcbecc6d9a8:-479655250,100b58eb36ef2210359e07f7b623ff9e:1224975597,100b58ebe4ef22101357c8eb0aa47992:-1698848759,dc0b58ebf9ef2210e2cc92d546a16980:5782088,def618274aef2210ec4c91140e9e25cb:1710412935,9af61827e4ef2210dbca0a35042af0c0:-879923514,46f6182739ef22100a9b469a617170b8:824707333,c6f6182768ef2210ff870573e8231caf:-1765629116,8af618272cef2210fb2761505ccf6ea6:-60998269,02f6182729ef22107e2da71046482aa0:1643632578,cef6182703ef221086c12374dc8d608c:-178985879,c2f6182724ef2210006fd6cbc5453692:2088326847</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS VPC with subnet and security groups on 2 AZ">e00b58ebc3ef22107e68b41ed40131e1</sys_audit_delete>
+        <sys_audit_delete display_value="">e00b58ebc3ef22107e68b41ed40131e1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:29</sys_created_on>

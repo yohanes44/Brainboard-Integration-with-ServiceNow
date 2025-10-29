@@ -174,7 +174,7 @@
         <update_guid_history>5e39b739ceb72210e7c0af7502cab6bf:-74093517</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="synapse_admin_pass">542c518fc3bb22107e68b41ed4013199</sys_audit_delete>
+        <sys_audit_delete display_value="">542c518fc3bb22107e68b41ed4013199</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:09:44</sys_created_on>

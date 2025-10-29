@@ -130,7 +130,7 @@
         <update_guid_history>bf7f1ce72a2362103002839aa5aa1ca2:1142031050,337f1ce7762362109beb4cd866c03079:-2099287315,7f7f1ce7ef23621020b8dbc178ba806c:-1546189782,637f1ce75123621014ca84c86a2aaa49:158441065,e37f1ce7d223621059bb188f2401cf3e:1863071912,e37f1ce72f236210d13ff1e6d6a38e32:-1031257660,a37f1ce74d236210937b91ec992e8921:673373187,c65bdc6f78ef2210f0878a97bc1efa06:-1916963262,825b9c6f3def221096fb2ce7c7802afb:-212332415,4e5b9c6fa8ef221090485427c2761af2:1492298432,ce5b9c6fb1ef2210eba7cf05c7e1dce9:-1098038017,825b9c6fd5ef22109a376b2b8d892ae1:606592830,0a5b9c6f7aef2210c9749fbb6672c6da:-1983743619,ce5b9c6f41ef22109c7ea0e2626ad6ca:1974790778,ca5b9c6f90ef2210a0d460d9a9d423c7:-360796078</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure API management">fb7f1ce7c32362107e68b41ed40131a6</sys_audit_delete>
+        <sys_audit_delete display_value="">fb7f1ce7c32362107e68b41ed40131a6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:06</sys_created_on>

@@ -130,7 +130,7 @@
         <update_guid_history>de9650a323ef22102c304fd2a9223f0d:1796143995,129610a3aaef2210195ed7bc9fe5b8fd:-737647208,9e9610a335ef221054acb355e8e2def0:-2091690419,529610a390ef22100873b3a6e98f6ae6:1265814769,929610a31cef221078fe6280ca1dd8da:-1324521680,d29610a397ef221050848869262babc9:380109167,d2093e53a9e7221028d105aac625e8ff:2084740014,52093e5323e722108cd5eab1e60f40dc:-505596435,52093e53bce722107fe9eaa89b66f0d3:1199034412,d6093e5369e72210f2ef60f11da179ca:-1391302037,56093e5384e72210ec20fa41f15a9cab:313328810,1e093e53d8e72210f8638da50009b6b0:-1208509409,5e093e5303e7221037e8fdb2d85c01a4:1428374217</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Windows VM with NIC and Key vault">1e9650a3c3ef22107e68b41ed4013111</sys_audit_delete>
+        <sys_audit_delete display_value="">1e9650a3c3ef22107e68b41ed4013111</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:07:13</sys_created_on>

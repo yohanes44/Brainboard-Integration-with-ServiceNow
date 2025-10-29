@@ -161,7 +161,7 @@
         <update_guid_history>fc35b07c8bb7a210e12d841404629f64:-1081659457,2835b07cb2b7a2107781a58525f65d59:232611993</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Sample Record Producer">0c55747cc3b7a2107e68b41ed401315d</sys_audit_delete>
+        <sys_audit_delete display_value="">0c55747cc3b7a2107e68b41ed401315d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-09-02 18:33:49</sys_created_on>

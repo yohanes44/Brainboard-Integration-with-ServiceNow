@@ -29,19 +29,19 @@
         <source>b1272911c31022107e68b41ed40131ef</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-03-14 11:48:46</sys_created_on>
         <sys_id>7d8a5107c3bb22107e68b41ed40131c8</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>195947c41300000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:47:27</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>3d8a5107f6bb22105b7844d9e4d8dbc8</update_guid>
         <update_guid_history>3d8a5107f6bb22105b7844d9e4d8dbc8:-325933182</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Serverless.SNC External">f18a5107c3bb22107e68b41ed40131c9</sys_audit_delete>
+        <sys_audit_delete display_value="">f18a5107c3bb22107e68b41ed40131c9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:02:44</sys_created_on>

@@ -189,7 +189,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>d0ba954704bb221088e88a03dbed161d:281346487,d8ba95475ebb2210c5037b511b15230a:1070257405,18ba5547b2bb22108c2b30f6cab14efd:-177546884,d0ba554788bb22100801112404fb84e5:1636627485,44ba55470cbb2210bda11868e0328ed9:-844165442,44ba554786bb2210bcee0614f6fb8dcc:970008927,84ba5547e8bb2210e4b0d0268110e7b9:-1510784000,88ba5547e6bb2210e0069b2927e08ba7:303390369,80ba55476ebb2210dad8c92e2bdcaf89:2117564738,4b9f0d4b133b2210f896e20f09337f43:1439563530,039fc94bed3b22101d3554fdaf0ce7ea:-1041229397,f69fc94b043b221003d7eca8037489c2:772944972,ea9fc94bb53b2210513fe8d25ad4cba8:-1707847955,ee9fc94bee3b2210ce3d5e638c569f92:106326414,229fc94b243b2210a32d53c71f34c689:1920500783,e69fc94b463b2210676cc4c61704734d:-560292144,ee9fc94b293b22109b8ec8f78f95f713:1253882225,a69fc94b6b3b22105d75e4f05a115a18:-158305872,6a9fc94b743b2210454b4824460b510c:1480791914</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Virtual Machine">98ba9547c3bb22107e68b41ed401312d</sys_audit_delete>
+        <sys_audit_delete display_value="">98ba9547c3bb22107e68b41ed401312d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:03:28</sys_created_on>

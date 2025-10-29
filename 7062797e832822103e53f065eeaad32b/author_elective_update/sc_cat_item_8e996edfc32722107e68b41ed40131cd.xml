@@ -130,7 +130,7 @@
         <update_guid_history>11fbaa573d672210936820452debddec:532393090,9dfbaa57ff67221055037838b1989ed9:-144124883,5dfbaa57f3672210f5b2e4394aa0d2cf:-1000001441,d9fbaa572767221006943f74565877c4:704629406,19fbaa5768672210540b4c3415c6a1b4:-1885707043,1e99aedf7d27221049c68f3caf633a11:-181076196,4699aedfbf272210615957aa70146f07:1523554651,42996edfa72722109222b9c9df247cfe:-1066781798,06996edf77272210d211aa8a71114df5:637849049,ce996edf04272210c8f39b86888219ee:-1952487400,4a996edf5b27221014dab54dcae170dc:2084375807,4a996edfdd2722109228350fd2a839e8:463602665</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS Bastion">5dfbaa57c36722107e68b41ed40131ef</sys_audit_delete>
+        <sys_audit_delete display_value="">5dfbaa57c36722107e68b41ed40131ef</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:21:18</sys_created_on>

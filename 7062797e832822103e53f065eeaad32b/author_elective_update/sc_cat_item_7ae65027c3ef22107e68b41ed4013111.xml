@@ -130,7 +130,7 @@
         <update_guid_history>b1ea5cab99ef22100cfc5d08aef1e183:235279033,b1ea5cab94ef22108fd50e1759ced072:-232303196,39ea5cab70ef2210d765a4844d8d6159:1367179843,b9ea5cab6cef2210052034e9dfd9a54e:-1223156606,3dea5cab37ef2210e6f737e21261d643:481474241,3dea5cabe3ef22104d9907a9ac297937:415183675,f9ea5cabd1ef2210dc0ad9a6695d3426:2119814522,c7e6502715ef22105ca461b4a3e53577:-470521927,07e6502708ef2210e18f475b02679653:1234108920,fee6502750ef221034da09ecae6d194a:-1356227529,72e65027d3ef22103983061f1c129f42:348403318,36e6502751ef2210ea20b1d306697039:2053034165,bae650272aef22107303b4c71b7fb032:-537302284,36e6502795ef221037ef8350a30ca623:339436435,7ee650271aef22107b8aad88c327d51f:-1094279187</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure vWAN">fdea5cabc3ef22107e68b41ed4013186</sys_audit_delete>
+        <sys_audit_delete display_value="">fdea5cabc3ef22107e68b41ed4013186</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:02</sys_created_on>

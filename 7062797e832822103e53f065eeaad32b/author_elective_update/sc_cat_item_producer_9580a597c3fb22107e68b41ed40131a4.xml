@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>9c05eddbeb3f221018f48bee987b9e20:1499021018,9405eddba13f22105f32facd44098b0e:-1350997616,0405eddbdc3f2210e1f4e69e989a2b01:-41794089,0805addb823f2210f33496ffca3dd7f5:1772380280,0c05addba83f221093ad5ecc1c72b9e9:-708412647,8c05addba53f22101fb71479ce5479dc:1105761722,0c05addb183f22106e98ca3ca6ba77ca:-1375031205,c5f1219f39fb22109996a2e4ddf71e4d:824086875,d1a1e1db5efb22109462bcb8365aae2a:690751511,6580e597aafb221045c834e873423c69:157468317,2180e5974bfb221073ff24135e409a5c:1971642686,e980e59795fb2210f6a4e9356409b852:-509150241,e580e59734fb22104e09ab578a75593c:1305024128,1d80e59741fb22104c4193960d699232:-1175768799,d180e59719fb2210442d7078a813b92b:638405570,1580e5972cfb2210877edf0875123f20:-1826097975,d580e59730fb2210fcd388f6d59bf617:-826810355</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="[Training] Azure onboarding">dc05eddbc33f22107e68b41ed4013124</sys_audit_delete>
+        <sys_audit_delete display_value="">dc05eddbc33f22107e68b41ed4013124</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:26:59</sys_created_on>

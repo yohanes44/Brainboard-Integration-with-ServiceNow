@@ -174,7 +174,7 @@
         <update_guid_history>3ae8141f0b332210982bf682d21a721b:-1281518184</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="azure_gateway_ip_config_name">0ecd5c1fc37322107e68b41ed40131a5</sys_audit_delete>
+        <sys_audit_delete display_value="">0ecd5c1fc37322107e68b41ed40131a5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:15:49</sys_created_on>

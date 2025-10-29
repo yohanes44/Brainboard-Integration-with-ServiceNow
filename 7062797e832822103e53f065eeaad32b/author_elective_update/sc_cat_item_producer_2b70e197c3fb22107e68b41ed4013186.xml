@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>8f616d5bb9fb221050e3bc545923e36a:-2002448284,03616d5bacfb22104871f1f6e8e5474c:574003722,cf616d5b95fb2210d4f10a14fdd8b33e:-1014927,07616d5b34fb2210670b82dccf6dca33:1813159442,4b616d5b8bfb221043d78f51e4efc827:-667633485,0f616d5b0ffb2210278c509b1d62f61a:-1935697773,3e616d5bc7fb22102a739f7d64d29008:-121523404,7f70259702fb2210205e6f3cbf38a100:1692650965,3b70e1973efb221081693998f27cecf3:-788141962,f370e1978efb2210c907ee7faf50faea:1026032407,b770e19717fb22102a17582c0b3c21e0:-1454760520,3770e1976dfb2210594b9365de4c2aca:359413849,7f70e1970efb221045a2ca9342a8f1a9:-2121379078,e370e197edfb22100245e215f4b934ad:-784323295,2b70e19793fb2210f044312f748b51a2:1205368063</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Highly available zone-redundant Azure Spring Apps">8f616d5bc3fb22107e68b41ed401316e</sys_audit_delete>
+        <sys_audit_delete display_value="">8f616d5bc3fb22107e68b41ed401316e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:21</sys_created_on>

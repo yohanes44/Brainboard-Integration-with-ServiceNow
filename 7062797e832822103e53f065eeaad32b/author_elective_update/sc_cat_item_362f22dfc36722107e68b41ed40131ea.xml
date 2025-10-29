@@ -130,7 +130,7 @@
         <update_guid_history>d4e87e1302e72210a6d904900680f590:-642231117,d0e87e138be722105a06ae0aba69517d:263646058,d4e87e13ede72210da003f8e56d33f72:1968276905,90e87e1336e72210703d48ac3b25a35a:1554692935,90e87e13e5e722103d5ff073c7a1d449:-1035643514,9b18be1fa2a722108b1e18d5459acae5:668987333,c72f62df8e67221000c4c56e742e3e2d:1071082688,c32f62dfe7672210ae8618ebd35b5123:-1519253761,c32f62dff66722108193b99420f1231a:185377086,4b2f62dfca6722109ec31a4e8ff84611:1890007933,472f62df89672210be1e3cb19032f30b:-700328516,4f2f22df8c6722100f256e0ca9b8dff9:-1988129473,cf2f62dff66722103345d838df016f04:-1189845335</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Highly available zone-redundant Azure Spring Ap">14e87e13c3e722107e68b41ed4013194</sys_audit_delete>
+        <sys_audit_delete display_value="">14e87e13c3e722107e68b41ed4013194</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:46</sys_created_on>

@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>8015fa9b5577621028f4774b49f3ccf3:1687981762,8415fa9b0d77621025d664c30d8669e0:-438121288,7b05fa9b2d776210c0ffa35911cb79c6:690389747,7b05fa9bc8776210745b5d5c896cbfba:-1790403180,7b05fa9b857762105b509acff265edae:23771189,f705fa9b877762106b92c8b99d4017a1:1837945558,3305fa9b39776210e211ac36fa696d83:-642847369,f705fa9beb7762104c9910a6ca27476f:335897603,04a8a9575e7f2210b21fd06fe492a42e:-2144895324,3b986957d17f221099d2b68fece4e2af:-330720955,67986957577f221034a5ff63ebd89d89:1483453414,23986957607f22100bc2b45c25b9a080:-997339513,679869577d7f22101347087051cc725d:816834856,e3986957a37f22108179dc048c9bfd47:-1663958071,63986957547f2210bea54053df478633:150216298,2b986957ac7f22104e5a0a130d1c1d35:-230248475,2f986957977f22105739760b5cc3842b:2117797765</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS instance inside VPC &amp; Subnet">c015fa9bc37762107e68b41ed40131f7</sys_audit_delete>
+        <sys_audit_delete display_value="">c015fa9bc37762107e68b41ed40131f7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:16:46</sys_created_on>

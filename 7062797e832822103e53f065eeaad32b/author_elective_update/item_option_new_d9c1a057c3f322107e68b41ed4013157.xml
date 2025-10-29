@@ -174,7 +174,7 @@
         <update_guid_history>1dc1a057dff32210a4dae4b243818374:-1424944823</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="azure_subnet_address">ba89a0dbc33722107e68b41ed401311c</sys_audit_delete>
+        <sys_audit_delete display_value="">ba89a0dbc33722107e68b41ed401311c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:07:12</sys_created_on>

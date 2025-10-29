@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>a881299bbdfb221048f4b28050548ea2:-920456176,2c81299b0efb2210478f8c06f00f6b83:861546736,e881299bf9fb221096f02ff96035e976:-1813634311,2081299b2efb22103507ce624a27666b:540058,ac81299b54fb22100f628135c15c8d52:1814714427,6081299b6dfb221069ccdd06255a2446:1949984313,6081299bb3fb22100fcb0679e3c1b834:-530808614,0290a1d7c1fb2210e048c2045e8b255d:1283365755,ca90a1d755fb2210966c2c209e6a3a4f:-1197427172,8690a1d72afb2210740dfb5e53558446:616747197,ca90a1d720fb22103608aa6db0f97a23:-1864045730,0290a1d743fb22100f3cc9d0d5f8021a:-49871361,4690a1d713fb2210c3d151c63c6c3712:1764303008,8e9061d722fb22100159b98ffb77f6f1:2076134401,4e9061d7cffb2210b4ecf81482c23bf5:-1264408663</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="PostgreSQL Flexible Server Database">a881299bc3fb22107e68b41ed40131a6</sys_audit_delete>
+        <sys_audit_delete display_value="">a881299bc3fb22107e68b41ed40131a6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:44</sys_created_on>

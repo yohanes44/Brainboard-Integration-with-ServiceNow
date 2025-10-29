@@ -174,7 +174,7 @@
         <update_guid_history>0b39589fe733221083cf6445e885600d:995110405</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="storage_connection_string_secret">5b2f5cd7c3b322107e68b41ed40131fe</sys_audit_delete>
+        <sys_audit_delete display_value="">5b2f5cd7c3b322107e68b41ed40131fe</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:21:54</sys_created_on>

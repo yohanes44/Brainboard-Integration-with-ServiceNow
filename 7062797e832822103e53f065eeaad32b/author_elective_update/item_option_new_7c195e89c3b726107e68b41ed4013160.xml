@@ -174,7 +174,7 @@
         <update_guid_history>38195e8936b72610c905e8e4e321066f:-1351592386</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="storage_account_type">0ed32311c3f3a6107e68b41ed40131fc</sys_audit_delete>
+        <sys_audit_delete display_value="">0ed32311c3f3a6107e68b41ed40131fc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 20:33:18</sys_created_on>

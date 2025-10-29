@@ -174,7 +174,7 @@
         <update_guid_history>215c645f3f7722109c543e9ba11649dc:215253724</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="nva_subnet_prefix">3ef6a513c37f22107e68b41ed4013125</sys_audit_delete>
+        <sys_audit_delete display_value="">3ef6a513c37f22107e68b41ed4013125</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:35:38</sys_created_on>

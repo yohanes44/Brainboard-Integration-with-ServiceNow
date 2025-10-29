@@ -174,7 +174,7 @@
         <update_guid_history>0c49ad1fb37f2210c14b017e192d1cbb:1781967983</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="chat_gpt_model_version">46643ed7c37762107e68b41ed401314c</sys_audit_delete>
+        <sys_audit_delete display_value="">46643ed7c37762107e68b41ed401314c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:13:54</sys_created_on>

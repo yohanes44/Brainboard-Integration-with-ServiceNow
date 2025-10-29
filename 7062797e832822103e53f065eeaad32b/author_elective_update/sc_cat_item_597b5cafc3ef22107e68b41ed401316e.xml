@@ -130,7 +130,7 @@
         <update_guid_history>0f6f14e767236210a59d03083124bf16:359074102,8f6fd0e7432362102d244ff711f1a5ec:-272248831,cb6fd0e7b4236210487e6798a45247e0:-1936138830,4f6fd0e7ea236210549578e2f14e65d5:-231507983,0b6fd0e79b23621091f97dbb353b2abe:1473122864,3a6fd0e7012362106dfeb215635137b2:137922136,7a6fd0e7c6236210af35a9069c5f1988:1842552983,ad7b5caf30ef22104ba734bdd00bdae0:-747783466,257b5cafccef22103c5b9a9c6907cbb0:956847381,ed7b5cafb5ef2210030cf06e4a7b60a7:-1633489068,617b5caff3ef221083bef49f9f38919f:71141779,257b5cafd4ef2210b5aae7850c131c96:1775772626,997b5cafb3ef2210cf6df0cc771d598f:-814563823,197b5caf15ef221085383f4522aa5083:167444994,5d7b5cafeeef22102660d1f0c8e4297c:-754985426</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS 3-tier web app with a database">5b6f14e7c32362107e68b41ed401311a</sys_audit_delete>
+        <sys_audit_delete display_value="">5b6f14e7c32362107e68b41ed401311a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:45:47</sys_created_on>

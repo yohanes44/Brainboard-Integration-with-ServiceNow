@@ -174,7 +174,7 @@
         <update_guid_history>232e28dbb6b72210ff7f8ab9ef65d44b:-833720275</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="brainboard_admins_ip_adresses_cidr">3384651bc33f22107e68b41ed401318f</sys_audit_delete>
+        <sys_audit_delete display_value="">3384651bc33f22107e68b41ed401318f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:25:02</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>5216377d9b772210a870d9e052192301:1788381819</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="disks">52bb15a3c3b322107e68b41ed40131ed</sys_audit_delete>
+        <sys_audit_delete display_value="">52bb15a3c3b322107e68b41ed40131ed</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-11 10:24:56</sys_created_on>

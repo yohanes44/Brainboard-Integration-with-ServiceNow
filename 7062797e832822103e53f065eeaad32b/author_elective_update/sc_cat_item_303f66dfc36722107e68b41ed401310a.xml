@@ -130,7 +130,7 @@
         <update_guid_history>41e8fe13f8e722105c2a27f381599b2a:-1468582197,4de8fe13f4e722104faabb02a068e416:-1088378224,41e8fe1386e72210fcaaf0b3e6108e0c:616252623,c1e8fe1327e7221061e3b83828759500:-1372600963,c1e8be13a2e72210844864bdb2dfc6ef:332029884,9238fe5fdfa722100df2efae1d9c0c07:2036660731,413f66df7c67221056e319dae4bfa666:-1960680986,7c3f66df3567221082b3295dadf1fa5b:-256050139,7c3f66df13672210da52e1f492c66b52:1448580708,f03f66df9c6722108bdcc4e3f42c724a:-1141755741,fc3f66df4d6722101b167968ea8a1f43:562875106,bc3f66dfd267221082c0d285a2083333:-620456075,343f66df5e6722100baf6a6133d43918:-1593359969</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="GCP Load Balancer ">8de8fe13c3e722107e68b41ed401312d</sys_audit_delete>
+        <sys_audit_delete display_value="">8de8fe13c3e722107e68b41ed401312d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:49</sys_created_on>

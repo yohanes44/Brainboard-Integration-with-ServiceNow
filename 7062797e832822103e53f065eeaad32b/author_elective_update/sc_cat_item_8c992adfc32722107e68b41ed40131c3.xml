@@ -130,7 +130,7 @@
         <update_guid_history>abfbae572b672210019739ecf93e3df3:-1992878198,1bfbae574f672210e198aba830b334e1:-650059851,13fbae578967221099734558cdb574cb:1790234385,9ffbae575f672210c526358c11f5fabf:-800102064,17fbae573a672210b83990f3c443f7a3:904528783,c0996adfde272210c09f474cdf7cc414:-1685807666,0c996adf732722109a3ceb024203d009:18823181,08996adf5527221000f05c1093315100:1723454028,c8992adfe8272210a03ed75cf20c40f7:-866882421,cc992adfdc2722105ae8a6ab335065e4:837748426,cc992adf212722105f802012588438e7:-1431883385,48992adf07272210dff8a455098275de:868168817</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure AKS with log analytics">e7fbae57c36722107e68b41ed40131f7</sys_audit_delete>
+        <sys_audit_delete display_value="">e7fbae57c36722107e68b41ed40131f7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:21:27</sys_created_on>

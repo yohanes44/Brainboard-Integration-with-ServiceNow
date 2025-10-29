@@ -174,7 +174,7 @@
         <update_guid_history>8b11e013f2f3221038b50e797f23ef84:-607957800</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="instance_port">53da2c57c37722107e68b41ed4013187</sys_audit_delete>
+        <sys_audit_delete display_value="">53da2c57c37722107e68b41ed4013187</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:12:58</sys_created_on>

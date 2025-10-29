@@ -42,7 +42,7 @@
         <update_guid_history>f029addbba7f2210fee475c3d33e5456:-1920454325</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Variables.AWS ECS with Fargate">0ef2b2dbc33762107e68b41ed40131a6</sys_audit_delete>
+        <sys_audit_delete display_value="">0ef2b2dbc33762107e68b41ed40131a6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:07:37</sys_created_on>

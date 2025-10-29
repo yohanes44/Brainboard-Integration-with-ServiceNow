@@ -174,7 +174,7 @@
         <update_guid_history>827ec143983b22101b2051c08e31c8bf:962065467</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="microsoft_app_password">ae8ad107c3bb22107e68b41ed4013140</sys_audit_delete>
+        <sys_audit_delete display_value="">ae8ad107c3bb22107e68b41ed4013140</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:02:47</sys_created_on>

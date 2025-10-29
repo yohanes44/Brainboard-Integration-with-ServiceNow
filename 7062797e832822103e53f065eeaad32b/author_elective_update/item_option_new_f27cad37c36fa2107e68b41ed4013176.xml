@@ -174,7 +174,7 @@
         <update_guid_history>55bc2577e86fa2102be32beeaefe36fc:2026594444</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Requested Item">5cd05578c3bba2107e68b41ed401315c</sys_audit_delete>
+        <sys_audit_delete display_value="">5cd05578c3bba2107e68b41ed401315c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-09-02 20:33:59</sys_created_on>

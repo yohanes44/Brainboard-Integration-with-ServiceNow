@@ -174,7 +174,7 @@
         <update_guid_history>e59e41832f3b221039378c827017bda7:1059680927</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="azure_roles">d5a9154fc37b22107e68b41ed4013128</sys_audit_delete>
+        <sys_audit_delete display_value="">d5a9154fc37b22107e68b41ed4013128</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 20:58:53</sys_created_on>

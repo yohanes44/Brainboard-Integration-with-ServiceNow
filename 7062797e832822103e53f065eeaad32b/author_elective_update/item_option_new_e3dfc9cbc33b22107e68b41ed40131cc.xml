@@ -174,7 +174,7 @@
         <update_guid_history>a3dfc9cbf93b2210c997642ccce3f8eb:-221919112</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="use_rbac_authentication">30da9587c3bb22107e68b41ed40131dc</sys_audit_delete>
+        <sys_audit_delete display_value="">30da9587c3bb22107e68b41ed40131dc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:04:02</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>5dffc50fda3b2210c833bb8deccd47c9:659840965</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="audio_container_name">8c99590fc37b22107e68b41ed40131a8</sys_audit_delete>
+        <sys_audit_delete display_value="">8c99590fc37b22107e68b41ed40131a8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 20:58:31</sys_created_on>

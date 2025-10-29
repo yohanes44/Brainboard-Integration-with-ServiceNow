@@ -130,7 +130,7 @@
         <update_guid_history>001b502f9cef2210d4f834a02e2d3a6a:-802657210,001b502fe4ef221083f91f9c0387ad59:656948211,7f0b502ff2ef221081243658284c974c:-561645556,ff0b502fd3ef22108364a98d7b746541:1142985291,730b502f56ef2210835195b924ac3b37:-1447351158,730b502f1aef22107b2c7df09eb6ff2b:-152682166,330b502f4eef22107d6f859881b6cb1a:1551948681,75d614e373ef22100560b25ee54ea1ec:-1038387768,31d614e39def22108990bc8e54df51e1:666243079,f9d614e35bef2210288ffe96c1b727d8:-1924093370,6dd614e3eaef2210eef5c06e7cb79dcf:-219462523,21d614e333ef221060f915ae8dcb5bc7:1485168324,69d614e336ef22107fa62057426eb0c0:-1105168125,25d614e36cef2210024e099d310f98b3:-1661544356,2dd614e330ef22108da92569944370ad:-1914515988</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Eventhub with Machine Learning">4c1b502fc3ef22107e68b41ed401316d</sys_audit_delete>
+        <sys_audit_delete display_value="">4c1b502fc3ef22107e68b41ed401316d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:44</sys_created_on>

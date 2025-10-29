@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>c36f5c5b5bb32210250936dd86aa9054:-196457189,cb6f5c5b36b3221023917ad4d382c341:-1510008171,4b6f5c5bb7b32210f1b3cad3ad0eef34:314582992,fe6f5c5b88b32210f640cb5d1c19850f:2128757361,f26f5c5bcfb322107f515c73bca8e404:-352035566,be6f1c5b86b322104af58b11be96a1ea:1462138803,b26f1c5b54b32210f449e7cf1bc0fed9:-1018654124,326f1c5bf2b3221020b0679ce42260c7:1204376032,e448d0d740332210b16060852b1ddc92:-1276416895,a448d0d700332210cd45dfcb9d243784:537757474,e848d0d7ff3322103cdfe572edffea77:-1943035453,d848d0d7ff332210da000c2aacace46e:-128861084,d048d0d79133221068f11166a3634865:1685313285,5c48d0d7ef33221097014f6d8cb94b5b:-795479642,1048d0d779332210582f84661284e548:1018694727,d848d0d7b13322100f85e4cdd8db984b:-1878076222,5c48d0d706332210ba376fb3066e6f40:-1796403958</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure VMs with LB rules">076f5c5bc3b322107e68b41ed4013158</sys_audit_delete>
+        <sys_audit_delete display_value="">076f5c5bc3b322107e68b41ed4013158</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:22:59</sys_created_on>

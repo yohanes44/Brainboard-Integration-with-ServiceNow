@@ -174,7 +174,7 @@
         <update_guid_history>32bd201b88b722101f5e82bf88e058d3:2125677253</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="acr_egress_route_name">b5246157c33f22107e68b41ed4013125</sys_audit_delete>
+        <sys_audit_delete display_value="">b5246157c33f22107e68b41ed4013125</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:23:16</sys_created_on>

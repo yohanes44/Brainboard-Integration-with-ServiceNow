@@ -174,7 +174,7 @@
         <update_guid_history>9798dc5b093322108ed9c59252b78b44:-1518556388</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="apim_public_network_access">63aedcd3c3b322107e68b41ed40131c8</sys_audit_delete>
+        <sys_audit_delete display_value="">63aedcd3c3b322107e68b41ed40131c8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:19:44</sys_created_on>

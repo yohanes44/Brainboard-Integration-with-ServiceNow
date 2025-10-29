@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>47816d9bacfb2210d03e36c415d3ba37:-2089832304,c7816d9b58fb2210318b7cb610797e18:1190268136,b6816d9ba6fb221093b9fed52bb2530b:-1697904083,fa812d9b33fb2210b51b7ecc06992aff:116270286,32812d9b42fb22107fe27e38b70e6ff4:1930444655,f2812d9bf9fb22107f09d3759494e4e7:1798175921,3e812d9b1ffb2210604ec072867be8c8:-682617006,f490ed97f2fb2210ae7bd23353aaacc0:1131557363,b890ed9732fb2210408fd9b2f37a649b:-1349235564,bc90ed9741fb221005a6cc5465712b85:464938805,3c90ed9744fb221067441cf188d3ef7a:-2015854122,a890ed9706fb22109c45779d962b4864:-201679753,a890ed9743fb22106eb0d0a1cbcac650:1612494616,6490ed9776fb2210eba70bed8635cb3d:-300967715,6490ed9749fb221052025242d1a14449:1354263451</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS multi-account management">47816d9bc3fb22107e68b41ed401313b</sys_audit_delete>
+        <sys_audit_delete display_value="">47816d9bc3fb22107e68b41ed401313b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:53</sys_created_on>

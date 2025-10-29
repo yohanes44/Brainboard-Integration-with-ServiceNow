@@ -29,19 +29,19 @@
         <source>b1272911c31022107e68b41ed40131ef</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-03-14 11:48:46</sys_created_on>
         <sys_id>36b9a81fc33722107e68b41ed4013131</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>195947c41300000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:47:09</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>f2b9a81f81372210987950fec9496431</update_guid>
         <update_guid_history>f2b9a81f81372210987950fec9496431:1694439450</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS EC2 instance inside VPC &amp; Subnet.SNC External">bab9a81fc33722107e68b41ed4013131</sys_audit_delete>
+        <sys_audit_delete display_value="">bab9a81fc33722107e68b41ed4013131</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:08:01</sys_created_on>

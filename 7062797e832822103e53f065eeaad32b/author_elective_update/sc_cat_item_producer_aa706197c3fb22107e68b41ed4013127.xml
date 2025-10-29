@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>ad442197823f22100dfd536d8f26c7b0:1855499376,a5442197dd3f2210d78e40bee1d2149e:-1124261718,25442197d03f2210836a6ecce11fde91:2056403589,194421975d3f2210c1fa41cf0384f985:-424389338,1d442197383f2210654eded929155779:1389785031,9d442197283f22101a51124203b7be6c:1863483059,1d442197783f2210d00acf409945ca5a:-617309868,b670a19755fb221024c9ea243d306320:1196864501,ba70a197dcfb2210416b742db7a8c206:-1283928426,7e7061977efb2210576339608d8bd5ee:530245943,327061972cfb2210db11aa78fbceffe5:-1950546984,b27061977efb221034034a11f427a49d:-136372615,7a7061971efb2210a92e35b1ac390a95:1677801754,fe706197c0fb22105784917d03928d89:-2093997515,3a70619759fb2210bd642fb28ea7aa75:-2027833455</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS ASG and LB with VPC &amp; subnets">ed442197c33f22107e68b41ed40131b4</sys_audit_delete>
+        <sys_audit_delete display_value="">ed442197c33f22107e68b41ed40131b4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:23:48</sys_created_on>

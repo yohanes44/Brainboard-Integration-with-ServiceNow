@@ -130,7 +130,7 @@
         <update_guid_history>2c0c6297cb67221029d8a39cdbea2154:1147534282,d00c6297fc672210b797f6fae0314936:-1123718531,900c6297e76722101d81be2c034c862c:-1784397381,580c6297e267221051b8caf16f7f6a14:-79766534,dc0c22971b672210564ab6cf40b963f7:1624864313,5789e6df48272210e29c8c829d0fe41f:-965472136,9f89e6df702722106a090e246d7fb214:739158711,d389a6df062722104209b421de193cff:-1851177738,8789a6dfef2722107ac2f99facab06f6:-146546891,4389a6dfe227221078a39bbce1e845f0:1558083956,4b89a6dfc7272210c77a330e789f18dd:2063982927,cb89a6df612722107fb30a71ef4571e9:-146013959</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS instance inside VPC &amp; Subnet">680c6297c36722107e68b41ed4013158</sys_audit_delete>
+        <sys_audit_delete display_value="">680c6297c36722107e68b41ed4013158</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:21:31</sys_created_on>

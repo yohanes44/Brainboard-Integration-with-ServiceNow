@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>1ce951cf6a7b2210367f6e15693fb65b:796283942,14e951cf5b7b2210d97be46cc4a24249:1409188460,50e951cfa77b221015504808e896883c:-271644190,1ce951cfeb7b2210c5ac6c1f4d0b3023:1542530179,8ce951cfa37b221039aff90843dbd917:-938262748,c4e911cfc77b2210a82500d600deb1fe:875911621,c8e911cf727b22109ad0b9ae9412e3ec:-1604881306,0ce911cf607b2210d13672b6de73add9:209293063,00e911cf3f7b2210bd9c7376128f9dc8:2023467432,0ce911cfc77b2210a9faad4020e43ab4:-457325495,7eaec983123b2210929d03f735fd0fff:1356848874,032af3bd5cb722108013119068115ebb:1951474224,832af3bd4cb72210defd3bd6ab76669f:1678009612,832af3bdf8b72210d48b784711bef877:-802783315,322af3bdc9b722100d3dfb9095ada62a:1011391054,7a2af3bd4fb72210e71ec877d18ba503:-1469401873,322ab3bdedb72210ab5edc0a588483fa:344772496,2e2ab3bdd0b72210c3607bbf35c21fef:-2136020431,aa2ab3bd3db72210788e02295ac254e5:-321846062,662ab3bd22b7221038f490cea2f4c7d1:1492328307,2e2ab3bdf4b7221049785720b3205fd3:1755393182,ae2ab3bd30b7221014510307ed65a8c9:1266196186</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Key Vault Architecture">1ce951cfc37b22107e68b41ed401315f</sys_audit_delete>
+        <sys_audit_delete display_value="">1ce951cfc37b22107e68b41ed401315f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 20:59:55</sys_created_on>

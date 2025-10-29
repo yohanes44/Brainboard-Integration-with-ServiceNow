@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>ae00e517dffb22106cc1c3f7f38919d2:1630556857,a600e517fafb22101d794344b4faf4c0:2069924120,2600e5177cfb221099dae2fc3a6869b3:201370783,2a00e5176ffb2210f14da7970f44daa7:2015545152,6600e5174afb221053e1fb6da282c28f:-465247775,d600e517f0fb22105c72068024f1d382:1348926594,da00e5176dfb2210bfb60014fd5f5470:-1131866333,1e00e517e7fb2210245f184f747bde5d:682308036,1200e5172efb2210d60bf2a601c0074c:-1798484891,1e00e517a1fb221062e7a3364cee4a38:15689478,919dac9714b722100f75e96afe3f7ac1:1829863847,dd9dac97fab7221042ef0569f187e7b1:-299101337,999dac9749b722101c24ec78854bf396:1515073032,cd9dac97dcb722100cb5f2eb81d9d287:-965719895,899dac9746b72210c7182cfed2ba717a:848454474,459dac97f5b72210fc8d160e6d11bb71:-1632338453,459dac9747b72210cada24319fa6db2d:-630020587,099dac9756b72210a771ecaa11e0cd67:181835916,8d9dac97ecb7221031d2683264f5c15d:1996010285,8d9dac976fb7221010b08e11a6296f49:-484782642,c99dac97b2b722102a5bc0cd90fc4e29:1242982551</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS S3 API Gateway integration">ee00e517c3fb22107e68b41ed40131d6</sys_audit_delete>
+        <sys_audit_delete display_value="">ee00e517c3fb22107e68b41ed40131d6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:05:18</sys_created_on>

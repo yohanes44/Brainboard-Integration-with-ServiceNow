@@ -130,7 +130,7 @@
         <update_guid_history>0f4f54a78823621076c76003ce43c647:1344232240,474f54a711236210094748623023172a:-593367533,834f54a7cd2362107e85aa4249ee741e:887176166,074f54a713236210e40861feb2278b13:-1703160283,cf4f14a7512362103b79d839d8e593fb:1470564,cf4f14a7f823621051695a656e6971ef:-1074449622,be4f14a78b2362103b4a639949fdddde:630181225,bb5bd0af12ef2210eaf05f6479625592:-1960155224,775bd0aff8ef2210dc64d8b2ffd2c187:-255524377,335bd0af6fef22104f8a4bf8bd1ebb7f:1449106470,b35bd0af2aef22103640e31800f9fb76:-1141229979,775bd0afceef22104fc462363336ad6d:563400868,375bd0af71ef221055b3d113bd49165a:-2026935581,735bd0af2bef221069edf584e651555c:-2116191434,bf5bd0af03ef221058500a7f10543e53:-90708404</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure CAF identity module ">4b4f54a7c32362107e68b41ed401314b</sys_audit_delete>
+        <sys_audit_delete display_value="">4b4f54a7c32362107e68b41ed401314b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:45:14</sys_created_on>

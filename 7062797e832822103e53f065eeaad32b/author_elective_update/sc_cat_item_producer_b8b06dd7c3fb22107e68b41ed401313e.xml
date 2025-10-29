@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>8f71659b9dfb22106af0d0429aaccc17:-808199880,f671659b05fb221004a79ed977057e05:-391319054,b671259b5dfb22107e1813c095a8d9f8:-2135261187,fa71259b7afb2210550ff37e87cf56ec:-321086818,7a71259b3bfb22107212b6b0665b5ad4:1493087551,7671259b38fb2210dcb59a5f2e4909bb:-413462021,be71259bd0fb22104d00b8c8493b5b9c:1400712348,45b0add7c9fb22100e90239ffe5f9d99:-1080080579,49b0add785fb221046df39c631a6a47f:734093790,05b0add78efb221026a907df7d3b8676:-1746699137,01b0add7f6fb22108c3ed1733e0fac60:67475232,09b0add7e1fb221093f21c89b6ef2449:1881649601,4db0add7f2fb2210be620a185c5fee41:-599143326,41b0add7aafb22104430c1b3b3b91a34:-471306323,89b0add706fb221075db43f84206c721:-634928769</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Monitoring with Linux Web App">8f71659bc3fb22107e68b41ed401311b</sys_audit_delete>
+        <sys_audit_delete display_value="">8f71659bc3fb22107e68b41ed401311b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:37</sys_created_on>

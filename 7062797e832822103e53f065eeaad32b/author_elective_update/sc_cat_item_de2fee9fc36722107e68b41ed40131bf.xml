@@ -130,7 +130,7 @@
         <update_guid_history>57d8fa1378e722107d815a0e789c05b4:-1188415921,43d8fa13cfe72210086e25c4df8d4ba1:-495698366,47d8fa13e7e722107b0859b8d5fcbd96:1208932481,c7d8fa13aae722103f4db988bbd24a8a:30349937,03d8fa138be722105429ce40848ea26d:1734980784,c6183e1fb9a72210ec493fb8d60da491:-855355665,222f22dfe7672210aeb4149abc94321c:393670744,2e2f22df11672210160dcdd78e3b2c11:2098301591,2e2f22df7f672210305e1cb9ccad9e08:-492034858,a22f22df466722109e233fa625487000:1212595989,222fee9fa4672210084a9854320cfbe1:-1377740460,662fee9f2b67221009e3922df35fd0cf:782494825,aa2fee9f5c672210bd36915240d248da:1990846719</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure DNS Resolver">93d8fa13c3e722107e68b41ed40131b8</sys_audit_delete>
+        <sys_audit_delete display_value="">93d8fa13c3e722107e68b41ed40131b8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:41</sys_created_on>

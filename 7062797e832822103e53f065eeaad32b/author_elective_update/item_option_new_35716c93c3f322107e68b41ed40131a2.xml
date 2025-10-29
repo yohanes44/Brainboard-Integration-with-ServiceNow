@@ -174,7 +174,7 @@
         <update_guid_history>c2716c9398f32210157e280be1b14dc9:1691138605</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="bastion_snet">7b5a2c53c37722107e68b41ed40131f1</sys_audit_delete>
+        <sys_audit_delete display_value="">7b5a2c53c37722107e68b41ed40131f1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:10:49</sys_created_on>

@@ -42,7 +42,7 @@
         <update_guid_history>e1d6bf3105b722100e76a1f647f0a0b0:1248897644</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Variables.AWS VPC with subnet and security groups on 2 AZs">c0db11e3c3b322107e68b41ed401317a</sys_audit_delete>
+        <sys_audit_delete display_value="">c0db11e3c3b322107e68b41ed401317a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-11 10:25:19</sys_created_on>

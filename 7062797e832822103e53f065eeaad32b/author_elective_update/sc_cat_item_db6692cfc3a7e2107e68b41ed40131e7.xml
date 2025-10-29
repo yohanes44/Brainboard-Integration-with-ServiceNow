@@ -130,7 +130,7 @@
         <update_guid_history>73585e1f69a32210de4e1ac756d98470:1710150522,2b66d2cfcca7e210202c5aca7ff5e850:-2007970957,af66d2cf9ca7e2100db415bea7f90d43:-303340110,6f66d2cfa8a7e210af760f37d780722e:1401290737,a366d2cff7a7e21030ab87feb65a5f19:-1189045712,ef66d2cf02a7e210c6b57449534eb80f:515585135,a366d2cf56a7e2105570523292417b09:-2074751314,2f6692cfefa7e21051c567127b0443f6:-1206776161,ab66d2cf51a7e21028e977654e80cd02:-1044063159</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS Application Load balancer">37585e1fc3a322107e68b41ed401315a</sys_audit_delete>
+        <sys_audit_delete display_value="">37585e1fc3a322107e68b41ed401315a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 09:55:44</sys_created_on>

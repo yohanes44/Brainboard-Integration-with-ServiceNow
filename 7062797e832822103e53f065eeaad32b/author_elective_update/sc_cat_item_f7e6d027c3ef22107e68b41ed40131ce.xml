@@ -130,7 +130,7 @@
         <update_guid_history>f9fa14eb39ef2210cc951ca38d3b0ff1:-559999183,f9fa14eb1def221035cd25690c3390e0:-1571465344,39fa14eba6ef2210205de7f5c880b6d4:-1625017829,b9fa14eb3eef2210176f37a00055bfc9:79613018,3dfa14ebe2ef2210b2a0f987e70d85be:1784243865,bdfa14eb6eef22107f62a853b4ec7899:632795031,7dfa14eb29ef221080f921a533a70288:-1957541418,f7e61427a2ef2210387c9d89cbbacb1b:-252910571,b3e6142703ef2210a8cb6ed89d37a710:1451720276,7fe614275cef221051ab2a6da3640907:-1138616173,ffe6d02796ef22109a6c7bd1ff6942fe:566014674,b3e6d02725ef22108606bb11f5ff4bf6:-2024321775,73e6d027c9ef2210c83c2f5c4d309ce3:-319690928,f3e6d027deef2210718190d61ba6eee8:2134392171,fbe6d0272cef22100bc6072534bcc8dc:-423356163</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure storage account">fdfa54ebc3ef22107e68b41ed4013101</sys_audit_delete>
+        <sys_audit_delete display_value="">fdfa54ebc3ef22107e68b41ed4013101</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:19</sys_created_on>

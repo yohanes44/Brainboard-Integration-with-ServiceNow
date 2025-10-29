@@ -130,7 +130,7 @@
         <update_guid_history>161b542f4bef22107b84415cc1370f8e:175978130,161b542fc9ef22107a9666a138efdf7d:-517094375,421b542f29ef22100b3cb03dfaeb6e71:797064980,c21b542f8aef2210a1385c114fff2266:-1793271469,461b542f39ef22103efabbb6755f9b5b:-88640622,461b542f4eef2210c84450598a27974f:1690214448,4e1b542f91ef22103dd89fd79ff5a631:-900122001,c6d654e336ef22107cef1b3469a390c8:804508846,82d654e324ef221066c5ff07287218bd:-1785827603,4ed654e3c7ef22103819af13d5336eb4:-81196756,ced654e3abef2210bc7347cc826418ab:1623434091,cad654e3a9ef22101556e4963b54ec96:-966902358,4ed654e35aef2210280719ef63463b83:737728489,cad654e3e4ef221043d196f775611a86:-315991452,c6d654e3d8ef22105e7fd5b31dda007d:-923246472</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Application Gateway with Windows Web app">521b542fc3ef22107e68b41ed4013192</sys_audit_delete>
+        <sys_audit_delete display_value="">521b542fc3ef22107e68b41ed4013192</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:53</sys_created_on>

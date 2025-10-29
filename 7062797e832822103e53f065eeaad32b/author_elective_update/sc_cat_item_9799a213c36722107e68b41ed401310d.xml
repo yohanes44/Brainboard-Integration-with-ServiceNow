@@ -130,7 +130,7 @@
         <update_guid_history>04ebe25770672210e1c574ab2be9fc93:1755941098,c8ebe257e9672210047e8ad445052c74:1910505915,88ebe257a56722107d3aedb57b851e6a:334866069,08ebe25771672210db63c8c2f5c8405f:2039496916,f7dbe257b9672210f5dbdb1f22e57936:-550839533,6b99a213276722103210ceea00853d76:1153791314,a399a213206722107320002868e1df6c:-1436545135,af99a21349672210a252d7401da67562:268085712,6399a213aa672210e70cfa46bd42345a:1972716559,2f99a213346722103d167c79e3f23453:-617619890,df99a2133e672210f8204a9f7fa8b33b:-913138035,1b99a213356722108fd5fa41ba196134:1753529015</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Network &amp; security">40ebe257c36722107e68b41ed4013197</sys_audit_delete>
+        <sys_audit_delete display_value="">40ebe257c36722107e68b41ed4013197</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:20:57</sys_created_on>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>300</order>
+        <sc_cat_item display_value="AWS Kubernetes cluster with native CNIs">27a7f253c3b762107e68b41ed401317b</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:28:13</sys_created_on>
+        <sys_id>77a7f253c3b762107e68b41ed40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variables.AWS Kubernetes cluster with native CNIs</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>io_set_item_77a7f253c3b762107e68b41ed40131dc</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:28:13</sys_updated_on>
+        <variable_set display_value="Variables">52b414ebc3af22107e68b41ed40131f4</variable_set>
+    </io_set_item>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>1530765393dc22d0611eddd548373c8d</instance_id>
+        <instance_name>dev304798</instance_name>
+        <name>io_set_item_77a7f253c3b762107e68b41ed40131dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>300</order>
+        <sc_cat_item display_value="AWS Kubernetes cluster with native CNIs">27a7f253c3b762107e68b41ed401317b</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:28:13</sys_created_on>
+        <sys_id>77a7f253c3b762107e68b41ed40131dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variables.AWS Kubernetes cluster with native CNIs</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>io_set_item_77a7f253c3b762107e68b41ed40131dc</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:28:13</sys_updated_on>
+        <variable_set display_value="Variables">52b414ebc3af22107e68b41ed40131f4</variable_set>
+    </io_set_item>
+</record_update>]]></payload>
+        <payload_hash>-1854525953</payload_hash>
+        <record_name>Variables.AWS Kubernetes cluster with native CNIs</record_name>
+        <reverted_from/>
+        <source>a478d803933cfe10eae01aebb9373c4f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-10-29 09:18:14</sys_created_on>
+        <sys_id>61c8d8c3933cfe10eae01aebb9373c5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a2f42bf380000001</sys_recorded_at>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:18:14</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>21c8d8c3fc3cfe1060e06def67541e5d</update_guid>
+        <update_guid_history>21c8d8c3fc3cfe1060e06def67541e5d:-1854525953</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Variables.AWS Kubernetes cluster with native CNIs">76b4708b93b43250eae01aebb9373c7c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-10-29 11:20:23</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>b505159879bf4a7c815db306b347e490</sys_id>
+        <sys_metadata>77a7f253c3b762107e68b41ed40131dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variables.AWS Kubernetes cluster with native CNIs</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>io_set_item_77a7f253c3b762107e68b41ed40131dc</sys_update_name>
+        <sys_update_version display_value="io_set_item_77a7f253c3b762107e68b41ed40131dc">61c8d8c3933cfe10eae01aebb9373c5d</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-10-29 11:20:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

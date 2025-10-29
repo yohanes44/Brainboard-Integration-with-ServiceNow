@@ -130,7 +130,7 @@
         <update_guid_history>340b98ebabef2210fc19ea2a1ef857b1:-978573107,fc0b98ebcbef2210058ff51229ee8c7a:-663938594,3c0b98eb5bef2210c2f5deab5ac8ac6e:834430297,300b98ebb2ef221072a5782db19ba34b:-1755906152,b00b98eb6def221083a6a9649a8fff40:-51275305,a00b98eb3fef2210cc3c0c6ad366b634:1148495349,600b98eb34ef221062dcd2f53809aa23:-1441841100,64f6542734ef22101966073bd3d7598a:262789747,20f6542798ef2210ae9192dd80d9567f:1967420594,e8f6542789ef2210b6fcdbde018b5476:-622915855,6cf6542773ef22101d13483605dcf36d:1081714992,20f6542727ef2210c1ea519e3c4bf965:-1508621457,a4f65427a7ef2210531e2c13d58a855e:196009390,acf6542704ef2210c836645c591efe50:-1833484119,68f65427fbef2210248b84fb08848d4b:413970515</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Cross account AWS S3">700b98ebc3ef22107e68b41ed40131b5</sys_audit_delete>
+        <sys_audit_delete display_value="">700b98ebc3ef22107e68b41ed40131b5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:31</sys_created_on>

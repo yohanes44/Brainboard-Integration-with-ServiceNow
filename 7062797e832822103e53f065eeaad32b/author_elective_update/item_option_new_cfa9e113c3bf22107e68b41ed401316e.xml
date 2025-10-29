@@ -174,7 +174,7 @@
         <update_guid_history>03a9e11357bf221045613ec6dc5c35a8:1130720360</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="doc_intelligence_api_key_secret">b763f2dfc33762107e68b41ed40131b1</sys_audit_delete>
+        <sys_audit_delete display_value="">b763f2dfc33762107e68b41ed40131b1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:09:39</sys_created_on>

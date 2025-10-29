@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>aa54a997873f22103706d8f754297c9b:882984518,da54a997323f22109590d376b1d8847c:-1687814396,5a54a997473f221067006192c6b3086f:1837982135,5e54a997423f2210176b546f484bb063:-642810792,5254a9972a3f2210ca2bb30adbb02858:1171363577,d254a997e43f2210c744ea86bd56664b:-1309429350,5254a997ba3f22106333d104eda67c39:504745019,72f1259f49fb2210faa5b09116419638:-1478214833,94d12d1fb0fb2210fdb4463c73f1659d:-387880907,17a0e9d759fb22100a09cf8caeff882a:-2144833391,cfa0e9d751fb221011a706552588a01c:-330659022,8ba0e9d7e5fb221039a0bd394aea6813:1483515347,87a0a9d75dfb22102b29f6bf5e4334fd:-997277580,cba0a9d712fb221055d8bde692d881f3:816896789,03a0a9d77cfb221092ecc2ee810e3eec:-1663896138,c7a0a9d7d0fb22103c9ab9123a6954cd:233611945,87a0a9d75cfb22102fbd8b6f84b62fbf:1423923797</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="REST API for Amazon DocumentDB">ea54a997c33f22107e68b41ed401319f</sys_audit_delete>
+        <sys_audit_delete display_value="">ea54a997c33f22107e68b41ed401319f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:24:08</sys_created_on>

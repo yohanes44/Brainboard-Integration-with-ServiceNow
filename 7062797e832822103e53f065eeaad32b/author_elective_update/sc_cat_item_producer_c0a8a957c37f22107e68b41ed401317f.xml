@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>8e257adbb7776210f77957a890840921:-1984135763,4e253adb1f7762101ababa9ac0b0dee9:199098755,f5253adb0e7762101bb145a86443bfdc:-659153962,f5253adbf2776210d510e79e9dc14ad0:1155020407,f5253adb39776210cd144259baf54dc4:-1325772520,f5253adb12776210e61cca2c1588e79e:488401849,31253adbb27762102d69b2c9f2bb2980:-1992391078,f5253adbeb776210e45ea449fdc5296c:-345589298,2ca8e957f17f2210026423e0831ff478:1468585071,dca8e957d97f2210dfa42b7ff593b069:-1012207856,98a8e957a87f22106743381d1a9ee85c:801966513,d4a8e9571f7f221044bdf472ec6e023a:-1678826414,54a8e9579a7f2210441339f403212a0b:135347955,14a8e957117f22105ff4ed896c87e201:1949522324,90a8a9573a7f22106e961ab48b8198ed:-531270603,94a8a9571f7f221016327ee4387fe0dc:2061847752,dca8a957c77f2210bfd05cde00b75bcc:-94018740</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure VNET with NSG &amp; Sample Rule">ce257adbc37762107e68b41ed4013125</sys_audit_delete>
+        <sys_audit_delete display_value="">ce257adbc37762107e68b41ed4013125</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:17:11</sys_created_on>

@@ -134,7 +134,7 @@ It contains a VPC that has:
         <update_guid_history>bd9610a3b5ef2210932aa25e16352c05:-292404490,fd96dc638cef2210c3a4a1a786d8a7f4:2054712527,7d96dc6397ef221003f5074d5502bfe8:106299538,3196dc639def2210d9c87f09517c71de:-1069308056,6196dc6316ef2210b674eed80901aed2:635322791,e996dc63b2ef22107f01e419858ce9b4:-1955013658,ee29be93ffe7221031cd373e368cf03f:-250382811,ea29be9398e7221065a4be3381853135:1454248036,da29be93b2e72210021ca8baa40b1d2c:-1136088413,5229be9375e72210e96fe07ea76aba24:568542434,9629be9322e7221080de93ad799d7511:-2021794015,9a29be93a5e7221003fae6726a57bc0a:1514886940,9629be930be72210c9bd85e0f6f7e215:77771620</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS landing zone">f99610a3c3ef22107e68b41ed4013109</sys_audit_delete>
+        <sys_audit_delete display_value="">f99610a3c3ef22107e68b41ed4013109</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:07:11</sys_created_on>

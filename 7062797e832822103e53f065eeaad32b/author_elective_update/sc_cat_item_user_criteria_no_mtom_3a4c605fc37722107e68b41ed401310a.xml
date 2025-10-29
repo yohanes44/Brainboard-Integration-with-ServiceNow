@@ -29,19 +29,19 @@
         <source>b1272911c31022107e68b41ed40131ef</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-03-14 11:48:46</sys_created_on>
         <sys_id>dd07a913c37f22107e68b41ed40131fa</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>195947c41300000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:47:16</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>9d07a913d87f22102a4b70f003147dfa</update_guid>
         <update_guid_history>9d07a913d87f22102a4b70f003147dfa:-1232744389</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Route Server in Hub &amp; Spoke.SNC External">9907a913c37f22107e68b41ed40131fb</sys_audit_delete>
+        <sys_audit_delete display_value="">9907a913c37f22107e68b41ed40131fb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:35:47</sys_created_on>

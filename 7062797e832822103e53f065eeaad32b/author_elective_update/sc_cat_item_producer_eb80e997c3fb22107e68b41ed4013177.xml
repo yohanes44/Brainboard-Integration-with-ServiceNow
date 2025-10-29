@@ -167,7 +167,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>2ff32dd39a3f22106e44626e80f135ae:-1566896405,27f32dd3933f221031321eda7ce3e79c:-1761101893,a3f32dd31b3f2210c3ddf98e74b22a8f:1653726580,a7f32dd35f3f221011793d590f7bd783:-827066347,abf32dd3783f2210a60ebba4da1d8977:987108022,2ff32dd3e83f22102fbb3d741dda886a:776275716,abf32dd31b3f22104dfceb2618a85b58:-1704517211,6f806d97b5fb2210829803bbfc13ce4d:109657158,e3806d97befb221008e06f4cf969ff0f:1923831527,23802d975cfb221030771e0c5dd4deed:-556961400,67802d9708fb2210a9157431147ec2ca:1257212969,2f802d97f6fb2210c6e3fbd4d5fa1da7:-1223579958,e3802d97d7fb2210dab5302a4464eca0:590594411,27802d97a3fb2210d8bb11fab5d2bc91:1660398116,23802d97d3fb22102c8160ddd93dec80:1236780608</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS load balancer with target group">37f32dd3c33f22107e68b41ed40131bf</sys_audit_delete>
+        <sys_audit_delete display_value="">37f32dd3c33f22107e68b41ed40131bf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:22:35</sys_created_on>

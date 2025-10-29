@@ -174,7 +174,7 @@
         <update_guid_history>bef86d5b4a7f221010b349c09f01a7f3:124869676</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="redis_cache_sku">4243be5fc33762107e68b41ed4013115</sys_audit_delete>
+        <sys_audit_delete display_value="">4243be5fc33762107e68b41ed4013115</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:09:00</sys_created_on>

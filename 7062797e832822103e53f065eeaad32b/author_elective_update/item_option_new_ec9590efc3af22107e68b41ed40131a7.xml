@@ -174,7 +174,7 @@
         <update_guid_history>f5c291abd6676210b116ae7aa7eb7d7e:1168650970,a397856bf927621004289d0ba3d9db59:-1558263375,5c0424e310636210d458e2d847755c5c:370707696,30b558ef49af2210691043337225cefc:1921570644</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="UUID">d5c09d38c3bba2107e68b41ed40131af</sys_audit_delete>
+        <sys_audit_delete display_value="">d5c09d38c3bba2107e68b41ed40131af</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-09-02 20:33:46</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>a8e994d334732210f045517f2538076b:-1248592514</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="health_probe_path">8d2f58d7c3b322107e68b41ed40131a3</sys_audit_delete>
+        <sys_audit_delete display_value="">8d2f58d7c3b322107e68b41ed40131a3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:21:45</sys_created_on>

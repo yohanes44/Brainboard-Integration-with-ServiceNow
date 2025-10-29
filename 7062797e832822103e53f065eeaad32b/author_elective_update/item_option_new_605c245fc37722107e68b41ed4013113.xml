@@ -174,7 +174,7 @@
         <update_guid_history>ec5c245f0f7722106d0301acbd411e28:-147081626</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="spoke2_vnet_address_space">5bf6a513c37f22107e68b41ed40131e2</sys_audit_delete>
+        <sys_audit_delete display_value="">5bf6a513c37f22107e68b41ed40131e2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:35:40</sys_created_on>

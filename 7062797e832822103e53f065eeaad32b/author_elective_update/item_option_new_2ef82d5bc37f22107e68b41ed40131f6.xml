@@ -174,7 +174,7 @@
         <update_guid_history>a2f86d5bb27f22101716037472ba1830:-520647250</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ec2_threshold">a1d3fa93c37762107e68b41ed40131a4</sys_audit_delete>
+        <sys_audit_delete display_value="">a1d3fa93c37762107e68b41ed40131a4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:11:25</sys_created_on>

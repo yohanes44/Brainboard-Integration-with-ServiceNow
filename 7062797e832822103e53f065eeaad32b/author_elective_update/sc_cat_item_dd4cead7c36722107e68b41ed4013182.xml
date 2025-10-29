@@ -130,7 +130,7 @@
         <update_guid_history>be1da65b0267221028d6048d60fb5614:1529258755,3e1da65b66672210f6e859dc15c76402:41336250,fa1d665bb4672210a0d48ed5186621f8:531230908,7a1d665b336722107497981c79a3a3ed:-2059105541,721d665b1a672210358087006b13f3d0:-354474694,654c2ed738672210f405570f63cdbf2a:1350156153,214c2ed745672210199dec1b21914820:-1240180296,6d4c2ed7a067221012c346f0fdb8e916:464450551,e94cead752672210b56ed2400b9577e8:-2125885898,e14cead79a6722104738d47eb0fe3ae2:-421255051,594cead73c6722100e0e26f4540497ca:-1297514868,dd4cead77b672210d2f0f5198cb36cc2:-887443140</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure AKS Baseline Cluster with hub and spoke">cb1da65bc36722107e68b41ed4013118</sys_audit_delete>
+        <sys_audit_delete display_value="">cb1da65bc36722107e68b41ed4013118</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:26:20</sys_created_on>

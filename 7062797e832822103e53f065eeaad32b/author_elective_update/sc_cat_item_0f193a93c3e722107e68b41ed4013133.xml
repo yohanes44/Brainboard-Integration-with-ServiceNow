@@ -130,7 +130,7 @@
         <update_guid_history>f0969c63e9ef2210c23b1d4390a04b42:1369915735,34969c6334ef221029bb4b43a60fd131:-894469394,b0969c6329ef22109535be76ff8ae925:-1420657171,74969c6344ef22106f5528379de1fe1a:139126791,b4969c63c1ef2210d9958f71772b990e:1843757638,30965c6362ef221020ef5af0ed03d4f1:-746578811,13193a932be722103cc1a40e1c868f90:958052036,1f193a93ede72210590595f65b6d2c85:-1632284413,1f193a938ce722107adaa56e8d64a07c:72346434,93193a9316e722107e7492464dccfa74:1776977281,13193a9379e72210773d7ec3aa2ed555:-813359168,c7193a93b4e7221001b7eafbaa38d64e:-545121495,0f193a931fe722102385a5c8ffd1a459:1933064895</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Multi-subscription landing zone">01969c63c3ef22107e68b41ed4013146</sys_audit_delete>
+        <sys_audit_delete display_value="">01969c63c3ef22107e68b41ed4013146</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:07:08</sys_created_on>

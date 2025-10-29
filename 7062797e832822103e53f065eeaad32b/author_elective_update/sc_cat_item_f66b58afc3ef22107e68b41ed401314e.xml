@@ -130,7 +130,7 @@
         <update_guid_history>298fdce731236210335fbd70b0245eef:-1055591213,298fdce7a323621062bb1176d1a719de:-174740448,ad8fdce7322362102449bcf3f2bd0ac5:-976803717,698fdce7402362104a02a95c405e1aae:727827130,e98fdce7f2236210e77a61b2c87b04a3:-1862509319,258fdce753236210d8f149a138f1b88b:-1532335049,d18fdce7592362104c3a9a272445967a:172295798,8f6b58af2def2210b389e2a5c0ed0da7:1876926645,4b6b58af40ef22109fdd4f283bdf6c9c:-713409804,076b58af60ef22105cc1ce2db01a9694:991221043,876b58af7bef2210dd9dde662e7d548b:-1599115406,4b6b58af78ef221012449452dd78f582:105515441,cf6b58afd5ef2210b2f73abf259b117b:1810146288,3e6b58af80ef2210e4360998bcd9c36e:-1253518389,b26b58aff7ef221012dd743b4bbf7569:-1999174541</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Kubernetes provider with AKS">2d8fdce7c32362107e68b41ed40131ff</sys_audit_delete>
+        <sys_audit_delete display_value="">2d8fdce7c32362107e68b41ed40131ff</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:13</sys_created_on>

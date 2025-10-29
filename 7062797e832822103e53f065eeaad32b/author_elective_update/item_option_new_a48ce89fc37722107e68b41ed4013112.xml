@@ -174,7 +174,7 @@
         <update_guid_history>608ce89f6f77221018d215cf0ce7f330:709410022</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="sql_server_name">5f17a553c37f22107e68b41ed40131dd</sys_audit_delete>
+        <sys_audit_delete display_value="">5f17a553c37f22107e68b41ed40131dd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:36:12</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>87bfc98ba93b221010dd95f51465d63d:448099098</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="apim_subnet_name">175a5d83c3bb22107e68b41ed40131d9</sys_audit_delete>
+        <sys_audit_delete display_value="">175a5d83c3bb22107e68b41ed40131d9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:02:02</sys_created_on>

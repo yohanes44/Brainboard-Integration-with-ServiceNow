@@ -130,7 +130,7 @@
         <update_guid_history>6a4f14a71d236210d291abb8d41c7a9f:-79933899,224f14a7ab2362105f0f7fb2d8e7298d:1138357098,6e4f14a7962362106437e130092cda7e:-1012897917,ee4f14a7c0236210f9e56459aa699b73:691732930,e64f14a718236210d8553f8cfb561d5c:-1898603519,924f14a7fc236210c2bdca1e27d64d50:2115303617,5a4f14a7e92362105beffde73647b00c:-475032832,455b1c6f48ef2210faf91dd3c91282c5:1229598015,015b1c6f8cef2210579deb5c449591ba:-1360738434,c95b1c6f87ef2210a874ee65d94416b1:343892413,4d5b1c6f74ef2210caa38b5825f5b0a8:2048523260,305b1c6f71ef2210cd545b29fd4626a0:-541813189,385b1c6f9cef221069a6e524f4f22d80:1162817658,b45b1c6fadef221085e29bad02162f82:2022000595,b05b1c6fedef221030d4b2e36b7a4f7a:-1722647135</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Function app architecture">3a4f14a7c32362107e68b41ed40131a3</sys_audit_delete>
+        <sys_audit_delete display_value="">3a4f14a7c32362107e68b41ed40131a3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:45:13</sys_created_on>

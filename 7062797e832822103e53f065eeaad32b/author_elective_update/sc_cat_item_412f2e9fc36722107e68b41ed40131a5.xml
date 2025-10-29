@@ -130,7 +130,7 @@
         <update_guid_history>e1b83adf43a722101d03899dff7ab986:1818291607,edb83adf3ba722107113c73212747372:-656586998,e1b83adfb9a72210a284148345cfce68:1048043849,55b83adfcaa722102909a845ccafed5c:535584263,55b83adf8fa72210a597840fa512064b:-2054752186,5738729f78a72210f835c0a663cba632:-350121339,c92f2e9f006722101994905421ff96f4:-1059875744,012f2e9f72672210a8400b510bb3c1de:644755103,012f2e9f5d672210f341587bb0aec3d5:-1945581346,852f2e9f126722106fc0f9376b92f8cc:-240950499,c92f2e9fad672210ebe7fc256a05ddb9:1463680348,0d2f2e9fec6722100ceb97f77fc01ebf:1287729151,452f2e9f516722101ac9046cffee13b3:-1059290391</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure web application">e5b83adfc3a722107e68b41ed4013196</sys_audit_delete>
+        <sys_audit_delete display_value="">e5b83adfc3a722107e68b41ed4013196</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:01</sys_created_on>

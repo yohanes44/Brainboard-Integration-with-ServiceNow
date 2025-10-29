@@ -174,7 +174,7 @@
         <update_guid_history>2ca97fb92ab72210e9ae8ee55bcec8de:282829722</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="min_capacity">f4e991cfc37b22107e68b41ed4013176</sys_audit_delete>
+        <sys_audit_delete display_value="">f4e991cfc37b22107e68b41ed4013176</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 20:59:57</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>ec7e0143f73b2210e8c95886a1df946a:2021687898</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="cosmos_db_consistency_level">849a9507c3bb22107e68b41ed4013179</sys_audit_delete>
+        <sys_audit_delete display_value="">849a9507c3bb22107e68b41ed4013179</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:02:54</sys_created_on>

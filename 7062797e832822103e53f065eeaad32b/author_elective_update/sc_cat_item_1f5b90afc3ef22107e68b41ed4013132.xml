@@ -130,7 +130,7 @@
         <update_guid_history>6c6fdca7bb236210800dc3c7fd1b2b1d:353795786,6c6fdca7d72362102be66dab4a68860c:-481645367,e06f9ca7a2236210678dee9f1efc9ef4:684382146,646f9ca75d2362107e51b387fe2c78e9:-1905954303,e46f9ca71423621077a46e10e35023de:-201323456,106f9ca729236210edfd7bf1d2f1b9c6:1477125664,dc6f9ca7102362105fe050771835d0b4:-1113210785,eb5b90afe7ef2210274b4968886a05ef:591420062,ef5b90af6bef22104001dc4e0575a3d7:-1998916387,e35b90af92ef22108d9031794ab5ebc3:-294285540,675b90afffef221087253bf76c225bba:1410345307,635b90af4eef22108d0364bd3b4141a5:-1179991142,a35b90af15ef2210214ceb8b64b24779:524639705,ab5b90af83ef22101f744dd941d49d88:-1078491118,2f5b90afbaef2210e981a4016ed0fb72:83056038</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Network &amp; security">286fdca7c32362107e68b41ed401313a</sys_audit_delete>
+        <sys_audit_delete display_value="">286fdca7c32362107e68b41ed401313a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:45:37</sys_created_on>

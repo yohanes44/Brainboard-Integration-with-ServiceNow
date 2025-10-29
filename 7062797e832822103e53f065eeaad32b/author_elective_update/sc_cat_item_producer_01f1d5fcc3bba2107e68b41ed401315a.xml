@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>82585ec579b72610ca319d508d9b95f6:1969800438,06585ec501b72610d771681325fcaad7:345080158,8a585ec5b4b7261005e86d5e71ccd9bd:468692143,7d585ec5e5b7261094a30feb1a74deb1:1725822597,31585ec5f4b72610fe18b965b47204a6:-754970330,71585ec5f9b726104e98eea81b3dc399:1059204039,f1585ec5a7b72610d29fd52ef0dbeb86:-1421588888,75585ec5cbb7261086e1f12dccf42373:392585481,b9585ec5bfb726105725ca389c2d0461:-2088207446,fd585ec592b72610278e9b4401c96d4f:-274033077,a5585ec527b72610fc12911edc4ab230:1540141292,e9f1d5fccdbba21082aeed99ccf9befa:-940651635,61f1d5fc2dbba210ab7cec247a1fe9ed:873522734,2df1d5fcdabba2105474d489d4abb1df:743966180,2df1d5fc3bbba2109d2a443a7b7f29d2:-1736826747,ddf1d5fccabba210cea4192cb7bc34c5:77347622,05f1d5fc08bba2109ac1ec70f3c14bae:1891521991,09f1d5fc48bba210eeca5e643f20326b:-205405796,01f1d5fc45bba210b136ccb9ee99aba5:-589270936,c1f1d5fc55bba210fc00ab6ad0cf7e9b:1224903433,09f1d5fc97bba2108e1962cf66984591:-1255889494,01f1d5fc38bba210601d49d3f93c9d8a:558284875,49f1d5fc69bba2106bdc1b64e4389c69:-455503850</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="GCP cloud CDN &amp; Load balancer">02585ec5c3b726107e68b41ed40131fa</sys_audit_delete>
+        <sys_audit_delete display_value="">02585ec5c3b726107e68b41ed40131fa</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-03 20:24:58</sys_created_on>

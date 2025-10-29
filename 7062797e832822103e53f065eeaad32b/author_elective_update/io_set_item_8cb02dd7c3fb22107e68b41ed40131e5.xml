@@ -42,7 +42,7 @@
         <update_guid_history>d4b02dd786fb221099c2ef23a18994ee:-392584966</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Variables.Cross account AWS S3">d0a4ad1bc33f22107e68b41ed4013189</sys_audit_delete>
+        <sys_audit_delete display_value="">d0a4ad1bc33f22107e68b41ed4013189</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:25:21</sys_created_on>

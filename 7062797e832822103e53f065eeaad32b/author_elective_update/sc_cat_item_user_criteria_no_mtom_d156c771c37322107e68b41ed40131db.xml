@@ -29,19 +29,19 @@
         <source>b1272911c31022107e68b41ed40131ef</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-03-14 11:48:46</sys_created_on>
         <sys_id>f3f4b3f5c37722107e68b41ed4013167</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>195947c41300000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:47:50</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>b3f4b3f5b9772210b24ea51ca57bb467</update_guid>
         <update_guid_history>b3f4b3f5b9772210b24ea51ca57bb467:-228927392</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure private endpoints .SNC External">7bf4b3f5c37722107e68b41ed4013167</sys_audit_delete>
+        <sys_audit_delete display_value="">7bf4b3f5c37722107e68b41ed4013167</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-06 11:05:13</sys_created_on>

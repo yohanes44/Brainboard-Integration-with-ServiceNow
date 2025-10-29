@@ -174,7 +174,7 @@
         <update_guid_history>f7e8541fff33221088007a51f5cea5ed:798722712</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="kv_secret_vpn_shared_key_name">9acd5c1fc37322107e68b41ed40131cb</sys_audit_delete>
+        <sys_audit_delete display_value="">9acd5c1fc37322107e68b41ed40131cb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:15:49</sys_created_on>

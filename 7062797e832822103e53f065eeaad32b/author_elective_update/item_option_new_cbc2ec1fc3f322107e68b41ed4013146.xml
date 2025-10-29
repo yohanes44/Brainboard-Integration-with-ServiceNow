@@ -174,7 +174,7 @@
         <update_guid_history>43c2ec1f28f322102538c93e94aace5f:-1328390429</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="vnet_jumpbox_addr">04ca6c17c37722107e68b41ed4013199</sys_audit_delete>
+        <sys_audit_delete display_value="">04ca6c17c37722107e68b41ed4013199</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:12:28</sys_created_on>

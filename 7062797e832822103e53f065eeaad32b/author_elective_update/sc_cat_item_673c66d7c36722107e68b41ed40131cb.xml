@@ -130,7 +130,7 @@
         <update_guid_history>eebee61f556722100870d0ce9a920e3d:-1803097142,a2bee61fcf672210a1b4bd104f26701f:1695554757,eebee61f1c6722103e1df8c661c87c14:-336244601,eabee61f776722102df2a6c11dadd209:1368386246,2abea61f3e672210e072c942163636f8:-1221950203,3f3ca6d73e672210e551a055e1655559:482680644,733c66d7066722109b03df97436021f6:-884032105,333ca6d75e672210bdeb021fa0a4b643:-2107655805,ff3ca6d7a96722107f88ed94c7d0d520:-403024958,3f3ca6d733672210de5deab4742f190b:1301605889,273ca6d7fd672210c73cc235896a6c05:-1288730560,233c66d7296722106aab28e67f34f3e6:772165057</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Serverless">2ebee61fc36722107e68b41ed4013141</sys_audit_delete>
+        <sys_audit_delete display_value="">2ebee61fc36722107e68b41ed4013141</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:33:24</sys_created_on>

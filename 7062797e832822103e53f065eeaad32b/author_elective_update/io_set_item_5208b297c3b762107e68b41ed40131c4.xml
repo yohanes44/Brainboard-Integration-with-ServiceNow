@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="AWS landing zone">9208b297c3b762107e68b41ed4013186</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:29:46</sys_created_on>
+        <sys_id>5208b297c3b762107e68b41ed40131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Widget Item.AWS landing zone</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>io_set_item_5208b297c3b762107e68b41ed40131c4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:29:46</sys_updated_on>
+        <variable_set display_value="Widget Item">f4c1942bc3af22107e68b41ed40131cd</variable_set>
+    </io_set_item>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>1530765393dc22d0611eddd548373c8d</instance_id>
+        <instance_name>dev304798</instance_name>
+        <name>io_set_item_5208b297c3b762107e68b41ed40131c4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="AWS landing zone">9208b297c3b762107e68b41ed4013186</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:29:46</sys_created_on>
+        <sys_id>5208b297c3b762107e68b41ed40131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Widget Item.AWS landing zone</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>io_set_item_5208b297c3b762107e68b41ed40131c4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:29:46</sys_updated_on>
+        <variable_set display_value="Widget Item">f4c1942bc3af22107e68b41ed40131cd</variable_set>
+    </io_set_item>
+</record_update>]]></payload>
+        <payload_hash>-1141138559</payload_hash>
+        <record_name>Widget Item.AWS landing zone</record_name>
+        <reverted_from/>
+        <source>a478d803933cfe10eae01aebb9373c4f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-10-29 09:18:12</sys_created_on>
+        <sys_id>0dc858c3933cfe10eae01aebb9373c4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a2f42b5f50000001</sys_recorded_at>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:18:12</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>c9c858c34f3cfe102405f7b720fbee4d</update_guid>
+        <update_guid_history>c9c858c34f3cfe102405f7b720fbee4d:-1141138559</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Widget Item.AWS landing zone">06d4b8cb93b43250eae01aebb9373cde</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-10-29 11:20:53</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>62290c0544a749ac808ff9b557616011</sys_id>
+        <sys_metadata>5208b297c3b762107e68b41ed40131c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Widget Item.AWS landing zone</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>io_set_item_5208b297c3b762107e68b41ed40131c4</sys_update_name>
+        <sys_update_version display_value="io_set_item_5208b297c3b762107e68b41ed40131c4">0dc858c3933cfe10eae01aebb9373c4d</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-10-29 11:20:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

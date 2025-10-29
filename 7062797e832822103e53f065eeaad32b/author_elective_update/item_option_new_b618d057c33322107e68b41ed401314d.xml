@@ -174,7 +174,7 @@
         <update_guid_history>ba18d05748332210f914ffe5f73b2e9a:385918662</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Peershared_key">4cfedc57c3b322107e68b41ed40131bc</sys_audit_delete>
+        <sys_audit_delete display_value="">4cfedc57c3b322107e68b41ed40131bc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:20:52</sys_created_on>

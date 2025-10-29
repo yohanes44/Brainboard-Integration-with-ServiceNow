@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>8931ddf810bba210e14aa8255039b4e8:-1238177505,8131ddf8e7bba210e6e27cdb8db4c6d6:1643088465,7431ddf84abba210e6d7df11b3c174bc:-1281004576,b431ddf800bba210d32e4ca1e26d7ab0:-23874122,f431ddf8c6bba21025bee1fbc01d10a4:1790300247,b431ddf833bba210bad61a158acf1a97:-690492680,3c31ddf867bba210a6d90c805318d16c:1123681689,2031ddf8f8bba210f342de461802695b:-1357111238,2431ddf8febba210716eb4aa3a980149:457063131,2831ddf8dfbba2105e12a002ccc56037:-2023729796,e431ddf8ddbba210b457062ae0210e25:-209555427,2dedc538c17ba2106bc6d2a698f55df1:1604618942,ededc538167ba210087157fa5ba66be1:-876173985,21edc5384a7ba210c9c08d238879b1c6:718947351,a5edc5386d7ba210caade89ace2037aa:-1761845576,95edc538957ba210d5f5f0b3f1f10e9b:52328793,1dedc538c27ba210732492d19917d88d:1866503162,c5edc538157ba210deaa1f142a3be884:-614289765,09edc538697ba21073f23b70550f667a:1199884604,89edc538ed7ba2107c970cde63ee1070:-1280908323,c9edc5385a7ba21044ef4330c7e4fa5c:533266046,49edc538197ba210a4db878dea9da94c:560625101,c9edc538bf7ba210b0a70cf6d03aa848:-570985921</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS Bastion">4931ddf8c3bba2107e68b41ed40131ec</sys_audit_delete>
+        <sys_audit_delete display_value="">4931ddf8c3bba2107e68b41ed40131ec</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:35:40</sys_created_on>

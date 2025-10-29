@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>9071ed5bcbfb22100cab8d16afe87563:-811226056,c871ed5ba5fb2210d9389d9469c33550:1663854784,8871ed5b25fb2210a0902b90d203cb43:-151222231,cc71ed5b84fb22106b561e66b6e85437:1662952138,0471ed5be2fb2210a22110acd1172d2c:-817840789,c471ed5b5bfb221005ca5762ba4e681f:-131986935,c471ed5bb6fb221055130e00584ecc0d:1682187434,efa0e9d773fb2210c03833aed977b5de:-798605493,63a0e9d7f8fb2210343b136648f0a2d2:1015568876,67a0e9d7aafb2210f09a7a3f3a61a0bc:-1465224051,aba0e9d7e3fb2210ada3414dcd7f1d99:348950318,63a0e9d7adfb2210b7f9e4f9db1c2f77:-2131842609,a7a0e9d74ffb22109e83002aaabb756f:-317668240,dba0e9d78afb2210ce3cc6c57437d662:228105433,9ba0e9d746fb2210459730f5897a525b:353220303</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS 3-tier web app with a database">9071ed5bc3fb22107e68b41ed4013167</sys_audit_delete>
+        <sys_audit_delete display_value="">9071ed5bc3fb22107e68b41ed4013167</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:25</sys_created_on>

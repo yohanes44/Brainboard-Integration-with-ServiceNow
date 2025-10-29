@@ -130,7 +130,7 @@
         <update_guid_history>4b9f582bdd236210a128b534b6af6cdf:-1079782551,4b9f582b84236210a72cf603801a76ce:942756816,3a9f582bc22362102b631a0d040cf8a9:722663135,ba9f582b6c236210fb5ded10a660039e:-1867673314,3e9f582b0b236210cca462d1e37e3193:-163042467,3e9f582bd72362100cc027255fb3c787:338758503,fa9f582bdd236210d9b64bf844ef3476:2043389350,3f7bd0ef50ef22105ab7eb8dd4dad782:-546947099,f77bd0ef1def22105a19f153f430f677:1157683748,b37bd0ef5eef2210c0b80d067994906f:-1432652701,377bd0ef01ef22102dfe1460e5284c66:271978146,f77bd0ef9cef2210fdce71ee9c3e7b5d:1976608993,7f7bd0ef96ef221032ff92779f5b0456:-613727456,7b7bd0ef29ef22108dce59fbed9b204b:1152991279,337bd0ef0fef2210edce0cc133360344:-453261009</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="VM extension with custom script on blob storage">879f582bc32362107e68b41ed40131e3</sys_audit_delete>
+        <sys_audit_delete display_value="">879f582bc32362107e68b41ed40131e3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:36</sys_created_on>

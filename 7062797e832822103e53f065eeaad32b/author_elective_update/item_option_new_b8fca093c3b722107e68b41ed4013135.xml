@@ -174,7 +174,7 @@
         <update_guid_history>05fca0931fb722103a33ce056143346b:-1472868542</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="azure_vpn_gateway_name">83152d1fc33f22107e68b41ed401319d</sys_audit_delete>
+        <sys_audit_delete display_value="">83152d1fc33f22107e68b41ed401319d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:27:27</sys_created_on>

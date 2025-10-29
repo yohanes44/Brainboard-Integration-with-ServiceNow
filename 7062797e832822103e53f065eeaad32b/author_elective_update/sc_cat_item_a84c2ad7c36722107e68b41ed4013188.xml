@@ -130,7 +130,7 @@
         <update_guid_history>483d229b89672210bfc3f6289a8caa69:1361178344,c43d229b7c672210c9985443aa3d1857:2145950029,cc3d229b696722108a8f4da071f2e340:720337769,483d229bba6722106bb25bf1a36d4a28:-1869998680,b72d229b97672210ff3b0cd7ca901318:-165367833,704c2ad767672210408fbf49fea545d9:1539263014,3c4c2ad733672210ae34e4ece720cece:-1051073435,784c2ad770672210127d7b0f0ce264c5:653557412,2c4c2ad7f76722108ed5c0819e7caebc:-1936779037,a44c2ad7626722102cdfd0052b29139d:-232148190,ac4c2ad700672210162d9125df508896:287646281,a04c2ad74267221036504641748da4a2:1940376351</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Multi-subscription landing zone">843d229bc36722107e68b41ed401316d</sys_audit_delete>
+        <sys_audit_delete display_value="">843d229bc36722107e68b41ed401316d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:26:41</sys_created_on>

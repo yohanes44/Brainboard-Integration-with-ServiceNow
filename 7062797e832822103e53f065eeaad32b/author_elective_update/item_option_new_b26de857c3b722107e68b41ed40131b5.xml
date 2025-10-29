@@ -174,7 +174,7 @@
         <update_guid_history>c36de857b1b722100f1133ef6cea17db:1311165464</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="cognitive_account_sku">e9542997c33f22107e68b41ed40131ca</sys_audit_delete>
+        <sys_audit_delete display_value="">e9542997c33f22107e68b41ed40131ca</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:24:04</sys_created_on>

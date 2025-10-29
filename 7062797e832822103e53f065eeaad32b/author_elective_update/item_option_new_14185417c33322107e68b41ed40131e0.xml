@@ -174,7 +174,7 @@
         <update_guid_history>d8189417c63322101bda05405a751721:46588472</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="aad_login">9ace1c17c3b322107e68b41ed40131d9</sys_audit_delete>
+        <sys_audit_delete display_value="">9ace1c17c3b322107e68b41ed40131d9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:20:12</sys_created_on>

@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>f551e15b62fb221032ebbcc21a14f253:-634592936,3151e15b66fb22103abd8315310f6d41:-1959469444,fd51e15b96fb22102d05e08fe290bc33:-1333386077,3551e15bd6fb221097e8e99cacb48828:480788292,7951e15b44fb22106d920bc85d54b11c:-2000004635,3d51e15bd5fb22107b7fa97af75d140f:-185830266,3d51a15be3fb2210628afdcb08033cfd:1141079974,a59061d7ccfb2210dabffd7ccfcdd93b:-1339712953,0870ad5704fb22100fe94ffe357fe719:107710029,0070ad570cfb22104fa823e6b3c1920c:1921884398,00706d57aafb2210a969f4e80b93b6f5:-558908529,4c706d5733fb2210d169792e004879dd:1255265840,48706d575efb2210accddc280b9b6bd3:-1225527087,0c706d57d7fb2210c2505ff35ed6e0cb:588647282,4c706d57acfb22107198b2b0f16f64bf:901905711,c0706d572afb2210c01a154d008e52b7:708395955</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="GCP VPC">c651e15bc3fb22107e68b41ed4013157</sys_audit_delete>
+        <sys_audit_delete display_value="">c651e15bc3fb22107e68b41ed4013157</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:00</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>b02fc1870a3b221063146d1aa86e34cc:130606688</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ai_search_partition_count">670bd10bc3bb22107e68b41ed401318e</sys_audit_delete>
+        <sys_audit_delete display_value="">670bd10bc3bb22107e68b41ed401318e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:05:02</sys_created_on>

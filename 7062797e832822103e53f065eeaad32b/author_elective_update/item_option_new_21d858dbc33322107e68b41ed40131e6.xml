@@ -174,7 +174,7 @@
         <update_guid_history>a9d858dbcf3322102eaa2110ce10c3fb:231955359</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="appgw_subnet_name">07fe5497c3b322107e68b41ed40131b9</sys_audit_delete>
+        <sys_audit_delete display_value="">07fe5497c3b322107e68b41ed40131b9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:21:04</sys_created_on>

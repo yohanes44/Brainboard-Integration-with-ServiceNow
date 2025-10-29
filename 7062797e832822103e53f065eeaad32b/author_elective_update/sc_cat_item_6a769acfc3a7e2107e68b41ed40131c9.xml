@@ -130,7 +130,7 @@
         <update_guid_history>b4485edb9ea32210b1eb63aaef5fc662:-2044743114,3a76dacf2ca7e210f487989f698d8119:1087181297,be76dacf36a7e210d68308c524b1840c:-1503155152,3676dacf53a7e2103840720efef6a604:201475695,32769acfcea7e2107ee3b5b2dcee69fb:1906106542,7e769acf32a7e210e2c69317dcc092f1:-684229907,7a769acf02a7e210c560a00f3f2393de:1020400940,72769acf91a7e2108fc3aa6589dee1e2:853543935,72769acf85a7e210e5748bed1543e9d8:830954601</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="PostgreSQL Flexible Server Database">b0485edbc3a322107e68b41ed4013140</sys_audit_delete>
+        <sys_audit_delete display_value="">b0485edbc3a322107e68b41ed4013140</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 09:55:16</sys_created_on>

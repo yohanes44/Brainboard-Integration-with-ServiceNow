@@ -174,7 +174,7 @@
         <update_guid_history>a209905f70332210032b92072bb75fa3:1120623398</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="traffic_manager_name">b14e5c13c3b322107e68b41ed4013112</sys_audit_delete>
+        <sys_audit_delete display_value="">b14e5c13c3b322107e68b41ed4013112</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:17:59</sys_created_on>

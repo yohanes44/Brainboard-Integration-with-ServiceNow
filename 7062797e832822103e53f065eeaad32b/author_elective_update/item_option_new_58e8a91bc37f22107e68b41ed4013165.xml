@@ -174,7 +174,7 @@
         <update_guid_history>5ce8a91b387f2210bb2a72d903a9587f:230055129</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="jumphost_ip">2013321fc33762107e68b41ed4013184</sys_audit_delete>
+        <sys_audit_delete display_value="">2013321fc33762107e68b41ed4013184</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:08:04</sys_created_on>

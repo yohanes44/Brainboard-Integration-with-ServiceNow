@@ -174,7 +174,7 @@
         <update_guid_history>1b62a09bbdf32210d19b9ea34c0d4ee9:1534681029</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="db_username">83ea2497c37722107e68b41ed40131bd</sys_audit_delete>
+        <sys_audit_delete display_value="">83ea2497c37722107e68b41ed40131bd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:13:13</sys_created_on>

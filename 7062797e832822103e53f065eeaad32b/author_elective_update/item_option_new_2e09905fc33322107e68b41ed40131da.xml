@@ -174,7 +174,7 @@
         <update_guid_history>f209905f0b33221098ede13ff77558ee:-1862307809</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="monitor_number_failures">cd4ed813c3b322107e68b41ed401317a</sys_audit_delete>
+        <sys_audit_delete display_value="">cd4ed813c3b322107e68b41ed401317a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:17:56</sys_created_on>

@@ -42,7 +42,7 @@
         <update_guid_history>fdb1e817a6f32210e5da8e180d8cea53:62305860</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Project &amp; Environment.networking-template">e4dae457c37722107e68b41ed401316d</sys_audit_delete>
+        <sys_audit_delete display_value="">e4dae457c37722107e68b41ed401316d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:12:47</sys_created_on>

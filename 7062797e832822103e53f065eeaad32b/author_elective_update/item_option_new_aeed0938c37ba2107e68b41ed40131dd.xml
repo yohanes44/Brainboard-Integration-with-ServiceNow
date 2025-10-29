@@ -174,7 +174,7 @@
         <update_guid_history>6aed0938db7ba2107e1760a31c17adec:715056501</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="tenantID">a31155f8c3bba2107e68b41ed4013194</sys_audit_delete>
+        <sys_audit_delete display_value="">a31155f8c3bba2107e68b41ed4013194</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:35:17</sys_created_on>

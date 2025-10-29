@@ -134,7 +134,7 @@ N.B: the secon]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&l
         <update_guid_history>82dea65f7b6722100c57303b3b79566d:655708482,31dea65f136722108d03354e25aafd5b:2775133,fddea65fad6722100a95a5308e048150:-105584593,7ddea65f62672210bf7a1f2d4e7d0745:1599046254,3ddea65fc7672210961e03a400675b34:-991290195,6e2c2e972f6722108ad8f6313f59c605:713340652,522cea970a6722103d309c25893e6cef:-1876995797,9e2cea970e672210d0b1626bf78d73e5:-172364950,522cea97856722104147dd1a05a7bcdd:1532265897,922cea9793672210f02e0412ae8010ca:-1058070552,1a2cea973b672210db5ee01dc4ed7fc3:-1797185223,9a2cea979e6722109e1f6862ecb6ccce:-782589649</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS load balancer with target group">cedea65fc36722107e68b41ed4013170</sys_audit_delete>
+        <sys_audit_delete display_value="">cedea65fc36722107e68b41ed4013170</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:33:54</sys_created_on>

@@ -130,7 +130,7 @@
         <update_guid_history>6fbe6a1f5e672210f9aae324dc06323c:1524780138,27be6a1f8f67221051091e77b97eca1e:-1506906785,e3be6a1fc5672210613e2c66e5079b14:-344034935,63be6a1f0967221035741534e4927009:1360595912,23be2a1f75672210c2f438ccf5303cf8:-1229740537,1e3ca2d7ab672210bab8320ff8dbab4a:474890310,5a3ca2d76c672210ad2945d8556ed327:-2115446139,963ca2d7336722102184c65c3b7a051e:-410815292,5a3ca2d796672210cbbac5c5fd062e15:1293815555,9a3ca2d7d567221066457cbe6407ec02:-1296520894,9a3ca2d701672210ec0cc3d85a5d0806:1194381873,163c62d728672210a7f86608b86e32fc:1968275675</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="REST API for Amazon DocumentDB">abbe6a1fc36722107e68b41ed4013140</sys_audit_delete>
+        <sys_audit_delete display_value="">abbe6a1fc36722107e68b41ed4013140</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:33:28</sys_created_on>

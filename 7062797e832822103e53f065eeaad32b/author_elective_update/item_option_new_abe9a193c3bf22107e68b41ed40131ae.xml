@@ -174,7 +174,7 @@
         <update_guid_history>abe9a19361bf22106a7e0335e6d3dce7:1593387308</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="jumbox_admin_pwd">e7833613c37762107e68b41ed401314f</sys_audit_delete>
+        <sys_audit_delete display_value="">e7833613c37762107e68b41ed401314f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:10:10</sys_created_on>

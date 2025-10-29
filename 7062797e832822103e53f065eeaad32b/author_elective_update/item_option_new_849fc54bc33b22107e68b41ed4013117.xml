@@ -174,7 +174,7 @@
         <update_guid_history>409fc54be03b221009e3d36d328e9c3a:1009878990</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="nic_jumbox_ipconfig_name">1ad95d8fc37b22107e68b41ed4013182</sys_audit_delete>
+        <sys_audit_delete display_value="">1ad95d8fc37b22107e68b41ed4013182</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 20:59:47</sys_created_on>

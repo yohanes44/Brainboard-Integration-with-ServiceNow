@@ -174,7 +174,7 @@
         <update_guid_history>b4d9a553b9bf221080373b18908c8bed:1636202215</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="front_door_sku">c4b2ba1bc33762107e68b41ed4013171</sys_audit_delete>
+        <sys_audit_delete display_value="">c4b2ba1bc33762107e68b41ed4013171</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:06:24</sys_created_on>

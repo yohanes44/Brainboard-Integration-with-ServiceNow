@@ -130,7 +130,7 @@
         <update_guid_history>580c2297a4672210c9d1bd5536f7ec7e:-754712741,000c22973d672210390ef3f79ddee460:910821526,cc0c229718672210ba991f0ce2cc1155:-1271972624,4c0c229758672210d356b4dc214f1a4a:432658223,880c22974b67221075c6bdf116b8de3a:2137289070,7f892adff8272210388e14cf0e47244b:-453047379,ff892adf65272210911dae5d1ffb0d20:1225221480,b7892adf79272210c3ebc90116ae2141:1251583468,b3892adf8627221073c656994698c438:-1338752981,b7892adfd32722106045acb9283cd82f:365877866,e3892adffc2722108954e70e75279210:2070508713,6f892adf11272210744220de7757f309:1541711356</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Application Gateway with Windows Web app">940c2297c36722107e68b41ed4013182</sys_audit_delete>
+        <sys_audit_delete display_value="">940c2297c36722107e68b41ed4013182</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:21:30</sys_created_on>

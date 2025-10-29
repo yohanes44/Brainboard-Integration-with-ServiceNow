@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>9244a1979b3f22103fec94c046a6435d:367788957,9a44a197273f22101f5dd3d37d2bf04a:1184856193,1a44a197703f2210abf70b6741cb6d3d:-1363698588,1e44a197ac3f22105bc996b4e979fb31:450475781,1244a197853f22109353d32a7e69f126:-2030317146,9244a197963f22100f48d42a3963ed19:-216142777,1244a197f43f22106c63ef39680f0207:1598031592,afe12d5f55fb221063ca4e4987a8c072:-882761335,12a165db78fb221002528438f8a21b81:3956136,c8b02dd7d2fb2210fe02d6982045ffd3:1221889038,0780e997fbfb22102ce6b8994e5fd147:-662662422,8b80e9973efb22100e5d7c4345dcfc14:1151511947,4b80a997ecfb22107634bbbeacf3d8d9:-1329280980,8f80a99757fb22109814d7f3b0149cb6:484893389,c380a997fdfb2210db1fb4fae64e76ad:-1995899538,c380a99742fb221028bca725a0d07299:-181725169,8f80a99717fb22107b9553fdd5e86486:852140572,8f80a997b9fb2210288ff2ee0e08ae91:-1262572228</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure WebApp Backend connection to Mongodb">d244a197c33f22107e68b41ed4013161</sys_audit_delete>
+        <sys_audit_delete display_value="">d244a197c33f22107e68b41ed4013161</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:23:51</sys_created_on>

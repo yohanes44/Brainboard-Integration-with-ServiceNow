@@ -174,7 +174,7 @@
         <update_guid_history>17c0209f6eb322100f47fad8a0d31545:-1789023853</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="network_name">f2eb689bc37722107e68b41ed40131fc</sys_audit_delete>
+        <sys_audit_delete display_value="">f2eb689bc37722107e68b41ed40131fc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:17:35</sys_created_on>

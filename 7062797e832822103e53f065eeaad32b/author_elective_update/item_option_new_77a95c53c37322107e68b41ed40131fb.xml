@@ -174,7 +174,7 @@
         <update_guid_history>f7a99c53947322101701f76dc1a00713:609057567</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="pip_firewall_name">c9ddd05fc37322107e68b41ed4013187</sys_audit_delete>
+        <sys_audit_delete display_value="">c9ddd05fc37322107e68b41ed4013187</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:16:01</sys_created_on>

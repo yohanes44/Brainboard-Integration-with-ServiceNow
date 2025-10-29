@@ -174,7 +174,7 @@
         <update_guid_history>192a2dd3c9bf221031c1d7f6b50f40fa:-1674810876</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="apim_private_ip">b523fa1fc33762107e68b41ed40131ac</sys_audit_delete>
+        <sys_audit_delete display_value="">b523fa1fc33762107e68b41ed40131ac</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:08:25</sys_created_on>

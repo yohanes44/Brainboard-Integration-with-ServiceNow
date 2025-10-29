@@ -130,7 +130,7 @@
         <update_guid_history>988f5ce70e2362103a58f68a17e75841:1735043950,888f5ce7f4236210a8e0117ee37ff030:-198335999,c48f5ce773236210505901c097ad7b24:-1197154542,488f5ce74a236210b8781399102e5319:507476305,048f5ce71223621055e47426e046f902:-2082860144,4c8f1ce7142362102747d606f2cfb1e9:-794592168,3f7f1ce792236210c9cc47203b8dc4d8:910038679,df7b90efccef221005073033b5ca9393:-1680297770,9b7b90ef65ef2210704c8e3c53d7b588:24333077,577b90efcaef2210a5fdd05d10249f80:1728963924,d77b90efb4ef22109838c4f1dbeee977:-861372525,9b7b90ef21ef221041499b7e6d38816e:843258322,177b90ef98ef2210085c3c545f9bfc36:-1747078127,df7b90ef7cef22108b60eaf68b4b0739:1291686754,9f7b90ef96ef2210dacff6f772c0f72f:785470958</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="GCP Load Balancer ">d48f5ce7c32362107e68b41ed4013145</sys_audit_delete>
+        <sys_audit_delete display_value="">d48f5ce7c32362107e68b41ed4013145</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:08</sys_created_on>

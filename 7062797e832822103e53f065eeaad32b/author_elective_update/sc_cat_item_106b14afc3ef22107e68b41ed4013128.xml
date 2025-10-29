@@ -130,7 +130,7 @@
         <update_guid_history>966f90e7fb2362105825798b35ec67c0:-1906798264,966f90e7e1236210c32de3c43e48e7af:364451461,d26f90e7272362106dea9c006baf82a3:-1268597314,566f90e7b0236210033184900bd46198:436033533,d66f90e73423621025737740537fc88d:2140664380,d66f90e7f02362107af220865ced3081:588277724,966f90e7ae2362109d5ec8d636b6a970:-2002058725,946b14afcfef22103e5564972f947ef1:-297427878,506b14afaeef2210f5fc485c21e0a8e6:1407202969,1c6b14af8fef22105699cfaeebeebcdd:-1183133480,106b14afa1ef22102bedf023dbf912bc:521497367,9c6b14afd0ef2210bbe424610254448d:-2068839082,146b14af73ef221020945af19e5bb487:-364208235,906b14afe2ef2210cd3785439cc5977a:-1322856946,586b14af1cef221030a975db02056b5b:-5900610</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS S3 API Gateway integration">d26f90e7c32362107e68b41ed40131c4</sys_audit_delete>
+        <sys_audit_delete display_value="">d26f90e7c32362107e68b41ed40131c4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:45:44</sys_created_on>

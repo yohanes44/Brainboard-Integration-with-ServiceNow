@@ -29,19 +29,19 @@
         <source>b1272911c31022107e68b41ed40131ef</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-03-14 11:48:46</sys_created_on>
         <sys_id>108f5ce7c32362107e68b41ed401314f</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>195947c41300000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:47:47</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>dc8f5ce721236210636ecd9a5943e14e</update_guid>
         <update_guid_history>dc8f5ce721236210636ecd9a5943e14e:-1086394266</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="GCP Load Balancer .SNC External">948f5ce7c32362107e68b41ed401314f</sys_audit_delete>
+        <sys_audit_delete display_value="">948f5ce7c32362107e68b41ed401314f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:08</sys_created_on>

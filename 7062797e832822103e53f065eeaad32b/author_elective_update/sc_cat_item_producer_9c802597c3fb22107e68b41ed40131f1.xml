@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>2a71259b3cfb2210c48f2876e2297167:406480735,6271259b9cfb22107462178bae66f255:1656517289,2271259b2bfb22107e088ef55c7a5e48:-1765202600,6671259bc8fb2210f031d962f4a5993c:48971769,aa71259bdffb22109337e56adaac9430:1863146138,6e71259bd5fb221071c47a722059e723:-377506766,9671259b47fb22104b16cf08571bdf05:1436667603,688065972dfb2210d08d0e72e18d8378:-1044125324,24806597d0fb22101347ab285775296b:770049045,ec80659762fb2210057ac301018b0a61:-1710743882,e8806597f9fb22104b5882110bf8d64b:103430487,208065975bfb22108ea218f3da060442:1917604856,e4806597d5fb22107fddfc8c0061213a:-563188071,1c806597f2fb22107b96b8ef4a3ed92e:588602120,d88065972bfb2210400de653085bb726:-1329949582</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Synapse Analytics workspace">2a71259bc3fb22107e68b41ed401316b</sys_audit_delete>
+        <sys_audit_delete display_value="">2a71259bc3fb22107e68b41ed401316b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:35</sys_created_on>

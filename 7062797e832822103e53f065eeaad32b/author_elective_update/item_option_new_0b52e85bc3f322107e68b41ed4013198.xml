@@ -174,7 +174,7 @@
         <update_guid_history>8752e85bd3f322105ce2cdde02a3d1b2:1014667142</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="kube_vm_size">75f9289fc33722107e68b41ed40131aa</sys_audit_delete>
+        <sys_audit_delete display_value="">75f9289fc33722107e68b41ed40131aa</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:09:03</sys_created_on>

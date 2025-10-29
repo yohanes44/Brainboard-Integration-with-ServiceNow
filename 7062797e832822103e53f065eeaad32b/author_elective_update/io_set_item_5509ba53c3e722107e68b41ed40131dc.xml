@@ -42,7 +42,7 @@
         <update_guid_history>5d09ba5321e722101f7893c0d839e7e3:-2083249809</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value=".Azure AKS with log analytics">8e761063c3ef22107e68b41ed4013196</sys_audit_delete>
+        <sys_audit_delete display_value="">8e761063c3ef22107e68b41ed4013196</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:06:39</sys_created_on>

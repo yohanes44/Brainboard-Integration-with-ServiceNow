@@ -167,7 +167,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>2e47ed93a27f221079a98702ab9f8c0e:1967517598,2647ad93b07f221027deb2d6c03a3afc:934098794,a247ad93d67f221068d6cd089ead3def:1027060991,9647ad93077f22100f45ad6359e98ee3:-1453731936,1e47ad93167f221051f5b0cea776a1be:360442433,d647ad93a07f22101e1fa36c98bd47a5:-2120350494,da47ad93177f2210304c9452889c3c93:-306176125,1e47ad936c7f2210c0676ce27cc3c480:1507998244,1a47ad938c7f22102103783dff97996d:-972794683,fb8c20dfc4772210d2f027f690d85fbc:-763297865,b78c20dfaf772210730e0e85686570a1:1050876504,6f8c20df387722105de2f70072915c79:-1429916423,2b8c20df2877221014610650cc71516c:384257946,e38c20df30772210f0a8094fd0f92a63:-2096534981,238c20df59772210a9646f6b430f0e1a:-464755149,638c20dfaf772210ca5de4cba6e0fa34:-282360612,e78c20df027722104faa9d19b55db42a:1531813757,e78c20df89772210c52ff8720165ac16:-948979170,a38c20df4f7722109bf256a11bf3b90f:-337015629</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Generic AWS SQS Event handler">6e47ed93c37f22107e68b41ed4013112</sys_audit_delete>
+        <sys_audit_delete display_value="">6e47ed93c37f22107e68b41ed4013112</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:36:58</sys_created_on>

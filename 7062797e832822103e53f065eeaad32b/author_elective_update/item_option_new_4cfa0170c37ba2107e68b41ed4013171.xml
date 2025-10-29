@@ -174,7 +174,7 @@
         <update_guid_history>08fa01707d7ba210d8b88c0676459374:-1479448699</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="snet_firewall_addr_space">82af89fcc37ba2107e68b41ed40131e1</sys_audit_delete>
+        <sys_audit_delete display_value="">82af89fcc37ba2107e68b41ed40131e1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:28:54</sys_created_on>

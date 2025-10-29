@@ -174,7 +174,7 @@
         <update_guid_history>b08a85fc063ba2102b9dbb7de2f6dff6:2086942542</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="log_analytics_workspace_sku">46d05978c3bba2107e68b41ed40131bf</sys_audit_delete>
+        <sys_audit_delete display_value="">46d05978c3bba2107e68b41ed40131bf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:34:05</sys_created_on>

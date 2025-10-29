@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>0d34e557b73f221082cf1628cfbfa310:-356440107,0534a557c63f22103ffb34e7e4f3e4fe:669838441,b034a557ad3f2210bc3ddb2d80e25ef1:-178045178,b434a5574f3f2210347fd25b43e494e5:1636129191,b834a557b83f2210d3c57d600d3413d9:-844663736,3c34a557be3f221042e5f947022354cc:-487148238,7434a5573c3f2210ca2b73f684a2e995:1327026131,4080259754fb2210c89b841d8ff0afe7:-1153766796,0c802597c4fb22102626ed03a9ad97d9:660407573,cc802597dcfb22101e0afc1b0447d3c1:-1820385354,c8802597b3fb2210eae4481409addbab:-6210985,c8802597b6fb2210836eacf09f2aef7c:1807963384,80802597a4fb22107cc13faee7120675:-672829543,44802597e0fb22102eb5b608c2cec95b:-1266634314,40802597c0fb2210a8ad6110bc98f955:1750784152</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS costs monitoring">0534e557c33f22107e68b41ed4013121</sys_audit_delete>
+        <sys_audit_delete display_value="">0534e557c33f22107e68b41ed4013121</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:23:29</sys_created_on>

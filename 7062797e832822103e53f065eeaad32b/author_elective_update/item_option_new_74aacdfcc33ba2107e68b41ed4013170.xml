@@ -174,7 +174,7 @@
         <update_guid_history>01aacdfc9d3ba21069671cd2cbbb8c73:2009217473</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="vnet_cidr">84ff01b0c3bba2107e68b41ed40131d9</sys_audit_delete>
+        <sys_audit_delete display_value="">84ff01b0c3bba2107e68b41ed40131d9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:30:08</sys_created_on>

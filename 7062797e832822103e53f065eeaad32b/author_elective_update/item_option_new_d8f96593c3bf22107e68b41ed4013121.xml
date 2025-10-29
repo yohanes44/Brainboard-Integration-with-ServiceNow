@@ -174,7 +174,7 @@
         <update_guid_history>e0f9659391bf22106dd5ab1d65a15346:-1773103273</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="firewall_ipconfig_name">00937613c37762107e68b41ed401316d</sys_audit_delete>
+        <sys_audit_delete display_value="">00937613c37762107e68b41ed401316d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:10:13</sys_created_on>

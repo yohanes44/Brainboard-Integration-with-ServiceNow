@@ -130,7 +130,7 @@
         <update_guid_history>767f98e702236210bd65cd9fac3859a1:-1199832976,767f98e74c236210914d91b3a516e990:-357252455,ea7f98e7d6236210acef9a9506b9ef77:-233629526,a67f98e7782362105d026aa5facd8f60:1471001321,627f98e72a23621069326212b6cbc149:-1119335128,627f98e7f9236210c00efb3a38866b3d:-1566769936,6a7f98e7a92362102dac7853a810e91f:137860911,ff3bd06fe3ef22101b25251bf8a4c1bc:1842491758,bb3bd06fb6ef221035551673ad9cc5b1:-747844691,773bd06fbcef221035870573044748a9:956786156,f73bd06fbcef2210fbb977b6623903a0:-1633550293,bb3bd06f12ef2210d04ab1578f803797:71080554,333bd06f0eef2210a451b0866aa21e91:1775711401,b33bd06f31ef22104e2dcfb465500660:2007321850,bf3bd06f53ef22107f5ee54560216458:1455645358</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Jenkins architecture on AWS">327f98e7c32362107e68b41ed40131be</sys_audit_delete>
+        <sys_audit_delete display_value="">327f98e7c32362107e68b41ed40131be</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:02</sys_created_on>

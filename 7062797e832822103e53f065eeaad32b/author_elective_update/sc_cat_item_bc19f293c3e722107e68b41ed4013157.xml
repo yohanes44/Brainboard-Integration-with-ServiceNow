@@ -130,7 +130,7 @@
         <update_guid_history>e586d4630eef2210692d0b2f5944cc97:-1858053751,5186d4630eef221060b8f6a4304bba7a:-2132729508,dd86d4633aef2210f30fbc0d844e0c6d:501685045,9186d4638cef2210c5e1a8779b088b63:-1173169611,d186d46384ef2210705b194263bf1057:531461236,1586d4639fef2210ecdae7d4a6ed8f46:-2058875213,8919f293c4e72210612988c334d425a7:-354244366,8519f29354e72210c931913f1da4ae9d:1350386481,8519f293ece722100a8310e10a42ab94:-1239949968,0d19f29307e7221004195ff07585da8b:464680879,4119f29342e722101f83766872958c79:-2125655570,3019f293c7e72210bd75eef68872de7e:380266247,7819f29383e7221024fb2fc56b303072:-1473834127</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Network &amp; security">2586d463c3ef22107e68b41ed401319b</sys_audit_delete>
+        <sys_audit_delete display_value="">2586d463c3ef22107e68b41ed401319b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:06:53</sys_created_on>

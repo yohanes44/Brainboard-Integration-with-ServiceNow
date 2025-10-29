@@ -130,7 +130,7 @@
         <update_guid_history>331b182f62ef221051b31dcc8da9eaa0:-399901633,331b182f86ef22106907c285efee108f:-874189660,7f1b182f0def2210b172abd9a24de882:1770191111,3b1b182f30ef2210ec6999e9d176396b:-820145338,f31b182f92ef2210e00e7f30025f4754:884485509,f31b182fd7ef22107adef75e11345648:180959163,a31b182fdbef2210fefc0dcff3d00f37:1885590010,d5f69427d4ef2210c110ea8e841684d5:-704746439,91f694277fef2210728af303cb34adca:999884408,5df6942778ef2210b61214f6e27609c1:-1590452041,ddf694270eef22107069d69b340045b8:114178806,91f69427ceef22105b511273e5eff2b0:1818809653,89f6942789ef22105091b53951605f90:-771526796,05f6942703ef2210a7ee8fbe9b791994:-1591062441,05f69427dcef22105ec4ccf626628e8a:2003469741</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure DNS Resolver">7f1b182fc3ef22107e68b41ed40131a3</sys_audit_delete>
+        <sys_audit_delete display_value="">7f1b182fc3ef22107e68b41ed40131a3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:59</sys_created_on>

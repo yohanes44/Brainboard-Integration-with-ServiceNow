@@ -174,7 +174,7 @@
         <update_guid_history>e7e8541f58332210219dcb212a9a5fa5:-1966149867</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="on_prem_vnet_address_space">72cd9c1fc37322107e68b41ed40131fa</sys_audit_delete>
+        <sys_audit_delete display_value="">72cd9c1fc37322107e68b41ed40131fa</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:15:52</sys_created_on>

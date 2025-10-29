@@ -174,7 +174,7 @@
         <update_guid_history>a65e0503ed3b22100a38ebdfd42d27e5:254194325</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="lb_port">d33a9d43c3bb22107e68b41ed401310e</sys_audit_delete>
+        <sys_audit_delete display_value="">d33a9d43c3bb22107e68b41ed401310e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:01:29</sys_created_on>

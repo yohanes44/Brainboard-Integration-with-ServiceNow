@@ -130,7 +130,7 @@
         <update_guid_history>132dae5b4d67221039117bc119f01d86:-325335275,9f2dae5bfa672210064b68918c7cd373:-918580980,5f2dae5bc9672210ff4bac6ede783769:419764136,8f2dae5bae6722108dcc24918e31535d:2124394983,cb2dae5b186722103b1124088cf68a4d:-465941466,fe4ceed7c4672210150a68798a44f24c:1238689381,ba4ceed7cf67221099ff146172512442:-1351647068,f64ceed705672210034ba10462466f39:352983779,ba4ceed7bd672210c305ea11a99f9630:2057614626,b24ceed74767221056032b9d43929e2a:-532721823,764ceed7fd6722101bfc367cf59d1f18:-1831468322,3e4ceed78367221067bcabdb7d54fb23:-1872645890</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Key Vault Usage Architecture">5f2dae5bc36722107e68b41ed4013189</sys_audit_delete>
+        <sys_audit_delete display_value="">5f2dae5bc36722107e68b41ed4013189</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:26:37</sys_created_on>

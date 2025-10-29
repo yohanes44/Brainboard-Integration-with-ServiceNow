@@ -130,7 +130,7 @@
         <update_guid_history>74db6e17b9672210ed23fe0d25b1723a:-1926998646,f0db6e17356722105804ecf6e0ae8228:1789259217,b0db6e1714672210949e72aa3de8b41e:1386248951,30db6e17ba672210e29fa1fff916b913:-1204087498,a4db2e17d567221045f0e58e0eb9fff6:500543349,44a9e213c9672210faf1def172ff59e1:-2089793100,8ca9e2139e6722103dbd4abc933d9ed6:-385162253,88a9e213ee672210b33bd988999061cd:1319468594,7f99e21392672210d288e66698fa5ec4:-1270867855,3b99e21339672210978cc9dd72d482be:433762992,bb99e213246722109f43de9d8f5b90a4:194767011,3799e2134a6722106d69050845e05a9f:1912998349</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS S3 API Gateway integration">b0db6e17c36722107e68b41ed401313e</sys_audit_delete>
+        <sys_audit_delete display_value="">b0db6e17c36722107e68b41ed401313e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:20:43</sys_created_on>

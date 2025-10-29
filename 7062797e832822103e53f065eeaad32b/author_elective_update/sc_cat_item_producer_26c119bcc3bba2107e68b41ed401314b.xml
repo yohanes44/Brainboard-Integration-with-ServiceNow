@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>ab081a4582b72610a9ed23dcbb749c06:-1656697495,e308d64583b72610e93aea051c5dd8f4:-1163903169,2308d64586b726100bbcb186545d93e7:2142201690,e308d645a9b726101240bf2914bff6db:-338591237,a708d64584b72610435a92b7e484cacf:1475583132,e708d6457cb726108e47d3c456a2a3c2:-1005209795,a308d64546b72610b7bad0e81f203aa3:808964574,1708d64519b72610e63e1b4953474b90:-1671828353,5708d645deb72610f790f70f941e677e:142346016,b6c119bcd3bba2109398340751d4caf6:-235036724,b6c119bce5bba210fbc8f507a16217e9:1579137645,a6c119bc6dbba21024c2309dcff8da9e:-901655282,a2c119bc58bba210796ff87d1379bf93:912519087,aec119bc76bba21020e4ef00bb6aba89:-1568273840,62c119bc53bba21038705e5bd2852b80:245900529,66c119bc67bba21029a45c6004d46c76:2060074898,6ec119bc8fbba210706053fc83bbc16e:-420718029,aec119bcc6bba21083c9c139839df65b:1345329550,26c119bc14bba2104c108a35b2796e67:-630818042</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Virtual Machine with multiple disks (for_each)">2b081a45c3b726107e68b41ed401310a</sys_audit_delete>
+        <sys_audit_delete display_value="">2b081a45c3b726107e68b41ed401310a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-03 20:23:43</sys_created_on>

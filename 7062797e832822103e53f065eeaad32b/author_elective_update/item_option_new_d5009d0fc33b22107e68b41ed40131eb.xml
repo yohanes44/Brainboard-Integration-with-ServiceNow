@@ -174,7 +174,7 @@
         <update_guid_history>d500dd0f1f3b2210612157c82223850e:558819972</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="aks_docker_bridge_cidr">379a5d07c3bb22107e68b41ed4013153</sys_audit_delete>
+        <sys_audit_delete display_value="">379a5d07c3bb22107e68b41ed4013153</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:03:09</sys_created_on>

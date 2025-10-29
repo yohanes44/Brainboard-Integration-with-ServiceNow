@@ -130,7 +130,7 @@
         <update_guid_history>4586946314ef2210cca49cce1625956a:592406017,b486946389ef22109bbe83950b119759:-225871728,348694638fef22105e61f0f7bbc18e4d:1545798073,f48694639eef22108bcf92ab0399c742:-1680916631,38869463dfef22108b87c04a4108b536:23714216,7886946336ef22109cda09f824d34125:1728345063,37f8f653ece7221095939cc9842cd99a:-861991386,7ff8f653dfe7221005d778a38a1eb28f:842639461,37f8f6531be722107140a344d43d8e86:-1747696988,f7f8f6535ee72210db2688aeef82157d:-43066141,7bf8f65339e72210cf4b004f77d88176:1661564706,63f8f653dee72210f8112b1845ea4b65:38897035,6ff8f653dfe72210483433ca0acb6762:462734197</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS instance and DB with multiple networks">49869463c3ef22107e68b41ed401317a</sys_audit_delete>
+        <sys_audit_delete display_value="">49869463c3ef22107e68b41ed401317a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:06:51</sys_created_on>

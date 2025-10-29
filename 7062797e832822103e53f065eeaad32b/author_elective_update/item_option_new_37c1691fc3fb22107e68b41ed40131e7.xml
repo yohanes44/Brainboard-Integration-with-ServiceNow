@@ -174,7 +174,7 @@
         <update_guid_history>bbc1a91f91fb22109ed787c99ec18d89:-107468834</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="snet_jumphost">79b4a95bc33f22107e68b41ed4013119</sys_audit_delete>
+        <sys_audit_delete display_value="">79b4a95bc33f22107e68b41ed4013119</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:25:44</sys_created_on>

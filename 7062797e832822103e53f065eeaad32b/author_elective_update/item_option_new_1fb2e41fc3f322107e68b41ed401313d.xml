@@ -174,7 +174,7 @@
         <update_guid_history>dbb2e41f5af32210e5a5306d247b5452:-1763253371</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="appgw_sku">dc1a64dfc33722107e68b41ed4013132</sys_audit_delete>
+        <sys_audit_delete display_value="">dc1a64dfc33722107e68b41ed4013132</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:09:29</sys_created_on>

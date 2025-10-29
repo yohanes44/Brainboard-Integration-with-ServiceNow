@@ -174,7 +174,7 @@
         <update_guid_history>077c289f957722100a71e6c15cad6248:150708533</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="cognitive_services_sku">72176553c37f22107e68b41ed40131d1</sys_audit_delete>
+        <sys_audit_delete display_value="">72176553c37f22107e68b41ed40131d1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:36:10</sys_created_on>

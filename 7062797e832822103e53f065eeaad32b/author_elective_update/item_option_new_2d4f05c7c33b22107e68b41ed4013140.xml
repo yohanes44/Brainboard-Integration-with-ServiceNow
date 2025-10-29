@@ -174,7 +174,7 @@
         <update_guid_history>e54f05c72e3b2210dfc927b657605c84:-1692879663</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="resource_scopes_actual">311ad903c3bb22107e68b41ed4013167</sys_audit_delete>
+        <sys_audit_delete display_value="">311ad903c3bb22107e68b41ed4013167</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:00:49</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>a5a9d68d3fb7261038711e60a598620b:1277676749</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="snet_dns_inbound_prefix">7a442fd1c3f3a6107e68b41ed40131e0</sys_audit_delete>
+        <sys_audit_delete display_value="">7a442fd1c3f3a6107e68b41ed40131e0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 20:35:16</sys_created_on>

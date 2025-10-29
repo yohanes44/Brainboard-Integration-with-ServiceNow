@@ -174,7 +174,7 @@
         <update_guid_history>47796d9fdc7f221056aeb3782329b14e:-2028606431</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="vnet_weu_addr_space">75d2329bc33762107e68b41ed40131a4</sys_audit_delete>
+        <sys_audit_delete display_value="">75d2329bc33762107e68b41ed40131a4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:07:03</sys_created_on>

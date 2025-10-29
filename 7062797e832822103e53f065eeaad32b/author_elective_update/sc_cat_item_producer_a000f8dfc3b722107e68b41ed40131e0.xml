@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>9d9f5d13c8fb2210118f05b1df5b6305:859371895,d59f1d1319fb2210359e542a6fe389f3:2034612423,dd9f1d1320fb22107f0b436b7f1546d9:-745026456,5d9f1d131cfb2210a77edea4c2dab7c1:1069147913,919f1d13b2fb221024b8bea888b847b6:-1411645014,9d9f1d13fefb2210d02119ba5ca0779c:1601021712,c59f1d13defb2210bc9479557949787e:-879771215,fc003cdf50b722102919b71bc335194d:934403154,b8003cdff8b722107ff9151f7bbe6d40:-1546389773,f4003cdf77b7221062900ebc0c8ce61e:267784596,b8003cdfcab722102af621310bb03714:2081958965,fc003cdf07b7221053c91ee3d79b750a:-398833962,b4003cdf7eb72210185d9a7f171a8103:1415340407,fc00f8df4eb72210564220b551987bf1:-1055812328,b800f8df53b722104a721d8212b97def:197389282</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="GCP Load Balancer ">9d9f5d13c3fb22107e68b41ed4013109</sys_audit_delete>
+        <sys_audit_delete display_value="">9d9f5d13c3fb22107e68b41ed4013109</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:03:18</sys_created_on>

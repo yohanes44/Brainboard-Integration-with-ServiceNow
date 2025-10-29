@@ -174,7 +174,7 @@
         <update_guid_history>ac81a0d3f5f32210e28e1f537ab273ff:896947038</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="branch_name">2f6a2493c37722107e68b41ed40131e9</sys_audit_delete>
+        <sys_audit_delete display_value="">2f6a2493c37722107e68b41ed40131e9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:11:05</sys_created_on>

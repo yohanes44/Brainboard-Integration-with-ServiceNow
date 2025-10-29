@@ -130,7 +130,7 @@
         <update_guid_history>dd7fd4e74623621012094f7a3bbe33a9:-1197807062,dd7fd4e72a236210560c5c862b673c98:-1743694871,557fd4e7d623621096fd07f7556a8a80:164918470,c57fd4e732236210dd8dde3b3114e175:1869549317,497fd4e74c236210507c7812284a166a:-720787132,497fd4e79b23621063a035874a67745e:-425548096,097fd4e797236210a30415f10ccfc74d:1279082751,474b586fa1ef221065269d457bb121b9:-1311253698,4b4b586f97ef2210fc779c63ae503ea1:393377149,074b586f8fef2210d4cd6d734e573199:2098007996,874b586f1bef22100fda8b8e74f7e890:-492328453,834b586ff2ef2210615376ea3457f77b:1212302394,0b4b586fcdef22106fea133e7545c774:-1378034055,874b586f28ef2210f54d812314dbf466:-1342551274,cb4b586fd8ef2210f1d1d49c2965a061:1777078116</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Virtual Machine with multiple disks (for_each)">1d7fd4e7c32362107e68b41ed40131ad</sys_audit_delete>
+        <sys_audit_delete display_value="">1d7fd4e7c32362107e68b41ed40131ad</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:45:56</sys_created_on>

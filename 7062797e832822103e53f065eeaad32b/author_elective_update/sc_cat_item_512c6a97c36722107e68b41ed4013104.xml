@@ -130,7 +130,7 @@
         <update_guid_history>85ce2e1fad672210838ef8314d08f8aa:-1652493014,05ce2e1f0f672210be9656c7471a0098:-196591197,c1ce2e1fce672210c5397251bc3ef38e:222817399,05ce2e1fb86722106fe8c12827c97482:1927448246,89ce2e1f0667221076a92460b37f9d65:-662888203,dd2c6a9715672210106b119664537560:1041742644,992c6a97d0672210ae63eb0991757d56:-1548593805,d52c6a97b8672210ee0081ea6e74e94d:156037042,d12c6a97a96722100c3563d7ab86c338:1860667889,d92c6a97906722100b909be2418cfe31:-729668560,1d2c6a97626722108c3abcd68642fc1e:-1392482977,592c6a97b667221085289a29ea7e3f22:420577141</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS costs monitoring">c1ce2e1fc36722107e68b41ed40131ae</sys_audit_delete>
+        <sys_audit_delete display_value="">c1ce2e1fc36722107e68b41ed40131ae</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:33:35</sys_created_on>

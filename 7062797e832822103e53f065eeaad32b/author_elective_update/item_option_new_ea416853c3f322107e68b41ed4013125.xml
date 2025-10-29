@@ -174,7 +174,7 @@
         <update_guid_history>ba4168538ff32210b5b176ed72b8a03a:-1529564700</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="sql_admin_password">3a2aa013c37722107e68b41ed40131a9</sys_audit_delete>
+        <sys_audit_delete display_value="">3a2aa013c37722107e68b41ed40131a9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:09:55</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>c3ba4530177ba21056d01137b9a710ba:-1961733612</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="delete_default_internet_gateway_routes">ed3f4df8c37ba2107e68b41ed40131e8</sys_audit_delete>
+        <sys_audit_delete display_value="">ed3f4df8c37ba2107e68b41ed40131e8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:26:57</sys_created_on>

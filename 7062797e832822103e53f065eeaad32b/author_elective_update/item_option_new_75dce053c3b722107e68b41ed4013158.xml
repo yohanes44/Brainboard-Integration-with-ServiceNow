@@ -174,7 +174,7 @@
         <update_guid_history>b1dce05393b72210624cd7ccd02d776a:-2112338097</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="kubernetes_version">51e421dbc33f22107e68b41ed4013179</sys_audit_delete>
+        <sys_audit_delete display_value="">51e421dbc33f22107e68b41ed4013179</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:26:30</sys_created_on>

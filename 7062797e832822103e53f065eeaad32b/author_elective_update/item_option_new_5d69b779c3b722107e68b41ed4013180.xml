@@ -174,7 +174,7 @@
         <update_guid_history>1d69b7794ab72210767873bea2f6ea8f:2093957182</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="msi_id">471cdd4fc3bb22107e68b41ed4013146</sys_audit_delete>
+        <sys_audit_delete display_value="">471cdd4fc3bb22107e68b41ed4013146</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:09:40</sys_created_on>

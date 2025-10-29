@@ -174,7 +174,7 @@
         <update_guid_history>d94b8db08c7ba210c6aa5fec291292a8:525708712</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="request_routing_rule_name">ccbfcdfcc37ba2107e68b41ed4013110</sys_audit_delete>
+        <sys_audit_delete display_value="">ccbfcdfcc37ba2107e68b41ed4013110</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:29:02</sys_created_on>

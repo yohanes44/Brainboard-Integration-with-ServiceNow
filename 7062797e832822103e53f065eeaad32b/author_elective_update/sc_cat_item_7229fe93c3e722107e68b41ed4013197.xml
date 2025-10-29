@@ -130,7 +130,7 @@
         <update_guid_history>98765c23cbef2210a1c3e1d9484a10ad:-1560737511,d8765c233fef221076e7d626070e899c:-1539619898,58765c23c7ef2210ad8571aac506b790:1696921051,1c765c2321ef2210b234578c5a811f85:93425439,5c765c237bef2210a42626f1f8d33e79:1798056286,9c765c23daef221071065511cc13ef68:-792280163,032932d36ae722103c2be030a5bcd025:912350684,8f2932d358e7221016cf33c7ba2e2701:-1677985765,c729fe933de7221047e513e0f9fdd0ec:26645082,4f29fe9346e72210b3430eb95a4486e3:1731275929,0729fe9361e7221053b775414fb4e4b8:-859060520,fa29fe936fe72210ac2ad3108adef1c8:1765985197,3e29fe936ee72210123cce2e4c35acb1:-1466905861</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="VM extension with custom script on blob storage">9c765c23c3ef22107e68b41ed40131bd</sys_audit_delete>
+        <sys_audit_delete display_value="">9c765c23c3ef22107e68b41ed40131bd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:06:33</sys_created_on>

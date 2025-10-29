@@ -130,7 +130,7 @@
         <update_guid_history>c5d8f613aee72210a3aedf81b3243559:-1585731977,41d8f61315e7221013c78115d5b8b446:-410740850,05d8f613dbe72210da90db7417d2893b:1293889997,45d8f613b6e72210735d2722076b2c2f:2119662791,3cd8f613b8e72210755740ae7501b211:-470673658,d318fe1fc7a722103fdf37992cbd4921:1233957189,811f669fa0672210f35735cb7a9a197b:2059401060,8d1f669ffb672210cd006dbf9a405370:-530935389,8d1f669fb367221019fc34434aa36a67:1173695458,051f669ff567221010e13f3ff0d80e5f:-1416640991,491f669f8c672210933e5e7eae3c0c4c:287989856,4d1f669ff96722106865b1e89ac1b950:-1423159617,c11f669f5f672210c1a3388793cdad46:1713873321</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Multi-region Web Application with CosmosD">0dd8f613c3e722107e68b41ed4013169</sys_audit_delete>
+        <sys_audit_delete display_value="">0dd8f613c3e722107e68b41ed4013169</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:32</sys_created_on>

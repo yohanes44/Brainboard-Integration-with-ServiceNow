@@ -174,7 +174,7 @@
         <update_guid_history>5b322c1b4cf32210b44a0e31016692cb:-2028226101</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="cosmos_db_failover_location">f93ba81bc37722107e68b41ed4013119</sys_audit_delete>
+        <sys_audit_delete display_value="">f93ba81bc37722107e68b41ed4013119</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:14:30</sys_created_on>

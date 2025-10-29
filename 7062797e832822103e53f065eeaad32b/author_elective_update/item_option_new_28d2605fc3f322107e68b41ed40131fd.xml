@@ -174,7 +174,7 @@
         <update_guid_history>60d2a05fb9f322106f467189eff0340e:-1911519384</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="app_gateway_name">f599e4dbc33722107e68b41ed401318e</sys_audit_delete>
+        <sys_audit_delete display_value="">f599e4dbc33722107e68b41ed401318e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:07:24</sys_created_on>

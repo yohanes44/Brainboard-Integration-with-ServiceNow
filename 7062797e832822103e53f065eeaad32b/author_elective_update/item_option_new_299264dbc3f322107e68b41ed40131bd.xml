@@ -174,7 +174,7 @@
         <update_guid_history>e19264db13f32210d6c2a6b63b1b28cc:852857979</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="eventgrid_topic_name">5a3a6813c37722107e68b41ed40131ff</sys_audit_delete>
+        <sys_audit_delete display_value="">5a3a6813c37722107e68b41ed40131ff</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:10:10</sys_created_on>

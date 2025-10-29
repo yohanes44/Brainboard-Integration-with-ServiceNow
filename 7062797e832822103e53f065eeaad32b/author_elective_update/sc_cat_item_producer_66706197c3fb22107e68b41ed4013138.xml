@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>9d51615bd8fb2210c255b575c33e6ee9:-1429774923,c551615b39fb22103c4b8e8b5913f5d5:-945991243,0d51615b6dfb22102c9e3019275ef9c5:753252250,4151615bdafb2210a666c52ab0337dba:-1727540677,c151615b49fb2210f70a6a9e68180eae:86633692,4151615b11fb22103c6e9208014f92a1:904338814,3451615b7afb2210bda51f1bc8267a8e:-1576454113,3270a19798fb2210129000420931a514:237720256,b6706197b4fb2210eb2156a75b32f2fc:2051894625,f2706197e5fb2210c4f3fad82d7868da:-428898302,7270619788fb221032a26f4809f0a9ab:1385276067,b6706197acfb221016e6a9473c4767a1:-1095516860,fe7061974cfb2210a0ceddf9229e1d80:718657509,aa706197aafb221004b0e4a67e19f064:-1342785974,66706197dafb2210bcd3ca5f59f46654:1815487172</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Sentinel Architecture">1151615bc3fb22107e68b41ed40131ee</sys_audit_delete>
+        <sys_audit_delete display_value="">1151615bc3fb22107e68b41ed40131ee</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:10:57</sys_created_on>

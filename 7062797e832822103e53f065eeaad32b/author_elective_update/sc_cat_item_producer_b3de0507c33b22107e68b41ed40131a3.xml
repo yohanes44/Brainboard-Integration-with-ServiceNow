@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>7be9d5cf2c7b221031c099df0fc805f9:864669645,bbe9d5cfb77b221031474f4625d0a0da:585755181,f7e9d5cf2c7b22106318e887c2e766cd:973475142,ebe9d5cfdb7b22105a90af611e65aca8:-1507317785,6fe9d5cfa27b2210b6e4dace720edf9c:306856584,6fe9d5cf997b221081ae2b7fa169b48f:2121030953,63e9d5cf147b22105e6879e230ac897e:-359761974,2be9d5cfef7b22107434b26b659a505f:1107940024,88ee4507e93b221089f477c6aec6522c:-1372852903,08ee4507483b2210d58888a021467911:441321466,f3de4507bc3b2210da2cbfd34868cb04:-2039471461,bfde0507473b221023111b5b4a04e2fa:-225297092,ffde0507b33b22107079109deeeffcf0:1588877277,b3de0507823b221003d9de66eafa8ee7:-891915650,b7de0507fb3b2210be1edf823f11c5df:922258719,b7de0507813b22105ea570b2e8f3b5cf:288595768,7bde0507a73b2210e0cd693c62aa4bcb:-1314869118</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="networking-template">7be9d5cfc37b22107e68b41ed40131fd</sys_audit_delete>
+        <sys_audit_delete display_value="">7be9d5cfc37b22107e68b41ed40131fd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:00:09</sys_created_on>

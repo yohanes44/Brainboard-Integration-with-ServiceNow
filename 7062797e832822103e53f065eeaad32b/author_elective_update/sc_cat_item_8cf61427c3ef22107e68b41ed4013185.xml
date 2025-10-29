@@ -130,7 +130,7 @@
         <update_guid_history>411bd02fa9ef221009c6f22fcf48072b:-1617761162,411bd02f2eef22104a9edc4da22a741a:1589670541,8d1bd02f00ef2210b0a734c4789ecf0d:-110672476,011bd02fa0ef2210eae2a38de3ae0003:1593958371,b01b902f87ef22100f23541c225bcef8:-996378078,b01b902fccef2210f836ab701162bcec:1114354980,701b902f6aef2210c8fd13851d385edb:-1475981469,9cf6142743ef221003c3c1ce0cc7cfd2:228649378,58f61427cbef2210b6b2b133f9bfe2c7:1933280225,14f61427e1ef22100d1b462ae04baebf:-657056224,94f614278aef2210262230a0a38e05b6:1047574623,58f61427c7ef221092c4a7415b8c3aad:-1542761826,ccf614279def22104804d317697f9ba6:161869021,44f61427b6ef2210ebae3e788a9e4696:-794608908,80f6142724ef22102fc0bc7f85311794:745289428</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Landing Zone Baseline">8d1bd02fc3ef22107e68b41ed401312e</sys_audit_delete>
+        <sys_audit_delete display_value="">8d1bd02fc3ef22107e68b41ed401312e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:48</sys_created_on>

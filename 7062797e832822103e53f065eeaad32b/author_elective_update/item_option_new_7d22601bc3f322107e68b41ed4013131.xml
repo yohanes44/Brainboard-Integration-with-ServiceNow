@@ -174,7 +174,7 @@
         <update_guid_history>7522601b59f3221026a399646561b743:-772250143</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="disk_threshold_percentage">f82b201bc37722107e68b41ed401319f</sys_audit_delete>
+        <sys_audit_delete display_value="">f82b201bc37722107e68b41ed401319f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:14:10</sys_created_on>

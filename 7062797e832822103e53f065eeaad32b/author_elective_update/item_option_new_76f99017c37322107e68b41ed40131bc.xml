@@ -174,7 +174,7 @@
         <update_guid_history>f2f9901739732210a2187141dcc133d3:-1271549654</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="apim_management_host_name">c70f5c97c3b322107e68b41ed4013159</sys_audit_delete>
+        <sys_audit_delete display_value="">c70f5c97c3b322107e68b41ed4013159</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:21:20</sys_created_on>

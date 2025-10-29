@@ -42,7 +42,7 @@
         <update_guid_history>4b90fb516877a610a1b0cd12ecc198f7:905078996</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Variables.Azure storage account">c1d2cbf5c33322107e68b41ed401315a</sys_audit_delete>
+        <sys_audit_delete display_value="">c1d2cbf5c33322107e68b41ed401315a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-06 07:26:02</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>d962ec5b92f32210346f904c34e52704:-1617922544</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="s3_amount">d7d9e85fc33722107e68b41ed401312c</sys_audit_delete>
+        <sys_audit_delete display_value="">d7d9e85fc33722107e68b41ed401312c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:08:36</sys_created_on>

@@ -130,7 +130,7 @@
         <update_guid_history>192daa5bd667221023515e10c37c2255:154832554,852daa5b25672210883314e89cab6d43:323853835,452daa5ba2672210808b498328fe8339:-939498555,852daa5baf672210ae9c3924dee1072d:765132292,c12daa5b88672210fc3157dd56948e1d:-1825204157,2a4ceed76c672210ff887b36a76ee601:-120573310,2e4caed7176722100df4b91fc2804fea:1584057537,6a4caed7e4672210aaef214e665a3ee1:-1006278912,2e4caed72067221067034d06e75b65d8:698351935,6e4caed71a672210e4e11dc2d03433c5:-1891984514,6e4caed703672210b0d28c7179d32fb4:1119054557,224caed7de6722109440b24a4a1d92b3:142403719</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Region VPC and 2 AZ building block">552daa5bc36722107e68b41ed4013159</sys_audit_delete>
+        <sys_audit_delete display_value="">552daa5bc36722107e68b41ed4013159</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:26:29</sys_created_on>

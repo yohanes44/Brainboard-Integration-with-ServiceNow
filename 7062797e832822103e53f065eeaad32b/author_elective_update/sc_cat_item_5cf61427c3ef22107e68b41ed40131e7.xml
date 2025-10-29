@@ -130,7 +130,7 @@
         <update_guid_history>3a1b942f31ef221052506471440e66d2:-1315312521,3a1b942f12ef2210750b3a292ebed8c1:-2000280494,761b942f96ef22100b6d449f0d089cb5:-1552192273,f61b942f06ef22101c9ddf936b0a30aa:152438574,b21b942f36ef22102df5134c88b49c93:1857069421,b21b942f13ef22101ac0c7fcc4f24f87:-1216209111,621b942f61ef2210a6bedc3a1de96176:488421736,6cf654274fef2210286b81b1e59e7534:-2101914713,28f654279bef22103bc94d142c15d329:-397283866,d0f65427d3ef2210917d7c29da6c6221:1307346981,54f6542738ef2210595e8663fecdfb18:-1282989468,18f65427ceef221000216c52736e610f:421641379,9cf65427ceef2210d73523327364cd08:2126272226,5cf61427ceef221088c05cd0dc4ec1f9:546300735,50f614275aef221053f173b7086c3df6:1449615337</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS serverless architecture">471b942fc3ef22107e68b41ed40131d6</sys_audit_delete>
+        <sys_audit_delete display_value="">471b942fc3ef22107e68b41ed40131d6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:56</sys_created_on>

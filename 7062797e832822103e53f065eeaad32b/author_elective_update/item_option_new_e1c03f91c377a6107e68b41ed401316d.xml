@@ -174,7 +174,7 @@
         <update_guid_history>29c03f919277a61069d7e079dca10e81:-118618613</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="email">f0138b79c33322107e68b41ed40131f3</sys_audit_delete>
+        <sys_audit_delete display_value="">f0138b79c33322107e68b41ed40131f3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-06 07:27:06</sys_created_on>

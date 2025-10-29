@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>c271e19b18fb2210d5c000f5c1da0913:-1534028794,0e71e19bf6fb22109d089270e5c49a00:1865506594,f971a19b84fb2210ab114bcfda041ef3:808773823,3171a19bc2fb2210fdb3e30273ec8ce8:-1672019104,7571a19beffb221094dd2b759b9418dc:142155265,b971a19b0afb221042c2609a77287cb6:1303824363,f171a19b2ffb2210499386a2902ae398:-1176968564,139025d775fb221018af1eabd920bf92:637205805,4f9025d7fafb221011b135893f6c316b:-1843587122,0b9025d7adfb2210a35c1a0cf967e162:-29412753,cb9025d785fb2210f340efd610c9e658:1784761616,039025d734fb2210e527eedef1f6cb4f:-696031311,8f9025d775fb2210fd1f7aeafacd2d3a:1118143058,879025d70ffb22101055357efb76da3e:-992945297,4b9025d768fb22101b321e2b70fb7033:1504378071</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="GCP cloud CDN &amp; Load balancer">c271e19bc3fb22107e68b41ed4013117</sys_audit_delete>
+        <sys_audit_delete display_value="">c271e19bc3fb22107e68b41ed4013117</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:33</sys_created_on>

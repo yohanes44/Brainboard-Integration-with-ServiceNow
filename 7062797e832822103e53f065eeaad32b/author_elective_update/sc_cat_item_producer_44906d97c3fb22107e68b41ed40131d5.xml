@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>b9b4695b443f221041309694ff926dbc:-728520885,a1b4695bad3f2210bf94e3ac01f71eaa:1826911733,21b4695b1b3f2210ba3820a97c7b2c9d:1406493820,25b4695bbe3f2210ccf98994a654c891:-1074299107,61b4695b063f22100c11f37f6707d279:739875262,e1b4695b583f22104532b35db3d7e26c:-1740917665,61b4695bc93f221005328bc00276755a:73256704,d5e1295f6efb22105b5074d11bf4d699:525252032,5ea165db75fb2210426cf421821d5287:546405116,c090ad97effb2210dbaa8ce5e47222ab:-141366526,8c90ad97fefb22106459215c2ca2099d:1672807843,4090ad9778fb22102eca101d878f1986:-807985084,0890ad97d0fb22108fbe070f3cf6626e:1006189285,cc90ad97c5fb2210c32f065527560b57:-1474603642,8c90ad97f6fb2210de9f675c850f164f:339570727,c890ad977cfb22101064df407bd2082b:-2069138578,0490ad978dfb2210ced01e3bcdc63923:1442301996</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS Kubernetes cluster with native CNIs">f9b4695bc33f22107e68b41ed40131c0</sys_audit_delete>
+        <sys_audit_delete display_value="">f9b4695bc33f22107e68b41ed40131c0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:25:43</sys_created_on>

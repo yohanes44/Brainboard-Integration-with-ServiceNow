@@ -174,7 +174,7 @@
         <update_guid_history>82e958d3d573221086770b6c0d53471b:210529210</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="nic_spoke_name">9b7ed493c3b322107e68b41ed40131d0</sys_audit_delete>
+        <sys_audit_delete display_value="">9b7ed493c3b322107e68b41ed40131d0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:18:54</sys_created_on>

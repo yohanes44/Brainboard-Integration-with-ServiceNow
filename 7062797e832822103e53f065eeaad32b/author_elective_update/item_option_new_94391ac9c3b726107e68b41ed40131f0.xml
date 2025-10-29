@@ -174,7 +174,7 @@
         <update_guid_history>9c395ac97bb72610aec65c45ed8e0418:-187773699</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="shared_vpc_host">8a04ab51c3f3a6107e68b41ed4013148</sys_audit_delete>
+        <sys_audit_delete display_value="">8a04ab51c3f3a6107e68b41ed4013148</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 20:34:08</sys_created_on>

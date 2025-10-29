@@ -130,7 +130,7 @@
         <update_guid_history>d39f982baa2362100b9c031991a63c97:-866471380,9f9f982b5b23621016ed947078861560:-976649527,db9f982b97236210f768ef294b071654:1720356628,5f9f982b08236210558606ae0f71a849:-869979821,df9f982b1d2362109a93712e2242ae3e:834651026,cf9f982be723621039b81915f750b132:1446063328,8f9f982bec2362100a30c7122604ee21:-1144273121,786b54affaef2210b209ea81b0fa5562:560357726,246b54af6def2210cc12ca77552c9b57:-2029978723,ec6b54af03ef2210e49f40ec955a904e:-325347876,606b54affaef22101d58d65e75500346:1379282971,246b54af79ef22103b02edb1bd45853d:-1211053478,a86b54afb0ef2210395c039f53a36d36:493577369,246b54afbdef221049dfe83da61ece28:780722788,6c6b54af8bef22103a0a8468944ac423:1658911708</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS parallel cluster">139f982bc32362107e68b41ed401319b</sys_audit_delete>
+        <sys_audit_delete display_value="">139f982bc32362107e68b41ed401319b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:37</sys_created_on>

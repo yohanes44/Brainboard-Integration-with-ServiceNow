@@ -174,7 +174,7 @@
         <update_guid_history>62cc2c1337b722105fc754542d98c57e:492366598</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="dalle_api_version">eb25a55fc33f22107e68b41ed401310d</sys_audit_delete>
+        <sys_audit_delete display_value="">eb25a55fc33f22107e68b41ed401310d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:27:45</sys_created_on>

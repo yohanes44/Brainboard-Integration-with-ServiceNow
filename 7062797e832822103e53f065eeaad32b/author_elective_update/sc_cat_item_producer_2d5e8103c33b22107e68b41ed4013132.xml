@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>84b9594f817b2210dea5f1e6b0cab0b7:1201881567,8cb9594f207b22105300f29b945ae9a4:1008905469,04b9594fe87b22103b091b7b5a757c8b:-1970498180,84b9594fb27b22100e23e9d2dd6e447f:-156323811,08b9594f837b22106b8f0d851a587f73:1657850558,08b9594f167b22108ffe4072aa37a466:-822942369,80b9594f567b221025883ad4421de247:991232000,7ba9594f717b2210d466a2cb9027a928:238756296,0a5ec103dd3b22103af7ed4636a34a38:2052930665,bd5e8103263b2210b93ef99e990c86b9:-427862262,b15e8103b83b2210ec3d3349d930d9a0:1386312107,7d5e8103073b22109dfedbf2425d5f96:-1094480820,f55e8103d13b22104dc4ca84ffd68b80:719693549,b95e8103c73b221051cffa1641875676:-1761099378,f95e81033d3b221043b75b3e78a60c49:53074991,ad5e8103f33b2210f1afae642cad3758:-1164707730,655e8103db3b22107042eed0e1d7dc42:1891024362</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Deepchecks">84b9594fc37b22107e68b41ed40131bb</sys_audit_delete>
+        <sys_audit_delete display_value="">84b9594fc37b22107e68b41ed40131bb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 20:59:05</sys_created_on>

@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>ac34a557c33f221067f940af2b30af5f:-1459644419,a434a557363f2210f14eda46f606f74d:-1342304569,2434a557c43f2210f6ad404d14053640:-979404122,2834a557893f2210f27bbcbb9d408034:834770247,1c34a557b83f2210c4dad3935dfc6128:-1646022680,9c34a5572a3f2210310be140998a691b:168151689,1c34a557a83f2210e0aff6d808261d09:1982326058,cdf1219fa7fb221063c8cb5449b13553:1684875154,dcd12d1fbdfb22100dffaed331288683:-906668338,b1a0e5d7a0fb2210777f4b0319f58bd3:1018256596,7da0e5d7e8fb221038c550d7db4158c5:-1462536331,b5a0e5d787fb221040b207e10562105a:1420520856,39a0e5d75bfb221039f44697af9a2bbc:351638038,f9a0e5d75dfb2210dcdf1c15fe89bcb2:-2129154889,bda0e5d7a6fb2210fe2c796203bec36a:-314980520,3da0e5d701fb22105fe2eabcad40c856:1499193849,e5a0e5d798fb22105a24a07c77febe4f:508967440</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Landing Zone Baseline">ec34a557c33f22107e68b41ed4013163</sys_audit_delete>
+        <sys_audit_delete display_value="">ec34a557c33f22107e68b41ed4013163</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:23:28</sys_created_on>

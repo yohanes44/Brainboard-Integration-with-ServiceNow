@@ -130,7 +130,7 @@
         <update_guid_history>d8689e1f9da322101a706289a6a1d14c:1033077902,7a86560341e7e210be111812ec69b5c7:-1906511781,3a86560378e7e2101c21721895defaae:-201880934,be86560303e7e21056723c9b5d74a2a5:1502749913,ba865603c4e7e21016d8bc9d13da7d9c:-1087586536,e68656037fe7e210ead88d6e08e40a93:617044311,e2865603c9e7e2109b9d7338ad9a7380:-1973292138,ae865603a1e7e2106c53cf20d4786d85:-7216019,ea86560359e7e21037103f3f612c4d79:1082954263</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Key Vault Architecture">10689e1fc3a322107e68b41ed4013137</sys_audit_delete>
+        <sys_audit_delete display_value="">10689e1fc3a322107e68b41ed4013137</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 09:55:46</sys_created_on>

@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>e5ff5dd354fb2210c04ed985489a09cf:-422796309,21ff5dd379fb2210a0e8d7fd37d53ebd:-76452521,29ff5dd3cefb2210be2b001193045ba3:1847426392,6dff5dd3bcfb22109ba2312225ace497:-633366535,a1ff5dd3a8fb221096275fcc34057a8c:1180807834,55ff5dd304fb22107441968b556b4c7f:-1291427936,55ff5dd325fb22103da78a621651256d:522746433,4400f8df92b72210544c0625203d1531:-1958046494,0000f8df4eb72210b64ee76444854824:-143872125,c800f8dff9b72210f1ebd75df7cb481a:1670302244,8c00f8dfb1b7221003f202bc3a5ac010:-810490683,0c00b8dfa9b722107be65787d685e8fa:1003683686,c000b8df85b72210cf74acecdb6f2cf3:-1477109241,4400b8df7cb72210c7e5eb76b192e8e0:610620936,8c00b8df21b722101ff6ae662d8c9eeb:745013448</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Disaster recovery multi-region deployment">e5ff5dd3c3fb22107e68b41ed40131d3</sys_audit_delete>
+        <sys_audit_delete display_value="">e5ff5dd3c3fb22107e68b41ed40131d3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:04:58</sys_created_on>

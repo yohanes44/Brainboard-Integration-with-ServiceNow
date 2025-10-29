@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>6eda9987b7bb221035898b17f6031c16:-881019199,66da9987bcbb22104c39bbe24f9f5f04:1143975714,92da5987d5bb2210cfda0437d78b1cf7:-626480835,16da5987cbbb2210b315b18c853330eb:1187693534,1ada59873fbb22106d52b49e35f987c6:-1293099393,1ada59876cbb2210ce08c36576790db9:521074976,56da5987c1bb22108ade652341844e9b:-1959717951,4ada5987b0bb22104605a94723cd9089:-145543582,06da5987aabb22100b87cd2e9997ef76:1668630787,4a5ec1038c3b2210a63e6e4f1bb64b85:-812162140,5399fbb9f1b72210dbadc39eecdc28e8:148031989,0b99fbb969b722104fa6cdb61c43bbcc:1962206358,b299fbb944b722107521d5eb0257af4a:-518586569,6a99fbb988b72210544a36c7d1b31f3c:1295587800,2299fbb93cb722105860ea833852ac33:-1185205127,2e99fbb9cfb722105c6d4da3ea5b2f28:628969242,aa99fbb9b1b722109ead07a4e98bea1e:-1851823685,ae99bbb9b8b722107fd72d73dcd58dfd:-37649316,6299fbb98eb72210a97b6c2c149dc201:-1463262195,e699bbb961b722107f514eae37840bf6:1109877805</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure vWAN">6eda9987c3bb22107e68b41ed401311a</sys_audit_delete>
+        <sys_audit_delete display_value="">6eda9987c3bb22107e68b41ed401311a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:04:09</sys_created_on>

@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>6151a15b00fb2210c02228f3f6840aa3:1392771689,a951a15b7efb22108d85d3dd86094090:-706446205,a151a15b0ffb22103ea1b8f1efbf5477:1569773808,2151a15b47fb2210d32c789aa21c315f:-911019119,6551a15babfb2210e1b1ffbc6e7f9453:903155250,1951a15b91fb221029c4678fdf10ea46:-1577637677,1951a15b8ffb22102e450b9626168434:1980030445,9fb0611bdcfb221002718e232c0ce3f0:-500762482,48b02dd7a6fb22105afa729df7fcc5a5:-482596310,04b02dd770fb22108acdaee2db4a6a98:1331578059,ccb02dd7cdfb2210be84cb5db050d58e:-1149214868,c8b02dd756fb2210e7fb6445d945e378:664959501,48b02dd77dfb2210b4caceb1742ce662:-1815833426,bfa02dd780fb2210cf43ffdbbdba375a:-1659057,33a02dd7dffb2210e7a505fad7a4954f:-479629914,b3a02dd7a4fb22107f715cc73c6c4747:723201604</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS ECS with Fargate">2951a15bc3fb22107e68b41ed40131b3</sys_audit_delete>
+        <sys_audit_delete display_value="">2951a15bc3fb22107e68b41ed40131b3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:10:58</sys_created_on>

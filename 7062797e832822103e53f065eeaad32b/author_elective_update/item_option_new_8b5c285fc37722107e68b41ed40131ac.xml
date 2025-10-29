@@ -174,7 +174,7 @@
         <update_guid_history>835c285f3a7722105fcbbef6c597e4cd:-1242959186</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="hub_vpn_pip_name">b3f62913c37f22107e68b41ed401311b</sys_audit_delete>
+        <sys_audit_delete display_value="">b3f62913c37f22107e68b41ed401311b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:35:41</sys_created_on>

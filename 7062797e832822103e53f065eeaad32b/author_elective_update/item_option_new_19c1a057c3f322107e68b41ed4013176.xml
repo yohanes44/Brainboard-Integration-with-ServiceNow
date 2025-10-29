@@ -174,7 +174,7 @@
         <update_guid_history>adc1a05785f322100c00cc022692d893:1367872543</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="azure_nsg_name">f889ac9bc33722107e68b41ed401311c</sys_audit_delete>
+        <sys_audit_delete display_value="">f889ac9bc33722107e68b41ed401311c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:07:04</sys_created_on>

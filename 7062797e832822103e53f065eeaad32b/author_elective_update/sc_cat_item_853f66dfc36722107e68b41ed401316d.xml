@@ -130,7 +130,7 @@
         <update_guid_history>66e8725383e722101c98fe9971931e7b:1652936005,62e87253b6e72210a9870a7aeee1ed68:720962180,66e872538be722109d77ba868a37595d:-1869374269,e6e8725338e72210df7c53f3b76dc451:-197746333,d6e8725374e72210b4ee2cdec8753040:1506884514,cf38329fafa722100f3f3d568613c7c0:-1083451935,013f66df956722104c2b2a096d91eabd:1111844506,0d3f66df03672210d9668446393073b2:-1478491943,0d3f66df77672210d5da68e1518e68a9:226138904,813f66df4d672210f22eb2b5d6f3f9a1:1930769751,8d3f66dff967221028f232b8bac08c9a:-659566698,cd3f66df3c6722107a4fe867ece8638a:554398555,413f66dfee672210414858a8a54a3c88:2049192517</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Multi-cloud architecture">a2e87253c3e722107e68b41ed401317f</sys_audit_delete>
+        <sys_audit_delete display_value="">a2e87253c3e722107e68b41ed401317f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:55</sys_created_on>

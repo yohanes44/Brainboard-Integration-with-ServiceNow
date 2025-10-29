@@ -174,7 +174,7 @@
         <update_guid_history>a4f8e55b617f22102f7739f2dc83d38a:1905757746</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="snet_kubernetes">1633765fc33762107e68b41ed40131ba</sys_audit_delete>
+        <sys_audit_delete display_value="">1633765fc33762107e68b41ed40131ba</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:08:43</sys_created_on>

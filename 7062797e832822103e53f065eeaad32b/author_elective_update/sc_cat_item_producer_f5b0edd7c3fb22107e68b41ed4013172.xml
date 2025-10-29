@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>a871ed5bd9fb22108100691064eb9afa:-232979560,e071ed5b9afb22101586d10c24b030e8:-1843185376,a071ed5ba8fb221042f7ae3043368ddb:63477641,d471ed5b75fb2210563746b19fe908cf:1877652010,1c71ed5bb6fb22108d3166b83e9431c3:-603140917,dc71ed5b9ffb22105008241d5f0811b6:1998551657,1871ed5b16fb22101616e4a7d3416e98:-482241270,c6b0211bd9fb2210c6d35ed78bc57037:1331933099,cab0211bdbfb2210113dcd3f7d64ae1d:-1148859828,b5b0211b27fb2210a19efb77fb81a114:665314541,79b0211b57fb221017e73f5c4ad9fb0a:-1815478386,bdb0211b6efb2210341b91ce895f1400:-1304017,3db0edd7a0fb2210205627e760617aec:1812870352,fdb0edd7c9fb22108fe65197c98374da:160377913,31b0edd782fb221061cf2f3a48f50ed9:-500851451</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS network landing zone">a871ed5bc3fb22107e68b41ed40131fe</sys_audit_delete>
+        <sys_audit_delete display_value="">a871ed5bc3fb22107e68b41ed40131fe</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:27</sys_created_on>

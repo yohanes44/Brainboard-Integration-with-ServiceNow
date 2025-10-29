@@ -174,7 +174,7 @@
         <update_guid_history>7df1a19f37fb2210a2e9aad599067f1d:-136745328</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="target_service_accounts">f6b3a953c33f22107e68b41ed40131b1</sys_audit_delete>
+        <sys_audit_delete display_value="">f6b3a953c33f22107e68b41ed40131b1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:21:25</sys_created_on>

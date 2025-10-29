@@ -52,7 +52,7 @@
         <update_guid_history>cfafde5bf4e32210c5972efe13c939e4:-844216142,129f5a1bd3e32210069194ef756a0d72:-635517839,d597ee4b664122109f575a5e102c197c:-1826645558</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Project &amp; Environment">c1036217c32722107e68b41ed401317a</sys_audit_delete>
+        <sys_audit_delete display_value="">c1036217c32722107e68b41ed401317a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 10:43:23</sys_created_on>

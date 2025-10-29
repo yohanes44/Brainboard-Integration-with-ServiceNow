@@ -174,7 +174,7 @@
         <update_guid_history>70e2a85f06f32210382452d0da629a5c:1459448242</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="apim_logger_description">84baa417c37722107e68b41ed4013105</sys_audit_delete>
+        <sys_audit_delete display_value="">84baa417c37722107e68b41ed4013105</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:12:12</sys_created_on>

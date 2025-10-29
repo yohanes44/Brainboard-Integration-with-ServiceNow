@@ -174,7 +174,7 @@
         <update_guid_history>9213e0df8ff3221060938765cf6a6450:164313292</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="github_pat">3e2b241bc37722107e68b41ed4013189</sys_audit_delete>
+        <sys_audit_delete display_value="">3e2b241bc37722107e68b41ed4013189</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:14:18</sys_created_on>

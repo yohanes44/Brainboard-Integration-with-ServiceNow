@@ -130,7 +130,7 @@
         <update_guid_history>ac74920f0ba7e2100de353926de75b3b:-357971046,a074920f79a7e21045984a669be41f2a:1658489944</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="test name">d2381adbc3a322107e68b41ed4013107</sys_audit_delete>
+        <sys_audit_delete display_value="">d2381adbc3a322107e68b41ed4013107</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-08-29 09:55:05</sys_created_on>

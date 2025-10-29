@@ -174,7 +174,7 @@
         <update_guid_history>09a42f5555f3a61070ed089dc7f728d9:478719775</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ip">36cf231dc337a6107e68b41ed4013147</sys_audit_delete>
+        <sys_audit_delete display_value="">36cf231dc337a6107e68b41ed4013147</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 21:25:31</sys_created_on>

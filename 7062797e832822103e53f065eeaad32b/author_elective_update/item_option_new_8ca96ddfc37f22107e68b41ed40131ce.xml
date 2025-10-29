@@ -174,7 +174,7 @@
         <update_guid_history>00a96ddfff7f2210450fa2328f1e28e1:-28189053</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="allowed_ip_ranges">cb63b2dfc33762107e68b41ed401313b</sys_audit_delete>
+        <sys_audit_delete display_value="">cb63b2dfc33762107e68b41ed401313b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:09:37</sys_created_on>

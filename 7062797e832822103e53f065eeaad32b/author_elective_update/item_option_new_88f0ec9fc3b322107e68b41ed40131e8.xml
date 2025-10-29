@@ -174,7 +174,7 @@
         <update_guid_history>00f0ec9fa2b32210baa94d72bc8ea7f7:-1271262600</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="VLAN_number">8cc92c1fc33722107e68b41ed40131d9</sys_audit_delete>
+        <sys_audit_delete display_value="">8cc92c1fc33722107e68b41ed40131d9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:08:06</sys_created_on>

@@ -130,7 +130,7 @@
         <update_guid_history>b25fd8a76d23621076d54c272562c194:22634507,b25fd8a743236210f961abb6602d4083:1338434904,fe5fd8a7aa236210e6379ebc9f01be76:-278811613,725fd8a776236210115291e5be3ccf6c:1425819234,e25fd8a7872362100f4468b744089361:-1164517215,e25fd8a71323621052fcbdb5f20aad55:822542191,a25fd8a748236210c52a576b6a6eca44:-1767794258,dc5bd86f8aef2210af0da1b66ca74d96:-63163411,985bd86f0eef2210512ba04a514b318b:1641467436,c45bd86f98ef2210cecd7642ce2c036a:-948869013,485bd86fe1ef221027a7619d3e33eb61:755761834,0c5bd86f3def2210a910eb2f3387c758:-1834574615,045bd86f63ef22106bb05315fdbfe339:-129943768,005bd86f31ef2210b77fec33b2e2b53f:-812007565,8c5bd86f4cef221037844d0f8a149c32:2112598983</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Sentinel Architecture">fe5fd8a7c32362107e68b41ed4013197</sys_audit_delete>
+        <sys_audit_delete display_value="">fe5fd8a7c32362107e68b41ed4013197</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:45:29</sys_created_on>

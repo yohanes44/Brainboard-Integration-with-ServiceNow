@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>18d3a593d23f22105f8f8679eb9b331e:-922509955,10d3a5931f3f2210972666ac4dc8bf0c:575711737,d4d36593a13f2210026441279e7d48f2:676002746,d8d365930f3f2210abbc8e3e6a064ee6:-1804790181,ccd36593363f221015032d43924437da:9384188,40d365934f3f221025836b2264e1adce:1823558557,ccd365931d3f221066767bc50668dfbb:-657234370,95e1295f5bfb22101aa716926ea45389:-1881654908,d4d12d1f12fb22102f01bab3bf4eb78a:-2014990272,62a069d799fb22106a7ca854b8b14086:1746693830,aea069d7d6fb221002b84adff8421f5f:-734099097,aaa069d7d6fb2210a0c825c34bf2673b:1080075272,6ea069d7cafb2210a7a575539fa38831:-1400717655,a6a029d71afb221083bdce09bea815f6:413456714,5ea029d7b0fb221002cabeda7fccc9d5:-2067336213,96a029d76cfb2210dc3df420e20660ce:1203999742,9aa029d72efb22102e89ba60f9248eb6:-197875284</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS serverless architecture">58d3a593c33f22107e68b41ed4013122</sys_audit_delete>
+        <sys_audit_delete display_value="">58d3a593c33f22107e68b41ed4013122</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:21:48</sys_created_on>

@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>f48b5dcbcbbb221079b3c427d57e78a0:1837805356,fc8b5dcbe8bb2210af539f648444268d:1321595828,3c8b5dcbe0bb22107543a0f8afd1a980:1919604061,bc8b5dcb0cbb2210c4ebbbf19007b274:-561188866,308b5dcbf7bb22104af41361ca7fdc69:1252985503,308b5dcb69bb22106dd2b369ef865a5c:-1227807424,608b5dcba8bb2210992c7e1225f65149:586366945,648b5dcb23bb22104eb058983abfeb37:-1894425982,a88b5dcb60bb22105e8c54b0d7d93217:-80251613,976e8d03333b2210ebf2478382f8f20a:1534793601,536e4d039c3b22101b68a58c9a056eef:-945999326,476e4d036a3b2210d305a23d49a9bde0:868175043,4b6e4d03833b2210958f4374c8214bc6:-1612617884,076e4d034e3b2210ca7125326703aebd:201556485,476e4d033d3b22105f635a7fe1b04ab3:2015730854,0b6e4d03cb3b22104951c972bf9e99a9:-465062073,c76e4d03ed3b221085001f584bdda895:1349112296,0b6e4d03f83b221002dc62819fc3e885:1401402513,0f6e4d03b93b221086212387bc48b668:275661893</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Architecture 2">f48b5dcbc3bb22107e68b41ed40131a4</sys_audit_delete>
+        <sys_audit_delete display_value="">f48b5dcbc3bb22107e68b41ed40131a4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:07:03</sys_created_on>

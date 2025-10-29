@@ -174,7 +174,7 @@
         <update_guid_history>c42ea0db51b72210e47936be3113cf5c:-1648350268</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="cors_allowed_origins">6e84e11bc33f22107e68b41ed4013112</sys_audit_delete>
+        <sys_audit_delete display_value="">6e84e11bc33f22107e68b41ed4013112</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:24:58</sys_created_on>

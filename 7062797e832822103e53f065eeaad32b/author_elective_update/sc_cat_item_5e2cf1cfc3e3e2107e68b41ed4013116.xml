@@ -130,7 +130,7 @@
         <update_guid_history>435c39cfd0e3e210e2fda22f2b76c22e:-1380774618,f62cf1cfd5e3e210f6600bc02ed79cc3:-1019873381,ea2cf1cf49e3e210011164afa30318b2:684757466,222cf1cf28e3e21045e6523badcb23a4:-1905578983,662cf1cf62e3e2108ef173822beb048b:-200948136,6a2cf1cf6ae3e210a9b4da320a1c197d:1503682711,ea2cf1cfc8e3e2107da75fe7deefea62:616942839,aa2cf1cfe2e3e210ca246b83672e2c73:-1086653738,6a2cf1cf40e3e210d040d9dc159c675e:54929787</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS IAM users creation">975c39cfc3e3e2107e68b41ed4013133</sys_audit_delete>
+        <sys_audit_delete display_value="">975c39cfc3e3e2107e68b41ed4013133</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-28 13:14:53</sys_created_on>

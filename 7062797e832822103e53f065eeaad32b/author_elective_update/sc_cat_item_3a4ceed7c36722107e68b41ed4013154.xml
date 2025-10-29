@@ -130,7 +130,7 @@
         <update_guid_history>a72dae5b53672210f28cf39a42a8e4f9:1303680874,272dae5bbe672210a98e009d563f5fe7:1186429859,e32dae5bcd672210048248e08e5a86dd:-1037122303,172dae5b7367221017ece753a06a9ed1:667508544,532dae5b34672210a27d68f9cef04cc1:-1922827905,cb4ceed708672210aec4590f9fbad9bd:-218197058,cf4ceed7f367221077cf35fc884bfba6:1486433789,3e4ceed76f672210bd134dc817f9659d:-1103902660,fe4ceed7bc6722107d3cfcbd0849f094:600728187,7a4ceed7596722108b94c3d6caba2575:-1989608262,7e4ceed7f1672210c8011f3871b97c7b:-694402443,f24ceed74467221064065e41cc732f6f:1933112095</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure private endpoints ">e32dae5bc36722107e68b41ed40131fd</sys_audit_delete>
+        <sys_audit_delete display_value="">e32dae5bc36722107e68b41ed40131fd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:26:38</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>fbd1655fb1fb22101c634e99be3d0a19:765442138</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="min_tls_version">a3b46d5bc33f22107e68b41ed401316a</sys_audit_delete>
+        <sys_audit_delete display_value="">a3b46d5bc33f22107e68b41ed401316a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:25:51</sys_created_on>

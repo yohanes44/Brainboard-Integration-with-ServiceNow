@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>5effddd3f6fb2210fca71879c278b816:-1195674101,ceff9dd326fb221038b87cc72b0c59f7:1079888581,c6ff9dd359fb221022a1cb11601e9dde:2086621672,0eff9dd3b8fb2210bca1d1ad561fcad2:-394171255,42ff9dd30cfb22109701f3bcf84c74c7:1420003114,06ff9dd3befb22106f8166b0cc7c23ba:1691282382,06ff9dd308fb2210e49f41ad5cc253a8:-789510545,33ffa8df31b722109f39a63973d88c9d:1024663824,7fffa8df00b72210c46b9f24f0334976:-1456129103,73ffa8dfd3b7221040c7e60ddcdc4a61:358045266,27ffa8df73b72210ee65a6f50bd09457:-2122747661,a3ffa8dfc0b722105783ba8a775c3c41:-308573292,a3ffa8df84b7221029e48dc1bce9222d:1505601077,e3ffa8df44b72210000a87ee02d7f232:297780632,6fffa8dfd7b722102615e468eadc8e25:-821837802</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS parallel cluster">5effddd3c3fb22107e68b41ed401311a</sys_audit_delete>
+        <sys_audit_delete display_value="">5effddd3c3fb22107e68b41ed401311a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:05:01</sys_created_on>

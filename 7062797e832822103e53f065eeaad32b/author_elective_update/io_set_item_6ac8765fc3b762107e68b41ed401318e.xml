@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>300</order>
+        <sc_cat_item display_value="azure storage – change feed to replicate data">22c8765fc3b762107e68b41ed4013115</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:33:03</sys_created_on>
+        <sys_id>6ac8765fc3b762107e68b41ed401318e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variables.azure storage – change feed to replicate data</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>io_set_item_6ac8765fc3b762107e68b41ed401318e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:33:03</sys_updated_on>
+        <variable_set display_value="Variables">52b414ebc3af22107e68b41ed40131f4</variable_set>
+    </io_set_item>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>1530765393dc22d0611eddd548373c8d</instance_id>
+        <instance_name>dev304798</instance_name>
+        <name>io_set_item_6ac8765fc3b762107e68b41ed401318e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>300</order>
+        <sc_cat_item display_value="azure storage – change feed to replicate data">22c8765fc3b762107e68b41ed4013115</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:33:03</sys_created_on>
+        <sys_id>6ac8765fc3b762107e68b41ed401318e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variables.azure storage – change feed to replicate data</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>io_set_item_6ac8765fc3b762107e68b41ed401318e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:33:03</sys_updated_on>
+        <variable_set display_value="Variables">52b414ebc3af22107e68b41ed40131f4</variable_set>
+    </io_set_item>
+</record_update>]]></payload>
+        <payload_hash>-1906142522</payload_hash>
+        <record_name>Variables.azure storage – change feed to replicate data</record_name>
+        <reverted_from/>
+        <source>a478d803933cfe10eae01aebb9373c4f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-10-29 09:18:14</sys_created_on>
+        <sys_id>9dc898c3933cfe10eae01aebb9373cad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a2f42bc740000001</sys_recorded_at>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:18:14</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>5dc898c3a23cfe10d73d94e9b95702ad</update_guid>
+        <update_guid_history>5dc898c3a23cfe10d73d94e9b95702ad:-1906142522</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Variables.azure storage – change feed to replicate data">8965b40393f43250eae01aebb9373c4e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-10-29 11:23:16</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>5ac0b12fdd9c4687bdeb86d3e1f21b69</sys_id>
+        <sys_metadata>6ac8765fc3b762107e68b41ed401318e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variables.azure storage – change feed to replicate data</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>io_set_item_6ac8765fc3b762107e68b41ed401318e</sys_update_name>
+        <sys_update_version display_value="io_set_item_6ac8765fc3b762107e68b41ed401318e">9dc898c3933cfe10eae01aebb9373cad</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-10-29 11:23:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

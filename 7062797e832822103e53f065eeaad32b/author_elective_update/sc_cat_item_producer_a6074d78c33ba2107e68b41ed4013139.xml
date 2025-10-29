@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>781cd16761b32210c9eac922d36b3ab5:-1354928555,2c1cd1676db3221003f6f32ae6bf9c9a:182294715,e81cd1677bb32210c91b1805de03a08b:1996469084,e01cd1671cb32210773c42f6d6bba670:-484323843,ac1cd16730b322105405374bbc0f995f:440641149,201cd1679fb322104f1c9ad56ec67949:-2040151778,f6074d78683ba210acf6bb477230dac3:-225977409,7e074d78d13ba2107bc96c28245b10b5:1588196960,be074d782c3ba2108f28de55ddc8cdab:-892595967,ba074d78c93ba210c21f763edb648aa0:921578402,be074d787f3ba210030cca4d54b1f089:-1559214525,b6074d78e43ba2104acb885e44ced182:254959844,f6074d78de3ba210523c177fc1b6df6a:-368192917,7e074d78ab3ba21019c3728bca81b061:-1409507719</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS RDS">a81cd167c3b322107e68b41ed401319f</sys_audit_delete>
+        <sys_audit_delete display_value="">a81cd167c3b322107e68b41ed401319f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-11 10:26:28</sys_created_on>

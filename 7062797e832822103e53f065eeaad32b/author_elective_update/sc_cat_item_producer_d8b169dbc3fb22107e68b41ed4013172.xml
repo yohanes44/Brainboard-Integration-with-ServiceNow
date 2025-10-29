@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>89d3e593973f22103e0068d460729b8c:2145251775,c1d3e593a93f22101ab16951aea04e7a:1213647367,81d3e5939b3f2210040d29f9a14f936d:-2074261200,c5d3e593c43f2210b4768d8ea24cfb61:-260086831,0dd3e593a33f221032517e50a1e27755:1554087538,fcd3e593e53f2210295730bc27d65e48:-926705389,b8d3e5938b3f22103ab4ea5aaa812d29:887468980,38d3e593933f2210cf0ddb871c75520b:-1593323947,b4d3a593f93f221072ee04d3904d83f8:220850422,a8b1e9db0bfb22109181a9da21ce3e66:-296976940,e0b1a9db39fb2210c326cda5b98e8be8:1517197429,dcb1a9db83fb22104f88b34dc0d429cc:-963595498,d0b1a9db7bfb2210731545778ca772b3:850578871,94b1a9db81fb2210511fea0802d32b34:941910116,58b1a9dbc6fb22105445b9fef506cb84:-1630214056,9cb1a9db4dfb2210967efec0c878a661:183960313,14b1a9dbe6fb2210bfc18e1ac3e39858:1998134682,90b1a9db45fb2210802970687858ed44:-482658245,50b1a9db8bfb2210b7ed6d165deec90b:1149014458</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Region VPC and 2 AZ building block">19d3e593c33f22107e68b41ed40131a9</sys_audit_delete>
+        <sys_audit_delete display_value="">19d3e593c33f22107e68b41ed40131a9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:21:52</sys_created_on>

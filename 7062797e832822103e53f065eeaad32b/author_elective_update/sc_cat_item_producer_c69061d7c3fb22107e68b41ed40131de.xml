@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>6971619b3bfb2210971fa9738aabdfcd:-1932959895,a171619b1dfb22107a1ffca5cd5223bb:1844087545,6171619b69fb22105177aa727bc3d7ae:1385207344,a571619b8afb221062b6f5b83795caa2:-1095585583,d971619b6bfb22106967d52c36845596:718588786,9d71619b12fb221002f42b53d5a9e889:-1762204141,9d71619b1efb2210f126350eaf270a77:-196402653,07b0611b75fb221046e221dcb875adca:1617771716,5e90a1d754fb2210c9f769806633cfc8:1635937888,5290a1d7d1fb2210b87f5aaaee603baf:-844855039,1e90a1d746fb22107c68ddce1cf17aa5:969319330,de90a1d7fcfb2210b587cea00bfffa9b:-1511473597,1690a1d704fb22101dd41881a40cd392:302700772,5a90a1d7dcfb221024abf2b3616df18a:2116875141,8a90a1d7c4fb2210a9cf5def9cbdbb7e:480207334,8690a1d7c9fb2210cb49879bfe83456a:1415292870</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS FSX architecture">ad71619bc3fb22107e68b41ed40131f6</sys_audit_delete>
+        <sys_audit_delete display_value="">ad71619bc3fb22107e68b41ed40131f6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:31</sys_created_on>

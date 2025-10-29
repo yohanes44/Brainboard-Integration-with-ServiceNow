@@ -174,7 +174,7 @@
         <update_guid_history>ccd96553e0bf22104e4ebffb4d026b4c:1036383259</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="web_app_runtime_stack">6ba27a1bc33762107e68b41ed401312a</sys_audit_delete>
+        <sys_audit_delete display_value="">6ba27a1bc33762107e68b41ed401312a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:06:22</sys_created_on>

@@ -130,7 +130,7 @@
         <update_guid_history>b4ce2e1fc267221048fa2a07ada85637:1473180377,34ce2e1f226722109ef1bb29eba06a25:-642520008,f0ce2e1f9a6722108f714685f5f1481b:-855095510,70ce2e1fa66722100a087d2ea1c43d10:849535337,30ceea1fdf672210cbd410255388cfff:-1740801112,192c2a974a6722102f4cc79f485ee7fc:-36170265,d12c2a97f4672210158467ca094923f2:1668460582,112c2a97aa6722107799dea0906771e9:-921875867,0d2c2a975367221032b353b2166253d3:782754980,052c2a973767221045277ef4280a7dcd:-1807581469,412c2a97fc672210bb0416f50429d3bf:-1776351990,c52c2a972e6722109463ad7518d4b8ba:1419826010</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Eventhub with Machine Learning">f0ce2e1fc36722107e68b41ed401313b</sys_audit_delete>
+        <sys_audit_delete display_value="">f0ce2e1fc36722107e68b41ed401313b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:33:34</sys_created_on>

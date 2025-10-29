@@ -130,7 +130,7 @@
         <update_guid_history>80e87e13d8e72210c767f91193f65610:-1572907819,0ce83e13d0e7221055c573d46ef92afc:-512290560,cce83e1385e722101a9a4fec9d2b1ff1:1192340287,00e83e1389e7221014aa63aa9a99a7e6:299061831,8ce83e13d8e7221049ab3f77b34996d4:2003692678,b8383e5f50a72210365797ff2cc73d0e:-586643771,d70f629fe66722101bb5b5c1c3302ba5:1379648534,d30f629fa76722105b9ab30a3e69c19b:-1210687915,d30f629f02672210dd96786d0960d192:493942932,5b0f629f416722107c69570c03bbd189:-2096393517,9f0f629fe6672210491e56eace9fbd76:-391762670,170f629f396722102553e7312330bc7a:1051206719,1b0f629f2067221089bbbf8d2c0f1670:-784424215</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="[Training] Azure onboarding">00e87e13c3e722107e68b41ed4013114</sys_audit_delete>
+        <sys_audit_delete display_value="">00e87e13c3e722107e68b41ed4013114</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:45</sys_created_on>

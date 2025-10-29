@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>4861e55b33fb2210afca5fd134cffc8e:-140665766,0461e55be7fb2210f3de071dad261663:791156612,4461e55b64fb2210e5b0518a9880373d:1593330121,bb51e55b50fb22101a51e7c5fc8aa731:-887462806,ff51e55b45fb2210aa7ea3f38d544725:926711563,b351e55b98fb22104ca8d0e08f458619:-1554081364,b351e55b12fb2210b7fc9ffb09d9c907:1090453998,35b0edd79ffb22102a57d7439716c7bd:-1390338929,8db0add75dfb22104642c30fdb478164:1392896725,05b0add7e2fb2210d8d9ad1094ebb632:-1087896202,cdb0add739fb22107ee0698000510f28:726278167,f8b0add7aefb2210c03d7543678aa812:-1754514760,78b06dd71dfb22107f41bfc41378f7fc:59659609,bcb06dd7f0fb2210ff8ebb35b14c8af4:1873833978,f4b06dd76bfb221061dc11b6abbbd2e9:690621717,b0b06dd770fb22100961fe3d296518e1:482688937</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="[Training] AWS onboarding">4861e55bc3fb22107e68b41ed4013192</sys_audit_delete>
+        <sys_audit_delete display_value="">4861e55bc3fb22107e68b41ed4013192</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:08</sys_created_on>

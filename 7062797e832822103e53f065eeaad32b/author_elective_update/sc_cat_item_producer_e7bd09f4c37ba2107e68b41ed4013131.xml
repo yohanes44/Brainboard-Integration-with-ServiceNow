@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>6531513c5fbba210e2c9670dedcb6d08:-1228887535,6d31113c71bba21058918dc07a13e6f5:482762575,e531113ccdbba21041d9aaf4d21102e8:1052116162,6131113c0bbba21071fa0956693f9ed0:-1985720680,a131113c01bba210f7969280ebf7e4c4:-171546311,5131113c1dbba210d495c020360969b7:1642628058,5531113c9cbba21054abac2b6b9cefa5:-838164869,5931113c3abba210ec0fd36ca0a72093:976009500,5d31113c00bba2101f4828bbfd3b7081:-1504783427,5131113c64bba21059dadeced2866370:309390942,4931113c73bba210bac0cee5f33b5051:2123565311,04cd49f4027ba2108eefd0ed43686128:-357227616,c4cd49f4257ba21003df658971f0a318:1456946753,cccd49f4de7ba2101fdf4b4875720b08:1736258197,77bd09f4d47ba2105795363bddcc7bed:-744534730,afbd09f4c57ba2109c854a6e0ebe44d1:1069639639,27bd09f4ee7ba21056d7637d1f092bc4:-1411153288,efbd09f4ed7ba210c7d5f8cd846804ba:403021081,a3bd09f4237ba2108d03dc93bd284e98:-2077771846,27bd09f49d7ba2102208fe04facbff8e:-263597477,2fbd09f4287ba21063216afc4e4f5986:1550576892,a3bd09f40f7ba210a147b4e1d567e97b:79770799,2fbd09f40f7ba210123843624c31c772:792095985</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure WebApp Backend connection to Mongodb">2531513cc3bba2107e68b41ed401310c</sys_audit_delete>
+        <sys_audit_delete display_value="">2531513cc3bba2107e68b41ed401310c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:35:42</sys_created_on>

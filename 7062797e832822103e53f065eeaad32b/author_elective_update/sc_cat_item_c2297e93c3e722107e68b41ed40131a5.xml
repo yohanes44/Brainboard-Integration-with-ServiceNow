@@ -130,7 +130,7 @@
         <update_guid_history>dc965c6336ef2210a3b4d53e9b65f62d:-276902933,10965c6324ef22105fabc8b7955a2b1d:1929732606,d4965c63e9ef2210a41674cb327bbc04:198158901,98961c63a6ef2210db21d43731a521f9:-2058191849,c8961c6354ef22103649435f46a4b7ed:-353561002,0c961c63deef2210923bd4da5c17b5dc:1351069845,52297e93d6e722100d0cd1f2026c93f5:-1239266604,5e297e9339e7221066e4391fba05e1ea:465364243,5e297e9381e72210ce570adf950104e1:-2124972206,d2297e9390e72210b8c8e3a1a6df03d9:-420341359,42297e931fe722108f84caffdca14eba:1284289488,c6297e93aee72210185e8a767800d3b3:-550318671,46297e93ede72210fb22e61dae3714be:-1333748985</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure DDoS Protection Plan">98965c63c3ef22107e68b41ed401314a</sys_audit_delete>
+        <sys_audit_delete display_value="">98965c63c3ef22107e68b41ed401314a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:07:05</sys_created_on>

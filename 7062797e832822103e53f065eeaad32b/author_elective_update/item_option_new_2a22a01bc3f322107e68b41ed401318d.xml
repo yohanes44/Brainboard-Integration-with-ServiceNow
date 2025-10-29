@@ -174,7 +174,7 @@
         <update_guid_history>a622a01b32f32210f149855d1cbc6da3:412035494</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="bastion_nsg_name">f31bacd7c37722107e68b41ed401317c</sys_audit_delete>
+        <sys_audit_delete display_value="">f31bacd7c37722107e68b41ed401317c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:14:06</sys_created_on>

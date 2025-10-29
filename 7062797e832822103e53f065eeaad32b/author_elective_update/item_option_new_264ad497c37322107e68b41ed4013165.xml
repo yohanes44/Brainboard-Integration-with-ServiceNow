@@ -174,7 +174,7 @@
         <update_guid_history>2a4ad497fe732210ea56736837709284:-1789556420</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="kusto_cluster_sku_capacity">6d2e1cdfc37322107e68b41ed4013183</sys_audit_delete>
+        <sys_audit_delete display_value="">6d2e1cdfc37322107e68b41ed4013183</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:17:25</sys_created_on>

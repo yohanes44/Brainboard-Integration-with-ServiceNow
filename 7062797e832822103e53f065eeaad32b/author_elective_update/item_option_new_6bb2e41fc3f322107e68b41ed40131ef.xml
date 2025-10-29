@@ -174,7 +174,7 @@
         <update_guid_history>ebb2281f97f322103fd5fa81362ed506:-1871459616</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="ssl_certificate_path">451ae4dfc33722107e68b41ed401311b</sys_audit_delete>
+        <sys_audit_delete display_value="">451ae4dfc33722107e68b41ed401311b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:09:32</sys_created_on>

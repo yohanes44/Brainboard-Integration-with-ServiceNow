@@ -174,7 +174,7 @@
         <update_guid_history>16c1651ff7fb2210acff35c7d2f928e8:1180064879</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Official_Debian_AMi">98646d97c33f22107e68b41ed40131cc</sys_audit_delete>
+        <sys_audit_delete display_value="">98646d97c33f22107e68b41ed40131cc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:24:15</sys_created_on>

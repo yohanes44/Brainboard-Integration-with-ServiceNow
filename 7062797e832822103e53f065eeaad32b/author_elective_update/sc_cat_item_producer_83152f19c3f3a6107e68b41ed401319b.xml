@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>31efaf1d9737a6105ee47b510830c8ce:-808866196,79efaf1d2337a610204b1c5ceec5fbbb:-555820494,b5efaf1d7637a6101f8eee20fb7869ae:135433753,39efaf1dfd37a6105acf328f20469fa2:1949608122,b9efaf1d2e37a610350ab22053674d96:-531184805,b9efaf1dac37a6104e02a2203f04aa89:725945649,29efaf1dbb37a610712c97734416686b:-1754847278,a9efaf1dbf37a610be94cadc569a2b3f:59327091,e1efaf1d4a37a610e6a3895ce6c2b420:1873501460,e1efaf1dce37a610479d2c19f92de90d:-607291467,e1ef6f1d3f37a610f223ef3225acf2fa:1206882902,edef6f1d9737a6109d3474919fa091e6:-1273910025,ff156f198cf3a6108d62745521872493:540264344,a3156f19dcf3a61070530faa1a97b184:-1940528583,ab156f196df3a6105f4637fb81aee174:-126354214,e7156f19d5f3a610d5f23786d517c265:559383098,27156f19cff3a6102deb88b8a3a7fc31:-1921409829,5b156f1935f3a610060b8e5da62c9522:-107235460,17156f19d2f3a6104dd45f51c87cab15:1706938909,df156f1988f3a610cf4f94dc95a4620b:-773854018,1b152f190ef3a610762564dfecebf5f5:1040320351,9b152f19a6f3a610d3185dfe61ec35eb:-1440472576,9f152f198bf3a610b5df99db0861a5e3:373701793,03152f19f6f3a610bbf15f7b99e523d5:-1793773240,03152f1957f3a61044fe2fdad3f41ed0:-1050535680</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS VPC with subnet and security groups on 2 AZ">bdefaf1dc337a6107e68b41ed40131d1</sys_audit_delete>
+        <sys_audit_delete display_value="">bdefaf1dc337a6107e68b41ed40131d1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 21:26:00</sys_created_on>

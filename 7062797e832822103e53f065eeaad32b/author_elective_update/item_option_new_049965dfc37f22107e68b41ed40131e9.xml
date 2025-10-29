@@ -174,7 +174,7 @@
         <update_guid_history>889965dfb27f2210ac03fab87358fbf7:666247718</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="generate_ssh_key">2804f217c37762107e68b41ed40131df</sys_audit_delete>
+        <sys_audit_delete display_value="">2804f217c37762107e68b41ed40131df</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:12:10</sys_created_on>

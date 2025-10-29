@@ -130,7 +130,7 @@
         <update_guid_history>f4de265fc16722108c48388812301f94:-855091894,74de265fd6672210ac643b6384837182:1683753645,34de265ff367221015ca67485268c578:631876335,b0de265fe86722101b6c978e8c54d76d:-1958460114,70de265f5c67221068bb3f60b9311e5c:-253829267,262c2e9701672210b0628ccfc15c0751:1450801580,ee2c2e976a67221029fa1898de68e646:-1139534869,2e2c2e978667221084b182b2273a9c3d:565095978,ee2c2e97ad67221056ff124bc1512d34:-2025240471,222c2e9788672210bfa9f5bbce063822:-320609624,ea2c2e97d8672210acbd2d9234a9c325:10873727,aa2c2e97a3672210671fe9bd900c5f1b:-184903831</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS Kubernetes cluster with native CNIs">34de265fc36722107e68b41ed4013198</sys_audit_delete>
+        <sys_audit_delete display_value="">34de265fc36722107e68b41ed4013198</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:33:50</sys_created_on>

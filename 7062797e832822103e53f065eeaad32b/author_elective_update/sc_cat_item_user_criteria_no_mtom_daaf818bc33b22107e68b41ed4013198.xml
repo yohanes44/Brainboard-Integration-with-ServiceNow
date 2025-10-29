@@ -29,19 +29,19 @@
         <source>b1272911c31022107e68b41ed40131ef</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-03-14 11:48:46</sys_created_on>
         <sys_id>e32b914bc3bb22107e68b41ed40131f9</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>195947c41300000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:47:53</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>a32b914b33bb221086fd1e6fc0ee3ff9</update_guid>
         <update_guid_history>a32b914b33bb221086fd1e6fc0ee3ff9:1589784182</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Secure Jumpbox &amp; Bastion Hub-Spoke.SNC External">6b2b914bc3bb22107e68b41ed40131f9</sys_audit_delete>
+        <sys_audit_delete display_value="">6b2b914bc3bb22107e68b41ed40131f9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:05:35</sys_created_on>

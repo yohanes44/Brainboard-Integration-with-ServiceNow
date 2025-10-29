@@ -174,7 +174,7 @@
         <update_guid_history>382cacdb8977221004f84ace6bed39c7:2100811053</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="IPv4_Secondary_subnet">a2076d13c37f22107e68b41ed4013178</sys_audit_delete>
+        <sys_audit_delete display_value="">a2076d13c37f22107e68b41ed4013178</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:35:53</sys_created_on>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>200</order>
+        <sc_cat_item display_value="AWS instance inside VPC &amp; Subnet">8d977edfc37762107e68b41ed40131f5</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:27:46</sys_created_on>
+        <sys_id>c597bedfc37762107e68b41ed40131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project &amp; Environment.AWS instance inside VPC &amp; Subnet</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>io_set_item_c597bedfc37762107e68b41ed40131c5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:27:46</sys_updated_on>
+        <variable_set display_value="Project &amp; Environment">17459cafc3af22107e68b41ed4013110</variable_set>
+    </io_set_item>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Brainboard">7062797e832822103e53f065eeaad32b</application>
+        <file_path/>
+        <instance_id>1530765393dc22d0611eddd548373c8d</instance_id>
+        <instance_name>dev304798</instance_name>
+        <name>io_set_item_c597bedfc37762107e68b41ed40131c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <sc_cat_item display_value="AWS instance inside VPC &amp; Subnet">8d977edfc37762107e68b41ed40131f5</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-10 22:27:46</sys_created_on>
+        <sys_id>c597bedfc37762107e68b41ed40131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project &amp; Environment.AWS instance inside VPC &amp; Subnet</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_update_name>io_set_item_c597bedfc37762107e68b41ed40131c5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-10 22:27:46</sys_updated_on>
+        <variable_set display_value="Project &amp; Environment">17459cafc3af22107e68b41ed4013110</variable_set>
+    </io_set_item>
+</record_update>]]></payload>
+        <payload_hash>965155676</payload_hash>
+        <record_name>Project &amp; Environment.AWS instance inside VPC &amp; Subnet</record_name>
+        <reverted_from/>
+        <source>a478d803933cfe10eae01aebb9373c4f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>yohanes.yilma</sys_created_by>
+        <sys_created_on>2025-10-29 09:18:18</sys_created_on>
+        <sys_id>6ac8dcc3933cfe10eae01aebb9373c18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a2f42cdb50000001</sys_recorded_at>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:18:18</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>2ac8dcc3753cfe105878dde953a43018</update_guid>
+        <update_guid_history>2ac8dcc3753cfe105878dde953a43018:965155676</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Project &amp; Environment.AWS instance inside VPC &amp; Subnet">a1d478cb93b43250eae01aebb9373c2d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-10-29 11:20:51</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>03ad604f85964f5e807e81cf165bf119</sys_id>
+        <sys_metadata>c597bedfc37762107e68b41ed40131c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project &amp; Environment.AWS instance inside VPC &amp; Subnet</sys_name>
+        <sys_package display_value="Brainboard" source="x_854636_b_board">7062797e832822103e53f065eeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Brainboard">7062797e832822103e53f065eeaad32b</sys_scope>
+        <sys_scope_delete display_value="">01c08e3452ee4472b472fb7397ff8e84</sys_scope_delete>
+        <sys_update_name>io_set_item_c597bedfc37762107e68b41ed40131c5</sys_update_name>
+        <sys_update_version display_value="io_set_item_c597bedfc37762107e68b41ed40131c5">6ac8dcc3933cfe10eae01aebb9373c18</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-10-29 11:20:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

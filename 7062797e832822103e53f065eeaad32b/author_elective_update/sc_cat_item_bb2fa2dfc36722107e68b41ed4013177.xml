@@ -130,7 +130,7 @@
         <update_guid_history>2be8f2530ce722106fc2a518f854bb96:1894777491,27e8f2534ee722106a7e3632872b2783:1950456504,63e8f2531ae72210066d3bf221ef956c:-639879945,e3e8f25351e72210e4ca523c15206060:-1109458915,e3e8f253f2e72210480fd77e1e62604f:595171932,b638329f77a722100e4cfa8005cfab27:-1995164517,372fa2df16672210d95aed01df26adc7:1857861390,332fa2df056722102de0224e61024abd:-732475059,332fa2df776722109a764b3d454937b4:972155788,b72fa2df11672210126bc2b443ba59ab:-1618180661,b32fa2df5f67221070356a8f7ad483a5:86450186,372fa2dfc86722109727062161e53994:-357314027,772fa2df5a672210ab81e1ae6820cb92:-1916835009</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS 3-tier web app with a database">67e8f253c3e722107e68b41ed401319a</sys_audit_delete>
+        <sys_audit_delete display_value="">67e8f253c3e722107e68b41ed401319a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:59</sys_created_on>

@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>bc3a5943d8bb2210699998bbc67be16b:-2105592514,b43a594395bb22107892aeaaf0bd1059:73839344,f03a5943e4bb2210b010d79001df494c:655134683,743a59432fbb2210fabe68fd98e7dc40:-1825658244,f43a5943e3bb22104fffc8d8baa80934:-11483875,f43a594303bb22101f0d00e49a646227:1802690494,e83a594306bb2210cfd6091d9152f015:-678102433,a03a194317bb2210ca36ee3c2785a9f7:-1670415301,e93f0d87083b22108cde86954492b0b7:143759068,113f0d87fe3b2210c6a31c6a71c006a9:1957933437,d93f0d879a3b221077e0108d17c1829b:-522859490,953f0d87da3b22100218f7f49cdef392:1291314879,d53f0d87d13b221085ec4b6546cea988:-1189478048,d13f0d87373b22102e8c9ed275add572:624696321,d53f0d87013b2210b2c805587f195f6a:-1856096606,193f0d87d03b2210753dd0b2f3fea45b:-1387625267,993f0d87893b2210104b93d15ebd5c56:-1261448977</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="aws-simple-arch ">bc3a5943c3bb22107e68b41ed401316f</sys_audit_delete>
+        <sys_audit_delete display_value="">bc3a5943c3bb22107e68b41ed401316f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:01:19</sys_created_on>

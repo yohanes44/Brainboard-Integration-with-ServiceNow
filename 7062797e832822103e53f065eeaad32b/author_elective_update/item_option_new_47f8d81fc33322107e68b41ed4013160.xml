@@ -174,7 +174,7 @@
         <update_guid_history>03f8d81f8c332210d22ee90e6e9ba370:652742385</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="workbook_display_name">2a7f149bc3b322107e68b41ed4013166</sys_audit_delete>
+        <sys_audit_delete display_value="">2a7f149bc3b322107e68b41ed4013166</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:23:13</sys_created_on>

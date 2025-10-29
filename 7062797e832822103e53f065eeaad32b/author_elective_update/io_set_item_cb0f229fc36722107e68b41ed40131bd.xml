@@ -42,7 +42,7 @@
         <update_guid_history>4b0f229fc9672210e1e63b4e3c4a58d1:537337242</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value=".AWS costs monitoring">0fb8fadfc3a722107e68b41ed401317d</sys_audit_delete>
+        <sys_audit_delete display_value="">0fb8fadfc3a722107e68b41ed401317d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:08</sys_created_on>

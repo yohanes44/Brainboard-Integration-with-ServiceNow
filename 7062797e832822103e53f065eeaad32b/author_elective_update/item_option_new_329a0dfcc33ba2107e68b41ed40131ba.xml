@@ -174,7 +174,7 @@
         <update_guid_history>fa9a0dfcad3ba210d5579430545c89bc:564861496</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="source_image_sku">ea7f81bcc37ba2107e68b41ed4013173</sys_audit_delete>
+        <sys_audit_delete display_value="">ea7f81bcc37ba2107e68b41ed4013173</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:28:08</sys_created_on>

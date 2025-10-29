@@ -130,7 +130,7 @@
         <update_guid_history>0d485edbfaa322103e715766802778d0:1639873658,7f66d2cf65a7e210742735b17dbed1db:2046968733,7766d2cfe3a7e2108786d2fcc6900db6:-543367716,3766d2cff9a7e2107a4c151d3984dda1:1161263131,3366d2cf8da7e210196543c395cafb98:-1429073318,7f66d2cf00a7e21044fe7d1e33b6e58e:275557529,6b66d2cf3fa7e210d29ef89dea12fc7b:1980188376,6b66d2cf65a7e21005ec47e23b88417f:-1049346825,6366d2cfaca7e210cc74bb4645650a75:1571423393</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure WebApp Backend connection to Mongodb">cd485edbc3a322107e68b41ed40131ba</sys_audit_delete>
+        <sys_audit_delete display_value="">cd485edbc3a322107e68b41ed40131ba</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 09:55:17</sys_created_on>

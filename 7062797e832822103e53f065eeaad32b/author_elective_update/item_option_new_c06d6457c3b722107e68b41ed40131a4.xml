@@ -174,7 +174,7 @@
         <update_guid_history>c06d6457d7b722107369aa356099d7e7:1584011129</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="bastion_public_ip_name">58d4e59bc33f22107e68b41ed401311b</sys_audit_delete>
+        <sys_audit_delete display_value="">58d4e59bc33f22107e68b41ed401311b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:26:10</sys_created_on>

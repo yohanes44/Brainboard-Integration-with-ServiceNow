@@ -174,7 +174,7 @@
         <update_guid_history>59d858db90332210a46dafde4690d864:963544609</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="blue_cluster_name">32fe5497c3b322107e68b41ed4013174</sys_audit_delete>
+        <sys_audit_delete display_value="">32fe5497c3b322107e68b41ed4013174</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:21:04</sys_created_on>

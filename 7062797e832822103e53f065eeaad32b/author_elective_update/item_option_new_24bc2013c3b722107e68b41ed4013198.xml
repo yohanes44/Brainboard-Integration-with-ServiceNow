@@ -174,7 +174,7 @@
         <update_guid_history>a4bc201305b7221001367cb62570ddaa:-680991545</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="max_size_gb">4307ad13c37f22107e68b41ed4013177</sys_audit_delete>
+        <sys_audit_delete display_value="">4307ad13c37f22107e68b41ed4013177</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:35:55</sys_created_on>

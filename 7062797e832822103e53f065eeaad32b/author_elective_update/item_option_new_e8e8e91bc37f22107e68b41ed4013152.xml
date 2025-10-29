@@ -174,7 +174,7 @@
         <update_guid_history>e8e8e91b6a7f22107f8e166ab2e99a6d:-698979876</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="snet_pe_addr_space">0d13721fc33762107e68b41ed40131f1</sys_audit_delete>
+        <sys_audit_delete display_value="">0d13721fc33762107e68b41ed40131f1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:08:06</sys_created_on>

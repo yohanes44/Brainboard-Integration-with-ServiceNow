@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>4a31913cf3bba210aeb1dc0b3b18351d:34361920,4231913cdbbba210a7b00832889d110b:1194158950,ca31513ccbbba210f7daa5bf61e54cfd:-561816747,0e31513c0cbba2103c6e90afbf8145f1:695313707,4e31513c00bba2101f2b3c2ec529c2e5:-1785479220,8e31513c48bba2109ecb001832f88fbf:28695149,8231513cc1bba2109c92574404fe4aae:1842869518,b531513cafbba2100f88a11bc9f0a59c:-637923409,f131513c89bba210bbfbef9ad319077e:1176250960,f531513c55bba2109ba387e91115e66c:-1304541967,b531513c3fbba210283eb72d66a5425a:509632402,19adcdb4ed7ba210df474fdee5510076:-1971160525,15adcdb4d67ba21055f5a11bcdd4ad5a:-156986156,d5adcdb4147ba21084bfea11b3b7ee25:926804268,1dadcdb4f67ba210dfa0a9639c224709:-1553988659,f8ad8db4c97ba2105e9984a41b5902fa:260185710,70ad8db4807ba210bb432cbd83acf2ed:2074360079,3cad8db4217ba2101433d48dceec83e3:-406432848,7cad8db4487ba210f8ec98c6e2f6ccd9:1407741521,fcad8db4b17ba2102405ba00eb1d35cf:-1073051406,30ad8db4b17ba2102416ef1379e70abc:741122963,3cad8db4e37ba210c3c4c21f44c3b7aa:1423537474,78ad8db4747ba2106a6ee4666c28bb9b:-1610814394</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS ASG and LB with VPC &amp; subnets">ce31913cc3bba2107e68b41ed401312d</sys_audit_delete>
+        <sys_audit_delete display_value="">ce31913cc3bba2107e68b41ed401312d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:35:45</sys_created_on>

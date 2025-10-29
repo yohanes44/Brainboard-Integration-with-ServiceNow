@@ -130,7 +130,7 @@
         <update_guid_history>6fda58aba3ef22100111ac7d49a9c007:-1387598907,a7da18ab43ef221031a00f1ade9e9cea:-1734926796,e3da18abddef22109aeb4908b71477de:1017324143,67da18aba3ef2210aea63884f2a944d3:-1573012306,e7da18ab40ef2210087d49ece5b7c5c8:131618541,d7da18ab35ef2210c65bf51a0b7d80bc:-679431605,dfda18ab98ef2210be76bbbe35726d9e:1025199242,2ed694e3dfef22101036b89acbdd03f9:-1565137207,e6d694e378ef2210334b75800c05c1ee:139493640,a2d694e3c8ef2210e63c1b1375b9fde6:1844124487,26d694e3c3ef22101fe907372d3680dd:-746211962,e6d694e3d5ef221004fe64ee4aca77d4:958418885,22d694e36fef221006b6d2deb6e380ce:-1631917564,aad694e304ef22109f9e825376ab8cbd:593108415,2ed694e384ef2210973c3ef15f6003ae:998871465</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS Application Load balancer">abda58abc3ef22107e68b41ed401310b</sys_audit_delete>
+        <sys_audit_delete display_value="">abda58abc3ef22107e68b41ed401310b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:25:53</sys_created_on>

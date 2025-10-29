@@ -130,7 +130,7 @@
         <update_guid_history>8fab26172a672210ac0ae9064347d8e2:-1365101260,0bab2617116722107805ea2ab44f26d0:152950989,76ab26177b67221048033896a53696c6:2054051983,baab26179267221059a356ff06b898ae:-536284466,76ab26173367221053e6ef593adb819e:1168346381,dab9a25320672210a580d575d39b9e00:-1421990068,5eb9625379672210c59efdfc46628be9:282640779,5ab962537a6722107f0bff55e8c7f2e0:1987271626,46b9625362672210a69239356a26adcb:-603064823,82b962537867221057d560d36e50a7ac:1101566024,0ab962537367221033ff3be7ef3b38a5:811292169,42b962535c672210ee288ada36f24baf:-1573226081</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="[Training] AWS onboarding">cbab2617c36722107e68b41ed40131e6</sys_audit_delete>
+        <sys_audit_delete display_value="">cbab2617c36722107e68b41ed40131e6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:20:03</sys_created_on>

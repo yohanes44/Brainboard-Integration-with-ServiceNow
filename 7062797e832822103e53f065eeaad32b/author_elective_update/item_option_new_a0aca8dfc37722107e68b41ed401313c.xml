@@ -174,7 +174,7 @@
         <update_guid_history>e4aca8dfa37722104446ec91e21c8050:-1997112799</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="vm_admin_password">b637e593c37f22107e68b41ed4013112</sys_audit_delete>
+        <sys_audit_delete display_value="">b637e593c37f22107e68b41ed4013112</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:36:43</sys_created_on>

@@ -130,7 +130,7 @@
         <update_guid_history>ccb61ca345ef221063da4effb5adbd3b:1490996948,33a61ca308ef22107a2fee63505a7a2b:908909739,bfa61ca37def2210b6f8f8fd09fff71e:1018892994,73a61ca3c1ef2210bdf5901f3753d514:1113262788,b3a61ca38fef22107c4fb0b998c80408:-1477073661,f3a6d8a391ef221012b23d0402e8b0f7:227557186,8e297e938fe72210605658a146ab369d:1932188033,8a297e9355e72210ff61d5dedff03693:-658148416,8a297e9323e7221078ab8b8ea200af8a:1046482431,02297e93a2e72210d50dde051b6b2382:-1543854018,8e297e93aae72210ee46f3a84da1c262:160776829,06297e930ce72210b22db411bfd98867:947016596,86297e9301e72210e2194864c3fb7f5c:724982580</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Data factory with Synapse workspace">c0b61ca3c3ef22107e68b41ed401314c</sys_audit_delete>
+        <sys_audit_delete display_value="">c0b61ca3c3ef22107e68b41ed401314c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:07:37</sys_created_on>

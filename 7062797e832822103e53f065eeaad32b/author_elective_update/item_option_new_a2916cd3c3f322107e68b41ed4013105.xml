@@ -174,7 +174,7 @@
         <update_guid_history>62916cd3c9f32210de4121398ba0fb15:-2108298867</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="disable_local_auth">515ae453c37722107e68b41ed40131b9</sys_audit_delete>
+        <sys_audit_delete display_value="">515ae453c37722107e68b41ed40131b9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:10:39</sys_created_on>

@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>dc0a11035abb221030acdc75f699516d:1600552799,d40a1103d5bb22106580601242343e5b:1764151796,5c0a11034dbb22108d45ebe357f0bc41:1901242807,cc0a11033abb221057fdf4096387cb35:-579550120,400a11037dbb221036962c9d46d8512a:1234624249,880a110369bb2210cd928b81e7fd4710:-1246168678,8c0addcfc07b221020fcaa5234114efe:568005691,cc0addcf6d7b22103185260485b90feb:-1912787236,c80addcf357b221057bb334cd14ae1d8:-98612867,095e01035a3b221020d6cc39a687b355:1715561502,5da9ffb978b72210b9039c0a4deb06ca:-959539385,95a9ffb94eb72210cf3d57ef43dc3896:854634984,c1a9bfb998b7221034639de72a8a8ba3:-1626157943,89a9bfb9d9b722107d237e425a98db95:188016426,41a9bfb93cb72210c70a3fa557b5088c:2002190795,fca9bfb9f8b722100aedf0f783594a35:1506970887,fca9bfb94eb72210845a50affc36e068:-478602132,f4a9bfb9b7b72210fd251da16a5ecc52:1335572237,f8a9bfb969b7221009cf35937d1cbb31:-1145220690,34a9bfb9f8b72210e8f9fdfe9c1bf02a:65344525</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure web application">dc0a1103c3bb22107e68b41ed4013171</sys_audit_delete>
+        <sys_audit_delete display_value="">dc0a1103c3bb22107e68b41ed4013171</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:00:27</sys_created_on>

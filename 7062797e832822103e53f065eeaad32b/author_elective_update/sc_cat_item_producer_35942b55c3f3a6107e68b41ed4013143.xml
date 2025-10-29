@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>60dfe31d3037a610d9e0d3a7aba00fd7:1947346595,a8dfe31de337a61097a466118ee497c4:436459728,20dfe31d0c37a6108443c5bbf85bc4ab:1144974781,a0dfe31d4737a6104a63f95efb969a9f:-1335818146,14dfe31de837a610e23f3ad5c3aa6493:478356223,14dfe31d1a37a6101d8a9749912b3a86:-2002436704,58dfe31d0f37a610c868fc6a517ea174:-188262335,90dfe31d6437a610cf16cd8656bc6155:1625912034,04dfe31dac37a610dbbc73285fea7829:-854880893,00dfe31d4937a6104787bc8d457ab816:959293476,9e946b554af3a610491a7f0cb125e903:-1521499451,da942b55b6f3a610025823fd7b45a4f4:1311010655,5e942b5561f3a6109abb687f1a3b08e5:-1169782272,ca942b55eaf3a610d41e2a7360bb3eca:644392097,42942b5599f3a6102caa9750ea033198:-1836400830,0e942b5564f3a61074c3cb005ab1f08e:-22226461,3d942b5507f3a610a548381f60612a84:1791947908,f5942b55eef3a610cb3c52cd77e67d6e:-688845019,35942b554bf3a6104fabc8708068c25a:1125329350,39942b5566f3a610b6d7831771709f5c:1312602163,7d942b5536f3a610c31058c05ea26052:-1315161085</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Sentinel Architecture">ecdfe31dc337a6107e68b41ed40131da</sys_audit_delete>
+        <sys_audit_delete display_value="">ecdfe31dc337a6107e68b41ed40131da</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 21:25:38</sys_created_on>

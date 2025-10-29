@@ -174,7 +174,7 @@
         <update_guid_history>bf3ec5cfc7f7221026cb21a8b0548d59:-435552336</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="BS_ID">db4a5583c3bb22107e68b41ed4013193</sys_audit_delete>
+        <sys_audit_delete display_value="">db4a5583c3bb22107e68b41ed4013193</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:01:45</sys_created_on>

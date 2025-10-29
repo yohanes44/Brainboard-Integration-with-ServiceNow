@@ -174,7 +174,7 @@
         <update_guid_history>890d6893b4b72210a0b3dfe7bc0ccc8e:-2116662539</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="apim_sku_count">26a3a153c33f22107e68b41ed40131b7</sys_audit_delete>
+        <sys_audit_delete display_value="">26a3a153c33f22107e68b41ed40131b7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:21:08</sys_created_on>

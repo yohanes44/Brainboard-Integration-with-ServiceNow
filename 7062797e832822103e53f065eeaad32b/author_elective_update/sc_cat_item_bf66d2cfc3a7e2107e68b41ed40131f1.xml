@@ -134,7 +134,7 @@ N.B: the secon]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&l
         <update_guid_history>69581a1fdca322106547dac60ed6fc32:692611946,807616cf93a7e210210195052e565367:1382329387,087616cffaa7e2104956144e17f0b65a:-1208007062,bf6616cf9ca7e21082d438d989666f51:496623785,bb6616cfe1a7e2109e700d93957d9148:-2093712664,f76616cf65a7e210507b4435c4a3253f:-389081817,3f6616cf8ea7e210ef8dc3fa64dd571f:1315549030,fb6616cf33a7e210208f1d279197722d:-390272241,376616cf51a7e2104ce9448712009d19:1351487577</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS load balancer with target group">65581a1fc3a322107e68b41ed4013110</sys_audit_delete>
+        <sys_audit_delete display_value="">65581a1fc3a322107e68b41ed4013110</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 09:55:35</sys_created_on>

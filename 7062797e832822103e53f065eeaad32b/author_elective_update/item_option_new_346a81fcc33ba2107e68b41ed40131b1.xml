@@ -174,7 +174,7 @@
         <update_guid_history>fc6a81fca63ba210a84536dd7fb723b3:1940787640</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="subnet2">5b7fc1bcc37ba2107e68b41ed40131b1</sys_audit_delete>
+        <sys_audit_delete display_value="">5b7fc1bcc37ba2107e68b41ed40131b1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:28:10</sys_created_on>

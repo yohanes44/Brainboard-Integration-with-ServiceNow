@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>b604eb51f2f3a610214be89ab2fc2db7:1330658139,7a04eb51daf3a610adcdb30e64693598:1430566736,f604eb519bf3a610ef59071f96bd568b:128812673,fa04eb5168f3a610d0b4660efc86037f:1942987042,fe04eb518ff3a61030b78fcb27ce8c73:-537805885,6204eb518ef3a610e902c75ddf0fc367:1276368484,2a04eb5144f3a610ed8fa84a920b4d55:-1204424443,2e04eb51d4f3a610b52d0a0f25f6be42:609749926,e204eb51bef3a61077cbe5962731dd31:-1871043001,2e04eb51e8f3a610d692e2b8323d1111:-56868632,d8499ec99fb7261045f92f8b0107accd:1757305737,18499ec904b7261064779b69c1c395be:-1992938657,9c499ec9f0b72610c07006d5fb00547d:-178764288,c0499ec96bb726107f0b5f98d442796f:1635410081,c4499ec99fb72610fd45a50c8a21a055:-845382846,c8499ec9e4b726100e60e7c690f2a63f:968791523,0c499ec985b7261046421d3cad031335:-1512001404,cc499ec95cb72610c2c4e9e9172ec52b:302172965,f7399ec968b7261089b1f2ffb9b34624:2116347334,b3399ec94fb72610f29360e8f9958113:-679573769,7b399ec9d9b72610efbaee09cc343f10:-1343612035</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Network &amp; security">fa04eb51c3f3a6107e68b41ed40131c7</sys_audit_delete>
+        <sys_audit_delete display_value="">fa04eb51c3f3a6107e68b41ed40131c7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 20:34:11</sys_created_on>

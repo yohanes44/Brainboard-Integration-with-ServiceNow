@@ -130,7 +130,7 @@
         <update_guid_history>bea698a3beef2210a6a768a60b87ab1f:-1769673739,fea698a3acef22104270ac1b2cfd4d0e:-303236800,b6a658a3c5ef22102a9691c38792b2f6:-1451177875,7aa658a381ef221080efcb86737ea9eb:-1170750055,baa658a3cbef2210a93f5e6babd24bdf:533880792,7ea658a3ffef221097e0a4dc7dbad5b5:-2056455657,be19f6934ce72210aa7b0631ab16b7e1:-351824810,f219f69318e7221048887f07a43990cb:1352806037,7619f693a9e722106d4e49bda76c12a9:-1237530412,fa19f69375e72210f7f41f11e55649a0:467100435,7a19f69342e72210fdeee93be6857381:-2123236014,7619f69344e72210f1e85485b3c1ac86:643244607,3619f693f2e72210a63e67388e56c37b:-1104332567</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS serverless architecture">faa698a3c3ef22107e68b41ed4013123</sys_audit_delete>
+        <sys_audit_delete display_value="">faa698a3c3ef22107e68b41ed4013123</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:07:32</sys_created_on>

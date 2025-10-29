@@ -174,7 +174,7 @@
         <update_guid_history>6d4d28179cb7221083cc9652d8c6a8c6:-1546101834</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="cosmos_connection_string_secret">3cf429dbc33f22107e68b41ed4013178</sys_audit_delete>
+        <sys_audit_delete display_value="">3cf429dbc33f22107e68b41ed4013178</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:26:45</sys_created_on>

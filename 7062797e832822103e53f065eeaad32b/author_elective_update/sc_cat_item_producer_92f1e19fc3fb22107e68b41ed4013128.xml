@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>b4a4ed1b743f2210f131ee065ab3679f:21321887,bca4ed1be13f2210bc3fbd3ea2ea388c:599103125,3ca4ed1be83f2210a82c16da7fe2607f:-132317402,30a4ed1b303f2210080f5a62712b4374:1681856967,34a4ed1bb03f22106ffbd5f3f3517468:-1355979875,b4a4ed1b983f2210046deb4275f5e75b:458194494,b8a4ed1bde3f221076f2a45a6633f949:-2022598433,e8a4ed1b7b3f22108be54c81557a0b36:-208424064,2ca4ed1b9d3f2210b10c923c42fffc23:1605750305,6ca4ed1b1a3f2210fed10c926aed1a10:-875042622,2ca4ad1ba43f2210a81b84cec0d667fe:939131747,b2f1259f91fb22104f36861294a5501d:-1541661180,baf1259fe8fb2210f7bd2d2daae76f10:272513189,e2f1259f7dfb2210f4fbbba64c760301:95920043,6af1e19fc2fb2210b9603f1e0a11ede5:-1323728713,a6f1e19faffb22108a089b67667c4db1:490445656,eaf1e19fc1fb2210d1fbcac880216789:-1990347271,96f1e19f43fb2210dcb2417a82fa177c:-176172902,52f1e19f86fb2210ffb96b2c82472f73:1638001467,16f1e19fdefb2210e1be67c027ecd969:-842791460,5af1e19f86fb2210a37d2cafa5fda95f:971382909,12f1e19f01fb2210e004c140f64a253f:-1509410018,52f1e19f04fb22100d9328fa6de61142:-1503288807,daf1e19f26fb22105f8b702ccff4ae37:-1664865339</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Key Vault Usage Architecture">c5a4ed1bc33f22107e68b41ed40131a3</sys_audit_delete>
+        <sys_audit_delete display_value="">c5a4ed1bc33f22107e68b41ed40131a3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:25:24</sys_created_on>

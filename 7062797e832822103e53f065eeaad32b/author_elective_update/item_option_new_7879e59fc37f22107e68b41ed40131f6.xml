@@ -174,7 +174,7 @@
         <update_guid_history>f479299fa07f221039426e83fee1dc0c:1799009225</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="openai_model_capacity">7a033edbc33762107e68b41ed40131d1</sys_audit_delete>
+        <sys_audit_delete display_value="">7a033edbc33762107e68b41ed40131d1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:07:57</sys_created_on>

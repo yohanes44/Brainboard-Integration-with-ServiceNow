@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>5aef235d7137a61091acd107d36d2d1b:-206459233,92ef235d2437a610afdd491bf7bdad09:-525172678,1aefef1dd137a6109a159b4a01987aef:-1139808619,d2efef1d8d37a6108f897751f46323d7:674365750,9eefef1d5337a610c7a3ec619e4b1bbe:-1806427177,8eefef1d2137a610471a69b16ce90bb1:7747192,0eefef1db337a610f5bd5e2a136dbf93:1821921561,8aefef1db937a610bf78318a5135d975:-658871366,0eefef1d0437a610949c7b21ec5ced49:1155303003,42efef1d7a37a6100a5d813c9705c42a:-1325489924,0cf4abd5a7f3a610db627970493277f6:488684445,80f4abd58cf3a610be74ee0adf4700db:567651849,f7e4abd50ef3a610a2b36eaf55b46343:-1913141078,2fe4abd5cdf3a610d67937ecb7497634:-98966709,23e4abd5dff3a61029104ab1bde3e91b:1715207660,27e4abd538f3a610d1c57b5cdc8ab805:-765585267,27e46bd56ff3a610bdea299b05f260fb:1048589102,efe46bd5a2f3a610a89cb82af5be51e4:-1432203825,afe46bd511f3a6106de37015baeb4cb7:381970544,63e46bd5c9f3a610381bd527c4ef60bd:473378315,e7e46bd550f3a610bf0147e0df3c36b0:-950291337</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Highly available zone-redundant Azure Spring Ap">d6ef235dc337a6107e68b41ed401311f</sys_audit_delete>
+        <sys_audit_delete display_value="">d6ef235dc337a6107e68b41ed401311f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 21:26:02</sys_created_on>

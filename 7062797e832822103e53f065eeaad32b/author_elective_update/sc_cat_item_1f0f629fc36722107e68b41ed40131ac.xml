@@ -130,7 +130,7 @@
         <update_guid_history>f4d8b613f8e72210669fab14a24f08b3:727305329,b8d8b61321e722109e25b13517cfbe93:1588645112,7cd8b61323e722101478b97c3dc17288:-1001691337,30d8b613c4e722109b3c390b37c71364:-567608293,e4d8b61378e72210ebad56d08788d746:1137022554,9438ba5fe8a722102e3bf396622fc7a6:-1453313895,a70f629f11672210184344d56fcd2cfc:1808404110,a30f629f046722106c1c08b5da78b8f2:-781932339,a30f629f0a67221073dd07bd0f1b19e9:922698508,1b0f629fe467221027fea4cfdb8024e0:-1667637941,970f629fbc672210a068b03f712269c1:36992906,9f0f629f8c672210baa99b845b9c68c4:184536595,130f629f2a672210b7d84fe19f6e3ebb:2126913661</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure AKS with log analytics">74d8b613c3e722107e68b41ed40131b7</sys_audit_delete>
+        <sys_audit_delete display_value="">74d8b613c3e722107e68b41ed40131b7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:31</sys_created_on>

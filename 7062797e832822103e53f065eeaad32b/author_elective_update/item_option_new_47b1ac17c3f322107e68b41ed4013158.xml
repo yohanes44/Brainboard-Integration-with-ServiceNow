@@ -174,7 +174,7 @@
         <update_guid_history>1fb1ac1776f32210efb84d8a54718b6a:23940969</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="nic_ipconf_name">cd89ac9bc33722107e68b41ed40131e5</sys_audit_delete>
+        <sys_audit_delete display_value="">cd89ac9bc33722107e68b41ed40131e5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:07:05</sys_created_on>

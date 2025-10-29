@@ -130,7 +130,7 @@
         <update_guid_history>1fbe2a1f986722106117d05049b3e1b0:2021095902,97be2a1f3a67221029cf6d055d03c19e:-603283539,d3be2a1fe0672210643fb0b16efb0d94:-2066655579,93be2a1f3f672210fc0139a9614fad88:-362024732,5fbe2a1ff467221013a2a756b4b8eb77:1342606115,004ce6d785672210345938032b1ea96d:-1247730334,c84ce6d768672210324f9bc7fdbb3d62:456900513,084ce6d7ab67221063cfd41aad453e59:-2133435936,044ce6d700672210a7f26d5e667a2144:-428805089,0c4ce6d755672210b9fd0adcc93c983d:1275825758,004ce6d768672210d228c2eee942fe2d:-993781889,cc4ce6d78f6722102f210cc11b115d2a:-678048855</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Disaster recovery multi-region deployment">5bbe2a1fc36722107e68b41ed40131b4</sys_audit_delete>
+        <sys_audit_delete display_value="">5bbe2a1fc36722107e68b41ed40131b4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:33:27</sys_created_on>

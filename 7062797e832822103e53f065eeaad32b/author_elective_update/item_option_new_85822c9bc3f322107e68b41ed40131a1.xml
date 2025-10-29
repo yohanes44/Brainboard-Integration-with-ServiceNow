@@ -174,7 +174,7 @@
         <update_guid_history>59822c9bd4f32210a83e99b44323d3b2:-1438722012</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="fw_ipconf_name">0b0b64d7c37722107e68b41ed4013120</sys_audit_delete>
+        <sys_audit_delete display_value="">0b0b64d7c37722107e68b41ed4013120</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:13:46</sys_created_on>

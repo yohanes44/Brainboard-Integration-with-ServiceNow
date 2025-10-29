@@ -134,7 +134,7 @@ It contains a VPC that has:
         <update_guid_history>ac7f94e7b5236210391747c6ef393578:1195184068,ac7f94e7a92362103692e204137e3467:1450494853,e87f94e78b23621097b4cf2c6a50245b:-1942089068,6c7f94e70e2362107768d8afb78f5a50:-237458221,ec7f94e75923621055f444cabbf5a945:1467172626,187f94e70f23621045e87ff8c934aa2d:62259996,d47f94e75a2362102fd8eb92b9422a1c:1766890843,c77b50efc1ef22107f7dc4226821a1fd:-823445606,837b50efc7ef2210d0abab859ba1d2f2:881185241,877b50ef16ef22108ffb9f702fbc0add:-1709151208,437b50ef72ef221053f9e1792e2104c8:-4520361,077b50ef93ef221048f9389ecfad51bf:1700110486,0f7b50ef91ef2210c8a0187bd08d389f:-890225963,cb7b50ef52ef22104ea8dbecfcb7c6a4:-2069210140,877b50ef61ef2210889c3704ec3aaf99:1993385910</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS landing zone">e87f94e7c32362107e68b41ed401317c</sys_audit_delete>
+        <sys_audit_delete display_value="">e87f94e7c32362107e68b41ed401317c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:45:53</sys_created_on>

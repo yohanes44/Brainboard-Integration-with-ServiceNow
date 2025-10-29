@@ -174,7 +174,7 @@
         <update_guid_history>c34a189765732210feb9f375895e63b9:1911645277</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="aks_dns_service_ip">952ed8dfc37322107e68b41ed40131e0</sys_audit_delete>
+        <sys_audit_delete display_value="">952ed8dfc37322107e68b41ed40131e0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:17:24</sys_created_on>

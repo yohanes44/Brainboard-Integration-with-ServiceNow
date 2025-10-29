@@ -130,7 +130,7 @@
         <update_guid_history>ad96dc63f1ef2210b6bb88cb215c0c62:1675724995,6196dc63c1ef2210982a5ef141d9b139:-406883810,dd96dc63e5ef2210cb35b6505e4abd2c:-414334547,9196dc63c7ef221043cfde1aa802f322:-1429265097,1d96dc6349ef22109fd6080375152209:275365750,5d969c63e2ef2210443b0c9ea0aa83f8:1979996597,8019729397e72210cc258c7a6425f784:-610339852,8c19729370e72210da874f757b516779:1094290995,8c19729351e72210e4007891c08ee470:-1496045454,0419729343e72210d458ab6f52954768:208585393,fb09729385e72210f27299e682c7133c:1913216240,bf09729396e7221098d620e682290941:1317770879,f30972931ae722101141e4d03aeeda36:316722537</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="GCP VPC">e996dc63c3ef22107e68b41ed4013166</sys_audit_delete>
+        <sys_audit_delete display_value="">e996dc63c3ef22107e68b41ed4013166</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:07:10</sys_created_on>

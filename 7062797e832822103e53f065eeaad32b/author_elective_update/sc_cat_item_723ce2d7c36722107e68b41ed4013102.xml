@@ -130,7 +130,7 @@
         <update_guid_history>d5ce6e1f15672210477ec0849535da1d:202923772,55ce6e1f28672210523641e09ee0410b:91410959,15ce6e1fbf6722107fcf11ac648b4801:1370969745,91ce2e1f4067221076552d845e1ffbf6:-1219366704,51ce2e1f02672210774a543ba0672fe5:485264143,7e3ce2d7d1672210fce1feb02309345e:-2105072306,3a3ce2d7ad672210e4af1aa71fee5e54:-400441459,763ce2d72d672210804e34030bdfde4b:1304189388,ba3ce2d7a26722101a8cc17a67093029:-1286147061,fa3ce2d785672210f8db6944f2adf616:418483786,363ce2d7d9672210fbeb1c0e8ea39e18:-997895455,763ce2d7af67221044591b6a0b7a2910:1556104727</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure CAF identity module ">15ce6e1fc36722107e68b41ed4013121</sys_audit_delete>
+        <sys_audit_delete display_value="">15ce6e1fc36722107e68b41ed4013121</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:33:36</sys_created_on>

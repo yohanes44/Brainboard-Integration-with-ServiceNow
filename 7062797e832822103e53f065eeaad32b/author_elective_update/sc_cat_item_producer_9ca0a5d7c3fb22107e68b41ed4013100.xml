@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>ecd3a593403f221078fbad76fdfcaac2:-246491068,e4d3a5931a3f221089ae218540a457b0:-90882360,acd3a593bd3f2210052100c5d5e4b096:-138801803,a0d3a593703f221015c6b90716e0498b:1675372566,a4d3a593913f22100a7d78137388097f:-805420361,28d3a593a33f2210a62f56c21402b672:400334225,ecd3a593833f221081a2a1070f7f7c53:-2080458702,9ca0a5d7dffb2210700b34a0de4e076e:-266284333,58a0a5d78afb2210f3e36a0f6f0f8e61:1547890036,d0a0a5d799fb22102a91acda2d1bdb58:-932902891,10a0a5d7bafb2210f4600c0cc2506e17:-404957147,18a0a5d7eefb2210b216df4c6d88cc35:881271478,9ca0a5d770fb22106ea5b9522590af2b:-1599521449,d0a0a5d7eafb2210d7bb41148b9c7624:214652920,d4a0a5d7d1fb2210bad0b3c449432d10:425685827</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Serverless">20d3a593c33f22107e68b41ed40131c7</sys_audit_delete>
+        <sys_audit_delete display_value="">20d3a593c33f22107e68b41ed40131c7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:21:50</sys_created_on>

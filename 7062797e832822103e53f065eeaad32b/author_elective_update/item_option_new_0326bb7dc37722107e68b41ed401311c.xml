@@ -174,7 +174,7 @@
         <update_guid_history>c326bb7dc47722109496ec8792ac6028:6936091</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Variables">845c15e7c3b322107e68b41ed401317b</sys_audit_delete>
+        <sys_audit_delete display_value="">845c15e7c3b322107e68b41ed401317b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-11 10:27:31</sys_created_on>

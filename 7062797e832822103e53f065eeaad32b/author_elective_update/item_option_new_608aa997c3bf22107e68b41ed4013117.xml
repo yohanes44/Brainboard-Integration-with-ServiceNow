@@ -174,7 +174,7 @@
         <update_guid_history>248aa997edbf2210b461519555f8554d:30373324</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="pv_dns_zone_link_name">7b04ba17c37762107e68b41ed40131b3</sys_audit_delete>
+        <sys_audit_delete display_value="">7b04ba17c37762107e68b41ed40131b3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:12:23</sys_created_on>

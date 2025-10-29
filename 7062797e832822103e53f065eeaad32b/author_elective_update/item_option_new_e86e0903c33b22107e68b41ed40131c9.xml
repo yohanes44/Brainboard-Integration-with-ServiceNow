@@ -174,7 +174,7 @@
         <update_guid_history>2c6e09037e3b221064e49b29d328b0e2:-281414842</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="route_server_peer_asn">654a9183c3bb22107e68b41ed401314c</sys_audit_delete>
+        <sys_audit_delete display_value="">654a9183c3bb22107e68b41ed401314c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:01:38</sys_created_on>

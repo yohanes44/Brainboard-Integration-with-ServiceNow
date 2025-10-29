@@ -130,7 +130,7 @@
         <update_guid_history>ce0b5cebafef221078731baf8e420c77:-954525949,0a0b5ceb55ef2210ca9295627bebf65a:-1140605472,460b5ceb81ef2210e7882ee33f2d494e:-1822292019,c60b5ceb8bef221015863dcf8037ee43:-117661172,4a0b5cebf9ef221010e709dd7247a638:1586969675,4a0b5ceb8eef22106bf003928a87ad2c:-810514761,0a0b5cebf3ef2210ead42e3262e3a71b:894116086,3ff61c2774ef2210e2b1b83d07057300:-1696220363,f7f6d8276fef221086fe24bb1303d5f5:8410484,b3f6d827cdef2210494f719adf9c81ed:1713041331,37f6d8278bef22100bc31a4f830b5be4:-877295118,f7f6d827feef2210dfb48b15d944fbdb:827335729,7ff6d82748ef22106fe05d4242792cd4:-1763000720,63f6d827f6ef22108f8037044629efc7:1681176093,23f6d82792ef2210d81fede49943f6c2:1865542279</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure DDoS Protection Plan">0e0b5cebc3ef22107e68b41ed401317b</sys_audit_delete>
+        <sys_audit_delete display_value="">0e0b5cebc3ef22107e68b41ed401317b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:36</sys_created_on>

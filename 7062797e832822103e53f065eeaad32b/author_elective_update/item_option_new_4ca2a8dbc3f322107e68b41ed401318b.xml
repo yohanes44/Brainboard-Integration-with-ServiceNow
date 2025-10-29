@@ -174,7 +174,7 @@
         <update_guid_history>04a2a8dbcaf32210e48ff5abfb0fb9a8:-2141652413</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="app_service_http2_enabled">f63aa813c37722107e68b41ed40131b6</sys_audit_delete>
+        <sys_audit_delete display_value="">f63aa813c37722107e68b41ed40131b6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:10:12</sys_created_on>

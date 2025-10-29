@@ -174,7 +174,7 @@
         <update_guid_history>2e591a0dd7b72610777bc5ee4d9c4d1a:2060108003</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="snet_vpn_addr_space">51b3af9dc3b3a6107e68b41ed40131da</sys_audit_delete>
+        <sys_audit_delete display_value="">51b3af9dc3b3a6107e68b41ed40131da</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 20:32:43</sys_created_on>

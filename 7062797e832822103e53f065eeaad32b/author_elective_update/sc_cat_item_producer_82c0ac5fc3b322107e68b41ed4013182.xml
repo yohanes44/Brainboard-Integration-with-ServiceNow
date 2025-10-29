@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>60eb649b9b7722105098f977a1b1dc57:-261094674,68eb649bcb7722103f3fdb8889c26544:-164123297,e4eb649bcf772210c892f4bb601cb837:-208794368,d8eb649b7b7722105e65a95bbcc77c2b:1605380001,dceb649bde77221014213d48995e061f:-875412926,50eb649bc4772210aed1fb7c8729f513:938761443,d8eb249b29772210b63c0661b60bb0f3:-1542031484,1ceb249b94772210944d026df5f7cee0:272142885,94eb249b6b772210bdd17e5db47a16c1:2086317254,54eb249bc57722103c0e74d711b46faf:-394475673,6ac0ec5ff9b322100b3b6e400c6cc833:1419698696,2ac0ec5f2cb322107cb09a4d62a2fc23:-447431826,aac0ec5f76b32210e4d82681b813c414:1366742543,5ec0ac5f23b3221069491149323e2cf7:-1114050384,56c0ac5f0ab32210012f18a8234ac2ea:700123985,d2c0ac5fc4b3221014c578a67f6e3ae0:-1780668942,d6c0ac5fb2b32210d0991ed62da07ed5:33505427,d2c0ac5fd5b32210f795db4fc44681cb:1847679796,d6c0ac5f79b3221055375fec3079adc2:-633113131,96c0ac5f7ab32210822a11dffca07cb1:1102476662,96c0ac5f2fb322106d0ee6e193a4b4ad:1638962928</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Multi-cloud architecture AWS-AZ-GCP WIP">a0eb649bc37722107e68b41ed401315b</sys_audit_delete>
+        <sys_audit_delete display_value="">a0eb649bc37722107e68b41ed401315b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:17:25</sys_created_on>

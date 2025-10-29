@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>8f5b998bc4bb22101b7395e5a16cd046:205178700,875b998bb6bb22100e5716f8101f1834:1825579155,c35b998b2fbb22103d3c58f34dc1a227:608842522,475b998bf3bb2210ba89a90ee447811b:-1871950405,c75b998b31bb2210aebb08a34a0b0a0f:-57776036,c75b998bdbbb22109c7f7c36df147a02:1756398333,0b5b598b70bb2210dba8e31a0257f4ef:-724394594,7a5b598ba9bb2210f7793f55fa01afdc:1089779775,b65b598b29bb22107da7b69b48a9d4be:-1391013152,fa5b598ba7bb2210e7c83c3280af729e:423161217,bf7fcd0b923b2210e94c389d51c7f264:-2057631710,377fcd0b663b221048bbf170e681bf49:655641314,3f7f8d0b633b2210ce44630ed73c4cef:-1825151613,737f8d0bab3b221079fc6d3d3584d8e1:-10977244,af7f8d0bae3b22101fa70b9c1137c5ba:1803197125,a37f8d0b2f3b2210565829a4d08d9fa5:-677595802,e37f8d0b393b2210b8fcb6a532a6a29b:1136578567,ef7f8d0b6b3b2210a365a6317ffcfe84:-1344214360,2f7f8d0be43b221019bfca0391a53670:469960009,677f8d0ba83b2210882aff59fc55d851:1689169040,a77f8d0b0c3b2210b8cc9c99797c9e69:-80082000</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure machine learning with Synapse and Spark">8f5b998bc3bb22107e68b41ed401314a</sys_audit_delete>
+        <sys_audit_delete display_value="">8f5b998bc3bb22107e68b41ed401314a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:06:23</sys_created_on>

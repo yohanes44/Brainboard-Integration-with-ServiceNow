@@ -174,7 +174,7 @@
         <update_guid_history>3903e89f89f32210380906122cb3490e:436039605</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="cognitive_deployment_name">b7eaa497c37722107e68b41ed401316a</sys_audit_delete>
+        <sys_audit_delete display_value="">b7eaa497c37722107e68b41ed401316a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:13:17</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>aa4ad497247322104e8d482c4ff183be:-706460024</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="aks_node_count">a12e1cdfc37322107e68b41ed40131a3</sys_audit_delete>
+        <sys_audit_delete display_value="">a12e1cdfc37322107e68b41ed40131a3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:17:25</sys_created_on>

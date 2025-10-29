@@ -130,7 +130,7 @@
         <update_guid_history>88fb2a579767221076d6f766ddbd64c8:-721193074,08fb2a57f76722109cf0000bdb3710b6:283685229,c4fb2a57da6722100198edc6c805c3ac:1715097935,44fb2a57c06722102d61c387ea069ba1:-875238514,80fb2a57c06722100c6b12e3dd81dd91:829392333,d199eadfb127221087098a5c300671ac:-1760944116,5599eadf92272210ab885db43a6aa595:-56313269,4199eadf1b2722104a6509a9b5bd408c:1648317578,0599eadff22722109e2085a07eb97d83:-942018871,cd99eadfcd2722102c47835d8b93747c:762611976,c999eadf56272210628ef11185f0336e:1387045439,8199eadffd272210fc0ea080c2d4786a:-320963415</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Synapse Analytics workspace">c4fb2a57c36722107e68b41ed40131cc</sys_audit_delete>
+        <sys_audit_delete display_value="">c4fb2a57c36722107e68b41ed40131cc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:21:14</sys_created_on>

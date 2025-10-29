@@ -42,7 +42,7 @@
         <update_guid_history>dc84ef15b2f3a6109d6059ef00191b89:-712877813</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Variables.AWS Application Load balancer">1baf23d9c337a6107e68b41ed4013144</sys_audit_delete>
+        <sys_audit_delete display_value="">1baf23d9c337a6107e68b41ed4013144</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-04 21:25:00</sys_created_on>

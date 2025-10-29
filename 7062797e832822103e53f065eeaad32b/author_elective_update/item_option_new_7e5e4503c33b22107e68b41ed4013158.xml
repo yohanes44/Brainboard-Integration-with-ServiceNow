@@ -174,7 +174,7 @@
         <update_guid_history>765e45035f3b2210dfbd588cc1932f74:1411654985</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="nva_nic_name">144add43c3bb22107e68b41ed40131fe</sys_audit_delete>
+        <sys_audit_delete display_value="">144add43c3bb22107e68b41ed40131fe</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:01:33</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>b4d818db9d33221072e1205ad0c38c5a:-1863236339</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="vpn_gateway_subnet_address_prefix">210f9897c3b322107e68b41ed4013176</sys_audit_delete>
+        <sys_audit_delete display_value="">210f9897c3b322107e68b41ed4013176</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:21:14</sys_created_on>

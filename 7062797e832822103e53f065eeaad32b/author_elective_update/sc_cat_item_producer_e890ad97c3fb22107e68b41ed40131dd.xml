@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>4fd4e99b813f2210e32feda97f927cfb:-391937393,76d4e99b203f2210a0f6ab2caa3d05e9:1552908075,f2d4e99bc73f2210536a4d5db55b43dc:491737686,f6d4e99bb83f221038cca65b6b6b00d0:-1989055241,fad4e99bdb3f2210f63e029f7a1a2dc4:-174880872,7ed4e99b023f2210419da84b9b5a92b7:1639293497,fad4e99b3d3f2210681759808a3b6fa5:-841499430,49f1219f8dfb2210e01a94a707450f67:972674939,61b16ddb6afb2210467c603cb6d36e72:-528191854,c5b0add77bfb2210d8bb6200c2ae8a8d:553326008,7090ed9770fb221016fe5382d8a7d7a1:-1194810412,3c90ed9778fb2210deea744793e48988:619363957,3090ed9778fb221036d4751304e8d273:-1861428970,2c90ed97ddfb221035af4434f3c0be5c:-47254601,e090ed9729fb22102877b17bccf44e3a:1766919768,a890ed9727fb2210bfcd3b550d43bd32:-713873159,2090ed97f2fb2210df93daa21a311d18:126584014,6890ed97d2fb22108e23b8815c858d12:-1265607428</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Multi-region Web Application with CosmosDB">8fd4e99bc33f22107e68b41ed40131ff</sys_audit_delete>
+        <sys_audit_delete display_value="">8fd4e99bc33f22107e68b41ed40131ff</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:26:22</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>ca32a81b37f32210a446984bab32023d:1051532781</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="enable_private_networking">263be81bc37722107e68b41ed40131d6</sys_audit_delete>
+        <sys_audit_delete display_value="">263be81bc37722107e68b41ed40131d6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:14:33</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>48e8691b4f7f2210c64bf3eb50b0f3ca:-100320400</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="vpn_client_address_space">2094f25bc37762107e68b41ed40131b3</sys_audit_delete>
+        <sys_audit_delete display_value="">2094f25bc37762107e68b41ed40131b3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:14:37</sys_created_on>

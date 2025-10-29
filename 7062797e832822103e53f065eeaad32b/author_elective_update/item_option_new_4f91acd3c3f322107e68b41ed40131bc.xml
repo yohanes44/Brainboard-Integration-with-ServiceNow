@@ -174,7 +174,7 @@
         <update_guid_history>8f91acd383f322109b4603944ef31ccf:-45192058</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="dalle_location">605aa453c37722107e68b41ed4013140</sys_audit_delete>
+        <sys_audit_delete display_value="">605aa453c37722107e68b41ed4013140</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:10:36</sys_created_on>

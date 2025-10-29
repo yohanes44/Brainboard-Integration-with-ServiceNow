@@ -174,7 +174,7 @@
         <update_guid_history>180a541764732210f6c6e5428b243c45:1764057400</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="mock_backend_pool_name">838edc93c3b322107e68b41ed4013189</sys_audit_delete>
+        <sys_audit_delete display_value="">838edc93c3b322107e68b41ed4013189</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:19:10</sys_created_on>

@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>fe51255b0dfb221017af6a34db86f7e5:-25689171,2a51255bdffb22109db60cadc294dcd3:-706403439,e651255b24fb22100bc0ffffa126b7c6:-1672182946,6651255b59fb22108a8ed970c71601ae:141991423,aa51255b32fb2210678325579e1024a2:1956165792,6e51255bfafb22108deebc798b7e5695:-200667558,ee51255ba4fb22107f0118130ac00d6a:1613506811,fb806d97c8fb22106e2e0aa0cb90ad98:-867286116,2b806d9770fb221035109caeafee6372:946888253,eb806d97a1fb2210e4cc4c93fed8be5a:-1533904674,a3806d973ffb221018803e37d7eedf1f:280269695,e3802d976afb221091ef2786116975fc:2094444064,ab802d974bfb2210a04d782524d415f4:-386348863,af802d975afb22102f45fc409af0efdb:2071690766,6b802d97effb2210d5be34aed50776bb:1129216786</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS Elastic Beanstalk">fe51255bc3fb22107e68b41ed40131e9</sys_audit_delete>
+        <sys_audit_delete display_value="">fe51255bc3fb22107e68b41ed40131e9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:03</sys_created_on>

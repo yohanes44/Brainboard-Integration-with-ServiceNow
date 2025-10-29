@@ -174,7 +174,7 @@
         <update_guid_history>2c72649bebf322104d1f50b20bba6e4b:-1707478635</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="private_dns_zone_names_ai_services">d2eae097c37722107e68b41ed401311e</sys_audit_delete>
+        <sys_audit_delete display_value="">d2eae097c37722107e68b41ed401311e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:13:10</sys_created_on>

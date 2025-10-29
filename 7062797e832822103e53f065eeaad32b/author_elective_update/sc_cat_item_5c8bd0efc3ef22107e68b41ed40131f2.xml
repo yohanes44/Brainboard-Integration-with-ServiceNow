@@ -130,7 +130,7 @@
         <update_guid_history>fa6fd0e7c923621083fb8f93340b1c52:-1125703090,366fd0e719236210da96cbebdcbb5935:516052061,626fd0e7a7236210a87c2241e68b1e29:-1866811754,e26fd0e713236210982ae77ba7f6a11e:-162180907,666fd0e72023621092c1071fe8d2d513:1542449940,666fd0e7ca2362101d26c2811b89c007:-2039822924,266f90e75f2362103182eeea1c6ea1f6:-335192077,ac8b14ef08ef22100c9d5b77a1a78f96:1369438770,908b14efc3ef2210a1723fd09026d67f:-1220897679,5c8b14ef89ef2210381bf274381d6976:483733168,dc8b14eff9ef221001c5331d3163ab6d:-2106603281,dc8b14eff6ef2210ddbfcbbfdd51f426:-401972434,548b14efedef2210a21e2a6227cafd20:1302658413,588b14efadef2210746b4aff147c9a12:-1710012698,188b14ef3cef2210fee1404da256c90d:-85271424</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="[Training] AWS onboarding">3a6fd0e7c32362107e68b41ed4013156</sys_audit_delete>
+        <sys_audit_delete display_value="">3a6fd0e7c32362107e68b41ed4013156</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:45:45</sys_created_on>

@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>3f51a55b33fb22107f6007a63910bfd1:491697847,6751a55bc0fb2210c979d949b40f1ebf:676212283,6f51a55b2ffb2210f5e47f90994a65a5:1459678910,a351a55b06fb22101221f32d7ee4229a:-1021114017,e751a55b80fb2210de3aba413871198e:793060352,ab51a55b3cfb22104126ca0c3ac8e781:-1687732575,ab51a55b4dfb2210ee57fbaa7ca1c96f:-1968026139,03b0611bebfb2210dd89d0297eacd9ea:-153851770,22a069d7fefb2210e3ba0b41f13f6d67:-75582516,eea069d72afb2210c262f770bb139642:1738591853,aea069d759fb2210abecca934160dc07:-742201074,e2a029d7f3fb2210f02af112e8fd98e5:1071973295,1aa029d7aafb22101716ec73d42c0edb:-1408819632,1aa029d746fb22108714069470d71cae:405354737,1ea029d726fb2210d1e12afbc7393b9d:1111804426,9ea029d787fb22108d5d4e68df66e481:-341611916</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure DNS Resolver">3f51a55bc3fb22107e68b41ed40131d5</sys_audit_delete>
+        <sys_audit_delete display_value="">3f51a55bc3fb22107e68b41ed40131d5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:07</sys_created_on>

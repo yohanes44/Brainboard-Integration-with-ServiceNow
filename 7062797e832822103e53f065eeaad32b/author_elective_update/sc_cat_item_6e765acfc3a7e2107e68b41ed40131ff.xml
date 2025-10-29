@@ -130,7 +130,7 @@
         <update_guid_history>21489edb71a322106ca73c78f54070ab:-1967674918,ee769acf63a7e210f40d60afeadd8abf:1680537195,66769acf61a7e2108a45cd62194296b3:-909799254,ea769acf33a7e210fe3a9436f89d90aa:794831593,a2769acf1ea7e210f507c943cdcfad7c:-1795504856,ee769acf88a7e210c53c0cfa70c65572:-90874009,26769acfd3a7e21013f9ea62cd7f2053:1613756838,2a769acfd8a7e2109f7380517e6b734c:-359859885,a6769acf86a7e2100fcf40850f55fd40:1401414825</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure API management">d1489edbc3a322107e68b41ed4013195</sys_audit_delete>
+        <sys_audit_delete display_value="">d1489edbc3a322107e68b41ed4013195</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 09:55:18</sys_created_on>

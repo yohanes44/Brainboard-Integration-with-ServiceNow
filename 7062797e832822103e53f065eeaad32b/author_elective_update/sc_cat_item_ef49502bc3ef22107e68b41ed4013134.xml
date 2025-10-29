@@ -130,7 +130,7 @@
         <update_guid_history>dfea10eb59ef2210b2af7a5b4324270e:-114592781,dfeadcabefef2210d4223bdedb10b3fc:-1903214164,83eadcabe1ef2210c9e9e4af078a2ce4:-553929207,83eadcabc6ef22108d9567b2b3e06bd9:1150701640,83eadcab46ef2210cad981c76ef78fce:-1439634809,03eadcab43ef22109d122a00ac8b6ac2:-518298493,43eadcab67ef22105b803c7dd3b8b97f:1186332354,3b49142ba8ef2210e1822c32a2b2c2fc:-1404004095,3b49142b33ef2210caa064d4eb08f3ee:300626752,fb49142b0bef2210cead2553fa95efd7:2005257599,7349142b01ef2210a655af9e501958cd:-585078850,3349142b62ef221011d784162270179d:1119551997,3f49142b94ef22109d8ef37db2444393:-1470784452,3749142b59ef2210626ce018a367787e:-204273671,7349142b22ef22101c1ef1d5bca79586:-447427495</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS FSX architecture">5fea10ebc3ef22107e68b41ed4013113</sys_audit_delete>
+        <sys_audit_delete display_value="">5fea10ebc3ef22107e68b41ed4013113</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:08</sys_created_on>

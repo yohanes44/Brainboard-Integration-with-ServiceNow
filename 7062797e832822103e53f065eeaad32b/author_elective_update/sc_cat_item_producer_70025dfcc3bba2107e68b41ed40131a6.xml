@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>d308d645aeb72610e27b96e01bfa6b49:366228764,5708d645d4b72610cfb88dbea842b82a:1480548774,9308d64523b72610ce81e765a4d0911d:-1310476339,4708d645fdb72610661435e8a9e07d11:503698030,0b08d645a8b72610b4323ba79fc8d505:-1977094897,4b0896459fb72610e6366b10b5ad14f8:-162920528,cb089645c9b72610875d785423c674e5:1651253841,4f08964515b726101d22b9118c2e2ad2:-829539086,c7089645fdb7261083cd94a32c8316b4:984635283,51029dfccfbba2106aeb2049802da26a:-357936461,51029dfc57bba2100d995c979774a05d:1456237908,4d029dfc58bba21011802a54ad355d43:-1024555019,49029dfce7bba210f1f2c7defaacf738:789619350,45029dfcc7bba210b05eaa3622c8252f:-1691173577,41029dfc00bba210696b288d26708519:123000792,8d029dfc7abba210db27c9829fb99d02:1937175161,85025dfc15bba2109a7ca7f89cb2d0fb:-543617766,4d025dfc32bba2101ca1ecc4c16046c8:1419111425,89025dfc5ebba2106677d7edafb349b5:-1645114689</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS S3 API Gateway integration">5308d645c3b726107e68b41ed401314d</sys_audit_delete>
+        <sys_audit_delete display_value="">5308d645c3b726107e68b41ed401314d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-03 20:23:41</sys_created_on>

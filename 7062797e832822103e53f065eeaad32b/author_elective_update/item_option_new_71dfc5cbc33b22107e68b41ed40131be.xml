@@ -174,7 +174,7 @@
         <update_guid_history>79dfc5cb953b2210db7b45d95a7403d8:1929988703</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="t_vm_nic">ecb9994fc37b22107e68b41ed401317a</sys_audit_delete>
+        <sys_audit_delete display_value="">ecb9994fc37b22107e68b41ed401317a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 20:59:06</sys_created_on>

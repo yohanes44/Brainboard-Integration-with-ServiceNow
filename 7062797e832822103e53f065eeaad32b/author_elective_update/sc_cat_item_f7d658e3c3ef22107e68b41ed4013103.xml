@@ -130,7 +130,7 @@
         <update_guid_history>69ea1cabb7ef2210576f198649fbaad4:251387545,a1ea1cab35ef2210abde008d80af84b7:1361439216,a9ea1cab9def221052c4e36894e7cf85:-1083452049,21ea1cab57ef2210452e2bc596ac7249:621178798,a1ea1cab9fef22100cc10c921572eb3e:-1969157651,d9ea1cab12ef22105a841ef25ccd8a25:101596039,99ea1cabeeef2210192b2c443763a314:1806226886,7bd658e3ebef2210a5566651cdcf6575:-784109563,37d658e351ef221098443a8422a37f6a:920521284,ffd658e3eeef2210bd486bf325ed1e61:-1669815165,73d658e37bef22101be649f59ee13459:34815682,37d658e3b6ef2210244a2479de017f50:1739446529,b7d658e33aef22104a3d1d2755b4253d:-850889920,3bd658e35bef2210eb22d5543b19592b:987596479,33d658e384ef22104697b52f5f99d037:197357097</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Synapse Analytics workspace">25ea1cabc3ef22107e68b41ed40131f1</sys_audit_delete>
+        <sys_audit_delete display_value="">25ea1cabc3ef22107e68b41ed40131f1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:01</sys_created_on>

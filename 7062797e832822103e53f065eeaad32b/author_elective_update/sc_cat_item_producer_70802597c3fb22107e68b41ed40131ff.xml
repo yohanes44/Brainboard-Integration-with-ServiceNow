@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>b9e361d32e3f2210fb7a2232cb605b31:-629051628,b1e361d3383f22105ff577f225ae6d1f:-1528179224,31e361d3763f22105fbef37ec8e04a12:2056417457,35e361d3753f22106608f321a1509206:-424375470,71e321d3003f2210b1af14075b708bee:1389798899,f1e321d3303f2210fd6e787125a36de1:1611340593,71e321d3bf3f22105da2578faddf48cf:-869452334,0d80a597d9fb2210bcd5de26a5227041:944722035,f480a59744fb22102de3f381f7b16434:-1536070892,f880a5978efb2210302bacb88a93ed1d:278103477,f480a5970dfb221037e0ae7f66b46007:2092277846,fc80659710fb2210c634250b4ec8c6f0:-388515081,f4806597d7fb22107b65b8c42fc02fd0:134681953,b48065973afb221041532ba4008ed0e9:1425659288,f08065972afb2210f678ea1e41f706c9:-66085713</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Application Gateway with Windows Web app">f9e361d3c33f22107e68b41ed4013135</sys_audit_delete>
+        <sys_audit_delete display_value="">f9e361d3c33f22107e68b41ed4013135</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:22:11</sys_created_on>

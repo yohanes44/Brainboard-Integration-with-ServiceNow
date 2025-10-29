@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>7d61a95b79fb221074ea1f6511ebfeb5:1385279832,b561a95b55fb2210418ee1de0dd5f6a3:-116252114,7561a95b81fb22103687508fc85f9096:1336486069,b961a95b23fb22104dc4f4826e60478a:-1144306858,fd61a95ba2fb2210587e1c5a85417b7e:669867511,a161a95b87fb2210068dfb5ab952cf72:337194167,a161a95b80fb221019e8cee6ae30aa60:-2143598760,60b06dd7ddfb22103e9556132f76a39e:-329424391,2cb06dd7cafb22102b15bfb865a11a90:1484749978,a4b06dd7e1fb22104f74f094fab17a87:-996042949,a8b06dd742fb22102cb0a818a71bde60:37683813,68b06dd7eefb2210f07f69563b95e57d:818131420,ecb06dd71cfb22103bd9f68029a35473:-1662661507,14b06dd75cfb22100eaf45946046236c:151512862,18b06dd7dbfb22109b21797ad722c658:-361342143</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Kubernetes provider with AKS">3561a95bc3fb22107e68b41ed40131c6</sys_audit_delete>
+        <sys_audit_delete display_value="">3561a95bc3fb22107e68b41ed40131c6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:15</sys_created_on>

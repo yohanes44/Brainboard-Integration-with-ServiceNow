@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>74f3a5d3ca3f2210bddb975ccc77d4da:-1717362234,30f3a5d3633f2210f5adb0c8627b63af:1110176282,38f3a5d3a33f2210c6703bbcdc632695:-379019986,7cf3a5d3b73f2210270cacac0c621b89:1435154383,b0f3a5d34a3f22106c89cfe2b5c1b17e:-1045638544,64f3a5d3163f22106919de00e4a3e371:768535825,a8f3a5d3723f221021054b7178b95b5f:-1712257102,28f3a5d34f3f2210a10ea30213f69741:101917267,98f3a5d3843f2210a5430a05658cd62e:1916091636,18f3a5d37d3f2210010509d0508e2d1b:-564701291,c6d1215fbffb2210ca5ca77d06294ff6:1249473078,1bc1291fd0fb22104e579e4c065b889e:-1884441412,9bc1291fd6fb221021cbbbef08ef6483:-779188550,4fc1291f79fb221017ea8a301ff99506:1034985819,72c1e51f15fb2210be04a85ca0bc63f8:-1445807108,b6c1e51f64fb2210c71aa603d876aede:368367261,b2c1e51f2ffb221031acb1af68ed3ed5:-2112425666,b6c1e51f40fb2210d80688f599211acb:-298251297,3ec1e51f1afb2210a3e459ef87b2dac1:1515923072,fac1e51f0dfb2210469a40aec301f0ad:-964869855,b2c1e51f93fb2210a5a41a86a779e69d:-957348822,7ac1e51f65fb2210c95555ffb700f28d:-2069387480</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure storage account">74f3a5d3c33f22107e68b41ed40131de</sys_audit_delete>
+        <sys_audit_delete display_value="">74f3a5d3c33f22107e68b41ed40131de</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:22:23</sys_created_on>

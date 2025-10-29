@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>ef215df84fbba21023eac2aeef04ea36:-1340668087,e7215df89dbba210ce8644cc43909d24:-1632131623,ab215df8b4bba210542eaff76220bc0a:-1516511750,db211df827bba2101b7d2daf08a270fe:297662619,1f211df86cbba2105b770ecda9a673f2:2111836988,db211df894bba210fce793c6ff7e62e5:-925999854,df211df8e1bba2100cb743ba2ed60ed3:888174515,1f211df8f7bba21068fb968c2ecdeab5:-1592618412,13211df80abba210f5d4eae8e73ed1a4:221555957,07211df83ebba210e75218ddbe187792:2035730326,0b211df81dbba210022e0e17df60c280:-445062601,c7211df8e6bba210ce0b9bc811addf6e:1369111768,25cd89f47f7ba210319f2c73e17edae0:-1111681159,91cd89f49a7ba2100e8b43c56df578d0:702493210,55cd89f4c67ba210c61f7dbdfb0a06c0:-1778299717,5dcd89f4047ba21082e5b3723dc010b0:692780449,99cd89f47d7ba21037c28509d5ea39a1:-1788012478,8dcd89f41c7ba210b37ad0c424a4aa90:26161891,4dcd89f49d7ba2100d2829dcb92b8876:1840336260,38cd89f4567ba210a74172444968706d:-640456667,78cd89f4807ba21034b71ac97953db63:1173717702,34cd89f4227ba210ed7aac157699f94d:-1307075225,74cd89f4f27ba2102979ea6673a71e39:507099144,bccd89f49e7ba210102126d01869bc3a:1821876265,3ccd89f4db7ba210017efe589be16631:-374894265</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS Kubernetes cluster with native CNIs">af215df8c3bba2107e68b41ed401313a</sys_audit_delete>
+        <sys_audit_delete display_value="">af215df8c3bba2107e68b41ed401313a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-02 20:35:34</sys_created_on>

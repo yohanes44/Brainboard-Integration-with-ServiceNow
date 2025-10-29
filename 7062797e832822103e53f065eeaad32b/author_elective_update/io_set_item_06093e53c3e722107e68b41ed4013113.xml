@@ -42,7 +42,7 @@
         <update_guid_history>0e093e53cbe722106ab59932dc682a1a:-1858130775</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value=".AWS Kubernetes cluster with native CNIs">6786d863c3ef22107e68b41ed40131f8</sys_audit_delete>
+        <sys_audit_delete display_value="">6786d863c3ef22107e68b41ed40131f8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:07:02</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>7a22a01bf8f3221022f30af86d36c6f8:-1823221109</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="nat_gateway_name">7c2b201bc37722107e68b41ed4013179</sys_audit_delete>
+        <sys_audit_delete display_value="">7c2b201bc37722107e68b41ed4013179</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:14:10</sys_created_on>

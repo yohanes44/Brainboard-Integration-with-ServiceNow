@@ -130,7 +130,7 @@
         <update_guid_history>aaabe217fa672210432e5070836acfb2:141157194,2aabe2173d672210f07e35c11f9358a0:1195944385,d6abe2176e67221066c22a3d921ba996:-1431663031,5eabe2176567221050760a731c2f5f27:272967816,9aabe21701672210844d82501c237717:1977598663,adb9ee13f96722101c74b96021a1018f:-612737786,69b9ee1391672210c4a5a7a5657e626c:1091893061,65b9ee135f672210ba72f0a635a88063:-1498443388,29b9ee13dc67221065cd98aa8dee845a:206187459,2db9ee131e672210dcc32d02da415f47:1910818306,a9b9ee13c76722109bc41087fb17174d:554928531,a5b9ee13a6672210f44dfe8eb7b75541:1875765885</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="GCP Load Balancer ">e6abe217c36722107e68b41ed40131b6</sys_audit_delete>
+        <sys_audit_delete display_value="">e6abe217c36722107e68b41ed40131b6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:20:01</sys_created_on>

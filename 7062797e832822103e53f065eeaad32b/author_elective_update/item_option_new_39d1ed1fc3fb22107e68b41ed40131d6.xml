@@ -174,7 +174,7 @@
         <update_guid_history>bdd1ed1f18fb2210e273aab22bec48f4:-177990829</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="hosted_zone">3405211fc33f22107e68b41ed401312b</sys_audit_delete>
+        <sys_audit_delete display_value="">3405211fc33f22107e68b41ed401312b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:27:01</sys_created_on>

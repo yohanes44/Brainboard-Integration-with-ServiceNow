@@ -174,7 +174,7 @@
         <update_guid_history>33ef050f353b221092f4d5ec4861e041:1502328405</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="key_vault_sku">4f89d50fc37b22107e68b41ed40131f2</sys_audit_delete>
+        <sys_audit_delete display_value="">4f89d50fc37b22107e68b41ed40131f2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 20:58:27</sys_created_on>

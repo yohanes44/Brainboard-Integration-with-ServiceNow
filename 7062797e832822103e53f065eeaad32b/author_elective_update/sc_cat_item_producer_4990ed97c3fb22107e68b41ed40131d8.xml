@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>a761ad5b87fb2210e4720fea14622b02:1508579208,ef616d5baefb2210f8d398653443c7ef:-499869118,e7616d5b33fb2210d5fd22a80d037ed6:-1160611071,1f616d5bf8fb22103639375e91d0f9ca:653563298,53616d5badfb221004d9d75fb26a13bf:-1827229629,17616d5be4fb221035a416a8e93423b2:-1773522485,17616d5b7afb221052ad222287ad6ea0:40651884,d99021d7c0fb2210e07cb68bda81b16b:1854826253,099021d7bdfb22106c324d7511886345:-625966674,459021d735fb2210820e9a210235f604:-480835407,0d9021d752fb221010f7fd1da002b82f:1188207695,cd9021d7d8fb221033c4faec774dfc25:-1292585232,459021d7fdfb221054d2c743c7a3b61c:521589137,0d9021d71cfb22109e17a944dd2aff14:-1959203790,019021d7d6fb22102019982684da0e01:1571918087</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Multi-subscription landing zone">a761ad5bc3fb22107e68b41ed4013106</sys_audit_delete>
+        <sys_audit_delete display_value="">a761ad5bc3fb22107e68b41ed4013106</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:23</sys_created_on>

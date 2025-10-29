@@ -130,7 +130,7 @@
         <update_guid_history>0048dadbbea322101c9dd2644dcff781:1997482474,8e969e03b0e7e21087fce70a7a1aee59:2119743881,06969e03ffe7e2103983365b3a1e114d:-470592568,8a969e03dbe7e210b4b45a503b540d44:1234038279,ce969e0366e7e21063032680b493382e:-1356298170,0e969e0390e7e21092206f01e0fd3c25:348332677,ce969e0337e7e2106a2f9550abcf691e:2052963524,8e969e039ce7e21001025de36b083e12:891307835,4a965e0328e7e210a51f6cce6c4088ff:-913894299</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS FSX architecture">4448dadbc3a322107e68b41ed401316b</sys_audit_delete>
+        <sys_audit_delete display_value="">4448dadbc3a322107e68b41ed401316b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 09:55:12</sys_created_on>

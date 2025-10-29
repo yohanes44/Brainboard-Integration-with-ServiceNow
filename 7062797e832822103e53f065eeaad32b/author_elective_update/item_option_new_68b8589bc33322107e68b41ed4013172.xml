@@ -174,7 +174,7 @@
         <update_guid_history>a4b8589bca332210bd9b33745e0af98a:1751119893</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="subnet_pep_addr_prefixes">3e3f141bc3b322107e68b41ed40131ff</sys_audit_delete>
+        <sys_audit_delete display_value="">3e3f141bc3b322107e68b41ed40131ff</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:22:09</sys_created_on>

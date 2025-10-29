@@ -174,7 +174,7 @@
         <update_guid_history>79eda45b90b722103416fee48663f2b4:113331199</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="secondary_address_space">5cc4ad5bc33f22107e68b41ed40131fe</sys_audit_delete>
+        <sys_audit_delete display_value="">5cc4ad5bc33f22107e68b41ed40131fe</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:25:54</sys_created_on>

@@ -130,7 +130,7 @@
         <update_guid_history>5cd8761360e722105075e23229cc481c:1046028315,d4d876139be72210d291309892b92b09:642274900,98d8361325e72210f54a12fe298e6efe:-1948061549,c8d83613e1e72210f00d49e81fad25f2:-1112342809,48d8361308e72210a5ce51a7e21a1ee1:592288038,33083a1f6aa7221029081102827a6da6:-1998048411,001fe29f5c67221092d6a32089b43871:1912508906,0c1fe29f7c672210b97a4b1008ac5e66:-677827543,441fe29f1f672210e1e0c674116ce751:1026803304,c81fe29f5e6722102baaaf2e62199948:-1563533145,001fe29fc16722100122afcd9d76aa36:141097702,001fe29fa4672210699f5304067a0c3a:-360197921,881fe29f5a67221070e0fea245d9e62f:901372425</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS Kubernetes cluster with native CNIs">d8d87613c3e722107e68b41ed4013120</sys_audit_delete>
+        <sys_audit_delete display_value="">d8d87613c3e722107e68b41ed4013120</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:29</sys_created_on>

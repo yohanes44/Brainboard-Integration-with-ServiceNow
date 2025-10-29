@@ -174,7 +174,7 @@
         <update_guid_history>876c209ff5772210d14436d4a918d3b6:1577303567</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="hub_subscription_id">c7bf1193c3fb22107e68b41ed4013109</sys_audit_delete>
+        <sys_audit_delete display_value="">c7bf1193c3fb22107e68b41ed4013109</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:03:58</sys_created_on>

@@ -130,7 +130,7 @@
         <update_guid_history>a0eb2657c8672210b71887e36d334078:-1155501068,20eb265721672210987c28970888af66:-2011100147,eceb265765672210e5a57be56a10b55b:-559418541,6ceb2657b0672210781c7ff557a04450:1145212306,98eb2657496722109280e78a21247d40:-1445124143,d9a9a613e76722107afcb30b5f317e9e:259506704,5da9a61317672210b7d0d45b70f56987:1964137551,91a9a613cb6722105e74c89a0dd45772:-626198898,55a9a6139f67221040910b9fff05f669:1078431949,11a9a613e9672210e708fe2a7a8c5b63:-1511904500,d9a9a6137e6722100933060659dfae50:2071942879,99a9a6134d67221046281dff79e1435c:432485705</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS serverless architecture">eceb2657c36722107e68b41ed401317b</sys_audit_delete>
+        <sys_audit_delete display_value="">eceb2657c36722107e68b41ed401317b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:20:59</sys_created_on>

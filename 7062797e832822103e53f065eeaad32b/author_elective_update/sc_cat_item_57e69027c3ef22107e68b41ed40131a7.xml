@@ -130,7 +130,7 @@
         <update_guid_history>6e1b942f33ef2210c9bbd3518df2043c:550276377,6e1b942fddef2210bc3057ebf0e2d22b:883640140,aa1b942fb7ef22104ca7c86f70b5671f:854932655,2e1b942f6eef22103797dcedc8714614:-1735403794,9e1b942fb9ef221089949e76c5986309:-30772947,d61b542f65ef2210186b21cd7a7deef1:-190844317,961b542f86ef2210b6d566145240a6e0:1513786530,67e6d02723ef22108d1d8b3b04d1f232:-1076549919,6be6d0278def22107d65df7d639b601a:628080928,27e6d027fbef221095af4a1b3b9cd612:-1962255521,a7e6d027fdef22104dca971422329d09:-257624674,a3e69027c6ef2210c7be5eb58fb951f4:1447006173,9be69027e3ef2210c010a8f2cb5113d4:-1143330276,5be69027efef2210387b5336f7117fd6:894309375,d7e6902798ef22104ec70604047765ce:1119678185</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure web application">621b942fc3ef22107e68b41ed401314d</sys_audit_delete>
+        <sys_audit_delete display_value="">621b942fc3ef22107e68b41ed401314d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:26:54</sys_created_on>

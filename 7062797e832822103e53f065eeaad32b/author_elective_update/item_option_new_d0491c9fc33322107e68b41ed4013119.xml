@@ -174,7 +174,7 @@
         <update_guid_history>ec491c9f72332210907f0cead868384d:-1451459716</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="failed_documents_container">a83f101bc3b322107e68b41ed401312f</sys_audit_delete>
+        <sys_audit_delete display_value="">a83f101bc3b322107e68b41ed401312f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:22:00</sys_created_on>

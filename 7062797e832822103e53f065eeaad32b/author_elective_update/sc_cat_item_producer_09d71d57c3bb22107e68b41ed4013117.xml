@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>a120a5573dfb22106dafe373ceff7a39:2028579900,6d20a5571afb221083b6a074b39b840d:2029850498,2d20a557d9fb2210cd180d14de281000:183275237,51206557bafb2210e4256931072a4af5:1997449606,95206557edfb221044bd97e75de253e9:-483343321,59206557cefb22106acd092066f9bbdc:1466927243,592065576efb2210e53c04a7b86506ca:-1013865684,51d75d57a5bb2210a9be0ced7892d545:800308685,59d75d57c3bb2210ed767fc50a4bbe37:-1680484242,d5d75d574cbb2210836f354a565ecf2d:133690127,d9d75d57b2bb22103fb649e1a8e69922:1947864496,d5d75d57dbbb2210a956fbe62d4c4018:-532928431,41d75d5776bb2210d94e4772f0e31804:1281245938,41d75d57dcbb221091b5d1b56aadba08:-804363627,cdd71d57d3bb22101b2327ab67cc74fb:1001220401</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Data factory with Synapse workspace">a120a557c3fb22107e68b41ed401313d</sys_audit_delete>
+        <sys_audit_delete display_value="">a120a557c3fb22107e68b41ed401313d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:05:47</sys_created_on>

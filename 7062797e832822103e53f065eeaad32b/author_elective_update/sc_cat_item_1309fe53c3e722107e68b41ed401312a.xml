@@ -130,7 +130,7 @@
         <update_guid_history>c8a614a3b6ef221011c086455425694a:122864587,0ca614a386ef22105a8df40009a69639:1475302288,88a614a363ef221090b43a487ab9c02d:2027429325,cca614a3d9ef2210912452110e570109:305550825,00a6d0a314ef2210c791663864e7bdfe:2010181672,7396d0a3b7ef221023223778bde880ed:-580154777,5309fe5372e722108855b0f80f872a9f:1124476070,9709fe539de72210fff9855ff08d3588:-1465860379,df09fe53f9e72210b2ef7ebae4f1f072:238770468,5709fe539ee72210d7fc3b2930109c6a:1943401315,d309fe5346e7221076820fc27dd95b4b:-646935134,9709fe53f6e7221031ae572b37e2d650:817778591,db09fe5350e72210fbf456ad8a5cb244:1014929737</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Function app architecture">08a614a3c3ef22107e68b41ed401314e</sys_audit_delete>
+        <sys_audit_delete display_value="">08a614a3c3ef22107e68b41ed401314e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:07:21</sys_created_on>

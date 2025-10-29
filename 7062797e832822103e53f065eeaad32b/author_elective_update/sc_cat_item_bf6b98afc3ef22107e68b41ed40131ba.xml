@@ -130,7 +130,7 @@
         <update_guid_history>279fd82b802362106e7c4d266426105b:930819748,6f9fd82b0e236210621e7537c432043d:-463403671,ab9fd82b472362101e839bc6e143ca31:-1203447218,af9fd82bf323621086e61a1688756f0d:501183629,239fd82b75236210a182d55d720b4703:-2089152820,239f982b5b2362107d3cea1fd7a429f7:-449617088,ef9f982b8d236210e32f9cd55f208be5:1255013759,bb6bd8af06ef2210419145984ec77439:-1335322690,336bd8af4bef22104e90cde813a6b309:369308157,fb6bd8af97ef2210c112089d86ebd700:2073939004,7f6b98af09ef22109797697de66ea1f7:-516397445,336b98af20ef2210bffe6b32ee12e5ef:1188233402,b76b98af13ef22108cc920a52ea200e8:-1402103047,f76b98afebef22102e316b4f28c8fcd7:-2112463714,7b6b98af5cef2210b66c77da53cc24d5:1954267976</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure AKS Baseline Cluster with hub and spoke">639fd82bc32362107e68b41ed401315f</sys_audit_delete>
+        <sys_audit_delete display_value="">639fd82bc32362107e68b41ed401315f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:38</sys_created_on>

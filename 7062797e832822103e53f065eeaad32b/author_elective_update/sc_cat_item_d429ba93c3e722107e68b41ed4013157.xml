@@ -130,7 +130,7 @@
         <update_guid_history>d586946350ef221057420df034938cf4:1562562955,418694633def221056d6acc6d4fbbfd7:1894008988,cd86946351ef2210370beaaa5c620cca:-1757459497,818694634eef221023bc004f8e5351c0:-267958219,c1869463f2ef221005e44cdf5ac95cb4:1436672628,0586946300ef221017b6f9fc197411a3:-1153663821,6029ba93d7e72210e255f6fa0108f6c0:550967026,a429ba93b6e72210d89a2915643b03a9:-2039369423,a429ba934ce722102b4f5657a023c7a0:-334738576,1c29ba93d7e72210e3000230ac41cb97:1369892271,d029ba93dce72210542e66237f0a406c:-1220444178,1029ba93cbe7221073ed2550fba9177d:-1282698583,d829ba9360e7221014c220a6d6a15265:1786370643</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS ECS with Fargate">15869463c3ef22107e68b41ed40131f8</sys_audit_delete>
+        <sys_audit_delete display_value="">15869463c3ef22107e68b41ed40131f8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:06:52</sys_created_on>

@@ -130,7 +130,7 @@
         <update_guid_history>51ab6217f16722103a3491cf0c3c0860:-1794139112,ddab62170a67221001069861efe9014d:897509325,9dab6217f7672210de07b8db3cb10943:-1920222849,1dab6217f8672210624d69227868b538:-215592002,59ab62177e6722108210e6a80997c228:1489038845,f6a96a1330672210a1f8171ad24d4dcd:-1101297604,32a96a135167221010df05e0bb770ac3:603333243,3ea96a1338672210342e3918510499b9:-1987003206,eea96a1329672210f7bf27e81c24a2b0:-282372359,aaa96a1384672210ac855befcd8694aa:1422258488,e6a96a137267221049f826cfea87009e:-1058217825,a6a96a13646722104bd3fee932f1508b:-585664375</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS VPC with subnet and security groups on 2 AZ">55ab6217c36722107e68b41ed4013170</sys_audit_delete>
+        <sys_audit_delete display_value="">55ab6217c36722107e68b41ed4013170</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:19:57</sys_created_on>

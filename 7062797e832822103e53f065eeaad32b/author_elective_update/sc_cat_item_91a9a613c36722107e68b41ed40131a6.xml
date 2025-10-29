@@ -130,7 +130,7 @@
         <update_guid_history>c7db6257dc67221016f87d83dcfed872:-493609142,47db625737672210c03d9a75712f8a60:1065337225,07db6257a067221030a9b1fae3731a56:-1818815467,b2db625778672210628d26d5a9ba304b:-114184620,fedb6257bd672210586e5365d600283a:1590446227,21a9a613f867221069174bf1662a2dea:-999890222,59a9a61326672210aab09d7395f53ddf:704740625,55a9a61324672210328574ce56ec8bd6:-1885595824,19a9a613b367221014657d362d0ad0cd:-180964977,1da9a61346672210e72f73af84ca96ba:1523665870,99a9a61353672210187ad91d3759e9c0:482904923,95a9a613d4672210336c6bc3b45498b4:688242245</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Cross account AWS S3">07db6257c36722107e68b41ed4013176</sys_audit_delete>
+        <sys_audit_delete display_value="">07db6257c36722107e68b41ed4013176</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:20:53</sys_created_on>

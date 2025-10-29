@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>bc61295be0fb2210bd4f6254cf4defe2:-407356778,3061295bbcfb2210c970b74e2b8db8c4:-712172566,7061295baafb2210cac6fa2651343a9e:1675480195,a461295b46fb2210c5c3c129191c8292:-805312732,2461295b62fb2210a463ce0828d5247a:1008861637,e461295b74fb221064c3dc47317d096d:-1800184013,e461295b20fb2210854f98367604aa5b:13990356,c080259705fb221073a036b98042e4cf:1828164725,48802597b1fb2210f0d2fa5dca3ba1b7:-652628202,4c8025975bfb2210ae9c3d38f3dd51a1:1161546167,00802597a3fb2210d4dd3631cbb90a98:-1319246760,8c8025970ffb2210e8ff6707eb535f81:494927609,48802597c8fb221060db52b97e0da448:-1985865318,00802597b1fb22103b025f0a58999636:-1298568909,0480259708fb22109b10a10b0f140641:246875913</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure key vault">bc61295bc3fb22107e68b41ed40131e6</sys_audit_delete>
+        <sys_audit_delete display_value="">bc61295bc3fb22107e68b41ed40131e6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:11</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>b9dce05381b7221086f4270a8d8d409e:-336859150</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="aks_node_vm_size">ace4ed9bc33f22107e68b41ed401312b</sys_audit_delete>
+        <sys_audit_delete display_value="">ace4ed9bc33f22107e68b41ed401312b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:26:27</sys_created_on>

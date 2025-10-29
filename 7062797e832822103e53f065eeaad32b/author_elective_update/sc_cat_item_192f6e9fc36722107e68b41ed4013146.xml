@@ -130,7 +130,7 @@
         <update_guid_history>d4f87653c4e72210dc5699ddca180688:392362511,50f876530ee722108866dd0cec42f275:787728264,14f87653b4e72210621bc7065be11f6a:-1802608185,54f876533ee7221062a9a4013c31675e:494648659,d0f87653b4e72210bf177828c4ad314d:-2095687790,d428725fafa72210460740656e3a0b1d:-391056943,a12f6e9f146722100e9326525c01e496:1522479134,9d2f6e9f866722108dc9d29438ad828b:-1067857315,9d2f6e9fac672210cb8d4d12679c7b82:636773532,152f6e9f07672210ce33f42456d1427a:-1953562917,592f6e9f47672210cd99309ee9d76267:-248932070,9d2f6e9fed67221070f86d1077f19d6d:1246793547,d12f6e9f1c672210bfec8b40bf19b061:-1153322851</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure storage account">54f87653c3e722107e68b41ed401318c</sys_audit_delete>
+        <sys_audit_delete display_value="">54f87653c3e722107e68b41ed401318c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:18:02</sys_created_on>

@@ -130,7 +130,7 @@
         <update_guid_history>64ea98abc6ef221097c3539d56083dd5:-1644639680,acea98ab8fef2210c383c66aa2c7e1b7:1585871531,24ea98abb1ef2210d79dff705c2b039f:-1428954138,a4ea98ab7cef2210eb35bddaabf6bf94:275676709,28ea98abd9ef22102c5efd62468dcb89:1980307556,28ea98ab97ef2210e51a1cac930ad97d:1330310850,d4ea98abc0ef221084dc78aa2a8f266c:-1260025599,a5f6d42779ef22100a7928cd7ddf1537:444605248,a9f6d4276fef2210d68f6a800eb3591f:-2145731201,55f6d42776ef2210a426d1fe30d21e17:-441100354,d5f6d42764ef221078d540abdb414e0e:1263530493,99f6d427e8ef221048b645f2689b7c05:-1326805956,59f6942766ef221051cb9d468f2b79f2:377824891,1df69427c9ef2210fd7e2491cd17aff7:1403412278,d1f69427bcef2210fcb30e42170ab9ec:-1347153802</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS multi-account management">a0ea98abc3ef22107e68b41ed40131d9</sys_audit_delete>
+        <sys_audit_delete display_value="">a0ea98abc3ef22107e68b41ed40131d9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:25:57</sys_created_on>

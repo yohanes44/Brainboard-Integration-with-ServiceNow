@@ -174,7 +174,7 @@
         <update_guid_history>c9009d0fbe3b22101a9cd8fb968f358b:-265662107</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="private_endpoints_subnet_address_prefixes">eb9a1d07c3bb22107e68b41ed40131db</sys_audit_delete>
+        <sys_audit_delete display_value="">eb9a1d07c3bb22107e68b41ed40131db</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 21:03:08</sys_created_on>

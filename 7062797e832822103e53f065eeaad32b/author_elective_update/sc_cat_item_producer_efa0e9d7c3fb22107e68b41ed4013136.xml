@@ -165,7 +165,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>f2e3a1d3b03f22106734ff4e7aa0a9f7:-1842409234,fae3a1d3c63f22107fac6ece4f9d94e4:-494610626,7ae3a1d3d93f2210b6ba9d5c52ff56d7:-1950578293,7ee3a1d31d3f22107c621069ecc0a2cb:-136403924,aae3a1d34c3f2210f0b3edfda1d039b3:1677770445,66e3a1d32d3f22105a3e83c7d812709a:-1911344633,e2e3a1d3253f2210233e431f4fd5d688:-97170264,a3a02dd71efb22106c7e4a77b9bb390a:1717004105,6fa0e9d748fb22104d80f34bb823d4fc:-763788822,2ba0e9d73cfb22100ffdc7b2b969aff3:1050385547,2ba0e9d73cfb22102a48202d639caccf:-1430407380,e7a0e9d789fb2210d29d111735e38dc5:383766989,67a0e9d72dfb221092953503a55864b1:-2097025938,afa0e9d7c3fb221006aa2a54ec0870a0:-1008647109,a3a0e9d7fbfb22105d49235a4681dd91:-589036567</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="VM extension with custom script on blob storage ">36e3a1d3c33f22107e68b41ed40131fb</sys_audit_delete>
+        <sys_audit_delete display_value="">36e3a1d3c33f22107e68b41ed40131fb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:22:15</sys_created_on>

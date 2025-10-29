@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>8681e99ba0fb22107b63103b08858932:-306501672,7181e99bc2fb2210ebe0c5c19ded8907:-1519308572,3181a99bd2fb2210cdc9541566c06afa:1065751433,7581a99b97fb22106ad8ff71b19852ee:-1415041494,b981a99b15fb22100137aabf9d5551e2:399132875,7d81a99b61fb2210fdea4b89ac167cd5:889881773,7d81a99b21fb221032e619918a6aacc3:-1590911154,e2706197b5fb221093c3347cd25abd20:223263215,ae706197f8fb2210a9531287d2470512:2037437584,6a70619784fb2210e718d06ad04c1b09:-443355343,1e70219748fb22101d658650741982ff:1370819026,527021977dfb22107d68e737ccea6ff6:-1109973901,1a70219744fb2210fa5c930faf0f23ee:704200468,5e7021970bfb221073ce6f82b91329db:969486905,d270219732fb221015926ba3deec35e7:973280765</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS VPC with subnet and security groups on 2 AZs">8681e99bc3fb22107e68b41ed4013136</sys_audit_delete>
+        <sys_audit_delete display_value="">8681e99bc3fb22107e68b41ed4013136</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:49</sys_created_on>

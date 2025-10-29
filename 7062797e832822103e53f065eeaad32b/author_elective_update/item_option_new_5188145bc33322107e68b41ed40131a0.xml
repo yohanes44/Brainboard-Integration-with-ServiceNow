@@ -174,7 +174,7 @@
         <update_guid_history>6588145b883322108c47bd4572c25ab1:1640449631</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="repo_url">02ad5cdbc37322107e68b41ed4013188</sys_audit_delete>
+        <sys_audit_delete display_value="">02ad5cdbc37322107e68b41ed4013188</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:15:16</sys_created_on>

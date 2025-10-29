@@ -174,7 +174,7 @@
         <update_guid_history>2b2a611700bf22105e66d781d4ec6af9:-398696993</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="wildcard_certificate_name">1923ba1fc33762107e68b41ed401317b</sys_audit_delete>
+        <sys_audit_delete display_value="">1923ba1fc33762107e68b41ed401317b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:08:23</sys_created_on>

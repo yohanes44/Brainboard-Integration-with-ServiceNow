@@ -130,7 +130,7 @@
         <update_guid_history>37e8f253e8e722108f61b216da9577fe:-280915197,bfe8f25360e72210901fa1e2f8118bea:-1467842398,73e8f253a2e7221043d9fdce76b5d1e0:236788449,b3e8f25316e72210c5fd1c37deffebd4:-205526585,33e8f25396e72210572ab769e2c18cc3:1499104262,23287a5fb7a72210f22b2b204445c156:-1091232187,9b1f2a9f666722103e95d0608b2995d4:-1818573576,971f2a9f4867221096ac04e3addb48ca:-113942729,971f2a9fc7672210688b3d0452a246c1:1590688118,0f1f2a9f6c672210c1890682cc11eab8:-999648331,8b1f2a9fad67221033a410edf440c999:704982516,4b1f2a9f576722107ad43e2596572e9e:546618303,071f2a9fb867221084b39f39b18c1093:-2025437143</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="GCP VPC">b3e83653c3e722107e68b41ed4013102</sys_audit_delete>
+        <sys_audit_delete display_value="">b3e83653c3e722107e68b41ed4013102</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:18:00</sys_created_on>

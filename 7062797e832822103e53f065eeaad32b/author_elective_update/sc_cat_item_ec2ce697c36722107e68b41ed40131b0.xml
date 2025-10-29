@@ -130,7 +130,7 @@
         <update_guid_history>e6de2a5fe967221038c009fc8e8ed504:1925354888,66dee65fcb672210abbc5b491f7bb0f2:-757037811,26dee65f79672210a5cae325cf05d9e8:-1849648335,a2dee65fd46722100b7751aee55cdfdd:-145017488,62dee65fd2672210adff0f0ccdc391cc:1559613359,342c2a97126722103d878d01891d1c01:-1030723090,ec2ce697126722100220d49cb716d8f6:673907757,2c2ce69796672210ba708093554887ed:-1916428692,ec2ce6971b672210fc42fbb269530ae4:-211797845,e42ce697ff672210b1bcabe6b0cca8de:1492833002,2c2ce697e86722101fc2ee70ef931cd2:-1061713185,a82ce69722672210d03f114eb8f940cb:1598039689</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Jenkins architecture on AWS">26de2a5fc36722107e68b41ed4013108</sys_audit_delete>
+        <sys_audit_delete display_value="">26de2a5fc36722107e68b41ed4013108</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:33:57</sys_created_on>

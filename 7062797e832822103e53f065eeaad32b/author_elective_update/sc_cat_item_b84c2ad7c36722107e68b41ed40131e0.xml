@@ -130,7 +130,7 @@
         <update_guid_history>3f2dee5b826722102fc3b0a8e8122ece:-702635758,f72dee5b1d6722102602d92ac5315d7e:748369045,b72dee5bc067221042f0f735168e2c74:1002558197,f72dee5b816722104a8abd6a63766968:-1587778252,6f2dee5b51672210e67a933ee156dd4b:116852595,fc4c6ad7c8672210869c70b3f1ac8430:1821483442,b84c6ad7ae67221080db52048867e426:-768853007,f44c6ad79f6722109f7724c8208c2b1d:935777840,b84c6ad7e967221057d024aea6f3a314:-1654558609,344c2ad70d67221074b356148b9f06f5:50072238,f04c2ad7ca6722100871bd018aef36f9:-1218842521,bc4c2ad7cf67221062edfe0abb52f8ee:-1593290935</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Kubernetes provider with AKS">7b2dee5bc36722107e68b41ed40131d2</sys_audit_delete>
+        <sys_audit_delete display_value="">7b2dee5bc36722107e68b41ed40131d2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:26:40</sys_created_on>

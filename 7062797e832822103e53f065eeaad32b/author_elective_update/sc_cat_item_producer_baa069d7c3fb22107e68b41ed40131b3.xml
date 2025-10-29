@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>4981699b37fb221034f64e172892b646:-1495397173,8181699be6fb221092bec4f10cad7034:-6228577,7081699b27fb2210ca824fdb8391ec27:749947218,b481699bc0fb22101e14f970aa21fe1b:-1730845709,f881699b13fb2210c52ad1bcd726380f:83328660,bc81699b15fb22108637236e317d0902:1897503029,bc81299b2dfb22101a0aa68ea10467f0:-1858570423,19b0add744fb2210d8e2543e16831ac0:-44396054,83a0a9d7f1fb22102e769b4d71c190dc:1190535942,0ba0a9d763fb2210f916fb19ce984ca9:-1290256985,47a0a9d76afb2210ef828092d46de887:523917384,43a0a9d71cfb22109bfae5c549234b71:-1956875543,cfa0a9d73ffb22101d6eee7e0cd90a5a:-142701174,07a0a9d77ffb2210135200105f87be53:1671473195,baa0a9d773fb221040f825ac25a3c844:-1917513848,3aa0a9d7a9fb22102d27a43a498fb03f:1870031558</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure private endpoints ">4981699bc3fb22107e68b41ed401314a</sys_audit_delete>
+        <sys_audit_delete display_value="">4981699bc3fb22107e68b41ed401314a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:11:45</sys_created_on>

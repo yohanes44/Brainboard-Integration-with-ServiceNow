@@ -130,7 +130,7 @@
         <update_guid_history>d8af5c2b8f2362103b4323be4aa8ef08:-842030044,d8af1c2b9c23621049fa61d80785cef7:-1688521453,18af1c2b6a2362105dee6827cb71ffeb:-609703828,d0af1c2bdf236210c97f95c63670ddd4:1094927019,d4af1c2bd823621071f9bd40b6a8a7b0:-1495409430,c4af1c2b822362105c2262b6014e4aa4:1783706218,08af1c2b4b236210545d983b9e6ad57a:-806630231,897b1cafecef2210f1e6a9737e5ec4e5:898000616,457b1caff8ef2210e58b99635daaabda:-1692335833,017b1caf0def22107a009f452653d6d2:12295014,b07b1caf7fef2210bb07e082efc4d6c9:1716925861,747b1caf3fef22107943171b016560c0:-873410588,347b1caf11ef2210b7a69fec21ec2cad:831220259,707b1caf3fef22101f10769a338574b0:1170565308,bc7b1cafbaef22106e21cbaa7539f6a6:-542664592</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Monitoring with Linux Web App">18af5c2bc32362107e68b41ed401310c</sys_audit_delete>
+        <sys_audit_delete display_value="">18af5c2bc32362107e68b41ed401310c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:41</sys_created_on>

@@ -29,19 +29,19 @@
         <source>b1272911c31022107e68b41ed40131ef</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>yohanes.yilma</sys_created_by>
         <sys_created_on>2025-03-14 11:48:46</sys_created_on>
         <sys_id>63685a09c3b726107e68b41ed4013173</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>195947c41300000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>yohanes.yilma</sys_updated_by>
+        <sys_updated_on>2025-10-29 09:47:39</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>23685a0930b726105d2b32e4b71a6873</update_guid>
         <update_guid_history>23685a0930b726105d2b32e4b71a6873:-101524037</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS 3-tier web app with a database.SNC External">e7685a09c3b726107e68b41ed4013173</sys_audit_delete>
+        <sys_audit_delete display_value="">e7685a09c3b726107e68b41ed4013173</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-03 20:25:21</sys_created_on>

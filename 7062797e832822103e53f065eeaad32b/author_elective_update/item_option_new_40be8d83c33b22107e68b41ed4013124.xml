@@ -174,7 +174,7 @@
         <update_guid_history>c0be8d83293b22102bb05eb5d996a15c:847579549</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="apim_api_openai_format">8d99d90fc37b22107e68b41ed40131b4</sys_audit_delete>
+        <sys_audit_delete display_value="">8d99d90fc37b22107e68b41ed40131b4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-09 20:58:36</sys_created_on>

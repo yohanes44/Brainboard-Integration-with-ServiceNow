@@ -130,7 +130,7 @@
         <update_guid_history>78c8bedfd6a722106a2028a29c1f9ed6:1024253629,74c8bedfe8a72210755d059318951cc3:-1404390986,78c8bedf20a72210f900268d56bf2db8:300239861,34c8bedfd4a72210b1310a5edf9d57a0:663371175,34c8bedf2da7221063df88d0ab3ea48f:-1926965274,5918fa1fc3a722101d1ddd337b078c42:-222334427,292f6e9f7b672210eb1dc57820f519f9:-416919924,252f6e9fbf6722101ed32dddc63be3ef:1287710923,252f6e9f856722100ee50697571d4fe6:-1302625526,a92f6e9fc9672210a381e1f95fc4f7dd:402005321,292f6e9f9b672210f8e305085edcd3be:2106636168,612f6e9ff8672210eaf5260968785eac:1415516063,a12f6e9fcb672210b80cc4987f38cfb8:-1554721399</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Disaster recovery multi-region deployment">b4c8bedfc3a722107e68b41ed40131da</sys_audit_delete>
+        <sys_audit_delete display_value="">b4c8bedfc3a722107e68b41ed40131da</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:15</sys_created_on>

@@ -130,7 +130,7 @@
         <update_guid_history>ddc8fedf7ca72210e6ab2416d859f1ef:642102108,d9c8fedfb5a722101875a8b78a5817dc:1029209867,ddc8fedfcfa72210740a3858530d92d1:-1561126582,51c8fedfe6a72210b3fe30b46bf67ec6:-42877932,d1c8fedf00a72210b5f30483fc2ccf9c:1661752915,aa28b65f51a72210d94b6e7148f079e5:-928583534,7e2f22dff8672210fab2c737f0cfffe2:-1059152671,7a2f22dfb76722102dc806cb9f726ed8:645478176,7a2f22df156722109d0ac06d103f13cf:-1944858273,fe2f22df326722104074957c7c6ac6c6:-240227426,7e2f22dffc672210871c948a0040caa7:1464403421,762f22df33672210bf176478afe517a1:1617883068,762f22dff06722102d00e53a87983696:709266956</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure AKS Baseline Cluster with hub and spoke">1dc8fedfc3a722107e68b41ed40131f3</sys_audit_delete>
+        <sys_audit_delete display_value="">1dc8fedfc3a722107e68b41ed40131f3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 12:17:17</sys_created_on>

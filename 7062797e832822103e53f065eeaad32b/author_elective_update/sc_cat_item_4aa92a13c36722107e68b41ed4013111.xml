@@ -130,7 +130,7 @@
         <update_guid_history>edab621757672210dfca1ebcafa15ade:397450641,6dab62172667221045242b5e14f562cc:-423516560,2dab62175467221034b00078ff4affc2:1424136066,a9ab621796672210987f16248e1f55b7:-1166200383,e5ab6217d2672210e529badac47621a7:538430464,c6a92a137367221084fcb03c1c642855:-2051905985,02a92a13916722108e79475e3424f64b:-347275138,0ea92a13aa6722105dda24db36cbdf41:1357355709,cea92a13ab672210589e1593355ec938:-1232980740,c2a92a13b86722108959dd7a8bdc8126:471650107,46a92a13ef672210974a7b40610f6129:1766526786,4ea92a13f267221011e4c816cbfc171f:-2135539710</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS multi-account management">2dab6217c36722107e68b41ed40131e2</sys_audit_delete>
+        <sys_audit_delete display_value="">2dab6217c36722107e68b41ed40131e2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 11:19:58</sys_created_on>

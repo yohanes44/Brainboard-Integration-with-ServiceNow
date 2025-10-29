@@ -174,7 +174,7 @@
         <update_guid_history>a3fd609b80b722107c43b8ecb21350d5:1021361235</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="app_gateway_subnet_address_prefix">ba74e9d7c33f22107e68b41ed40131cf</sys_audit_delete>
+        <sys_audit_delete display_value="">ba74e9d7c33f22107e68b41ed40131cf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:24:42</sys_created_on>

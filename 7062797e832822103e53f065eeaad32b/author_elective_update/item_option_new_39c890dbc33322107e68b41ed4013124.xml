@@ -174,7 +174,7 @@
         <update_guid_history>75c890dbd8332210d29351d3e0bdab37:-691413873</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="dalle_model_name">c9be9017c3b322107e68b41ed40131c9</sys_audit_delete>
+        <sys_audit_delete display_value="">c9be9017c3b322107e68b41ed40131c9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 11:19:50</sys_created_on>

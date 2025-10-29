@@ -130,7 +130,7 @@
         <update_guid_history>be8f502bae2362106956a221e5af52b2:-85668651,ae8f502b12236210bff39c5ad61816a1:-1695381554,ea8f502b7c236210fe4090620bf53595:790113137,6e8f502b50236210d6b9b1f246edb38a:-1800223312,ee8f502b1623621040b2eacc20abd37f:-95592465,ee8f502ba5236210a7d8b686bc7f7873:-471676187,d68f502b2d236210ff571a9a24107356:1232954660,615b9c6fe2ef2210f65e938028257324:-1357381789,655b9c6ffdef2210b03e0e9bedbdd20c:347249058,215b9c6fffef2210a28ae103ee2cdb04:2051879905,a15b5c6fbbef22108fe086a89f436efb:-538456544,655b5c6fa8ef221086d789ecde9be5f2:1166174303,e95b5c6fbbef2210a09cf2f74d75deeb:-1424162146,995b5c6f3cef22108bbe4844a18e4bde:532374209,d55b5c6f68ef22105b9de50edd729ccc:911683133</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure key vault">fa8f502bc32362107e68b41ed40131b6</sys_audit_delete>
+        <sys_audit_delete display_value="">fa8f502bc32362107e68b41ed40131b6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:18</sys_created_on>

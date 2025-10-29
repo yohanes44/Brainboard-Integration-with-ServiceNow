@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>b1ff9dd32cfb22105432e844ed8df673:-373173535,35ff9dd3a2fb2210aa1302542d72b854:784391643,f1ff9dd372fb22101920c2e3c4739447:1680372050,39ff9dd351fb2210cc1f8460815bfe3b:-800420877,7dff9dd3a3fb22109deed0a34296ab2f:1013753492,31ff9dd39ffb22105c53df7e9e41f623:551989860,31ff9dd37bfb2210ad99bd7a43be5111:-1928803067,09007cdf84b722103c563bb2eeaead05:-114628698,0d003cdfd7b72210f0791377d05c53eb:1699545671,89003cdfdbb722107720c7732547ca93:-6655230,c5003cdf02b722103c9bddb7909951e2:-781247256,c1003cdf6db72210ab5f3e3aac53a5cc:1032927113,81003cdf20b72210218666b5544e27b6:-1447865814,49003cdffbb722109409fc08a0e77fae:366308555,cd003cdfc2b72210f42903f446aad781:1154069810</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Multi-cloud architecture">b1ff9dd3c3fb22107e68b41ed4013177</sys_audit_delete>
+        <sys_audit_delete display_value="">b1ff9dd3c3fb22107e68b41ed4013177</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:04:59</sys_created_on>

@@ -163,7 +163,7 @@ current.environment = producer.selectedEnvironment;]]&gt;&lt;/script&gt;&lt;shor
         <update_guid_history>d79b55635eb32210f9f7d1c7487be1ff:-233899416,8b9b5563b7b322107da4cded4527f7e4:-845167520,4b9b5563dbb32210226d2b8ac884f5d5:969006849,0b9b55631cb322107cbca456c9357ac6:-1511786078,c39b5563adb322109094b7aa46bc17b6:995798404,479b556350b3221006d3c041e7cd189f:-1484994523,56070d78cc3ba21074bb701068e93fd7:329179846,0a070d78c23ba2105f8157fa5d6fb4c9:2143354215,ce070d78e23ba21088791903d18f54b2:-337438712,ca070d78263ba210bfd6f900bad677a7:1476735657,c2070d78fc3ba210aba8940b6749159d:-1004057270,8e070d78093ba210d81035b46e0ff388:810117099,4a070d78493ba210e66cf17dcf96948a:-967908592,8e070d78583ba2108bb3b4d2b08d877f:1405820786</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="AWS instance and DB with multiple networks">0b9b5563c3b322107e68b41ed40131e9</sys_audit_delete>
+        <sys_audit_delete display_value="">0b9b5563c3b322107e68b41ed40131e9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-11 10:24:27</sys_created_on>

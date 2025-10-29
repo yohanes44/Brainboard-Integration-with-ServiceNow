@@ -174,7 +174,7 @@
         <update_guid_history>39951993a0bb2210493f39ddd8105502:881844641</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="repo_branch">db05651fc33f22107e68b41ed4013195</sys_audit_delete>
+        <sys_audit_delete display_value="">db05651fc33f22107e68b41ed4013195</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 16:27:11</sys_created_on>

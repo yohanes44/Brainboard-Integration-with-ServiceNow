@@ -174,7 +174,7 @@
         <update_guid_history>206a69575bbf2210ba145d3644586a44:-168980977</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="speech_service_sku">db54b6d7c37762107e68b41ed4013121</sys_audit_delete>
+        <sys_audit_delete display_value="">db54b6d7c37762107e68b41ed4013121</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 22:13:42</sys_created_on>

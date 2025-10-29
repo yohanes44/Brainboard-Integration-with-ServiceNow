@@ -130,7 +130,7 @@
         <update_guid_history>df8f902b662362100b20f28870cf41e3:580458730,1b8f902b892362109ebd51c8ba570bc6:-959992081,578f902b73236210c31d01c137acb0ba:-1022917844,d78f902b5d23621006bb794aeba719af:681713003,5b8f902baf236210eb37d209abdd84a4:-1908623446,5b8f902b7f236210718ba282accef398:-1613650490,1b8f902b8223621086845222bea5fb87:90980357,a45bd86fd2ef2210516ec7ade1270bef:1795611204,605bd86fb7ef2210198bc189123f34e4:-794725245,2c5bd86fd0ef2210f7d53174e40dbedb:909905602,9c5bd86f77ef2210130d8dd5644b5dd2:-1680430847,505bd86f75ef2210e91bc2ca3ce347ca:24200000,105bd86f2bef2210fd44d2f79d5e1fb7:1728830847,185bd86feaef22104e93f110335263b0:1193792392,945bd86f89ef2210f7b6fc76feed49bb:-2051413636</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Azure Multi-region Web Application with CosmosD">9b8fd02bc32362107e68b41ed4013100</sys_audit_delete>
+        <sys_audit_delete display_value="">9b8fd02bc32362107e68b41ed4013100</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-08-29 19:46:21</sys_created_on>

@@ -174,7 +174,7 @@
         <update_guid_history>6621a81327f322106fa7d8ecd84929e2:-2119991019</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="firewall_name">63da6c57c37722107e68b41ed4013118</sys_audit_delete>
+        <sys_audit_delete display_value="">63da6c57c37722107e68b41ed4013118</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:12:59</sys_created_on>

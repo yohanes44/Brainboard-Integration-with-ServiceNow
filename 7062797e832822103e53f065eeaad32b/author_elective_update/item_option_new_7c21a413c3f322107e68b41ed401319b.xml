@@ -174,7 +174,7 @@
         <update_guid_history>7821a4138bf32210ab9da1a3c03e8bb3:2012064604</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="hub_fw_pip_name">1edaa857c37722107e68b41ed40131e8</sys_audit_delete>
+        <sys_audit_delete display_value="">1edaa857c37722107e68b41ed40131e8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2025-09-10 12:12:54</sys_created_on>
